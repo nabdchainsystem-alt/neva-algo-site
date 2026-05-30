@@ -1,9 +1,37 @@
 {
   "updatedAt": "2026-05-30",
-  "signalsDelivered": 23,
-  "avgConviction": 63,
+  "signalsDelivered": 27,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PG",
+      "mkt": "US",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
+    {
+      "sym": "ABT",
+      "mkt": "US",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 60
+    },
+    {
+      "sym": "9432.T",
+      "mkt": "Tokyo",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 60
+    },
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 68
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
@@ -31,37 +59,57 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 60
+    }
+  ],
+  "track": [
+    {
+      "sym": "PG",
+      "mkt": "US",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 143.55999755859375,
+      "target": 145.01996404,
+      "stop": 142.42465939331055,
+      "ts": 1780156390793,
+      "status": "active"
+    },
+    {
+      "sym": "ABT",
+      "mkt": "US",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 85.5999984741211,
+      "target": 86.70625114,
+      "stop": 84.83159908676147,
+      "ts": 1780156390793,
+      "status": "active"
     },
     {
       "sym": "9432.T",
       "mkt": "Tokyo",
-      "dir": "LONG",
       "setup": "CHoCH Reversal",
-      "conv": 60
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 149.5,
+      "target": 151.1000061,
+      "stop": 148.3757561035156,
+      "ts": 1780156390793,
+      "status": "active"
     },
     {
-      "sym": "USDCUSDT",
+      "sym": "DOGEUSDT",
       "mkt": "Crypto",
-      "dir": "LONG",
       "setup": "Order Block Tap",
-      "conv": 65
+      "dir": "LONG",
+      "conv": 68,
+      "entry": 0.10131,
+      "target": 0.101785,
+      "stop": 0.10094803499999999,
+      "ts": 1780156321506,
+      "status": "active"
     },
-    {
-      "sym": "USDCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 61
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
-    }
-  ],
-  "track": [
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
