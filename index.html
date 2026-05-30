@@ -4,6 +4,20 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>NEVA ALGO — Smart-Money Market Engine</title>
+<meta name="description" content="Smart-money signals for crypto & global stocks — liquidity sweeps, order blocks, FVG, BOS/CHoCH. Spot buys only. Analysis, not advice." />
+<!-- Social link preview (shows the logo/art when shared) -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://nevaalgo.com/" />
+<meta property="og:title" content="NEVA ALGO — Smart-Money Market Engine" />
+<meta property="og:description" content="See what market makers see — across crypto & global stocks. Spot buys only, delivered to Telegram." />
+<meta property="og:image" content="https://nevaalgo.com/hero.jpg" />
+<meta property="og:image:width" content="1900" />
+<meta property="og:image:height" content="950" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="NEVA ALGO — Smart-Money Market Engine" />
+<meta name="twitter:description" content="See what market makers see — across crypto & global stocks. Spot buys only." />
+<meta name="twitter:image" content="https://nevaalgo.com/hero.jpg" />
+<link rel="icon" type="image/png" href="logo.png" />
 <style>
   :root{
     /* elegant monochrome palette (matches the B&W cosmic art) */
@@ -100,10 +114,23 @@
   /* steps */
   .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;counter-reset:s}
   .step{background:var(--panel);border:1px solid var(--line2);border-radius:6px;padding:18px;position:relative}
-  .step::before{counter-increment:s;content:counter(s);color:#001014;background:var(--mag);width:26px;height:26px;
-    border-radius:50%;display:grid;place-items:center;font-weight:800;margin-bottom:10px}
+  .step::before{counter-increment:s;content:counter(s);color:var(--silver);background:rgba(255,255,255,.06);
+    border:1px solid var(--line2);width:24px;height:24px;font-size:12px;position:absolute;top:14px;right:14px;
+    border-radius:50%;display:grid;place-items:center;font-weight:700}
+  .step .step-ico{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;margin-bottom:12px;
+    background:radial-gradient(120% 120% at 30% 20%,rgba(255,255,255,.12),rgba(255,255,255,.03));
+    border:1px solid var(--line2);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 6px 18px rgba(0,0,0,.35)}
+  .step .step-ico svg{width:24px;height:24px;stroke:var(--silver);fill:none;stroke-width:1.6;
+    stroke-linecap:round;stroke-linejoin:round}
   .step h4{color:var(--cyan);font-size:14px;margin-bottom:4px}
   .step p{color:var(--dim);font-size:13px}
+  .walk summary{cursor:pointer;list-style:none;color:var(--cyan);font-weight:700;
+    display:flex;align-items:center;gap:8px;user-select:none}
+  .walk summary::-webkit-details-marker{display:none}
+  .walk summary::before{content:"+";display:grid;place-items:center;width:22px;height:22px;flex:none;
+    border:1px solid var(--line2);border-radius:6px;color:var(--silver);font-weight:700;background:rgba(255,255,255,.04)}
+  .walk[open] summary::before{content:"–"}
+  .walk summary:hover{color:#fff}
 
   /* pricing */
   .plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
@@ -283,9 +310,9 @@
   .card:hover,.step:hover,.stat:hover,.sigcard:hover{border-color:rgba(223,228,236,.26);
     box-shadow:0 14px 44px rgba(0,0,0,.55),0 0 0 1px rgba(223,228,236,.05);transform:translateY(-4px)}
   /* refined section headers */
-  .h{font-size:13px;letter-spacing:3px;color:var(--silver);text-shadow:none}
-  .h::before{content:"◇";color:var(--silver)}
-  .h::after{border-top:1px solid rgba(255,255,255,.08)}
+  .h{display:flex;align-items:center;justify-content:center;gap:14px;text-align:center;
+    font-size:13px;letter-spacing:3px;color:var(--silver);text-shadow:none;margin-bottom:28px}
+  .h::before,.h::after{content:"";height:1px;flex:0 0 60px;background:linear-gradient(90deg,transparent,rgba(223,228,236,.4),transparent)}
   .card h3{font-size:16px;letter-spacing:.3px;color:var(--silver)}
   /* hero text elegance */
   .tag{font-weight:500;letter-spacing:.3px} .tag b{color:var(--silver)}
@@ -302,17 +329,41 @@
   /* 3 live signal cards */
   .sigcards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1000px;margin:0 auto}
   .sigcard{padding:18px 18px 16px;text-align:left}
-  .sigcard .sc-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+  .sigcard .sc-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:10px}
+  .sigcard .sc-top>div{min-width:0}
   .sigcard .sc-sym{color:var(--silver);font-weight:800;font-size:17px;letter-spacing:.5px}
   .sigcard .sc-mkt{color:var(--faint);font-size:11px;text-transform:uppercase;letter-spacing:1px}
   .sigcard .sc-setup{color:var(--dim);font-size:13px}
-  .sigcard .sc-dir{color:var(--green);font-weight:700;font-size:12px;border:1px solid rgba(143,182,160,.4);border-radius:20px;padding:2px 10px}
+  .sigcard .sc-dir{flex:none;white-space:nowrap;color:var(--green);font-weight:700;font-size:12px;border:1px solid rgba(143,182,160,.4);border-radius:20px;padding:2px 10px}
   .sigcard .sc-conv{display:flex;align-items:center;gap:10px;margin-top:14px}
   .sigcard .sc-bar{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.06);overflow:hidden}
   .sigcard .sc-bar i{display:block;height:100%;background:linear-gradient(90deg,#e7ebf2,#8f9bb0)}
   .sigcard .sc-val{color:var(--silver);font-weight:700;font-size:14px;min-width:54px;text-align:right}
   /* feed row hover */
   .feed .row:hover{border-color:rgba(223,228,236,.2)}
+
+  /* ===== FINAL mobile overrides (placed last so they win over the polish block) ===== */
+  @media (max-width:680px){
+    .wrap{padding-left:16px;padding-right:16px}
+    .h{gap:9px;font-size:12px;letter-spacing:2px}
+    .h::before,.h::after{flex:0 0 26px}
+    /* live signal cards: stack one per row */
+    .sigcards{display:grid !important;grid-template-columns:1fr !important;gap:14px}
+    /* membership tiers: swipe, with top room so the badge isn't clipped */
+    .tiers{display:flex !important;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;
+      padding:18px 6px 14px;-webkit-overflow-scrolling:touch}
+    .tiers .plan{flex:0 0 86% !important;scroll-snap-align:center;max-width:none;transform:none}
+    .plan.best{transform:none}
+    /* performance stat cards: swipe */
+    .stats{display:flex !important;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;
+      padding-bottom:10px;-webkit-overflow-scrolling:touch}
+    .stats .stat{flex:0 0 58% !important;scroll-snap-align:center}
+    /* recent feed rows: clean wrap, value stays right */
+    .feed .row{flex-wrap:wrap;gap:2px 10px}
+    .dash-body{padding:12px}
+    .dash-head{font-size:11px}
+    .vitals{white-space:normal;font-size:11px;line-height:1.7}
+  }
 </style>
 </head>
 <body>
@@ -449,16 +500,17 @@
 <section id="how" class="wrap">
   <div class="h">How to join — step by step</div>
   <div class="steps">
-    <div class="step"><h4>Get BNB</h4><p>You need a little <b>BNB</b> on the <b>BNB Smart Chain</b> in any wallet (MetaMask, Trust Wallet, or straight from Binance).</p></div>
-    <div class="step"><h4>Send $9.99</h4><p>Send <b>$9.99 worth of BNB</b> to the NEVA ALGO address below. Confirms in seconds for a few cents of gas.</p></div>
-    <div class="step"><h4>Copy the tx hash</h4><p>Your wallet shows a <b>transaction hash</b> (<code>0x…</code>) right after sending. Copy it.</p></div>
-    <div class="step"><h4>Message the bot</h4><p>Open <a href="https://t.me/nevaalgo_bot" target="_blank"><b>@nevaalgo_bot</b></a>, send <code>/start</code>, then paste your hash. It verifies on-chain &amp; adds you instantly.</p></div>
+    <div class="step"><div class="step-ico"><svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="13" rx="2.5"/><path d="M16 12h2.5"/><path d="M2.5 9h13a2 2 0 0 1 2 2v0"/></svg></div><h4>Get BNB</h4><p>You need a little <b>BNB</b> on the <b>BNB Smart Chain</b> in any wallet (MetaMask, Trust Wallet, or straight from Binance).</p></div>
+    <div class="step"><div class="step-ico"><svg viewBox="0 0 24 24"><path d="M3 11l18-7-7 18-2.5-8L3 11z"/></svg></div><h4>Send $9.99</h4><p>Send <b>$9.99 worth of BNB</b> to the NEVA ALGO address below. Confirms in seconds for a few cents of gas.</p></div>
+    <div class="step"><div class="step-ico"><svg viewBox="0 0 24 24"><rect x="8" y="3" width="13" height="13" rx="2.5"/><path d="M5 8H4.5A1.5 1.5 0 0 0 3 9.5v10A1.5 1.5 0 0 0 4.5 21h10a1.5 1.5 0 0 0 1.5-1.5V19"/></svg></div><h4>Copy the tx hash</h4><p>Your wallet shows a <b>transaction hash</b> (<code>0x…</code>) right after sending. Copy it.</p></div>
+    <div class="step"><div class="step-ico"><svg viewBox="0 0 24 24"><path d="M21.5 3.5L2.5 10.5l6 2.2 2.2 6 10.8-15.2z"/><path d="M8.5 12.7L21.5 3.5"/><path d="M8.5 12.7v5l3-2.4"/></svg></div><h4>Message the bot</h4><p>Open <a href="https://t.me/nevaalgo_bot" target="_blank"><b>@nevaalgo_bot</b></a>, send <code>/start</code>, then paste your hash. It verifies on-chain &amp; adds you instantly.</p></div>
   </div>
 
   <!-- detailed guide -->
   <div style="background:var(--panel);border:1px solid var(--line2);border-radius:8px;padding:22px;margin-top:18px">
-    <div style="color:var(--cyan);font-weight:700;margin-bottom:12px">First time with crypto? Here's the full walkthrough.</div>
-    <ol style="color:var(--dim);font-size:14px;line-height:1.9;padding-left:20px">
+    <details class="walk">
+    <summary>First time with crypto? Open the full walkthrough →</summary>
+    <ol style="color:var(--dim);font-size:14px;line-height:1.9;padding-left:20px;margin-top:14px">
       <li><b style="color:var(--txt)">Get a wallet</b> — install <a href="https://metamask.io" target="_blank">MetaMask</a> (browser/phone) or use Trust Wallet. Save your recovery phrase offline; never share it.</li>
       <li><b style="color:var(--txt)">Switch to BNB Smart Chain</b> — in the wallet's network menu pick <b>BNB Smart Chain</b> (chain id 56). It's built in to most wallets.</li>
       <li><b style="color:var(--txt)">Get BNB</b> — buy BNB on Binance/any exchange and <b>withdraw it to your wallet address on the BNB Smart Chain (BEP-20) network</b>, or buy directly inside the wallet. You only need ≈ $9.99 + a few cents of gas.</li>
@@ -466,6 +518,7 @@
       <li><b style="color:var(--txt)">Copy your transaction hash</b> — once it confirms, your wallet shows a tx hash starting with <code>0x…</code>. Copy it.</li>
       <li><b style="color:var(--txt)">Activate on Telegram</b> — open <a href="https://t.me/nevaalgo_bot" target="_blank"><b>@nevaalgo_bot</b></a>, send <code>/start</code>, paste the hash. The bot verifies the payment on-chain and sends you a private invite link to the signals channel. Done — signals start arriving 24/7.</li>
     </ol>
+    </details>
 
     <div style="margin-top:18px;color:var(--faint);font-size:12px">Pay this BNB Smart Chain address ($9.99 in BNB):</div>
     <div class="addr" style="max-width:560px"><code id="payAddr">loading…</code><span class="copy" onclick="copyPageAddr()">copy</span></div>
