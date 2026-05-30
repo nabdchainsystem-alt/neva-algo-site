@@ -436,7 +436,11 @@
     /* how-to-join walkthrough: centered content, stacked & centered buttons */
     #how .walk summary{justify-content:center;text-align:center;font-size:14px}
     #how ol{text-align:left;max-width:520px;margin-left:auto;margin-right:auto;font-size:13px}
-    #how .addr{margin:6px auto 4px;font-size:12px}
+    /* BNB address: shrink so the full hash + copy fit cleanly */
+    .addr{font-size:10px;padding:9px 10px;gap:7px}
+    .addr code{line-height:1.45}
+    .copy{font-size:10px;padding:4px 7px}
+    #how .addr{margin:6px auto 4px}
     #how [style*="display:flex"]{justify-content:center !important;text-align:center}
     #how .btn{width:100%;text-align:center;justify-content:center}
 
