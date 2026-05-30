@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-30",
-  "signalsDelivered": 40,
-  "avgConviction": 63,
+  "signalsDelivered": 41,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 70
+    },
     {
       "sym": "WLDUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 62
-    },
-    {
-      "sym": "ABT",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.3492,
+      "target": 0.3573357,
+      "stop": 0.3437762,
+      "ts": 1780159211871,
+      "status": "active"
+    },
     {
       "sym": "WLDUSDT",
       "mkt": "Crypto",
