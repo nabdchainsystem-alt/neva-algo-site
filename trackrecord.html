@@ -4,12 +4,12 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Track Record — NEVA ALGO</title>
-<meta name="description" content="NEVA ALGO recent signal activity — symbols, setups and conviction the engine flagged. Activity log, not performance. No win-rate or profit claims. Analysis, not advice. DYOR." />
+<meta name="description" content="NEVA ALGO recent signal activity — symbols, setups and conviction the engine flagged. Public feed is delayed 1 hour; members get every signal live. Activity log, not performance. No win-rate claims. Analysis, not advice. DYOR." />
 <meta name="robots" content="all" />
 <link rel="icon" type="image/png" href="logo.png" />
 <style>
   :root{
-    --bg:#000; --panel:#0b0d11; --txt:#e7e9ee; --dim:#979ca6; --faint:#5e646e;
+    --bg:#000; --panel:#0b0d11; --panel2:#0f1218; --txt:#e7e9ee; --dim:#979ca6; --faint:#5e646e;
     --cyan:#cfd7e4; --gold:#cbb98c; --green:#8fb6a0; --line:#2b3038; --line2:#191c22; --silver:#dfe4ec;
     --mono:'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace;
     --sans:'Inter','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
@@ -20,11 +20,10 @@
   a{color:var(--cyan);text-decoration:none;border-bottom:1px solid transparent}
   a:hover{color:#fff;border-color:#fff}
 
-  /* fixed cosmic background to match the site */
   .fx{position:fixed;inset:0;z-index:-1;
     background:linear-gradient(180deg,rgba(0,0,0,.78),rgba(0,0,0,.92)),url('extended.jpg') center/cover fixed no-repeat;}
 
-  .wrap{max-width:1320px;margin:0 auto;padding:0 36px}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
 
   header{position:sticky;top:0;z-index:40;background:rgba(0,0,0,.82);backdrop-filter:blur(8px);
     border-bottom:1px solid var(--line2)}
@@ -34,32 +33,49 @@
   header a.back{color:var(--dim);font-size:13px;white-space:nowrap}
   header a.back:hover{color:#fff}
 
-  .hero{padding:56px 0 24px;text-align:center}
+  .hero{padding:60px 0 10px;text-align:center}
   .hero .kicker{color:var(--faint);letter-spacing:3px;font-size:12px;text-transform:uppercase}
-  .hero h1{font-family:var(--sans);font-weight:800;font-size:clamp(28px,5vw,42px);margin:10px 0;color:#fff;letter-spacing:.5px}
-  .hero .sub{color:var(--dim);font-size:13px;max-width:760px;margin:0 auto}
+  .hero h1{font-family:var(--sans);font-weight:800;font-size:clamp(30px,5vw,46px);margin:10px 0;color:#fff;letter-spacing:.5px}
+  .hero .sub{color:var(--dim);font-size:14px;max-width:680px;margin:0 auto}
+  .live-pill{display:inline-flex;align-items:center;gap:8px;margin-bottom:6px;
+    font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--silver);
+    border:1px solid var(--line2);border-radius:20px;padding:5px 14px;background:rgba(255,255,255,.03)}
+  .live-pill .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 8px rgba(143,182,160,.9);
+    animation:blink 1.6s ease-in-out infinite}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
 
-  main{padding:18px 0 70px}
-  .doc{background:var(--panel);border:1px solid var(--line2);border-radius:12px;padding:clamp(22px,4vw,40px)}
+  main{padding:26px 0 70px}
+
+  /* stat cards */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:22px}
+  .stat{background:var(--panel);border:1px solid var(--line2);border-radius:12px;padding:22px 18px;text-align:center}
+  .stat .num{font-family:var(--sans);font-size:34px;font-weight:800;line-height:1;color:#fff}
+  .stat .lab{color:var(--dim);font-size:11px;letter-spacing:1.5px;text-transform:uppercase;margin-top:9px}
+
+  /* delay notice — turns the limitation into the pitch */
+  .delaybar{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;text-align:center;
+    border:1px solid var(--line2);background:radial-gradient(120% 140% at 50% 0%,rgba(207,215,228,.06),transparent 70%);
+    border-radius:12px;padding:16px 20px;margin-bottom:18px;color:var(--dim);font-size:13px}
+  .delaybar b{color:var(--silver)}
+  .delaybar .clock{color:var(--gold)}
 
   /* honesty banner */
   .honest{display:flex;align-items:flex-start;gap:12px;border:1px solid var(--line2);
-    background:rgba(255,255,255,.025);border-radius:10px;padding:16px 18px;margin-bottom:26px}
+    background:rgba(255,255,255,.025);border-radius:12px;padding:15px 18px;margin-bottom:22px}
   .honest .dot{width:7px;height:7px;border-radius:50%;background:var(--silver);flex:none;margin-top:7px;
     box-shadow:0 0 10px rgba(223,228,236,.6)}
-  .honest p{color:var(--dim);font-size:13.5px}
+  .honest p{color:var(--dim);font-size:13px}
   .honest b{color:var(--txt)}
 
-  .sumline{display:flex;flex-wrap:wrap;gap:10px 22px;margin:0 0 24px;color:var(--faint);font-size:12px;
-    letter-spacing:1px;text-transform:uppercase}
-  .sumline span b{color:var(--silver)}
-
   /* track rows */
+  .sectit{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--faint);margin:6px 2px 12px}
   .tr-list{display:grid;gap:10px}
   .tr{display:flex;align-items:center;gap:14px;flex-wrap:wrap;
-    border:1px solid var(--line2);background:rgba(255,255,255,.02);border-radius:10px;padding:14px 18px}
-  .tr .tr-sym{color:var(--silver);font-weight:800;font-size:16px;letter-spacing:.5px;min-width:96px}
-  .tr .tr-mkt{color:var(--faint);font-size:11px;text-transform:uppercase;letter-spacing:1px;min-width:62px}
+    border:1px solid var(--line2);background:rgba(255,255,255,.02);border-radius:12px;padding:15px 18px;
+    transition:border-color .2s ease,transform .2s ease}
+  .tr:hover{border-color:rgba(223,228,236,.22);transform:translateY(-1px)}
+  .tr .tr-sym{color:var(--silver);font-weight:800;font-size:16px;letter-spacing:.5px;min-width:92px}
+  .tr .tr-mkt{color:var(--faint);font-size:11px;text-transform:uppercase;letter-spacing:1px;min-width:58px}
   .tr .tr-setup{color:var(--dim);font-size:13.5px;flex:1;min-width:160px}
   .tr .tr-dir{color:var(--green);font-weight:700;font-size:11px;border:1px solid rgba(143,182,160,.4);
     border-radius:20px;padding:2px 10px;white-space:nowrap}
@@ -67,15 +83,28 @@
   .tr .tr-bar{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.06);overflow:hidden;min-width:54px}
   .tr .tr-bar i{display:block;height:100%;background:linear-gradient(90deg,#e7ebf2,#8f9bb0)}
   .tr .tr-val{color:var(--silver);font-weight:700;font-size:13px;white-space:nowrap}
-  .tr .tr-when{color:var(--faint);font-size:11.5px;white-space:nowrap;min-width:74px;text-align:right}
+  .tr .tr-when{color:var(--faint);font-size:11.5px;white-space:nowrap;min-width:70px;text-align:right}
   .tr .tr-status{font-size:10.5px;letter-spacing:1px;text-transform:uppercase;font-weight:700;
     border-radius:20px;padding:3px 11px;border:1px solid var(--line);color:var(--dim);white-space:nowrap}
   .tr .tr-status.active{color:var(--silver);border-color:rgba(223,228,236,.3)}
 
-  .empty{color:var(--faint);font-size:13.5px;text-align:center;padding:30px 0}
-  .soonnote{color:var(--faint);font-size:12px;text-align:center;margin-top:22px}
+  .empty{color:var(--faint);font-size:13.5px;text-align:center;padding:34px 18px;
+    border:1px dashed var(--line2);border-radius:12px}
 
-  .meta{color:var(--faint);font-size:12px;text-align:center;margin-top:26px}
+  /* conversion CTA */
+  .cta{margin-top:26px;border:1px solid var(--line);border-radius:16px;padding:30px 24px;text-align:center;
+    background:radial-gradient(120% 130% at 50% 0%,rgba(207,215,228,.07),transparent 70%)}
+  .cta h3{font-family:var(--sans);font-size:clamp(20px,3vw,26px);font-weight:800;color:#fff;margin-bottom:8px}
+  .cta p{color:var(--dim);font-size:14px;max-width:560px;margin:0 auto 18px}
+  .cta .btn-tg{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);color:#fff;
+    background:linear-gradient(180deg,rgba(255,255,255,.12),rgba(255,255,255,.03));
+    padding:14px 28px;border-radius:14px;font-weight:800;font-size:16px;letter-spacing:.3px;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 10px 30px rgba(0,0,0,.45);transition:transform .18s ease}
+  .cta .btn-tg:hover{transform:translateY(-2px);border-color:var(--cyan)}
+  .cta .btn-tg svg{width:20px;height:20px;fill:#fff}
+  .cta .sub{color:var(--faint);font-size:12px;margin-top:12px}
+
+  .meta{color:var(--faint);font-size:12px;text-align:center;margin-top:28px}
 
   footer{border-top:1px solid var(--line2);padding:34px 0;text-align:center;color:var(--faint);font-size:11.5px}
   footer .foot-links{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 14px;margin-bottom:10px}
@@ -83,7 +112,8 @@
   footer .foot-links a:hover{color:#fff}
 
   @media (max-width:680px){
-    .hero{padding:40px 0 18px}
+    .hero{padding:42px 0 8px}
+    .stat .num{font-size:28px}
     .tr{gap:8px 12px;padding:13px 14px}
     .tr .tr-sym{min-width:0}
     .tr .tr-setup{flex:1 1 100%}
@@ -104,31 +134,44 @@
 
 <div class="wrap">
   <div class="hero">
+    <div class="live-pill"><span class="dot"></span> Engine live · 24/7</div>
     <div class="kicker">Activity Log</div>
     <h1>Track record</h1>
-    <div class="sub">A running log of recent signal <b>activity</b> from the engine — the symbols, setups and conviction it flagged. This is activity, <b>not performance</b>.</div>
+    <div class="sub">A running log of recent smart-money setups the engine flagged — symbol, setup and conviction. This is <b>activity, not performance</b>.</div>
   </div>
 </div>
 
 <main>
 <div class="wrap">
-  <div class="doc">
 
-    <div class="honest">
-      <span class="dot" aria-hidden="true"></span>
-      <p>This page shows <b>recent signal activity</b>, not trading results. <b>No win-rate, profit, or return claims</b> are made or implied — we do not have access to anyone's trades. Every signal describes <b>market structure and analysis</b>, long / buy-only spot, and is <b>not financial advice</b>. <b>Analysis, not advice. DYOR.</b></p>
-    </div>
+  <div class="stats" id="stats"></div>
 
-    <div class="sumline" id="sumline"></div>
-
-    <div class="tr-list" id="trackList">
-      <div class="empty">Loading recent activity…</div>
-    </div>
-
-    <div class="soonnote" id="soonNote" style="display:none">Outcome tracking coming soon — for now this is a live activity feed of flagged setups.</div>
-
-    <div class="meta">© 2026 NEVA ALGO. All rights reserved. · Analysis, not advice. DYOR. · Spot / long-only.</div>
+  <div class="delaybar">
+    <span class="clock">🕐</span>
+    <span>This public feed is <b>delayed by 1 hour</b>. Members see every signal <b>live</b> the moment it fires — in the private Telegram channel.</span>
   </div>
+
+  <div class="honest">
+    <span class="dot" aria-hidden="true"></span>
+    <p>This page shows <b>recent signal activity</b>, not trading results. <b>No win-rate, profit, or return claims</b> are made or implied — we do not have access to anyone's trades. Every signal describes <b>market structure and analysis</b>, long / buy-only spot, and is <b>not financial advice</b>. <b>Analysis, not advice. DYOR.</b></p>
+  </div>
+
+  <div class="sectit">Recent flagged setups <span style="color:var(--faint)">(delayed 1h)</span></div>
+  <div class="tr-list" id="trackList">
+    <div class="empty">Loading recent activity…</div>
+  </div>
+
+  <div class="cta">
+    <h3>Get every signal the moment it fires</h3>
+    <p>Skip the hour delay. Members get each setup live in the private channel — across crypto &amp; global stocks, 24/7. Spot / long-only. Analysis, not advice.</p>
+    <a class="btn-tg" href="https://t.me/nevaalgo_bot" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M21.9 4.3l-3.3 15.6c-.25 1.1-.9 1.37-1.83.85l-5.05-3.72-2.44 2.35c-.27.27-.5.5-1 .5l.36-5.13L17.9 6.2c.4-.36-.09-.56-.63-.2L6.6 12.74l-4.98-1.56c-1.08-.34-1.1-1.08.23-1.6L20.5 2.8c.9-.34 1.69.2 1.4 1.5z"/></svg>
+      Join @nevaalgo_bot
+    </a>
+    <div class="sub">$9.99/mo launch price · paid in BNB · no auto-charge</div>
+  </div>
+
+  <div class="meta">© 2026 NEVA ALGO. All rights reserved. · Analysis, not advice. DYOR. · Spot / long-only.</div>
 </div>
 </main>
 
@@ -146,30 +189,31 @@
 </footer>
 
 <script>
-  function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+  var DELAY_MS = 60*60*1000;   // public feed runs 1 hour behind the live channel
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
   function clamp(n){ n=Number(n); if(!isFinite(n)) return 0; return Math.max(0,Math.min(100,n)); }
 
-  // Relative "when" from a ts (ms or ISO). Empty if not provided.
   function whenStr(ts){
     if(ts==null||ts==='') return '';
-    let ms = typeof ts==='number' ? ts : Date.parse(ts);
+    var ms = typeof ts==='number' ? ts : Date.parse(ts);
     if(!isFinite(ms)) return '';
-    const diff = Date.now()-ms;
+    var diff = Date.now()-ms;
     if(diff < 0) return 'just now';
-    const m=Math.floor(diff/60000), h=Math.floor(diff/3600000), d=Math.floor(diff/86400000);
-    if(m < 1) return 'just now';
+    var m=Math.floor(diff/60000), h=Math.floor(diff/3600000), d=Math.floor(diff/86400000);
     if(m < 60) return m+'m ago';
     if(h < 24) return h+'h ago';
     if(d < 30) return d+'d ago';
     return new Date(ms).toISOString().slice(0,10);
   }
 
+  function statCard(num, lab){ return '<div class="stat"><div class="num">'+esc(num)+'</div><div class="lab">'+esc(lab)+'</div></div>'; }
+
   function row(s){
-    const conv = clamp(s.conv);
-    const dir = esc(s.dir||'LONG');
-    const when = whenStr(s.ts);
-    const statusRaw = (s.status||'Active');
-    const statusCls = /active/i.test(statusRaw) ? 'active' : '';
+    var conv = clamp(s.conv);
+    var dir = esc(s.dir||'LONG');
+    var when = whenStr(s.ts);
+    var statusRaw = (s.status||'Active');
+    var statusCls = /active|in.?progress/i.test(statusRaw) ? 'active' : '';
     return '<div class="tr">'
       + '<span class="tr-sym">'+esc(s.sym)+'</span>'
       + '<span class="tr-mkt">'+esc(s.mkt||'')+'</span>'
@@ -182,32 +226,38 @@
       + '</div>';
   }
 
-  fetch('stats.json?_='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(d=>{
-    const list=document.getElementById('trackList');
-    const sum=document.getElementById('sumline');
-    const soon=document.getElementById('soonNote');
+  fetch('stats.json?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(d){
+    var list=document.getElementById('trackList');
+    var stats=document.getElementById('stats');
 
-    // summary line (honest coverage metrics only — never performance)
-    const bits=[];
-    if(d.signalsDelivered!=null) bits.push('<span>Signals logged <b>'+esc(d.signalsDelivered)+'</b></span>');
-    if(d.marketsScanned!=null)   bits.push('<span>Markets scanned <b>'+esc(d.marketsScanned)+'</b></span>');
-    if(d.avgConviction!=null)    bits.push('<span>Avg conviction <b>'+esc(d.avgConviction)+'</b></span>');
-    if(d.updatedAt!=null)        bits.push('<span>Updated <b>'+esc(typeof d.updatedAt==='number'?new Date(d.updatedAt).toISOString().slice(0,10):d.updatedAt)+'</b></span>');
-    sum.innerHTML = bits.join('');
+    // honest coverage metrics only — never performance
+    var cards='';
+    if(d.signalsDelivered!=null) cards+=statCard(d.signalsDelivered, 'Signals logged');
+    if(d.marketsScanned!=null)   cards+=statCard(d.marketsScanned, 'Markets scanned');
+    if(d.avgConviction!=null)    cards+=statCard(d.avgConviction, 'Avg conviction');
+    cards+=statCard('24/7','Engine uptime');
+    stats.innerHTML=cards;
 
-    // PRIMARY: a dedicated track[] of recent signals; FALLBACK: recent[] activity.
-    let rows = Array.isArray(d.track) ? d.track : null;
-    if(!rows || !rows.length){
-      rows = Array.isArray(d.recent) ? d.recent : [];
-      if(rows.length) soon.style.display='';   // show "outcomes coming soon" on the fallback path
+    var cutoff = Date.now() - DELAY_MS;
+    var rows, delayed=false;
+    if(Array.isArray(d.track)){
+      // PRIMARY: timestamped signals — enforce the 1-hour public delay.
+      delayed=true;
+      rows = d.track.filter(function(s){ var t=Number(s.ts); return t && t<=cutoff; })
+                    .sort(function(a,b){ return (Number(b.ts)||0)-(Number(a.ts)||0); });
+    }else{
+      // FALLBACK (no timestamps): show recent activity as-is.
+      rows = Array.isArray(d.recent) ? d.recent.slice() : [];
     }
 
     if(rows.length){
       list.innerHTML = rows.map(row).join('');
+    }else if(delayed){
+      list.innerHTML = '<div class="empty">The latest setups appear here after a <b>1-hour delay</b>. Members already have them live in the channel — check back shortly, or join to see them now.</div>';
     }else{
       list.innerHTML = '<div class="empty">No recent activity to show yet — check back soon.</div>';
     }
-  }).catch(()=>{
+  }).catch(function(){
     document.getElementById('trackList').innerHTML =
       '<div class="empty">Couldn\'t load activity right now. Please try again shortly.</div>';
   });

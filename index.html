@@ -131,6 +131,12 @@
     border:1px solid var(--line2);border-radius:6px;color:var(--silver);font-weight:700;background:rgba(255,255,255,.04)}
   .walk[open] summary::before{content:"–"}
   .walk summary:hover{color:#fff}
+  /* centered "how to join" detailed-guide panel */
+  #how .guide{text-align:center}
+  #how .guide .walk summary{justify-content:center}
+  #how .guide ol{display:inline-block;text-align:left;max-width:560px}
+  #how .guide .addr{margin-left:auto;margin-right:auto}
+  #how .guide .gd-btns{justify-content:center}
 
   /* pricing */
   .plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
@@ -500,7 +506,6 @@
       <a href="#features">Engine</a>
       <a href="#signal">Signals</a>
       <a href="#performance">Live</a>
-      <a href="trackrecord.html">Track record</a>
       <a href="#pricing">Pricing</a>
       <a href="#how">How to join</a>
       <a class="btn subscribe" onclick="openPay()">Subscribe</a>
@@ -682,7 +687,7 @@
   </div>
 
   <!-- detailed guide -->
-  <div style="background:var(--panel);border:1px solid var(--line2);border-radius:8px;padding:22px;margin-top:18px">
+  <div class="guide" style="background:var(--panel);border:1px solid var(--line2);border-radius:8px;padding:22px;margin-top:18px">
     <details class="walk">
     <summary>First time with crypto? Full walkthrough</summary>
     <ol style="color:var(--dim);font-size:14px;line-height:1.9;padding-left:20px;margin-top:14px">
@@ -698,7 +703,7 @@
     <div style="margin-top:18px;color:var(--faint);font-size:12px">Pay $9.99 in BNB to this address:</div>
     <div class="addr" style="max-width:560px"><code id="payAddr">loading…</code><span class="copy" onclick="copyPageAddr()">copy</span></div>
 
-    <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+    <div class="gd-btns" style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap;align-items:center">
       <a class="btn" href="https://t.me/nevaalgo_bot" target="_blank">Open @nevaalgo_bot →</a>
       <a class="btn ghost" onclick="openPay()">Show payment details</a>
       <span style="color:var(--faint);font-size:12px">Renews monthly — no auto-charge.</span>
