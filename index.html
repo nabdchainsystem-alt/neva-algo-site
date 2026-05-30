@@ -60,6 +60,12 @@
   .launch{margin-top:30px;display:inline-block;border:1px solid var(--gold);border-radius:20px;
     padding:6px 16px;font-size:13px;letter-spacing:1px;color:var(--gold);
     box-shadow:0 0 22px rgba(230,195,74,.18)}
+  .countdown{margin-top:14px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap;align-items:flex-end}
+  .countdown .cd-label{width:100%;color:var(--faint);font-size:11px;letter-spacing:2px;text-transform:uppercase;margin-bottom:2px}
+  .countdown .cd-unit{background:var(--panel);border:1px solid var(--line2);border-radius:8px;min-width:62px;padding:8px 6px}
+  .countdown .cd-num{font-size:26px;font-weight:800;color:var(--gold);line-height:1}
+  .countdown .cd-cap{font-size:10px;color:var(--faint);letter-spacing:1px;text-transform:uppercase;margin-top:4px}
+  .countdown.ended{color:var(--faint)}
 
   /* section */
   section{padding:54px 0}
@@ -207,6 +213,7 @@
   <div class="tag">See what <b>market makers</b> see — across <b>crypto</b> &amp; <b>global stocks</b>.</div>
   <div class="vitals">liquidity sweeps · order blocks · FVG · BOS/CHoCH · premium/discount &nbsp;·&nbsp; <span>long / buy-only</span></div>
   <div class="launch">🔥 LAUNCH OFFER · 50% OFF FIRST MONTH · <s style="color:var(--faint)">$19.99</s> <b style="color:var(--gold)">$9.99</b></div>
+  <div class="countdown" id="countdown" aria-live="polite"></div>
   <div class="cta">
     <a class="btn" onclick="openPay()">Subscribe with BNB — $9.99/mo</a>
     <a class="btn ghost" href="#signal">See a live signal ↓</a>
@@ -339,7 +346,29 @@
   const BNB_ADDRESS = "0xE80f66E36E36f8C8E31547bC133A67e85aDEab76";   // <- your MetaMask (BNB Smart Chain) address
   const TELEGRAM_BOT = "https://t.me/nevaalgo_bot"; // <- your @BotFather bot link
   const PRICE_USD = 9.99;
+  // Launch discount deadline — 30 days from launch (2026-05-30). Fixed so the
+  // countdown is real and the same for every visitor.
+  const OFFER_END = Date.parse("2026-06-29T23:59:59Z");
   // ─────────────────────────────────────────────────────────────────────────
+
+  // Live 30-day countdown for the launch offer.
+  function tickCountdown(){
+    const el = document.getElementById('countdown');
+    if(!el) return;
+    let ms = OFFER_END - Date.now();
+    if(ms <= 0){
+      el.classList.add('ended');
+      el.innerHTML = '<div class="cd-label">Launch offer ended</div>';
+      return;
+    }
+    const d = Math.floor(ms/86400000); ms -= d*86400000;
+    const h = Math.floor(ms/3600000);  ms -= h*3600000;
+    const m = Math.floor(ms/60000);    ms -= m*60000;
+    const s = Math.floor(ms/1000);
+    const unit = (n,c)=>`<div class="cd-unit"><div class="cd-num">${String(n).padStart(2,'0')}</div><div class="cd-cap">${c}</div></div>`;
+    el.innerHTML = '<div class="cd-label">⏳ Offer ends in</div>' + unit(d,'days')+unit(h,'hrs')+unit(m,'min')+unit(s,'sec');
+  }
+  tickCountdown(); setInterval(tickCountdown, 1000);
 
   function openPay(){ document.getElementById('modal').classList.add('on'); refreshAmount(); }
   function closePay(){ document.getElementById('modal').classList.remove('on'); }
