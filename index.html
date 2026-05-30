@@ -433,13 +433,11 @@
   .bub.note{background:transparent;border:none;color:var(--faint);font-size:11px;padding:0;text-align:center}
 
   /* ===== FREE channel section ===== */
-  .freezone{position:relative;padding:64px 16px;border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);
-    background:radial-gradient(130% 130% at 50% 0%,rgba(203,185,140,.10),transparent 60%);overflow:hidden}
-  .freecard{max-width:none;margin:0 auto;text-align:center;position:relative;overflow:hidden;
-    border:1px solid var(--line);border-radius:20px;padding:44px 30px;
-    background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));
-    box-shadow:0 20px 60px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
-  .freecard::after{content:"";position:absolute;inset:0;border-radius:20px;pointer-events:none;
+  .freezone{position:relative;padding:72px 24px;border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);
+    background:radial-gradient(120% 130% at 50% 0%,rgba(203,185,140,.12),transparent 62%);overflow:hidden}
+  .freecard{max-width:none;width:100%;margin:0;text-align:center;position:relative;
+    border:none;border-radius:0;padding:0;background:none;box-shadow:none}
+  .freecard::after{content:"";position:absolute;inset:0;border-radius:0;pointer-events:none;
     background:linear-gradient(120deg,transparent 32%,rgba(255,255,255,.07) 50%,transparent 68%);
     background-size:250% 100%;animation:shimmer 6.5s linear infinite}
   @keyframes shimmer{from{background-position:200% 0}to{background-position:-60% 0}}
@@ -500,7 +498,7 @@
     .bot-sub{text-align:center}
     .phone{width:280px}
     /* free section */
-    .freezone{padding:42px 12px}
+    .freezone{padding:48px 16px}
     .freecard{padding:30px 18px}
     .btn-free{width:100%;justify-content:center;font-size:16px;padding:15px 18px}
 
@@ -620,7 +618,7 @@
 <section id="free" class="freezone">
     <div class="freecard">
       <div class="free-tag">✦ 100% Free ✦</div>
-      <h2>Try NEVA ALGO <span class="hl">free</span> — no card, no wallet.</h2>
+      <h2>Try NEVA ALGO <span class="hl">Free</span> — No Card, No Wallet.</h2>
       <p>Join the free channel and get a real smart-money signal <b>every day</b> (on a short delay). See exactly how the engine reads the market — before you ever pay a cent.</p>
       <div class="free-perks">
         <span>🎯 <b>1 signal / day</b></span>
