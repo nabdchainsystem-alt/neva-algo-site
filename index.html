@@ -797,13 +797,13 @@
 
     <!-- Access code → redeemed by the bot (only the bot can verify a code & grant channel access) -->
     <div style="border:1px dashed var(--line);border-radius:8px;padding:12px 14px;margin:14px 0">
-      <div style="color:var(--silver);font-size:12px;margin-bottom:7px">🎟️ Have an access code?</div>
+      <div style="color:var(--silver);font-size:12px;margin-bottom:7px">🎟️ Have an access or referral code?</div>
       <div class="addr" style="margin:0;border-style:solid">
-        <input id="promoInput" placeholder="Enter code (e.g. SUMMER)" autocomplete="off" onkeydown="if(event.key==='Enter')redeemPromo()"
+        <input id="promoInput" placeholder="Enter your code" autocomplete="off" onkeydown="if(event.key==='Enter')redeemPromo()"
           style="flex:1;min-width:0;background:transparent;border:none;outline:none;color:var(--txt);font-family:var(--mono);font-size:13px;letter-spacing:1px;text-transform:uppercase" />
-        <span class="copy" onclick="redeemPromo()">Redeem →</span>
+        <span class="copy" onclick="redeemPromo()">Apply →</span>
       </div>
-      <div class="step-note" style="text-align:left">A <b style="color:var(--gold)">100%</b> code skips payment — the bot adds you to <b>NEVA ALGO Standard</b> instantly. Otherwise it pre-applies your discount.</div>
+      <div class="step-note" style="text-align:left">A <b style="color:var(--gold)">100%</b> code skips payment — the bot adds you to <b>NEVA ALGO Standard</b> instantly. A discount code pre-applies; a referral code credits your inviter.</div>
     </div>
     <div style="color:var(--faint);font-size:11px;text-align:center;margin:4px 0 12px">— or pay with BNB —</div>
 
