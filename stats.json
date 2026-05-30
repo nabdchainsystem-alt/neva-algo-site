@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-30",
-  "signalsDelivered": 100,
-  "avgConviction": 62,
+  "signalsDelivered": 105,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 65
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -33,6 +40,13 @@
       "conv": 60
     },
     {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 70
+    },
+    {
       "sym": "PG",
       "mkt": "US",
       "dir": "LONG",
@@ -45,23 +59,69 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 60
+    }
+  ],
+  "track": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 65,
+      "entry": 721.78,
+      "target": 742.634005,
+      "stop": 707.87733,
+      "ts": 1780168810854,
+      "status": "active"
     },
     {
-      "sym": "9432.T",
-      "mkt": "Tokyo",
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
       "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 60
+      "conv": 70,
+      "entry": 535.38,
+      "target": 542.036,
+      "stop": 530.79693,
+      "ts": 1780168721180,
+      "status": "active"
     },
     {
       "sym": "PG",
       "mkt": "US",
-      "dir": "LONG",
       "setup": "Order Block Tap",
-      "conv": 62
-    }
-  ],
-  "track": [
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 143.55999755859375,
+      "target": 145.01996404,
+      "stop": 142.42465939331055,
+      "ts": 1780168702590,
+      "status": "active"
+    },
+    {
+      "sym": "ABT",
+      "mkt": "US",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 85.5999984741211,
+      "target": 86.70625114,
+      "stop": 84.83159908676147,
+      "ts": 1780168702590,
+      "status": "active"
+    },
+    {
+      "sym": "9432.T",
+      "mkt": "Tokyo",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 149.5,
+      "target": 151.1000061,
+      "stop": 148.3757561035156,
+      "ts": 1780168702590,
+      "status": "active"
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
