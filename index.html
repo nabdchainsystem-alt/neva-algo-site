@@ -213,6 +213,23 @@
   .feed .sym{color:var(--cyan);font-weight:700}
   .feed .conv{color:var(--gold)}
   .feed .dir{color:var(--green);font-weight:700;font-size:12px}
+  /* conviction mini-bar in the feed */
+  .feed .bar{height:4px;border-radius:3px;background:var(--line2);overflow:hidden;flex:0 0 64px;margin-left:8px}
+  .feed .bar i{display:block;height:100%;background:linear-gradient(90deg,#e069e0,#34d3e6)}
+  /* dashboard terminal header */
+  .dash-head{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--faint);
+    border:1px solid var(--line2);border-bottom:none;border-radius:10px 10px 0 0;padding:9px 14px;background:rgba(255,255,255,.02)}
+  .dash-head .dots{display:flex;gap:6px}
+  .dash-head .dots i{width:9px;height:9px;border-radius:50%;background:var(--line)}
+  .dash-head .live{margin-left:auto;color:var(--green);letter-spacing:1px}
+  .dash-body{border:1px solid var(--line2);border-radius:0 0 10px 10px;padding:18px;background:rgba(255,255,255,.015)}
+  /* membership tiers */
+  .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:stretch}
+  .plan.soon{opacity:.92}
+  .badge.soon-badge{background:var(--gold);color:#001014}
+  .badge.soon-badge.alt{background:var(--mag);color:#000}
+  .soon-btn{width:100%;border:1px dashed var(--line);background:transparent;color:var(--faint);
+    border-radius:4px;padding:9px 18px;font-family:var(--mono);font-weight:700;cursor:not-allowed}
 
   /* ---- Mobile ---- */
   @media (max-width:680px){
@@ -239,8 +256,15 @@
     .h{font-size:13px}
     .signal{padding:16px}
     /* stack everything to one column comfortably */
-    .grid,.steps,.plans{grid-template-columns:1fr}
-    .plans{max-width:100%!important}
+    .grid,.steps{grid-template-columns:1fr}
+    /* swipe left/right on mobile for stats + membership tiers */
+    .stats,.tiers{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;
+      padding:2px 2px 12px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+    .stats::-webkit-scrollbar,.tiers::-webkit-scrollbar{height:5px}
+    .stats::-webkit-scrollbar-thumb,.tiers::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
+    .stats .stat{flex:0 0 46%;scroll-snap-align:center}
+    .tiers .plan{flex:0 0 84%;scroll-snap-align:center;max-width:none}
+    .dash-body{padding:12px}
     #how ol{padding-left:18px}
   }
 </style>
@@ -328,28 +352,31 @@
 <!-- LIVE PERFORMANCE -->
 <section id="performance" class="wrap">
   <div class="h">Live engine performance</div>
-  <div class="stats">
-    <div class="stat"><div class="num" data-count="730" data-suffix="+">0</div><div class="lab">Markets scanned</div></div>
-    <div class="stat"><div class="num" data-count="6">0</div><div class="lab">Timeframes</div></div>
-    <div class="stat"><div class="num" data-count="4">0</div><div class="lab">Global exchanges</div></div>
-    <div class="stat"><div class="num" id="st-signals" data-count="0">0</div><div class="lab">Signals delivered</div></div>
-    <div class="stat"><div class="num" id="st-conv" data-count="0">0</div><div class="lab">Avg conviction</div></div>
-    <div class="stat"><div class="num">24/7</div><div class="lab"><span class="pulse"></span> Engine live</div></div>
+  <div class="dash-head"><span class="dots"><i></i><i></i><i></i></span> <span style="color:var(--cyan)">neva-algo</span> // live engine <span class="live"><span class="pulse"></span> LIVE</span></div>
+  <div class="dash-body">
+    <div class="stats">
+      <div class="stat"><div class="num" data-count="730" data-suffix="+">0</div><div class="lab">Markets scanned</div></div>
+      <div class="stat"><div class="num" data-count="6">0</div><div class="lab">Timeframes</div></div>
+      <div class="stat"><div class="num" data-count="4">0</div><div class="lab">Global exchanges</div></div>
+      <div class="stat"><div class="num" id="st-signals" data-count="0">0</div><div class="lab">Signals delivered</div></div>
+      <div class="stat"><div class="num" id="st-conv" data-count="0">0</div><div class="lab">Avg conviction</div></div>
+      <div class="stat"><div class="num">24/7</div><div class="lab"><span class="pulse"></span> Engine live</div></div>
+    </div>
+    <div style="text-align:center;color:var(--faint);font-size:12px;margin:18px 0 4px">// recent setups the engine flagged · updated live</div>
+    <div class="feed" id="feed"></div>
   </div>
-  <div style="text-align:center;color:var(--faint);font-size:12px;margin-top:14px">Recent setups the engine flagged · updated live</div>
-  <div class="feed" id="feed"></div>
   <div style="text-align:center;color:var(--faint);font-size:11px;margin-top:14px">Coverage &amp; activity metrics — not performance/return claims. Analysis, not advice. DYOR.</div>
 </section>
 
 <!-- PRICING -->
 <section id="pricing" class="wrap">
   <div class="h">Membership</div>
-  <div class="plans" style="max-width:360px;margin:0 auto">
+  <div class="plans tiers">
     <div class="plan best">
       <div class="badge">50% OFF · LAUNCH</div>
-      <div class="name">Monthly</div>
-      <div class="price"><s style="font-size:22px;color:var(--faint)">$19.99</s> $9.99<small>/mo</small></div>
-      <div class="save">first month half price · paid in BNB · no card</div>
+      <div class="name">Standard</div>
+      <div class="price"><s style="font-size:20px;color:var(--faint)">$19.99</s> $9.99<small>/mo</small></div>
+      <div class="save">first month half price · paid in BNB</div>
       <ul>
         <li>Full smart-money signal feed</li>
         <li>Crypto + US/London/Tokyo/Sydney stocks</li>
@@ -358,8 +385,36 @@
       </ul>
       <a class="btn" style="width:100%" onclick="openPay()">Subscribe with BNB</a>
     </div>
+    <div class="plan soon">
+      <div class="badge soon-badge">COMING SOON</div>
+      <div class="name">Pro</div>
+      <div class="price">$39<small>/mo</small></div>
+      <div class="save">for serious traders</div>
+      <ul>
+        <li>Everything in Standard</li>
+        <li>Priority / faster delivery</li>
+        <li>Custom alerts &amp; filters</li>
+        <li>Direct-message signals</li>
+        <li>Expanded market coverage</li>
+      </ul>
+      <button class="btn soon-btn" disabled>Coming soon</button>
+    </div>
+    <div class="plan soon">
+      <div class="badge soon-badge alt">COMING SOON</div>
+      <div class="name">Elite</div>
+      <div class="price">$99<small>/mo</small></div>
+      <div class="save">maximum edge</div>
+      <ul>
+        <li>Everything in Pro</li>
+        <li>Top-priority signals</li>
+        <li>1:1 onboarding</li>
+        <li>Early access to new features</li>
+        <li>Private strategy notes</li>
+      </ul>
+      <button class="btn soon-btn" disabled>Coming soon</button>
+    </div>
   </div>
-  <div class="pay-with">Pay with <b style="color:var(--gold)">BNB</b> on BNB Smart Chain (BEP-20) — instant, borderless, no card.</div>
+  <div class="pay-with">Pay with <b style="color:var(--gold)">BNB</b> on BNB Smart Chain (BEP-20) — instant, borderless, no card. <b>Standard</b> available now; <b>Pro</b> &amp; <b>Elite</b> launching soon.</div>
   <div class="coins"><span>BNB · BEP-20</span><span>≈ confirms in seconds</span><span>no auto-renew</span></div>
 </section>
 
@@ -523,13 +578,15 @@
   // Live performance: pull real numbers + recent signals from stats.json.
   fetch('stats.json?_='+Date.now()).then(r=>r.json()).then(d=>{
     const sig=document.getElementById('st-signals'), conv=document.getElementById('st-conv');
-    if(sig){ sig.dataset.count=d.signalsDelivered||0; }
-    if(conv){ conv.dataset.count=d.avgConviction||0; }
+    // set the real targets then (re)run the count-up so they don't get stuck at 0
+    if(sig){ sig.dataset.count=d.signalsDelivered||0; countUp(sig); }
+    if(conv){ conv.dataset.count=d.avgConviction||0; countUp(conv); }
     const feed=document.getElementById('feed');
     if(feed && Array.isArray(d.recent)){
       feed.innerHTML = d.recent.map(s=>
         `<div class="row"><span><span class="sym">${s.sym}</span> <span style="color:var(--faint)">· ${s.mkt} · ${s.setup}</span></span>`+
-        `<span><span class="dir">${s.dir}</span> · <span class="conv">${s.conv}</span>/100</span></div>`).join('');
+        `<span style="display:flex;align-items:center"><span class="dir">${s.dir}</span> · <span class="conv">${s.conv}</span>/100`+
+        `<span class="bar"><i style="width:${Math.max(4,Math.min(100,s.conv))}%"></i></span></span></div>`).join('');
     }
   }).catch(()=>{});
 </script>
