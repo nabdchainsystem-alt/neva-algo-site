@@ -22,8 +22,10 @@
   /* top bar */
   header{position:sticky;top:0;z-index:40;background:rgba(0,0,0,.85);backdrop-filter:blur(6px);border-bottom:1px solid var(--line2)}
   .bar{display:flex;align-items:center;justify-content:space-between;height:54px}
-  .brand{display:flex;align-items:center}
-  .brandlogo{height:38px;width:auto;display:block}
+  .brand{display:flex;align-items:center;gap:9px}
+  .brandlogo{height:34px;width:auto;display:block}
+  .brandtext{font-weight:800;letter-spacing:1.5px;font-size:17px;white-space:nowrap;
+    background:linear-gradient(92deg,#e069e0,#34d3e6);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
   nav a{color:var(--dim);margin-left:20px;font-size:13px}
   nav a:hover{color:var(--txt)}
   .btn{display:inline-block;border:1px solid var(--cyan);color:#001014;background:var(--cyan);
@@ -31,6 +33,11 @@
   .btn:hover{box-shadow:0 0 18px rgba(52,211,230,.5)}
   .btn.ghost{background:transparent;color:var(--cyan)}
   .btn.ghost:hover{background:rgba(52,211,230,.08)}
+  /* top-bar Subscribe: premium gradient pill */
+  .btn.subscribe{border:none;border-radius:999px;padding:10px 24px;font-weight:800;letter-spacing:.5px;
+    color:#001014;background:linear-gradient(92deg,#34d3e6,#56a8ff);
+    box-shadow:0 0 0 1px rgba(52,211,230,.3),0 0 16px rgba(52,211,230,.25);transition:.18s}
+  .btn.subscribe:hover{box-shadow:0 0 26px rgba(52,211,230,.6);transform:translateY(-1px)}
 
   /* hero */
   .hero{text-align:center;padding:72px 0 40px}
@@ -154,7 +161,9 @@
     nav{margin:0;display:flex;align-items:center}
     nav a:not(.btn){display:none}
     nav .btn{margin-left:0;padding:8px 14px;font-size:13px}
-    .brandlogo{height:30px}
+    .brandlogo{height:28px}
+    .brandtext{font-size:14px;letter-spacing:1px}
+    .brand{gap:7px}
     /* hero spacing + sizes tuned for narrow screens */
     .hero{padding:36px 0 28px}
     .wordmark{font-size:clamp(40px,13vw,72px);letter-spacing:.06em;margin-top:14px}
@@ -162,8 +171,9 @@
     .tag{font-size:17px;margin-top:20px}
     .vitals{font-size:12px}
     .launch{font-size:11px;letter-spacing:.5px;padding:8px 14px;line-height:1.5}
-    .cta{margin-top:24px}
-    .cta .btn{width:100%;text-align:center}
+    .cta{margin-top:24px;flex-direction:column;align-items:center}
+    .cta .btn{width:auto;min-width:250px;text-align:center}
+    nav .btn.subscribe{padding:8px 18px;font-size:13px}
     section{padding:38px 0}
     .h{font-size:13px}
     .signal{padding:16px}
@@ -178,13 +188,13 @@
 
 <header>
   <div class="wrap bar">
-    <a class="brand" href="#top"><img src="logo.png" class="brandlogo" alt="NEVA ALGO" /></a>
+    <a class="brand" href="#top"><img src="logo.png" class="brandlogo" alt="" /><span class="brandtext">NEVA&nbsp;ALGO</span></a>
     <nav>
       <a href="#features">Engine</a>
       <a href="#signal">Signals</a>
       <a href="#pricing">Pricing</a>
       <a href="#how">How to join</a>
-      <a class="btn ghost" onclick="openPay()">Subscribe</a>
+      <a class="btn subscribe" onclick="openPay()">Subscribe</a>
     </nav>
   </div>
 </header>
