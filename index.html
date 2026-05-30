@@ -167,13 +167,14 @@
   .fx{position:fixed;inset:0;z-index:-2;background:#000 url('extended.jpg') no-repeat center center;background-size:cover}
   .fx::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom, rgba(0,0,0,.55), rgba(0,0,0,.82) 55%, #000 100%)}
 
-  /* ===== Hero (the art image; emblem + wordmark are baked into it) ===== */
-  .hero{position:relative;min-height:96vh;display:flex;flex-direction:column;justify-content:flex-end;
-    background:#000 url('hero.jpg') no-repeat center top;background-size:cover;padding:0 22px 56px;text-align:center}
-  .hero::after{content:"";position:absolute;inset:0;pointer-events:none;
-    background:linear-gradient(to bottom, transparent 30%, rgba(0,0,0,.45) 58%, rgba(0,0,0,.92) 88%, #000 100%)}
-  .hero-content{position:relative;z-index:2;max-width:960px;margin:0 auto;width:100%}
-  .hero-subscribe{position:absolute;top:22px;right:24px;z-index:3}
+  /* ===== Hero — full-width art banner (extends edge-to-edge), content below ===== */
+  .hero{position:relative;background:#000;text-align:center;padding:0 0 54px}
+  .hero-art{display:block;width:100%;height:auto;margin:0 auto}
+  /* fade the art's bottom edge into black so it blends seamlessly into the page */
+  .hero::after{content:"";position:absolute;left:0;right:0;top:0;height:100%;pointer-events:none;z-index:1;
+    background:linear-gradient(to bottom, transparent 78%, rgba(0,0,0,.6) 92%, #000 100%)}
+  .hero-content{position:relative;z-index:2;max-width:880px;margin:-2% auto 0;padding:0 22px;width:100%}
+  .hero-subscribe{position:absolute;top:18px;right:22px;z-index:3}
 
   /* scroll-reveal */
   .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
@@ -251,7 +252,8 @@
     .tiers .plan{flex:0 0 84%;scroll-snap-align:center;max-width:none}
     .dash-body{padding:12px}
     #how ol{padding-left:18px}
-    .hero{min-height:auto;padding-top:34vh;padding-bottom:40px}
+    .hero{padding-bottom:36px}
+    .hero-content{margin-top:6px}
     .hero-subscribe{top:14px;right:14px;padding:7px 16px;font-size:12px}
     .sigcards{grid-template-columns:1fr}
   }
@@ -307,6 +309,7 @@
 <!-- HERO — the art (emblem + NEVA ALGO wordmark) fills the screen; content sits below -->
 <section class="hero">
   <a class="hero-subscribe btn subscribe" onclick="openPay()">Subscribe</a>
+  <img class="hero-art" src="hero.jpg" alt="NEVA ALGO — Smart-Money Market Engine" />
   <div class="hero-content">
     <div class="tag">See what <b>market makers</b> see — across <b>crypto</b> &amp; <b>global stocks</b>.</div>
   <div class="vitals">liquidity sweeps · order blocks · FVG · BOS/CHoCH · premium/discount &nbsp;·&nbsp; <span>long / buy-only</span></div>
