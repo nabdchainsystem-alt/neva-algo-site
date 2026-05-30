@@ -806,12 +806,11 @@
       <div class="step-note" style="text-align:left">A <b style="color:var(--gold)">100%</b> code skips payment — the bot adds you to <b>NEVA ALGO Standard</b> instantly. A discount code pre-applies; a referral code credits your inviter.</div>
     </div>
 
-    <!-- success state shown after a code is applied (instead of the pay flow) -->
+    <!-- code hand-off: the BOT is the real validator (a static site can't check a code's usage) -->
     <div id="codeApplied" style="display:none;text-align:center;padding:8px 0 4px">
-      <div style="font-size:38px;line-height:1;color:var(--green)">✓</div>
-      <div style="color:var(--silver);font-weight:800;font-size:17px;margin-top:8px">Code <span id="appliedCode" style="color:var(--gold)"></span> applied</div>
-      <div style="margin:12px 0"><div style="color:var(--faint);font-size:12px;letter-spacing:1px;text-transform:uppercase">Amount due now</div><div style="font-size:34px;font-weight:800;color:var(--green)">$0</div></div>
-      <div class="step-note" style="text-align:center;margin-bottom:16px">A 100% code = <b>free access</b>. The bot confirms your code and adds you to <b>NEVA ALGO Standard</b> instantly. (A partial code applies your discount; a referral code credits your inviter.)</div>
+      <div style="font-size:30px;line-height:1">🎟️</div>
+      <div style="color:var(--silver);font-weight:800;font-size:17px;margin-top:8px">Claim code <span id="appliedCode" style="color:var(--gold)"></span></div>
+      <div class="step-note" style="text-align:center;margin:10px 0 16px">Tap below — the bot <b>verifies</b> your code and, if it's a valid <b>100%</b> code, adds you to <b>NEVA ALGO Standard</b> free (<b style="color:var(--green)">$0</b>, no payment). Used-up, expired or invalid codes are declined; a discount code applies its %; a referral code credits your inviter.</div>
       <a class="btn" style="width:100%" id="claimBtn" href="#" target="_blank" rel="noopener">Claim in Telegram → @nevaalgo_bot</a>
       <div style="margin-top:12px"><a href="#" onclick="cancelCode();return false" style="color:var(--faint);font-size:12px;border:none">← use a different code, or pay with BNB</a></div>
     </div>
