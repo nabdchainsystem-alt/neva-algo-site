@@ -355,6 +355,30 @@
   /* feed row hover */
   .feed .row:hover{border-color:rgba(223,228,236,.2)}
 
+  /* ===== LIVE crypto ticker (news-style marquee) ===== */
+  .ticker{position:relative;display:flex;align-items:stretch;
+    border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);
+    background:rgba(0,0,0,.55);backdrop-filter:blur(6px);overflow:hidden}
+  .ticker-tag{flex:none;display:flex;align-items:center;gap:7px;padding:0 16px;z-index:3;
+    font-size:11px;font-weight:800;letter-spacing:2px;color:var(--silver);
+    background:linear-gradient(90deg,#0a0c10,rgba(10,12,16,.85));border-right:1px solid var(--line2)}
+  .ticker-tag .tk-dot{width:7px;height:7px;border-radius:50%;background:var(--green);
+    box-shadow:0 0 8px rgba(143,182,160,.9);animation:tkblink 1.6s ease-in-out infinite}
+  @keyframes tkblink{0%,100%{opacity:1}50%{opacity:.3}}
+  .ticker-view{position:relative;flex:1;overflow:hidden;
+    -webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);
+    mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+  .ticker-track{display:flex;width:max-content;animation:tick 150s linear infinite;will-change:transform}
+  .ticker:hover .ticker-track{animation-play-state:paused}
+  .tk{display:flex;align-items:center;gap:8px;padding:11px 20px;white-space:nowrap;font-size:13px;
+    border-right:1px solid var(--line2)}
+  .tk img{width:18px;height:18px;border-radius:50%;flex:none;opacity:.95}
+  .tk .tk-sym{color:var(--silver);font-weight:700;letter-spacing:.4px}
+  .tk .tk-px{color:var(--txt)}
+  .tk .tk-ch{font-weight:700;font-size:12px}
+  .tk .up{color:var(--green)} .tk .down{color:var(--red)}
+  @keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
   /* ===== BOT super-section ===== */
   .botzone{position:relative;padding:70px 0;border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);
     background:radial-gradient(120% 120% at 80% 0%,rgba(207,215,228,.06),transparent 60%)}
@@ -452,6 +476,11 @@
     .dash-body{padding:12px}
     .dash-head{font-size:11px}
     .vitals{white-space:normal;font-size:11px;line-height:1.7}
+
+    /* live ticker: compact */
+    .ticker-tag{padding:0 10px;font-size:10px;letter-spacing:1px}
+    .tk{padding:9px 14px;font-size:12px;gap:6px}
+    .tk img{width:15px;height:15px}
   }
 </style>
 </head>
@@ -490,6 +519,12 @@
   <div class="disc-top">Algorithmic market analysis for education — <b>not financial advice</b>. Do your own research.</div>
   </div>
 </section>
+
+<!-- LIVE CRYPTO TICKER -->
+<div class="ticker" id="ticker" aria-label="Live crypto prices">
+  <span class="ticker-tag"><span class="tk-dot"></span>LIVE</span>
+  <div class="ticker-view"><div class="ticker-track" id="tickerTrack"></div></div>
+</div>
 
 <!-- BOT SUPER SECTION -->
 <section id="bot" class="botzone">
@@ -827,6 +862,40 @@
         `<span class="sc-val">${s.conv}<span style="color:var(--faint)">/100</span></span></div></div>`).join('');
     }
   }).catch(()=>{});
+
+  /* ===== Live crypto ticker (top 50 by market cap, CoinGecko public API) ===== */
+  function tkFmt(p){
+    if(p==null) return '—';
+    if(p>=1000) return p.toLocaleString('en-US',{maximumFractionDigits:0});
+    if(p>=1)    return p.toFixed(2);
+    if(p>=0.01) return p.toFixed(4);
+    return p.toPrecision(2);
+  }
+  function tkRow(c){
+    const ch=(c.price_change_percentage_24h==null)?0:c.price_change_percentage_24h;
+    const cls=ch>=0?'up':'down', arrow=ch>=0?'▲':'▼';
+    return `<div class="tk"><img src="${c.image}" alt="" loading="lazy">`+
+      `<span class="tk-sym">${(c.symbol||'').toUpperCase()}</span>`+
+      `<span class="tk-px">$${tkFmt(c.current_price)}</span>`+
+      `<span class="tk-ch ${cls}">${arrow} ${Math.abs(ch).toFixed(2)}%</span></div>`;
+  }
+  async function loadTicker(){
+    const track=document.getElementById('tickerTrack');
+    const band=document.getElementById('ticker');
+    if(!track) return;
+    try{
+      const r=await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&price_change_percentage=24h',{cache:'no-store'});
+      if(!r.ok) throw 0;
+      const d=await r.json();
+      if(!Array.isArray(d)||!d.length) throw 0;
+      const html=d.map(tkRow).join('');
+      track.innerHTML=html+html;                 // duplicate → seamless loop
+      track.style.animationDuration=(d.length*3)+'s';
+      if(band) band.style.display='';
+    }catch(e){ if(band) band.style.display='none'; }   // hide gracefully if blocked/offline
+  }
+  loadTicker();
+  setInterval(loadTicker, 60000);
 </script>
 </body>
 </html>
