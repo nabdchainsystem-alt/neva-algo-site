@@ -145,6 +145,33 @@
   .amt{text-align:center;color:var(--txt);font-size:18px;margin:8px 0}
   .amt b{color:var(--gold)}
   .step-note{color:var(--faint);font-size:12px;text-align:center;margin-top:12px}
+
+  /* ---- Mobile ---- */
+  @media (max-width:680px){
+    .wrap{padding-left:16px;padding-right:16px}
+    /* header: keep only logo + Subscribe; hide the text nav links so nothing overlaps */
+    .bar{height:56px}
+    nav{margin:0;display:flex;align-items:center}
+    nav a:not(.btn){display:none}
+    nav .btn{margin-left:0;padding:8px 14px;font-size:13px}
+    .brandlogo{height:30px}
+    /* hero spacing + sizes tuned for narrow screens */
+    .hero{padding:36px 0 28px}
+    .wordmark{font-size:clamp(40px,13vw,72px);letter-spacing:.06em;margin-top:14px}
+    .sub{letter-spacing:3px;font-size:11px}
+    .tag{font-size:17px;margin-top:20px}
+    .vitals{font-size:12px}
+    .launch{font-size:11px;letter-spacing:.5px;padding:8px 14px;line-height:1.5}
+    .cta{margin-top:24px}
+    .cta .btn{width:100%;text-align:center}
+    section{padding:38px 0}
+    .h{font-size:13px}
+    .signal{padding:16px}
+    /* stack everything to one column comfortably */
+    .grid,.steps,.plans{grid-template-columns:1fr}
+    .plans{max-width:100%!important}
+    #how ol{padding-left:18px}
+  }
 </style>
 </head>
 <body>
