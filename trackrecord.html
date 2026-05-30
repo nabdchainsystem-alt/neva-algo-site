@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Track Record — NEVA ALGO</title>
+<meta name="description" content="NEVA ALGO recent signal activity — symbols, setups and conviction the engine flagged. Activity log, not performance. No win-rate or profit claims. Analysis, not advice. DYOR." />
+<meta name="robots" content="all" />
+<link rel="icon" type="image/png" href="logo.png" />
+<style>
+  :root{
+    --bg:#000; --panel:#0b0d11; --txt:#e7e9ee; --dim:#979ca6; --faint:#5e646e;
+    --cyan:#cfd7e4; --gold:#cbb98c; --green:#8fb6a0; --line:#2b3038; --line2:#191c22; --silver:#dfe4ec;
+    --mono:'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace;
+    --sans:'Inter','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:#000;color:var(--txt);font-family:var(--mono);font-size:15px;line-height:1.7;}
+  a{color:var(--cyan);text-decoration:none;border-bottom:1px solid transparent}
+  a:hover{color:#fff;border-color:#fff}
+
+  /* fixed cosmic background to match the site */
+  .fx{position:fixed;inset:0;z-index:-1;
+    background:linear-gradient(180deg,rgba(0,0,0,.78),rgba(0,0,0,.92)),url('extended.jpg') center/cover fixed no-repeat;}
+
+  .wrap{max-width:1320px;margin:0 auto;padding:0 36px}
+
+  header{position:sticky;top:0;z-index:40;background:rgba(0,0,0,.82);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line2)}
+  header .bar{width:100%;margin:0;padding:0 28px;display:flex;align-items:center;justify-content:space-between;height:74px}
+  header .brand{display:flex;align-items:center}
+  header img{height:46px;width:auto;opacity:.97}
+  header a.back{color:var(--dim);font-size:13px;white-space:nowrap}
+  header a.back:hover{color:#fff}
+
+  .hero{padding:56px 0 24px;text-align:center}
+  .hero .kicker{color:var(--faint);letter-spacing:3px;font-size:12px;text-transform:uppercase}
+  .hero h1{font-family:var(--sans);font-weight:800;font-size:clamp(28px,5vw,42px);margin:10px 0;color:#fff;letter-spacing:.5px}
+  .hero .sub{color:var(--dim);font-size:13px;max-width:760px;margin:0 auto}
+
+  main{padding:18px 0 70px}
+  .doc{background:var(--panel);border:1px solid var(--line2);border-radius:12px;padding:clamp(22px,4vw,40px)}
+
+  /* honesty banner */
+  .honest{display:flex;align-items:flex-start;gap:12px;border:1px solid var(--line2);
+    background:rgba(255,255,255,.025);border-radius:10px;padding:16px 18px;margin-bottom:26px}
+  .honest .dot{width:7px;height:7px;border-radius:50%;background:var(--silver);flex:none;margin-top:7px;
+    box-shadow:0 0 10px rgba(223,228,236,.6)}
+  .honest p{color:var(--dim);font-size:13.5px}
+  .honest b{color:var(--txt)}
+
+  .sumline{display:flex;flex-wrap:wrap;gap:10px 22px;margin:0 0 24px;color:var(--faint);font-size:12px;
+    letter-spacing:1px;text-transform:uppercase}
+  .sumline span b{color:var(--silver)}
+
+  /* track rows */
+  .tr-list{display:grid;gap:10px}
+  .tr{display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+    border:1px solid var(--line2);background:rgba(255,255,255,.02);border-radius:10px;padding:14px 18px}
+  .tr .tr-sym{color:var(--silver);font-weight:800;font-size:16px;letter-spacing:.5px;min-width:96px}
+  .tr .tr-mkt{color:var(--faint);font-size:11px;text-transform:uppercase;letter-spacing:1px;min-width:62px}
+  .tr .tr-setup{color:var(--dim);font-size:13.5px;flex:1;min-width:160px}
+  .tr .tr-dir{color:var(--green);font-weight:700;font-size:11px;border:1px solid rgba(143,182,160,.4);
+    border-radius:20px;padding:2px 10px;white-space:nowrap}
+  .tr .tr-conv{display:flex;align-items:center;gap:8px;min-width:150px}
+  .tr .tr-bar{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.06);overflow:hidden;min-width:54px}
+  .tr .tr-bar i{display:block;height:100%;background:linear-gradient(90deg,#e7ebf2,#8f9bb0)}
+  .tr .tr-val{color:var(--silver);font-weight:700;font-size:13px;white-space:nowrap}
+  .tr .tr-when{color:var(--faint);font-size:11.5px;white-space:nowrap;min-width:74px;text-align:right}
+  .tr .tr-status{font-size:10.5px;letter-spacing:1px;text-transform:uppercase;font-weight:700;
+    border-radius:20px;padding:3px 11px;border:1px solid var(--line);color:var(--dim);white-space:nowrap}
+  .tr .tr-status.active{color:var(--silver);border-color:rgba(223,228,236,.3)}
+
+  .empty{color:var(--faint);font-size:13.5px;text-align:center;padding:30px 0}
+  .soonnote{color:var(--faint);font-size:12px;text-align:center;margin-top:22px}
+
+  .meta{color:var(--faint);font-size:12px;text-align:center;margin-top:26px}
+
+  footer{border-top:1px solid var(--line2);padding:34px 0;text-align:center;color:var(--faint);font-size:11.5px}
+  footer .foot-links{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 14px;margin-bottom:10px}
+  footer .foot-links a{color:var(--dim);border:none}
+  footer .foot-links a:hover{color:#fff}
+
+  @media (max-width:680px){
+    .hero{padding:40px 0 18px}
+    .tr{gap:8px 12px;padding:13px 14px}
+    .tr .tr-sym{min-width:0}
+    .tr .tr-setup{flex:1 1 100%}
+    .tr .tr-conv{min-width:120px}
+    .tr .tr-when{text-align:left}
+  }
+</style>
+</head>
+<body>
+<div class="fx" aria-hidden="true"></div>
+
+<header>
+  <div class="bar">
+    <a class="brand" href="index.html"><img src="emblem.png" alt="NEVA ALGO" /></a>
+    <a class="back" href="index.html">Back to site →</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="hero">
+    <div class="kicker">Activity Log</div>
+    <h1>Track record</h1>
+    <div class="sub">A running log of recent signal <b>activity</b> from the engine — the symbols, setups and conviction it flagged. This is activity, <b>not performance</b>.</div>
+  </div>
+</div>
+
+<main>
+<div class="wrap">
+  <div class="doc">
+
+    <div class="honest">
+      <span class="dot" aria-hidden="true"></span>
+      <p>This page shows <b>recent signal activity</b>, not trading results. <b>No win-rate, profit, or return claims</b> are made or implied — we do not have access to anyone's trades. Every signal describes <b>market structure and analysis</b>, long / buy-only spot, and is <b>not financial advice</b>. <b>Analysis, not advice. DYOR.</b></p>
+    </div>
+
+    <div class="sumline" id="sumline"></div>
+
+    <div class="tr-list" id="trackList">
+      <div class="empty">Loading recent activity…</div>
+    </div>
+
+    <div class="soonnote" id="soonNote" style="display:none">Outcome tracking coming soon — for now this is a live activity feed of flagged setups.</div>
+
+    <div class="meta">© 2026 NEVA ALGO. All rights reserved. · Analysis, not advice. DYOR. · Spot / long-only.</div>
+  </div>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="index.html">Home</a>
+      <a href="disclaimer.html">Full Disclaimer</a>
+      <a href="index.html#how">How to join</a>
+      <a href="index.html#pricing">Membership</a>
+      <a href="https://t.me/nevaalgo_bot" target="_blank" rel="noopener">@nevaalgo_bot</a>
+    </div>
+    <div>© 2026 NEVA ALGO — Smart-Money Market Engine.</div>
+  </div>
+</footer>
+
+<script>
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+  function clamp(n){ n=Number(n); if(!isFinite(n)) return 0; return Math.max(0,Math.min(100,n)); }
+
+  // Relative "when" from a ts (ms or ISO). Empty if not provided.
+  function whenStr(ts){
+    if(ts==null||ts==='') return '';
+    let ms = typeof ts==='number' ? ts : Date.parse(ts);
+    if(!isFinite(ms)) return '';
+    const diff = Date.now()-ms;
+    if(diff < 0) return 'just now';
+    const m=Math.floor(diff/60000), h=Math.floor(diff/3600000), d=Math.floor(diff/86400000);
+    if(m < 1) return 'just now';
+    if(m < 60) return m+'m ago';
+    if(h < 24) return h+'h ago';
+    if(d < 30) return d+'d ago';
+    return new Date(ms).toISOString().slice(0,10);
+  }
+
+  function row(s){
+    const conv = clamp(s.conv);
+    const dir = esc(s.dir||'LONG');
+    const when = whenStr(s.ts);
+    const statusRaw = (s.status||'Active');
+    const statusCls = /active/i.test(statusRaw) ? 'active' : '';
+    return '<div class="tr">'
+      + '<span class="tr-sym">'+esc(s.sym)+'</span>'
+      + '<span class="tr-mkt">'+esc(s.mkt||'')+'</span>'
+      + '<span class="tr-setup">'+esc(s.setup||'')+'</span>'
+      + '<span class="tr-dir">'+dir+'</span>'
+      + '<span class="tr-conv"><span class="tr-bar"><i style="width:'+Math.max(6,conv)+'%"></i></span>'
+      +   '<span class="tr-val">'+conv+'<span style="color:var(--faint)">/100</span></span></span>'
+      + (when ? '<span class="tr-when">'+esc(when)+'</span>' : '')
+      + '<span class="tr-status '+statusCls+'">'+esc(statusRaw)+'</span>'
+      + '</div>';
+  }
+
+  fetch('stats.json?_='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(d=>{
+    const list=document.getElementById('trackList');
+    const sum=document.getElementById('sumline');
+    const soon=document.getElementById('soonNote');
+
+    // summary line (honest coverage metrics only — never performance)
+    const bits=[];
+    if(d.signalsDelivered!=null) bits.push('<span>Signals logged <b>'+esc(d.signalsDelivered)+'</b></span>');
+    if(d.marketsScanned!=null)   bits.push('<span>Markets scanned <b>'+esc(d.marketsScanned)+'</b></span>');
+    if(d.avgConviction!=null)    bits.push('<span>Avg conviction <b>'+esc(d.avgConviction)+'</b></span>');
+    if(d.updatedAt!=null)        bits.push('<span>Updated <b>'+esc(typeof d.updatedAt==='number'?new Date(d.updatedAt).toISOString().slice(0,10):d.updatedAt)+'</b></span>');
+    sum.innerHTML = bits.join('');
+
+    // PRIMARY: a dedicated track[] of recent signals; FALLBACK: recent[] activity.
+    let rows = Array.isArray(d.track) ? d.track : null;
+    if(!rows || !rows.length){
+      rows = Array.isArray(d.recent) ? d.recent : [];
+      if(rows.length) soon.style.display='';   // show "outcomes coming soon" on the fallback path
+    }
+
+    if(rows.length){
+      list.innerHTML = rows.map(row).join('');
+    }else{
+      list.innerHTML = '<div class="empty">No recent activity to show yet — check back soon.</div>';
+    }
+  }).catch(()=>{
+    document.getElementById('trackList').innerHTML =
+      '<div class="empty">Couldn\'t load activity right now. Please try again shortly.</div>';
+  });
+</script>
+
+</body>
+</html>

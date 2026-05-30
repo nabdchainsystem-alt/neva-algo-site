@@ -1,0 +1,21 @@
+{
+  "_comment": "Placeholder. updatedAt:0 forces the site to treat this as stale and use live feeds until the VPS cron overwrites this file with a fresh ms timestamp + real prices.",
+  "updatedAt": 0,
+  "crypto": [
+    { "sym": "BTC",  "px": 68420.50, "ch": 1.24 },
+    { "sym": "ETH",  "px": 3580.12,  "ch": 0.86 },
+    { "sym": "BNB",  "px": 612.40,   "ch": -0.42 },
+    { "sym": "SOL",  "px": 168.30,   "ch": 2.11 },
+    { "sym": "XRP",  "px": 0.5240,   "ch": -1.03 },
+    { "sym": "ADA",  "px": 0.4480,   "ch": 0.57 },
+    { "sym": "NEAR", "px": 5.92,     "ch": 1.78 },
+    { "sym": "LINK", "px": 14.36,    "ch": -0.64 }
+  ],
+  "stocks": [
+    { "sym": "AAPL",   "mkt": "US", "px": 212.45, "ch": 0.38 },
+    { "sym": "MSFT",   "mkt": "US", "px": 451.20, "ch": -0.21 },
+    { "sym": "NVDA",   "mkt": "US", "px": 134.80, "ch": 1.92 },
+    { "sym": "HSBA.L", "mkt": "UK", "px": 6.92,   "ch": 0.44 },
+    { "sym": "7203.T", "mkt": "JP", "px": 2780.00, "ch": -0.55 }
+  ]
+}

@@ -500,6 +500,7 @@
       <a href="#features">Engine</a>
       <a href="#signal">Signals</a>
       <a href="#performance">Live</a>
+      <a href="trackrecord.html">Track record</a>
       <a href="#pricing">Pricing</a>
       <a href="#how">How to join</a>
       <a class="btn subscribe" onclick="openPay()">Subscribe</a>
@@ -624,7 +625,7 @@
 <section id="pricing" class="wrap">
   <div class="h">Membership</div>
   <div class="plans tiers">
-    <div class="plan best">
+    <div class="plan best" data-tier="standard" data-status="live" data-price="9.99">
       <div class="badge">50% OFF · LAUNCH</div>
       <div class="name">Standard</div>
       <div class="price"><s style="font-size:20px;color:var(--faint)">$19.99</s> $9.99<small>/mo</small></div>
@@ -637,7 +638,7 @@
       </ul>
       <a class="btn" style="width:100%" onclick="openPay()">Subscribe with BNB</a>
     </div>
-    <div class="plan soon">
+    <div class="plan soon" data-tier="pro" data-status="soon" data-price="39">
       <div class="badge soon-badge">COMING SOON</div>
       <div class="name">Pro</div>
       <div class="price">$39<small>/mo</small></div>
@@ -651,7 +652,7 @@
       </ul>
       <button class="btn soon-btn" disabled>Coming soon</button>
     </div>
-    <div class="plan soon">
+    <div class="plan soon" data-tier="elite" data-status="soon" data-price="99">
       <div class="badge soon-badge alt">COMING SOON</div>
       <div class="name">Elite</div>
       <div class="price">$99<small>/mo</small></div>
@@ -721,6 +722,7 @@
     <p class="foot-dis">Trading &amp; investing are risky and many will lose money in connection with trading and investing activities. All content on this site is not intended to, and should not be, construed as financial advice. NEVA ALGO provides algorithmic technical-analysis tools and market signals for educational and informational purposes only — not buy/sell recommendations. Decisions to buy, sell, hold or trade any asset involve risk and are best made with the advice of qualified financial professionals. Past or hypothetical performance does not guarantee future results. This is only a summary — please read our <a href="disclaimer.html">full disclaimer</a>.</p>
     <div class="foot-links">
       <a href="disclaimer.html">Full Disclaimer</a>
+      <a href="trackrecord.html">Track record</a>
       <a href="#how">How to join</a>
       <a href="#pricing">Membership</a>
       <a href="https://t.me/nevaalgo_bot" target="_blank" rel="noopener">@nevaalgo_bot</a>
@@ -918,15 +920,29 @@
       return d.map(c=>({sym:(c.symbol||'').toUpperCase(), img:c.image, px:c.current_price, ch:c.price_change_percentage_24h}));
     }catch(e){ return []; }
   }
-  async function loadTicker(){
-    const track=document.getElementById('tickerTrack');
-    const band=document.getElementById('ticker');
-    if(!track) return;
-    const [crypto, stocks] = await Promise.all([
-      tkCrypto(),
-      Promise.all(TK_STOCKS.map(([s,m])=>tkStock(s,m))).then(a=>a.filter(Boolean))
-    ]);
-    // interleave a few stocks among the crypto so both show early in the loop
+  // ── PRIMARY source: same-origin markets.json the VPS engine publishes on a cron.
+  // Schema: { updatedAt:<ms>, crypto:[{sym,px,ch}], stocks:[{sym,mkt,px,ch}] }
+  // We only trust it if it's fresh (updatedAt within MARKETS_MAX_AGE_MS); otherwise
+  // a stale committed placeholder is ignored and we fall back to live feeds.
+  const MARKETS_MAX_AGE_MS = 30*60*1000;   // 30 minutes
+  async function tkMarketsFile(){
+    try{
+      const r=await fetch('markets.json?_='+Date.now(),{cache:'no-store'});
+      if(!r.ok) return null;
+      const d=await r.json();
+      const ts=Number(d&&d.updatedAt);
+      if(!ts || (Date.now()-ts) > MARKETS_MAX_AGE_MS) return null;   // missing/stale → fall back
+      const crypto=Array.isArray(d.crypto)?d.crypto:[];
+      const stocks=Array.isArray(d.stocks)?d.stocks:[];
+      // normalise to ticker items (no icon URL → tkRow uses the monogram chip fallback)
+      const mapC=crypto.map(c=>({sym:String(c.sym||'').toUpperCase(), px:Number(c.px), ch:Number(c.ch)}));
+      const mapS=stocks.map(s=>({sym:String(s.sym||'').replace(/\.(L|T|AX)$/,''), mkt:s.mkt, px:Number(s.px), ch:Number(s.ch)}));
+      const items=interleave(mapC.filter(i=>i.px), mapS.filter(i=>i.px));
+      return items.length ? items : null;
+    }catch(e){ return null; }
+  }
+  // Interleave crypto + stocks so both appear early in the loop.
+  function interleave(crypto, stocks){
     const items=[];
     const maxLen=Math.max(crypto.length, stocks.length);
     let ci=0, si=0;
@@ -935,7 +951,23 @@
       if(i%3===2 && si<stocks.length){ items.push(stocks[si++]); }
     }
     while(si<stocks.length) items.push(stocks[si++]);
-    if(!items.length){ if(band) band.style.display='none'; return; }
+    return items;
+  }
+  async function tkLive(){
+    const [crypto, stocks] = await Promise.all([
+      tkCrypto(),
+      Promise.all(TK_STOCKS.map(([s,m])=>tkStock(s,m))).then(a=>a.filter(Boolean))
+    ]);
+    return interleave(crypto, stocks);
+  }
+  async function loadTicker(){
+    const track=document.getElementById('tickerTrack');
+    const band=document.getElementById('ticker');
+    if(!track) return;
+    // 1) try the fresh published file first; 2) otherwise fall back to live feeds.
+    let items = await tkMarketsFile();
+    if(!items) items = await tkLive();
+    if(!items || !items.length){ if(band) band.style.display='none'; return; }
     const html=items.map(tkRow).join('');
     track.innerHTML=html+html;                 // duplicate → seamless loop
     track.style.animationDuration=(items.length*3)+'s';
