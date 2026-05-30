@@ -93,7 +93,7 @@
 
   /* features grid */
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
-  .card{background:var(--panel);border:1px solid var(--line2);border-radius:6px;padding:18px}
+  .card{background:var(--panel);border:1px solid var(--line2);border-radius:6px;padding:18px;text-align:center}
   .card:hover{border-color:var(--line)}
   .card h3{color:var(--cyan);font-size:15px;margin-bottom:6px}
   .card p{color:var(--dim);font-size:13.5px}
@@ -113,11 +113,11 @@
 
   /* steps */
   .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;counter-reset:s}
-  .step{background:var(--panel);border:1px solid var(--line2);border-radius:6px;padding:18px;position:relative}
+  .step{background:var(--panel);border:1px solid var(--line2);border-radius:6px;padding:18px;position:relative;text-align:center}
   .step::before{counter-increment:s;content:counter(s);color:var(--silver);background:rgba(255,255,255,.06);
     border:1px solid var(--line2);width:24px;height:24px;font-size:12px;position:absolute;top:14px;right:14px;
     border-radius:50%;display:grid;place-items:center;font-weight:700}
-  .step .step-ico{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;margin-bottom:12px;
+  .step .step-ico{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;margin:0 auto 12px;
     background:radial-gradient(120% 120% at 30% 20%,rgba(255,255,255,.12),rgba(255,255,255,.03));
     border:1px solid var(--line2);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 6px 18px rgba(0,0,0,.35)}
   .step .step-ico svg{width:24px;height:24px;stroke:var(--silver);fill:none;stroke-width:1.6;
@@ -156,7 +156,13 @@
   .faq details[open] summary::before{content:"− "}
   .faq p{color:var(--dim);padding:0 0 14px;font-size:13.5px}
 
-  footer{border-top:1px solid var(--line2);padding:30px 0;color:var(--faint);font-size:12px;text-align:center}
+  footer{border-top:1px solid var(--line2);padding:40px 0;color:var(--faint);font-size:12px;text-align:center}
+  footer .foot-logo{height:30px;width:auto;opacity:.9;margin-bottom:14px}
+  footer .foot-dis{max-width:760px;margin:0 auto 16px;color:var(--faint);font-size:11.5px;line-height:1.8;text-align:center}
+  footer .foot-links{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 14px;margin-bottom:12px}
+  footer .foot-links a{color:var(--dim)}
+  footer .foot-links a:hover{color:#fff}
+  footer .foot-copy{color:var(--faint);font-size:11px}
 
   /* modal */
   .modal{position:fixed;inset:0;background:rgba(0,0,0,.8);display:none;place-items:center;z-index:100;padding:20px}
@@ -236,6 +242,8 @@
   .feed .sym{color:var(--cyan);font-weight:700}
   .feed .conv{color:var(--gold)}
   .feed .dir{color:var(--green);font-weight:700;font-size:12px}
+  .feed .row-meta{color:var(--faint)}
+  .feed .row-side{white-space:nowrap}
   /* conviction mini-bar in the feed */
   .feed .bar{height:4px;border-radius:3px;background:var(--line2);overflow:hidden;flex:0 0 64px;margin-left:8px}
   .feed .bar i{display:block;height:100%;background:linear-gradient(90deg,#e7ebf2,#8f9bb0)}
@@ -347,19 +355,37 @@
     .wrap{padding-left:16px;padding-right:16px}
     .h{gap:9px;font-size:12px;letter-spacing:2px}
     .h::before,.h::after{flex:0 0 26px}
-    /* live signal cards: stack one per row */
-    .sigcards{display:grid !important;grid-template-columns:1fr !important;gap:14px}
-    /* membership tiers: swipe, with top room so the badge isn't clipped */
-    .tiers{display:flex !important;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;
-      padding:18px 6px 14px;-webkit-overflow-scrolling:touch}
-    .tiers .plan{flex:0 0 86% !important;scroll-snap-align:center;max-width:none;transform:none}
+
+    /* engine feature cards: simple centered single column (no swipe) */
+    .grid{grid-template-columns:1fr !important}
+
+    /* one card per screen, swipe to the next */
+    .sigcards,.tiers,.steps,.stats{
+      display:flex !important;grid-template-columns:none !important;
+      overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+      gap:14px;padding:6px 0 12px;scroll-padding-left:0}
+    .sigcards::-webkit-scrollbar,.tiers::-webkit-scrollbar,
+    .steps::-webkit-scrollbar,.stats::-webkit-scrollbar{display:none}
+    .sigcards>.sigcard,.steps>.step{
+      flex:0 0 86% !important;max-width:86% !important;scroll-snap-align:center}
+    /* membership: top room so the badge isn't clipped */
+    .tiers{padding-top:18px}
+    .tiers>.plan{flex:0 0 86% !important;max-width:86% !important;scroll-snap-align:center;transform:none}
     .plan.best{transform:none}
-    /* performance stat cards: swipe */
-    .stats{display:flex !important;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;
-      padding-bottom:10px;-webkit-overflow-scrolling:touch}
-    .stats .stat{flex:0 0 58% !important;scroll-snap-align:center}
-    /* recent feed rows: clean wrap, value stays right */
-    .feed .row{flex-wrap:wrap;gap:2px 10px}
+    /* performance stats: one big stat per screen */
+    .stats>.stat{flex:0 0 80% !important;max-width:80% !important;scroll-snap-align:center}
+
+    /* recent feed: clean centered two-line blocks (no overlapping wrap) */
+    .feed .row{flex-direction:column;align-items:center;text-align:center;gap:5px;flex-wrap:nowrap}
+    .feed .row-side{font-size:13px}
+
+    /* how-to-join walkthrough: centered content, stacked & centered buttons */
+    #how .walk summary{justify-content:center;text-align:center}
+    #how ol{text-align:left;max-width:520px;margin-left:auto;margin-right:auto}
+    #how .addr{margin-left:auto;margin-right:auto}
+    #how [style*="display:flex"]{justify-content:center !important;text-align:center}
+    #how .btn{width:100%;text-align:center;justify-content:center}
+
     .dash-body{padding:12px}
     .dash-head{font-size:11px}
     .vitals{white-space:normal;font-size:11px;line-height:1.7}
@@ -543,8 +569,15 @@
 
 <footer>
   <div class="wrap">
-    <div><span style="color:var(--mag)">◆ NEVA ALGO</span> — Smart-Money Market Engine</div>
-    <p style="margin-top:8px">Algorithmic market analysis for education only — NOT financial advice. Markets carry risk; you can lose money. Do your own research. Trade at your own risk.</p>
+    <img src="logo.png" alt="NEVA ALGO" class="foot-logo" />
+    <p class="foot-dis">Trading &amp; investing are risky and many will lose money in connection with trading and investing activities. All content on this site is not intended to, and should not be, construed as financial advice. NEVA ALGO provides algorithmic technical-analysis tools and market signals for educational and informational purposes only — not buy/sell recommendations. Decisions to buy, sell, hold or trade any asset involve risk and are best made with the advice of qualified financial professionals. Past or hypothetical performance does not guarantee future results. This is only a summary — please read our <a href="disclaimer.html">full disclaimer</a>.</p>
+    <div class="foot-links">
+      <a href="disclaimer.html">Full Disclaimer</a>
+      <a href="#how">How to join</a>
+      <a href="#pricing">Membership</a>
+      <a href="https://t.me/nevaalgo_bot" target="_blank" rel="noopener">@nevaalgo_bot</a>
+    </div>
+    <div class="foot-copy">© 2026 NEVA ALGO. All rights reserved. · Analysis, not advice. DYOR. · Spot / long-only.</div>
   </div>
 </footer>
 
@@ -671,8 +704,8 @@
     const feed=document.getElementById('feed');
     if(feed && Array.isArray(d.recent)){
       feed.innerHTML = d.recent.map(s=>
-        `<div class="row"><span><span class="sym">${s.sym}</span> <span style="color:var(--faint)">· ${s.mkt} · ${s.setup}</span></span>`+
-        `<span><span class="dir">${s.dir}</span> · <span class="conv">${s.conv}</span><span style="color:var(--faint)">/100</span></span></div>`).join('');
+        `<div class="row"><span class="row-main"><span class="sym">${s.sym}</span> <span class="row-meta">· ${s.mkt} · ${s.setup}</span></span>`+
+        `<span class="row-side"><span class="dir">${s.dir}</span> · <span class="conv">${s.conv}</span><span class="row-meta">/100</span></span></div>`).join('');
     }
     // top 3 real signals as the hero "live signals" cards
     const sc=document.getElementById('sigcards');
