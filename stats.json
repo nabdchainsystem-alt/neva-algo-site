@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-05-30",
-  "signalsDelivered": 53,
+  "signalsDelivered": 76,
   "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 70
+    },
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 61
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 68
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 63
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 1.3461,
+      "target": 1.3661,
+      "stop": 1.33808085,
+      "ts": 1780162529208,
+      "status": "active"
+    },
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 61,
+      "entry": 703.12,
+      "target": 714.05,
+      "stop": 697.57532,
+      "ts": 1780162529208,
+      "status": "active"
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -396,30 +420,6 @@
       "target": 86.70625114,
       "stop": 84.83159908676147,
       "ts": 1780156390793,
-      "status": "active"
-    },
-    {
-      "sym": "9432.T",
-      "mkt": "Tokyo",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 149.5,
-      "target": 151.1000061,
-      "stop": 148.3757561035156,
-      "ts": 1780156390793,
-      "status": "active"
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 68,
-      "entry": 0.10131,
-      "target": 0.101785,
-      "stop": 0.10094803499999999,
-      "ts": 1780156321506,
       "status": "active"
     }
   ]
