@@ -56,8 +56,8 @@
   .sub{color:var(--dim);letter-spacing:6px;margin-top:14px;font-size:13px;text-transform:uppercase}
   .tag{margin-top:26px;font-size:clamp(16px,2.4vw,22px);color:var(--txt)}
   .tag b{color:var(--cyan)}
-  .vitals{margin-top:18px;color:var(--faint);font-size:13px}
-  .vitals span{color:var(--green)}
+  .vitals{margin-top:18px;color:#c6cbd4;font-size:13px}
+  .vitals span{color:var(--silver);font-weight:700}
   .cta{margin-top:34px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
   .disc-top{margin-top:18px;color:var(--faint);font-size:12px}
   .launch{margin-top:30px;display:inline-block;border:1px solid var(--gold);border-radius:20px;
@@ -260,7 +260,8 @@
   .card,.step,.plan,.stat,.signal,.sigcard,.dash-body,.dash-head,.feed .row,.addr,.countdown .cd-unit{
     background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.012));
     border:1px solid rgba(255,255,255,.08);backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
-  .card,.step,.stat,.plan,.sigcard{position:relative;overflow:hidden;border-radius:12px}
+  .card,.step,.stat,.sigcard{position:relative;overflow:hidden;border-radius:12px}
+  .plan{position:relative;overflow:visible;border-radius:12px}
   .card::before,.stat::before,.sigcard::before{content:"";position:absolute;top:0;left:18px;right:18px;height:1px;
     background:linear-gradient(90deg,transparent,rgba(223,228,236,.45),transparent)}
   .card:hover,.step:hover,.stat:hover,.sigcard:hover{border-color:rgba(223,228,236,.26);
@@ -310,7 +311,7 @@
     <img class="hero-logo" src="logo.png" alt="NEVA ALGO" />
     <div class="wordmark">NEVA&nbsp;ALGO</div>
     <div class="tag">See what <b>market makers</b> see — across <b>crypto</b> &amp; <b>global stocks</b>.</div>
-  <div class="vitals">liquidity sweeps · order blocks · FVG · BOS/CHoCH · premium/discount &nbsp;·&nbsp; <span>long / buy-only</span></div>
+  <div class="vitals">liquidity sweeps · order blocks · FVG · BOS/CHoCH · premium/discount &nbsp;·&nbsp; <span>spot buys only — no futures, no gambling</span></div>
   <div class="launch">🔥 LAUNCH OFFER · 50% OFF FIRST MONTH · <s style="color:var(--faint)">$19.99</s> <b style="color:var(--gold)">$9.99</b></div>
   <div class="countdown" id="countdown" aria-live="polite"></div>
   <div class="cta">
