@@ -160,18 +160,35 @@
   .step-note{color:var(--faint);font-size:12px;text-align:center;margin-top:12px}
 
   /* ===== Futuristic FX ===== */
-  /* animated aurora + grid background (fixed, behind everything) */
-  .fx{position:fixed;inset:0;z-index:-2;overflow:hidden;background:#000}
-  .fx .blob{position:absolute;width:60vw;height:60vw;border-radius:50%;filter:blur(90px);opacity:.16;mix-blend-mode:screen}
-  .fx .b1{background:#e069e0;top:-20vw;left:-10vw;animation:drift1 26s ease-in-out infinite}
-  .fx .b2{background:#34d3e6;bottom:-25vw;right:-10vw;animation:drift2 32s ease-in-out infinite}
-  .fx .b3{background:#5b6bff;top:30vh;left:40vw;width:40vw;height:40vw;animation:drift3 38s ease-in-out infinite}
-  .fx .grid{position:absolute;inset:0;opacity:.06;
-    background-image:linear-gradient(#5f87af 1px,transparent 1px),linear-gradient(90deg,#5f87af 1px,transparent 1px);
-    background-size:46px 46px;mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 30%,transparent 75%)}
-  @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(8vw,6vh)}}
-  @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-7vw,-5vh)}}
-  @keyframes drift3{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-5vw,4vh) scale(1.1)}}
+  /* cinematic cosmic-landscape background (fixed, behind everything) */
+  .fx{position:fixed;inset:0;z-index:-2;overflow:hidden;
+    background:radial-gradient(ellipse 65% 55% at 50% 104%, #1b2236 0%, #0a0d16 38%, #000 72%)}
+  /* starfield: two tiled, twinkling layers for depth */
+  .stars,.stars2{position:absolute;inset:0;background-repeat:repeat}
+  .stars{background-image:
+    radial-gradient(1.3px 1.3px at 12% 18%,#fff,transparent),radial-gradient(1px 1px at 28% 42%,#cfe0ff,transparent),
+    radial-gradient(1.4px 1.4px at 55% 12%,#fff,transparent),radial-gradient(1px 1px at 72% 33%,#fff,transparent),
+    radial-gradient(1px 1px at 86% 22%,#cdd9ff,transparent),radial-gradient(1.2px 1.2px at 40% 28%,#fff,transparent),
+    radial-gradient(1px 1px at 8% 60%,#fff,transparent),radial-gradient(1px 1px at 92% 52%,#fff,transparent),
+    radial-gradient(1.3px 1.3px at 62% 48%,#fff,transparent);
+    background-size:540px 540px;opacity:.6;animation:tw 5.5s ease-in-out infinite alternate}
+  .stars2{background-image:
+    radial-gradient(1px 1px at 18% 25%,#fff,transparent),radial-gradient(1px 1px at 65% 16%,#fff,transparent),
+    radial-gradient(1px 1px at 80% 38%,#fff,transparent),radial-gradient(1px 1px at 33% 55%,#fff,transparent),
+    radial-gradient(1px 1px at 50% 8%,#fff,transparent),radial-gradient(1px 1px at 5% 35%,#fff,transparent);
+    background-size:360px 360px;opacity:.4;animation:tw 8s ease-in-out infinite alternate}
+  @keyframes tw{from{opacity:.28}to{opacity:.62}}
+  /* glowing horizon (sunrise between the peaks) */
+  .horizon{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:150%;height:62%;
+    background:radial-gradient(ellipse 40% 100% at 50% 100%, rgba(205,220,255,.34), rgba(120,150,235,.09) 36%, transparent 66%);filter:blur(2px)}
+  /* mountains + flowing contour waves */
+  .scene{position:absolute;inset:0;width:100%;height:100%}
+  .scene .wave{stroke:rgba(170,195,255,.16);fill:none;stroke-width:1;animation:wavedrift 20s linear infinite}
+  .scene .wave:nth-child(even){animation-duration:28s;stroke:rgba(150,180,255,.12)}
+  .scene .ridge-far{fill:#0d121d}
+  .scene .ridge-near{fill:#04060a}
+  @keyframes wavedrift{from{transform:translateX(0)}to{transform:translateX(-60px)}}
+  @media (prefers-reduced-motion:reduce){.stars,.stars2,.scene .wave{animation:none}}
 
   /* scroll-reveal */
   .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
@@ -231,7 +248,25 @@
 <body>
 
 <!-- animated futuristic background -->
-<div class="fx" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="grid"></div></div>
+<div class="fx" aria-hidden="true">
+  <div class="stars"></div>
+  <div class="stars2"></div>
+  <div class="horizon"></div>
+  <svg class="scene" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMax slice">
+    <!-- flowing topographic contour waves near the horizon -->
+    <g>
+      <path class="wave" d="M-120,600 C 240,580 480,618 760,596 S 1320,604 1600,592"/>
+      <path class="wave" d="M-120,628 C 260,606 520,644 800,620 S 1340,632 1600,618"/>
+      <path class="wave" d="M-120,656 C 220,636 500,672 780,650 S 1360,660 1600,648"/>
+      <path class="wave" d="M-120,684 C 280,664 540,700 820,678 S 1320,690 1600,676"/>
+      <path class="wave" d="M-120,712 C 240,694 500,728 760,706 S 1360,718 1600,704"/>
+      <path class="wave" d="M-120,740 C 280,722 540,756 820,734 S 1320,746 1600,732"/>
+    </g>
+    <!-- mountain ridges (far behind, near in front) -->
+    <path class="ridge-far" d="M0,648 L120,560 L210,612 L320,498 L430,582 L560,468 L680,560 L820,498 L980,418 L1120,540 L1260,476 L1380,560 L1440,520 L1440,900 L0,900 Z"/>
+    <path class="ridge-near" d="M0,724 L160,662 L300,712 L460,640 L620,702 L780,650 L940,712 L1120,660 L1300,722 L1440,680 L1440,900 L0,900 Z"/>
+  </svg>
+</div>
 
 <header>
   <div class="wrap bar">
