@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-05-30",
-  "signalsDelivered": 90,
+  "signalsDelivered": 93,
   "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PG",
+      "mkt": "US",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
+    {
+      "sym": "ABT",
+      "mkt": "US",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 60
+    },
+    {
+      "sym": "9432.T",
+      "mkt": "Tokyo",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 60
+    },
     {
       "sym": "WLDUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 92
-    },
+    }
+  ],
+  "track": [
     {
       "sym": "PG",
       "mkt": "US",
-      "dir": "LONG",
       "setup": "Order Block Tap",
-      "conv": 62
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 143.55999755859375,
+      "target": 145.01996404,
+      "stop": 142.42465939331055,
+      "ts": 1780165386960,
+      "status": "active"
     },
     {
       "sym": "ABT",
       "mkt": "US",
-      "dir": "LONG",
       "setup": "CHoCH Reversal",
-      "conv": 60
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 85.5999984741211,
+      "target": 86.70625114,
+      "stop": 84.83159908676147,
+      "ts": 1780165386960,
+      "status": "active"
     },
     {
       "sym": "9432.T",
       "mkt": "Tokyo",
-      "dir": "LONG",
       "setup": "CHoCH Reversal",
-      "conv": 60
-    }
-  ],
-  "track": [
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 149.5,
+      "target": 151.1000061,
+      "stop": 148.3757561035156,
+      "ts": 1780165386960,
+      "status": "active"
+    },
     {
       "sym": "WLDUSDT",
       "mkt": "Crypto",
@@ -384,42 +420,6 @@
       "target": 0.3601,
       "stop": 0.3359876,
       "ts": 1780160077347,
-      "status": "active"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 63,
-      "entry": 1.3479,
-      "target": 1.3661,
-      "stop": 1.33807815,
-      "ts": 1780160077347,
-      "status": "active"
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 0.3492,
-      "target": 0.3573357,
-      "stop": 0.3437762,
-      "ts": 1780159211871,
-      "status": "active"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 68,
-      "entry": 0.3439,
-      "target": 0.3601,
-      "stop": 0.33598415000000004,
-      "ts": 1780158764048,
       "status": "active"
     }
   ]
