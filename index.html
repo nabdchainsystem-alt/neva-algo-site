@@ -49,7 +49,7 @@
   .logo .dia{color:var(--mag);display:inline-block;line-height:1}
   .logomark{width:clamp(110px,15vw,168px);height:auto;display:inline-block;
     filter:drop-shadow(0 0 26px rgba(210,220,236,.40))}
-  .wordmark{font-size:clamp(52px,12vw,132px);font-weight:800;letter-spacing:.14em;line-height:1;margin-top:22px;
+  .wordmark{font-size:clamp(34px,6vw,62px);font-weight:800;letter-spacing:.22em;line-height:1;margin-top:14px;
     background:linear-gradient(92deg,#ffffff,#b3bccb 60%,#8f9bb0);
     -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;
     filter:drop-shadow(0 0 30px rgba(210,220,236,.30))}
@@ -167,13 +167,11 @@
   .fx{position:fixed;inset:0;z-index:-2;background:#000 url('extended.jpg') no-repeat center center;background-size:cover}
   .fx::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom, rgba(0,0,0,.55), rgba(0,0,0,.82) 55%, #000 100%)}
 
-  /* ===== Hero — full-width art banner (extends edge-to-edge), content below ===== */
-  .hero{position:relative;background:#000;text-align:center;padding:0 0 54px}
-  .hero-art{display:block;width:100%;height:auto;margin:0 auto}
-  /* fade the art's bottom edge into black so it blends seamlessly into the page */
-  .hero::after{content:"";position:absolute;left:0;right:0;top:0;height:100%;pointer-events:none;z-index:1;
-    background:linear-gradient(to bottom, transparent 78%, rgba(0,0,0,.6) 92%, #000 100%)}
-  .hero-content{position:relative;z-index:2;max-width:880px;margin:-2% auto 0;padding:0 22px;width:100%}
+  /* ===== Hero — transparent so the cosmic background shows through; logo + name ===== */
+  .hero{position:relative;text-align:center;padding:88px 22px 64px;background:transparent}
+  .hero-logo{width:clamp(88px,10vw,138px);height:auto;display:inline-block;
+    filter:drop-shadow(0 0 38px rgba(220,228,240,.32))}
+  .hero-content{position:relative;z-index:2;max-width:880px;margin:0 auto;width:100%}
   .hero-subscribe{position:absolute;top:18px;right:22px;z-index:3}
 
   /* scroll-reveal */
@@ -252,8 +250,7 @@
     .tiers .plan{flex:0 0 84%;scroll-snap-align:center;max-width:none}
     .dash-body{padding:12px}
     #how ol{padding-left:18px}
-    .hero{padding-bottom:36px}
-    .hero-content{margin-top:6px}
+    .hero{padding:60px 18px 36px}
     .hero-subscribe{top:14px;right:14px;padding:7px 16px;font-size:12px}
     .sigcards{grid-template-columns:1fr}
   }
@@ -309,8 +306,9 @@
 <!-- HERO — the art (emblem + NEVA ALGO wordmark) fills the screen; content sits below -->
 <section class="hero">
   <a class="hero-subscribe btn subscribe" onclick="openPay()">Subscribe</a>
-  <img class="hero-art" src="hero.jpg" alt="NEVA ALGO — Smart-Money Market Engine" />
   <div class="hero-content">
+    <img class="hero-logo" src="logo.png" alt="NEVA ALGO" />
+    <div class="wordmark">NEVA&nbsp;ALGO</div>
     <div class="tag">See what <b>market makers</b> see — across <b>crypto</b> &amp; <b>global stocks</b>.</div>
   <div class="vitals">liquidity sweeps · order blocks · FVG · BOS/CHoCH · premium/discount &nbsp;·&nbsp; <span>long / buy-only</span></div>
   <div class="launch">🔥 LAUNCH OFFER · 50% OFF FIRST MONTH · <s style="color:var(--faint)">$19.99</s> <b style="color:var(--gold)">$9.99</b></div>
@@ -584,8 +582,7 @@
     if(feed && Array.isArray(d.recent)){
       feed.innerHTML = d.recent.map(s=>
         `<div class="row"><span><span class="sym">${s.sym}</span> <span style="color:var(--faint)">· ${s.mkt} · ${s.setup}</span></span>`+
-        `<span style="display:flex;align-items:center"><span class="dir">${s.dir}</span> · <span class="conv">${s.conv}</span>/100`+
-        `<span class="bar"><i style="width:${Math.max(4,Math.min(100,s.conv))}%"></i></span></span></div>`).join('');
+        `<span><span class="dir">${s.dir}</span> · <span class="conv">${s.conv}</span><span style="color:var(--faint)">/100</span></span></div>`).join('');
     }
     // top 3 real signals as the hero "live signals" cards
     const sc=document.getElementById('sigcards');
