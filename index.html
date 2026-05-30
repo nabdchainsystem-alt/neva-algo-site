@@ -56,7 +56,7 @@
   .sub{color:var(--dim);letter-spacing:6px;margin-top:14px;font-size:13px;text-transform:uppercase}
   .tag{margin-top:26px;font-size:clamp(16px,2.4vw,22px);color:var(--txt)}
   .tag b{color:var(--cyan)}
-  .vitals{margin-top:18px;color:#c6cbd4;font-size:13px}
+  .vitals{margin-top:18px;color:#c6cbd4;font-size:12px;white-space:nowrap}
   .vitals span{color:var(--silver);font-weight:700}
   .cta{margin-top:34px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
   .disc-top{margin-top:18px;color:var(--faint);font-size:12px}
@@ -172,7 +172,19 @@
   .hero-logo{width:clamp(230px,30vw,400px);height:auto;display:inline-block;
     filter:drop-shadow(0 0 44px rgba(220,228,240,.28))}
   .hero-content{position:relative;z-index:2;max-width:880px;margin:0 auto;width:100%}
-  .hero-subscribe{position:absolute;top:18px;right:22px;z-index:3}
+  .hero-subscribe{display:none}
+  /* scroll-reveal top bar */
+  .topbar{position:fixed;top:0;left:0;right:0;z-index:60;
+    background:rgba(6,8,11,.72);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+    border-bottom:1px solid rgba(255,255,255,.07);
+    transform:translateY(-110%);opacity:0;transition:transform .4s ease,opacity .4s ease;padding:8px 0}
+  .topbar.show{transform:translateY(0);opacity:1}
+  .tb-brand{display:flex;align-items:center}
+  .tb-logo{height:40px;width:auto;display:block}
+  .tb-nav{display:flex;align-items:center}
+  .tb-nav a{color:var(--dim);margin-left:20px;font-size:13px;letter-spacing:.5px}
+  .tb-nav a:hover{color:var(--silver)}
+  .tb-nav .btn.subscribe{margin-left:22px}
 
   /* scroll-reveal */
   .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
@@ -251,6 +263,10 @@
     .dash-body{padding:12px}
     #how ol{padding-left:18px}
     .hero{padding:60px 18px 36px}
+    .vitals{white-space:normal;font-size:11px}
+    .tb-nav a:not(.btn){display:none}
+    .tb-logo{height:32px}
+    .tb-nav .btn.subscribe{margin-left:0;padding:7px 16px;font-size:12px}
     .hero-subscribe{top:14px;right:14px;padding:7px 16px;font-size:12px}
     .sigcards{grid-template-columns:1fr}
   }
@@ -304,9 +320,23 @@
 <!-- extended cosmic-landscape page background (matches the hero art) -->
 <div class="fx" aria-hidden="true"></div>
 
-<!-- HERO — the art (emblem + NEVA ALGO wordmark) fills the screen; content sits below -->
-<section class="hero">
-  <a class="hero-subscribe btn subscribe" onclick="openPay()">Subscribe</a>
+<!-- Top bar — hidden over the hero, slides in once you scroll down -->
+<header class="topbar" id="topbar">
+  <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;max-width:1180px">
+    <a href="#top" class="tb-brand"><img src="logo.png" class="tb-logo" alt="NEVA ALGO" /></a>
+    <nav class="tb-nav">
+      <a href="#features">Engine</a>
+      <a href="#signal">Signals</a>
+      <a href="#performance">Live</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#how">How to join</a>
+      <a class="btn subscribe" onclick="openPay()">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO — logo + name over the cosmic background; content below -->
+<section class="hero" id="top">
   <div class="hero-content">
     <img class="hero-logo" src="logo.png" alt="NEVA ALGO" />
     <div class="tag">See what <b>market makers</b> see — across <b>crypto</b> &amp; <b>global stocks</b>.</div>
@@ -539,6 +569,13 @@
   document.getElementById('qrimg').src =
     "https://api.qrserver.com/v1/create-qr-code/?size=140x140&margin=0&data=" + encodeURIComponent(BNB_ADDRESS);
   document.getElementById('modal').addEventListener('click', e=>{ if(e.target.id==='modal') closePay(); });
+
+  // Reveal the top bar once the user scrolls past the hero logo.
+  (function(){
+    const bar=document.getElementById('topbar'); if(!bar) return;
+    const onScroll=()=>{ (window.scrollY||document.documentElement.scrollTop) > 360 ? bar.classList.add('show') : bar.classList.remove('show'); };
+    window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  })();
 
   /* ===== Futuristic FX: scroll-reveal + count-up + live feed ===== */
   // Auto-tag key blocks for reveal-on-scroll with a stagger.
