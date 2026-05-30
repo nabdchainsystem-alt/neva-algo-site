@@ -31,7 +31,7 @@
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
-  body{background:#000;color:var(--txt);font-family:var(--mono);font-size:15px;line-height:1.6;}
+  body{background:#000;color:var(--txt);font-family:var(--mono);font-size:15px;line-height:1.6;padding-bottom:46px}
   a{color:var(--cyan);text-decoration:none}
   .wrap{max-width:1060px;margin:0 auto;padding-left:22px;padding-right:22px}
   .frame{border-top:1px solid var(--line);opacity:.7}
@@ -356,9 +356,9 @@
   .feed .row:hover{border-color:rgba(223,228,236,.2)}
 
   /* ===== LIVE crypto ticker (news-style marquee) ===== */
-  .ticker{position:relative;display:flex;align-items:stretch;
-    border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);
-    background:rgba(0,0,0,.55);backdrop-filter:blur(6px);overflow:hidden}
+  .ticker{position:fixed;left:0;right:0;bottom:0;z-index:55;display:flex;align-items:stretch;
+    border-top:1px solid var(--line);background:rgba(6,8,12,.82);backdrop-filter:blur(10px);
+    overflow:hidden;box-shadow:0 -8px 30px rgba(0,0,0,.5)}
   .ticker-tag{flex:none;display:flex;align-items:center;gap:7px;padding:0 16px;z-index:3;
     font-size:11px;font-weight:800;letter-spacing:2px;color:var(--silver);
     background:linear-gradient(90deg,#0a0c10,rgba(10,12,16,.85));border-right:1px solid var(--line2)}
@@ -373,7 +373,10 @@
   .tk{display:flex;align-items:center;gap:8px;padding:11px 20px;white-space:nowrap;font-size:13px;
     border-right:1px solid var(--line2)}
   .tk img{width:18px;height:18px;border-radius:50%;flex:none;opacity:.95}
+  .tk .tk-mono{width:18px;height:18px;border-radius:5px;flex:none;display:grid;place-items:center;
+    font-size:9px;font-weight:800;color:#06080c;background:linear-gradient(135deg,#eef1f6,#aab2c0);letter-spacing:0}
   .tk .tk-sym{color:var(--silver);font-weight:700;letter-spacing:.4px}
+  .tk .tk-mkt{color:var(--faint);font-size:10px;letter-spacing:1px}
   .tk .tk-px{color:var(--txt)}
   .tk .tk-ch{font-weight:700;font-size:12px}
   .tk .up{color:var(--green)} .tk .down{color:var(--red)}
@@ -863,7 +866,7 @@
     }
   }).catch(()=>{});
 
-  /* ===== Live crypto ticker (top 50 by market cap, CoinGecko public API) ===== */
+  /* ===== Live markets ticker — crypto (CoinGecko) + global stocks (Yahoo via CORS proxy) ===== */
   function tkFmt(p){
     if(p==null) return '—';
     if(p>=1000) return p.toLocaleString('en-US',{maximumFractionDigits:0});
@@ -871,31 +874,75 @@
     if(p>=0.01) return p.toFixed(4);
     return p.toPrecision(2);
   }
-  function tkRow(c){
-    const ch=(c.price_change_percentage_24h==null)?0:c.price_change_percentage_24h;
-    const cls=ch>=0?'up':'down', arrow=ch>=0?'▲':'▼';
-    return `<div class="tk"><img src="${c.image}" alt="" loading="lazy">`+
-      `<span class="tk-sym">${(c.symbol||'').toUpperCase()}</span>`+
-      `<span class="tk-px">$${tkFmt(c.current_price)}</span>`+
+  function tkRow(it){
+    const ch=it.ch==null?0:it.ch, cls=ch>=0?'up':'down', arrow=ch>=0?'▲':'▼';
+    const icon = it.img
+      ? `<img src="${it.img}" alt="" loading="lazy">`
+      : `<span class="tk-mono">${(it.sym||'?').slice(0,2)}</span>`;
+    const mkt = it.mkt ? `<span class="tk-mkt">${it.mkt}</span>` : '';
+    return `<div class="tk">${icon}<span class="tk-sym">${it.sym}</span>${mkt}`+
+      `<span class="tk-px">$${tkFmt(it.px)}</span>`+
       `<span class="tk-ch ${cls}">${arrow} ${Math.abs(ch).toFixed(2)}%</span></div>`;
+  }
+  // curated global stocks (Yahoo symbols) — name shown + region tag
+  const TK_STOCKS=[
+    ['AAPL','US'],['MSFT','US'],['NVDA','US'],['TSLA','US'],['AMZN','US'],
+    ['GOOGL','US'],['META','US'],['AMD','US'],['SPY','US'],['QQQ','US'],
+    ['HSBA.L','UK'],['7203.T','JP']
+  ];
+  // CORS proxies tried in order (browser-side stock data is best-effort: Yahoo has no CORS + rate-limits)
+  const TK_PROXIES=[
+    u=>'https://api.allorigins.win/raw?url='+encodeURIComponent(u),
+    u=>'https://api.codetabs.com/v1/proxy/?quest='+encodeURIComponent(u),
+    u=>'https://corsproxy.io/?url='+encodeURIComponent(u)
+  ];
+  async function tkStock(sym,mkt){
+    const url=`https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=1d`;
+    for(const proxy of TK_PROXIES){
+      try{
+        const r=await fetch(proxy(url),{cache:'no-store'});
+        if(!r.ok) continue;
+        const m=(await r.json()).chart.result[0].meta;
+        const px=m.regularMarketPrice, prev=m.chartPreviousClose||m.previousClose;
+        if(px==null) continue;
+        return {sym:sym.replace(/\.(L|T|AX)$/,''), mkt, px, ch:prev?((px-prev)/prev*100):0};
+      }catch(e){ /* try next proxy */ }
+    }
+    return null;
+  }
+  async function tkCrypto(){
+    try{
+      const r=await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=40&page=1&price_change_percentage=24h',{cache:'no-store'});
+      if(!r.ok) throw 0;
+      const d=await r.json();
+      return d.map(c=>({sym:(c.symbol||'').toUpperCase(), img:c.image, px:c.current_price, ch:c.price_change_percentage_24h}));
+    }catch(e){ return []; }
   }
   async function loadTicker(){
     const track=document.getElementById('tickerTrack');
     const band=document.getElementById('ticker');
     if(!track) return;
-    try{
-      const r=await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&price_change_percentage=24h',{cache:'no-store'});
-      if(!r.ok) throw 0;
-      const d=await r.json();
-      if(!Array.isArray(d)||!d.length) throw 0;
-      const html=d.map(tkRow).join('');
-      track.innerHTML=html+html;                 // duplicate → seamless loop
-      track.style.animationDuration=(d.length*3)+'s';
-      if(band) band.style.display='';
-    }catch(e){ if(band) band.style.display='none'; }   // hide gracefully if blocked/offline
+    const [crypto, stocks] = await Promise.all([
+      tkCrypto(),
+      Promise.all(TK_STOCKS.map(([s,m])=>tkStock(s,m))).then(a=>a.filter(Boolean))
+    ]);
+    // interleave a few stocks among the crypto so both show early in the loop
+    const items=[];
+    const maxLen=Math.max(crypto.length, stocks.length);
+    let ci=0, si=0;
+    for(let i=0;i<maxLen*2 && (ci<crypto.length||si<stocks.length);i++){
+      if(ci<crypto.length){ items.push(crypto[ci++]); }
+      if(i%3===2 && si<stocks.length){ items.push(stocks[si++]); }
+    }
+    while(si<stocks.length) items.push(stocks[si++]);
+    if(!items.length){ if(band) band.style.display='none'; return; }
+    const html=items.map(tkRow).join('');
+    track.innerHTML=html+html;                 // duplicate → seamless loop
+    track.style.animationDuration=(items.length*3)+'s';
+    if(band) band.style.display='';
   }
   loadTicker();
-  setInterval(loadTicker, 60000);
+  setInterval(loadTicker, 90000);
 </script>
 </body>
 </html>
