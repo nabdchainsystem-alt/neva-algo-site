@@ -519,10 +519,10 @@
     <img class="hero-logo" src="logo.png" alt="NEVA ALGO" />
     <div class="tag">See what <b>market makers</b> see — across <b>crypto</b> &amp; <b>global stocks</b>.</div>
   <div class="vitals">liquidity sweeps · order blocks · FVG · BOS/CHoCH · premium/discount &nbsp;·&nbsp; <span>spot buys only — no futures, no gambling</span></div>
-  <div class="launch">🔥 LAUNCH OFFER · FIRST MONTH · <s style="color:var(--faint)">$59</s> <b style="color:var(--gold)">$39</b></div>
+  <div class="launch" id="launchBadge">🔥 LAUNCH OFFER · FIRST MONTH · <s style="color:var(--faint)">$59</s> <b style="color:var(--gold)">$39</b></div>
   <div class="countdown" id="countdown" aria-live="polite"></div>
   <div class="cta">
-    <a class="btn" onclick="openPay()">Subscribe with BNB — $39 first month</a>
+    <a class="btn" id="subBtn" onclick="openPay()">Subscribe with BNB — $39 first month</a>
     <a class="btn ghost" href="#signal">See a live signal ↓</a>
   </div>
   <div class="disc-top">Algorithmic market analysis for education — <b>not financial advice</b>. Do your own research.</div>
@@ -631,10 +631,10 @@
   <div class="h">Membership</div>
   <div class="plans tiers">
     <div class="plan best" data-tier="standard" data-status="live" data-price="39">
-      <div class="badge">LAUNCH OFFER</div>
+      <div class="badge" id="stdBadge">LAUNCH OFFER</div>
       <div class="name">Standard</div>
-      <div class="price"><s style="font-size:20px;color:var(--faint)">$59</s> $39<small>/mo</small></div>
-      <div class="save">first month $39, then $59 · paid in BNB</div>
+      <div class="price" id="stdPrice"><s style="font-size:20px;color:var(--faint)">$59</s> $39<small>/mo</small></div>
+      <div class="save" id="stdSave">first month $39, then $59 · paid in BNB</div>
       <ul>
         <li>Full smart-money signal feed</li>
         <li>Crypto + US/London/Tokyo/Sydney stocks</li>
@@ -741,10 +741,10 @@
   <div class="box">
     <span class="x" onclick="closePay()">✕</span>
     <h3>Subscribe with BNB</h3>
-    <div class="muted">NEVA ALGO Standard · <b style="color:var(--gold)">$39</b> first month (then $59) · paid in BNB (BEP-20)</div>
+    <div class="muted" id="payMuted">NEVA ALGO Standard · <b style="color:var(--gold)">$39</b> first month (then $59) · paid in BNB (BEP-20)</div>
 
     <div style="color:var(--dim);font-size:12px;margin-bottom:6px">1 · Send exactly</div>
-    <div class="amt"><b id="m-amount">… BNB</b> <span style="color:var(--faint);font-size:13px">(≈ $39)</span></div>
+    <div class="amt"><b id="m-amount">… BNB</b> <span id="payHint" style="color:var(--faint);font-size:13px">(≈ $39)</span></div>
     <img class="qr" id="qrimg" alt="Scan to pay BNB" style="object-fit:contain" />
     <div style="color:var(--dim);font-size:12px;margin-bottom:6px">to this BNB Smart Chain address:</div>
     <div class="addr"><code id="m-addr">0xYOUR_METAMASK_ADDRESS</code><span class="copy" onclick="copyAddr()">copy</span></div>
@@ -760,10 +760,12 @@
   // ── CONFIG — edit these two values ───────────────────────────────────────
   const BNB_ADDRESS = "0xE80f66E36E36f8C8E31547bC133A67e85aDEab76";   // <- your MetaMask (BNB Smart Chain) address
   const TELEGRAM_BOT = "https://t.me/nevaalgo_bot"; // <- your @BotFather bot link
-  const PRICE_USD = 39;
-  // Launch discount deadline — 30 days from launch (2026-05-30). Fixed so the
-  // countdown is real and the same for every visitor.
+  // Launch discount deadline — when this passes, the Standard price AUTO-SWITCHES
+  // from the launch price to the regular price (no edit/redeploy needed).
   const OFFER_END = Date.parse("2026-06-29T23:59:59Z");
+  const STD_REGULAR = 59, STD_LAUNCH = 39;          // Standard: regular vs launch price
+  const launchActive = Date.now() < OFFER_END;
+  let PRICE_USD = launchActive ? STD_LAUNCH : STD_REGULAR;
   // ─────────────────────────────────────────────────────────────────────────
 
   // Live 30-day countdown for the launch offer.
@@ -801,6 +803,29 @@
   }
 
   function copyPageAddr(){ navigator.clipboard?.writeText(BNB_ADDRESS); }
+
+  // Auto-switch all Standard pricing copy based on whether the launch window is open.
+  function applyPricing(){
+    const set=(id,html)=>{const el=document.getElementById(id); if(el) el.innerHTML=html;};
+    if(launchActive){
+      set('launchBadge','🔥 LAUNCH OFFER · FIRST MONTH · <s style="color:var(--faint)">$'+STD_REGULAR+'</s> <b style="color:var(--gold)">$'+STD_LAUNCH+'</b>');
+      set('subBtn','Subscribe with BNB — $'+STD_LAUNCH+' first month');
+      set('stdBadge','LAUNCH OFFER');
+      set('stdPrice','<s style="font-size:20px;color:var(--faint)">$'+STD_REGULAR+'</s> $'+STD_LAUNCH+'<small>/mo</small>');
+      set('stdSave','first month $'+STD_LAUNCH+', then $'+STD_REGULAR+' · paid in BNB');
+      set('payMuted','NEVA ALGO Standard · <b style="color:var(--gold)">$'+STD_LAUNCH+'</b> first month (then $'+STD_REGULAR+') · paid in BNB (BEP-20)');
+      set('payHint','(≈ $'+STD_LAUNCH+')');
+    }else{
+      set('launchBadge','⭐ STANDARD MEMBERSHIP · <b style="color:var(--gold)">$'+STD_REGULAR+'</b><small>/mo</small>');
+      set('subBtn','Subscribe with BNB — $'+STD_REGULAR+'/mo');
+      set('stdBadge','MOST POPULAR');
+      set('stdPrice','$'+STD_REGULAR+'<small>/mo</small>');
+      set('stdSave','monthly · paid in BNB');
+      set('payMuted','NEVA ALGO Standard · <b style="color:var(--gold)">$'+STD_REGULAR+'</b> / month · paid in BNB (BEP-20)');
+      set('payHint','(≈ $'+STD_REGULAR+')');
+    }
+  }
+  applyPricing();
 
   // Wire config into the page.
   document.getElementById('m-addr').textContent = BNB_ADDRESS;
