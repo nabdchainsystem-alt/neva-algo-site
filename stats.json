@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-30",
-  "signalsDelivered": 116,
+  "signalsDelivered": 117,
   "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 60
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 69
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 526.15,
+      "target": 545.428,
+      "stop": 524.3050607142857,
+      "ts": 1780181670798,
+      "status": "active"
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
