@@ -178,7 +178,7 @@
   .addr{background:#0d1117;border:1px dashed var(--line);border-radius:6px;padding:12px;font-size:12.5px;
     word-break:break-all;color:var(--cyan);margin:6px 0 4px;display:flex;justify-content:space-between;gap:10px;align-items:center}
   .addr code{color:var(--cyan)}
-  .copy{cursor:pointer;color:var(--dim);border:1px solid var(--line2);border-radius:4px;padding:2px 8px;font-size:11px}
+  .copy{cursor:pointer;color:var(--dim);border:1px solid var(--line2);border-radius:4px;padding:4px 10px;font-size:11px;flex:none;white-space:nowrap;align-self:stretch;display:grid;place-items:center}
   .qr{width:140px;height:140px;margin:14px auto;background:#fff;display:grid;place-items:center;border-radius:6px;color:#000;font-size:11px;text-align:center}
 
   /* alignment + link polish */
@@ -350,6 +350,50 @@
   /* feed row hover */
   .feed .row:hover{border-color:rgba(223,228,236,.2)}
 
+  /* ===== BOT super-section ===== */
+  .botzone{position:relative;padding:70px 0;border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);
+    background:radial-gradient(120% 120% at 80% 0%,rgba(207,215,228,.06),transparent 60%)}
+  .botgrid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+  .bot-kick{color:var(--silver);letter-spacing:3px;font-size:12px;text-transform:uppercase;margin-bottom:14px;opacity:.8}
+  .botcopy h2{font-family:var(--sans);font-weight:800;font-size:clamp(28px,4vw,44px);line-height:1.1;color:#fff;letter-spacing:.3px}
+  .botcopy h2 .tg{background:linear-gradient(90deg,#dfe4ec,#9aa4b4);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .botcopy>p{color:var(--dim);font-size:15px;line-height:1.8;margin:16px 0 22px;max-width:560px}
+  .botfeat{list-style:none;margin:0 0 28px;padding:0;display:grid;gap:12px}
+  .botfeat li{display:flex;align-items:flex-start;gap:11px;color:var(--txt);font-size:14px}
+  .botfeat li svg{width:20px;height:20px;flex:none;margin-top:1px;stroke:var(--silver);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+  .botfeat li b{color:#fff}
+  /* the BEST button */
+  .btn-tg{display:inline-flex;align-items:center;gap:11px;border:1px solid var(--line);
+    color:#fff;background:linear-gradient(180deg,rgba(255,255,255,.12),rgba(255,255,255,.03));
+    padding:16px 30px;border-radius:14px;font-weight:800;font-size:16px;letter-spacing:.3px;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 10px 34px rgba(0,0,0,.5),0 0 0 0 rgba(223,228,236,.45);
+    transition:transform .18s ease,box-shadow .25s ease;cursor:pointer;animation:botpulse 3.2s ease-in-out infinite}
+  .btn-tg svg{width:22px;height:22px;flex:none;fill:#fff}
+  .btn-tg:hover{transform:translateY(-2px);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 14px 40px rgba(0,0,0,.6),0 0 30px rgba(223,228,236,.35)}
+  @keyframes botpulse{0%,100%{box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 10px 34px rgba(0,0,0,.5),0 0 0 0 rgba(223,228,236,.0)}
+    50%{box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 10px 34px rgba(0,0,0,.5),0 0 26px 2px rgba(223,228,236,.22)}}
+  .bot-sub{color:var(--faint);font-size:12.5px;margin-top:14px}
+  .bot-sub code{color:var(--silver);background:rgba(255,255,255,.06);padding:1px 7px;border-radius:5px}
+  /* phone / chat mockup */
+  .botphone{display:flex;justify-content:center}
+  .phone{width:300px;max-width:100%;background:#06080c;border:1px solid var(--line);border-radius:26px;
+    padding:12px;box-shadow:0 30px 70px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.06)}
+  .ph-top{display:flex;align-items:center;gap:10px;padding:8px 8px 12px;border-bottom:1px solid var(--line2)}
+  .ph-ava{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;flex:none;font-size:18px;color:#06080c;
+    background:linear-gradient(135deg,#eef1f6,#aab2c0)}
+  .ph-name{color:#fff;font-weight:700;font-size:14px}
+  .ph-status{color:var(--green);font-size:11px}
+  .ph-body{padding:14px 6px 6px;display:grid;gap:10px}
+  .bub{background:var(--panel2);border:1px solid var(--line2);border-radius:14px 14px 14px 4px;padding:11px 13px;font-size:12.5px;line-height:1.55}
+  .bub .b-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+  .bub .b-sym{color:#fff;font-weight:800;letter-spacing:.3px}
+  .bub .b-dir{color:var(--green);font-weight:700;font-size:11px;border:1px solid rgba(143,182,160,.4);border-radius:20px;padding:1px 9px}
+  .bub .b-row{display:flex;justify-content:space-between;color:var(--dim);font-size:12px;padding:2px 0}
+  .bub .b-row b{color:var(--silver)}
+  .bub .b-conv{color:var(--gold);font-weight:700}
+  .bub .b-foot{color:var(--faint);font-size:10.5px;margin-top:7px}
+  .bub.note{background:transparent;border:none;color:var(--faint);font-size:11px;padding:0;text-align:center}
+
   /* ===== FINAL mobile overrides (placed last so they win over the polish block) ===== */
   @media (max-width:680px){
     .wrap{padding-left:16px;padding-right:16px}
@@ -379,10 +423,20 @@
     .feed .row{flex-direction:column;align-items:center;text-align:center;gap:5px;flex-wrap:nowrap}
     .feed .row-side{font-size:13px}
 
+    /* bot super-section: stack + center, big full-width button */
+    .botzone{padding:46px 0}
+    .botgrid{grid-template-columns:1fr;gap:30px;text-align:center}
+    .botcopy>p{margin:14px auto 20px;font-size:13.5px}
+    .botfeat{max-width:380px;margin:0 auto 24px;text-align:left;gap:11px}
+    .botfeat li{font-size:13px}
+    .btn-tg{width:100%;justify-content:center;padding:15px 20px;font-size:15px}
+    .bot-sub{text-align:center}
+    .phone{width:280px}
+
     /* how-to-join walkthrough: centered content, stacked & centered buttons */
-    #how .walk summary{justify-content:center;text-align:center}
-    #how ol{text-align:left;max-width:520px;margin-left:auto;margin-right:auto}
-    #how .addr{margin-left:auto;margin-right:auto}
+    #how .walk summary{justify-content:center;text-align:center;font-size:14px}
+    #how ol{text-align:left;max-width:520px;margin-left:auto;margin-right:auto;font-size:13px}
+    #how .addr{margin:6px auto 4px;font-size:12px}
     #how [style*="display:flex"]{justify-content:center !important;text-align:center}
     #how .btn{width:100%;text-align:center;justify-content:center}
 
@@ -425,6 +479,53 @@
     <a class="btn ghost" href="#signal">See a live signal ↓</a>
   </div>
   <div class="disc-top">Algorithmic market analysis for education — <b>not financial advice</b>. Do your own research.</div>
+  </div>
+</section>
+
+<!-- BOT SUPER SECTION -->
+<section id="bot" class="botzone">
+  <div class="wrap botgrid">
+    <div class="botcopy">
+      <div class="bot-kick">◆ The NEVA ALGO Bot</div>
+      <h2>Your edge lives in <span class="tg">Telegram</span>.</h2>
+      <p>The engine never sleeps. It scans every Binance pair and global stock <b>24/7</b>, ranks the cleanest smart-money setups by conviction, and drops them straight into your private channel — the second they trigger. No charts to babysit, no app to keep open. Just high-conviction, <b>spot-only</b> signals, on your phone.</p>
+      <ul class="botfeat">
+        <li><svg viewBox="0 0 24 24"><path d="M13 2L4.5 13H11l-1 9 8.5-11H12l1-9z"/></svg><span><b>Instant alerts</b> — the moment a setup fires, it's in your pocket.</span></li>
+        <li><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.4 7.7-8 9-4.6-1.3-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg><span><b>Pay in BNB</b> — verified on-chain automatically, then you're added in seconds.</span></li>
+        <li><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7 9h6M7 13h10M3 20h18"/></svg><span><b>Run it from chat</b> — <code style="color:var(--silver)">/status</code>, <code style="color:var(--silver)">/stats</code>, <code style="color:var(--silver)">/help</code>. Everything in one place.</span></li>
+        <li><svg viewBox="0 0 24 24"><path d="M12 3v18M5 10l7-7 7 7"/></svg><span><b>Long / buy-only</b> spot setups. Analysis, not advice — built for accumulation, not gambling.</span></li>
+      </ul>
+      <a class="btn-tg" href="https://t.me/nevaalgo_bot" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M21.9 4.3l-3.3 15.6c-.25 1.1-.9 1.37-1.83.85l-5.05-3.72-2.44 2.35c-.27.27-.5.5-1 .5l.36-5.13L17.9 6.2c.4-.36-.09-.56-.63-.2L6.6 12.74l-4.98-1.56c-1.08-.34-1.1-1.08.23-1.6L20.5 2.8c.9-.34 1.69.2 1.4 1.5z"/></svg>
+        Open @nevaalgo_bot
+      </a>
+      <div class="bot-sub">Free to message — just send <code>/start</code> to begin. No app sign-up, no card.</div>
+    </div>
+
+    <div class="botphone">
+      <div class="phone">
+        <div class="ph-top">
+          <span class="ph-ava">◈</span>
+          <div><div class="ph-name">NEVA ALGO</div><div class="ph-status">● signals channel · live 24/7</div></div>
+        </div>
+        <div class="ph-body">
+          <div class="bub">
+            <div class="b-h"><span class="b-sym">BTCUSDT</span><span class="b-dir">LONG ▲</span></div>
+            <div class="b-row"><span>Setup</span><b>Order-block tap + FVG</b></div>
+            <div class="b-row"><span>Conviction</span><span class="b-conv">High · 78/100</span></div>
+            <div class="b-row"><span>Zone</span><b>Discount</b></div>
+            <div class="b-foot">Analysis, not advice. DYOR.</div>
+          </div>
+          <div class="bub">
+            <div class="b-h"><span class="b-sym">NVDA · US</span><span class="b-dir">LONG ▲</span></div>
+            <div class="b-row"><span>Setup</span><b>Liquidity sweep + BOS</b></div>
+            <div class="b-row"><span>Conviction</span><span class="b-conv">Strong · 71/100</span></div>
+            <div class="b-foot">Analysis, not advice. DYOR.</div>
+          </div>
+          <div class="bub note">⟳ scanning 730+ markets…</div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -535,7 +636,7 @@
   <!-- detailed guide -->
   <div style="background:var(--panel);border:1px solid var(--line2);border-radius:8px;padding:22px;margin-top:18px">
     <details class="walk">
-    <summary>First time with crypto? Open the full walkthrough →</summary>
+    <summary>First time with crypto? Full walkthrough</summary>
     <ol style="color:var(--dim);font-size:14px;line-height:1.9;padding-left:20px;margin-top:14px">
       <li><b style="color:var(--txt)">Get a wallet</b> — install <a href="https://metamask.io" target="_blank">MetaMask</a> (browser/phone) or use Trust Wallet. Save your recovery phrase offline; never share it.</li>
       <li><b style="color:var(--txt)">Switch to BNB Smart Chain</b> — in the wallet's network menu pick <b>BNB Smart Chain</b> (chain id 56). It's built in to most wallets.</li>
@@ -546,13 +647,13 @@
     </ol>
     </details>
 
-    <div style="margin-top:18px;color:var(--faint);font-size:12px">Pay this BNB Smart Chain address ($9.99 in BNB):</div>
+    <div style="margin-top:18px;color:var(--faint);font-size:12px">Pay $9.99 in BNB to this address:</div>
     <div class="addr" style="max-width:560px"><code id="payAddr">loading…</code><span class="copy" onclick="copyPageAddr()">copy</span></div>
 
     <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap;align-items:center">
       <a class="btn" href="https://t.me/nevaalgo_bot" target="_blank">Open @nevaalgo_bot →</a>
       <a class="btn ghost" onclick="openPay()">Show payment details</a>
-      <span style="color:var(--faint);font-size:12px">Renews monthly — just pay again when it ends (no auto-charge).</span>
+      <span style="color:var(--faint);font-size:12px">Renews monthly — no auto-charge.</span>
     </div>
   </div>
 </section>
