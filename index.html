@@ -917,12 +917,19 @@
     }
     return null;
   }
+  // Stablecoins / fiat-pegged tokens are useless on a price ticker (always ~$1) → hide them.
+  const TK_STABLES=new Set(['USDT','USDC','FDUSD','TUSD','DAI','BUSD','USDP','PYUSD','USDD','GUSD','USD1','RLUSD','USDE','USDS','FRAX','LUSD','SUSD','CRVUSD','EURT','EURI','AEUR','XUSD','USDG','USDTB','EUR','U']);
+  function tkIsStable(sym,px,ch){
+    if(TK_STABLES.has(String(sym||'').toUpperCase())) return true;
+    return px!=null && Math.abs(Number(px)-1)<=0.02 && Math.abs(Number(ch)||0)<=0.3; // ~$1 peg
+  }
   async function tkCrypto(){
     try{
-      const r=await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=40&page=1&price_change_percentage=24h',{cache:'no-store'});
+      const r=await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&price_change_percentage=24h',{cache:'no-store'});
       if(!r.ok) throw 0;
       const d=await r.json();
-      return d.map(c=>({sym:(c.symbol||'').toUpperCase(), img:c.image, px:c.current_price, ch:c.price_change_percentage_24h}));
+      return d.map(c=>({sym:(c.symbol||'').toUpperCase(), img:c.image, px:c.current_price, ch:c.price_change_percentage_24h}))
+              .filter(c=>!tkIsStable(c.sym,c.px,c.ch));
     }catch(e){ return []; }
   }
   // ── PRIMARY source: same-origin markets.json the VPS engine publishes on a cron.
@@ -940,7 +947,8 @@
       const crypto=Array.isArray(d.crypto)?d.crypto:[];
       const stocks=Array.isArray(d.stocks)?d.stocks:[];
       // normalise to ticker items (no icon URL → tkRow uses the monogram chip fallback)
-      const mapC=crypto.map(c=>({sym:String(c.sym||'').toUpperCase(), px:Number(c.px), ch:Number(c.ch)}));
+      const mapC=crypto.map(c=>({sym:String(c.sym||'').toUpperCase(), px:Number(c.px), ch:Number(c.ch)}))
+                       .filter(c=>!tkIsStable(c.sym,c.px,c.ch));
       const mapS=stocks.map(s=>({sym:String(s.sym||'').replace(/\.(L|T|AX)$/,''), mkt:s.mkt, px:Number(s.px), ch:Number(s.ch)}));
       const items=interleave(mapC.filter(i=>i.px), mapS.filter(i=>i.px));
       return items.length ? items : null;
