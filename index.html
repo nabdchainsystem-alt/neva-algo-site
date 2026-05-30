@@ -437,8 +437,8 @@
     background:radial-gradient(120% 130% at 50% 0%,rgba(203,185,140,.12),transparent 62%);overflow:hidden}
   .freecard{max-width:none;width:100%;margin:0;text-align:center;position:relative;
     border:none;border-radius:0;padding:0;background:none;box-shadow:none}
-  .freecard::after{content:"";position:absolute;inset:0;border-radius:0;pointer-events:none;
-    background:linear-gradient(120deg,transparent 32%,rgba(255,255,255,.07) 50%,transparent 68%);
+  .freezone::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+    background:linear-gradient(120deg,transparent 34%,rgba(255,255,255,.06) 50%,transparent 66%);
     background-size:250% 100%;animation:shimmer 6.5s linear infinite}
   @keyframes shimmer{from{background-position:200% 0}to{background-position:-60% 0}}
   .free-tag{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:3px;font-weight:800;
