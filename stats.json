@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 149,
-  "avgConviction": 68,
+  "signalsDelivered": 150,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 68
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 68,
+      "entry": 2.296,
+      "target": 2.34466667,
+      "stop": 2.273556,
+      "ts": 1780244045426,
+      "status": "active"
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -1007,18 +1019,6 @@
       "entry": 85.5999984741211,
       "target": 86.70625114,
       "stop": 84.83159908676147,
-      "ts": 1780160518193,
-      "status": "active"
-    },
-    {
-      "sym": "9432.T",
-      "mkt": "Tokyo",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 149.5,
-      "target": 151.1000061,
-      "stop": 148.3757561035156,
       "ts": 1780160518193,
       "status": "active"
     }
