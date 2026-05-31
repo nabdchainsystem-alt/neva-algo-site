@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 161,
-  "avgConviction": 62,
+  "signalsDelivered": 162,
+  "avgConviction": 60,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "FETUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 55
+    },
     {
       "sym": "GENIUSUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 83
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 69
     }
   ],
   "track": [
+    {
+      "sym": "FETUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 0.2747,
+      "target": 0.28091111,
+      "stop": 0.27138795,
+      "ts": 1780264817571,
+      "status": "active"
+    },
     {
       "sym": "GENIUSUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 151.1000061,
       "stop": 148.3757561035156,
       "ts": 1780163778113,
-      "status": "active"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 64,
-      "entry": 0.3415,
-      "target": 0.3511,
-      "stop": 0.33598775000000003,
-      "ts": 1780163708628,
       "status": "active"
     }
   ]
