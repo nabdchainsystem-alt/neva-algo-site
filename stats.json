@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 128,
-  "avgConviction": 63,
+  "signalsDelivered": 129,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 74
+    },
     {
       "sym": "PG",
       "mkt": "US",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 66
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.3424,
+      "target": 0.3501,
+      "stop": 0.3359864,
+      "ts": 1780202002210,
+      "status": "active"
+    },
     {
       "sym": "PG",
       "mkt": "US",
