@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 154,
-  "avgConviction": 66,
+  "signalsDelivered": 155,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "USDCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 83
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
-    },
-    {
-      "sym": "MEMEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "USDCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 83,
+      "entry": 1.00103,
+      "target": 1.0219,
+      "stop": 0.9992684549999999,
+      "ts": 1780259670485,
+      "status": "active"
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -1007,18 +1019,6 @@
       "entry": 1.3461,
       "target": 1.3661,
       "stop": 1.33808085,
-      "ts": 1780162529208,
-      "status": "active"
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 61,
-      "entry": 703.12,
-      "target": 714.05,
-      "stop": 697.57532,
       "ts": 1780162529208,
       "status": "active"
     }
