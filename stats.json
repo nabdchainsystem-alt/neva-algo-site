@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 147,
-  "avgConviction": 67,
+  "signalsDelivered": 148,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "STGUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 71
+    },
     {
       "sym": "MEMEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 67
     }
   ],
   "track": [
+    {
+      "sym": "STGUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.2313,
+      "target": null,
+      "stop": null,
+      "ts": 1780232416393,
+      "status": "active"
+    },
     {
       "sym": "MEMEUSDT",
       "mkt": "Crypto",
@@ -1007,18 +1019,6 @@
       "entry": 0.3396,
       "target": 0.3601,
       "stop": 0.33599060000000003,
-      "ts": 1780160449155,
-      "status": "active"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 63,
-      "entry": 1.348,
-      "target": 1.3661,
-      "stop": 1.338578,
       "ts": 1780160449155,
       "status": "active"
     }
