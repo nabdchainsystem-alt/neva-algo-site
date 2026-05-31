@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 162,
-  "avgConviction": 60,
+  "signalsDelivered": 163,
+  "avgConviction": 57,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 58
+    },
     {
       "sym": "FETUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 51
-    },
-    {
-      "sym": "USDCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 83
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 73788.12,
+      "target": 74023.99,
+      "stop": 73597.57781999999,
+      "ts": 1780265001685,
+      "status": "active"
+    },
     {
       "sym": "FETUSDT",
       "mkt": "Crypto",
@@ -1007,18 +1019,6 @@
       "entry": 85.5999984741211,
       "target": 86.70625114,
       "stop": 84.83159908676147,
-      "ts": 1780163778113,
-      "status": "active"
-    },
-    {
-      "sym": "9432.T",
-      "mkt": "Tokyo",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 149.5,
-      "target": 151.1000061,
-      "stop": 148.3757561035156,
       "ts": 1780163778113,
       "status": "active"
     }
