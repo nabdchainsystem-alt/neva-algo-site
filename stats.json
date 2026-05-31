@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 184,
+  "signalsDelivered": 185,
   "avgConviction": 73,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 69
+    },
     {
       "sym": "OKBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 76
-    },
-    {
-      "sym": "ALLOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 67
     }
   ],
   "track": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 69,
+      "entry": 707.4,
+      "target": 714.05,
+      "stop": 705.7239,
+      "ts": 1780270879367,
+      "status": "active"
+    },
     {
       "sym": "OKBUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 542.036,
       "stop": 530.79936,
       "ts": 1780168993171,
-      "status": "active"
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 65,
-      "entry": 721.78,
-      "target": 742.634005,
-      "stop": 707.87733,
-      "ts": 1780168810854,
       "status": "active"
     }
   ]
