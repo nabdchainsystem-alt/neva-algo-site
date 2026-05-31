@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 145,
-  "avgConviction": 67,
+  "signalsDelivered": 146,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 70
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 63
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.3485,
+      "target": 0.3497,
+      "stop": 0.34767725,
+      "ts": 1780229103856,
+      "status": "active"
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -1007,18 +1019,6 @@
       "entry": 143.55999755859375,
       "target": 145.01996404,
       "stop": 142.42465939331055,
-      "ts": 1780160145992,
-      "status": "active"
-    },
-    {
-      "sym": "ABT",
-      "mkt": "US",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 85.5999984741211,
-      "target": 86.70625114,
-      "stop": 84.83159908676147,
       "ts": 1780160145992,
       "status": "active"
     }
