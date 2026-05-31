@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 148,
+  "signalsDelivered": 149,
   "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 69
+    },
     {
       "sym": "STGUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 73
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 69,
+      "entry": 0.10023,
+      "target": 0.1012,
+      "stop": 0.100059655,
+      "ts": 1780240983852,
+      "status": "active"
+    },
     {
       "sym": "STGUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 151.1000061,
       "stop": 148.3757561035156,
       "ts": 1780160518193,
-      "status": "active"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 68,
-      "entry": 0.3396,
-      "target": 0.3601,
-      "stop": 0.33599060000000003,
-      "ts": 1780160449155,
       "status": "active"
     }
   ]
