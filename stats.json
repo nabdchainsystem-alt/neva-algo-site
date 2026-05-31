@@ -1,9 +1,51 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 155,
-  "avgConviction": 68,
+  "signalsDelivered": 161,
+  "avgConviction": 62,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "GENIUSUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 64
+    },
+    {
+      "sym": "ABT",
+      "mkt": "US",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 60
+    },
+    {
+      "sym": "9432.T",
+      "mkt": "Tokyo",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 60
+    },
+    {
+      "sym": "MCHP",
+      "mkt": "US",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 55
+    },
+    {
+      "sym": "TMUS",
+      "mkt": "US",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 52
+    },
+    {
+      "sym": "PSON.L",
+      "mkt": "London",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 51
+    },
     {
       "sym": "USDCUSDT",
       "mkt": "Crypto",
@@ -17,51 +59,81 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 69
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 63
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 68
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 69
-    },
-    {
-      "sym": "STGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "GENIUSUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 64,
+      "entry": 0.4568,
+      "target": 0.4711,
+      "stop": 0.4560148,
+      "ts": 1780264727322,
+      "status": "active"
+    },
+    {
+      "sym": "ABT",
+      "mkt": "US",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 85.5999984741211,
+      "target": 86.70625114,
+      "stop": 84.83159908676147,
+      "ts": 1780264715387,
+      "status": "active"
+    },
+    {
+      "sym": "9432.T",
+      "mkt": "Tokyo",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 149.5,
+      "target": 151.1000061,
+      "stop": 148.3757561035156,
+      "ts": 1780264715387,
+      "status": "active"
+    },
+    {
+      "sym": "MCHP",
+      "mkt": "US",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 94.6500015258789,
+      "target": 97.16000366,
+      "stop": 93.49802438735962,
+      "ts": 1780264715387,
+      "status": "active"
+    },
+    {
+      "sym": "TMUS",
+      "mkt": "US",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 52,
+      "entry": 187.52999877929688,
+      "target": 195.37999725,
+      "stop": 186.04470597839358,
+      "ts": 1780264715387,
+      "status": "active"
+    },
+    {
+      "sym": "PSON.L",
+      "mkt": "London",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 51,
+      "entry": 1112,
+      "target": 1146.58333333,
+      "stop": 1088.332,
+      "ts": 1780264715387,
+      "status": "active"
+    },
     {
       "sym": "USDCUSDT",
       "mkt": "Crypto",
@@ -948,78 +1020,6 @@
       "target": 0.3511,
       "stop": 0.33598775000000003,
       "ts": 1780163708628,
-      "status": "active"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 68,
-      "entry": 0.3415,
-      "target": 0.3511,
-      "stop": 0.33598775000000003,
-      "ts": 1780163700877,
-      "status": "active"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 68,
-      "entry": 0.3408,
-      "target": 0.3511,
-      "stop": 0.33598880000000003,
-      "ts": 1780162977518,
-      "status": "active"
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 143.55999755859375,
-      "target": 145.01996404,
-      "stop": 142.42465939331055,
-      "ts": 1780162598857,
-      "status": "active"
-    },
-    {
-      "sym": "ABT",
-      "mkt": "US",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 85.5999984741211,
-      "target": 86.70625114,
-      "stop": 84.83159908676147,
-      "ts": 1780162598857,
-      "status": "active"
-    },
-    {
-      "sym": "9432.T",
-      "mkt": "Tokyo",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 149.5,
-      "target": 151.1000061,
-      "stop": 148.3757561035156,
-      "ts": 1780162598857,
-      "status": "active"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 1.3461,
-      "target": 1.3661,
-      "stop": 1.33808085,
-      "ts": 1780162529208,
       "status": "active"
     }
   ]
