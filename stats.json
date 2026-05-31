@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 134,
+  "signalsDelivered": 135,
   "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 64
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 62
-    },
-    {
-      "sym": "ABT",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 64,
+      "entry": 0.2343,
+      "target": 0.2442,
+      "stop": 0.23384855,
+      "ts": 1780210824393,
+      "status": "active"
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
