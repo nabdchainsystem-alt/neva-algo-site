@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 151,
+  "signalsDelivered": 152,
   "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 63
+    },
     {
       "sym": "PG",
       "mkt": "US",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 63
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 63,
+      "entry": 0.01635,
+      "target": 0.017345,
+      "stop": 0.015845474999999998,
+      "ts": 1780252249779,
+      "status": "active"
+    },
     {
       "sym": "PG",
       "mkt": "US",
@@ -1008,18 +1020,6 @@
       "target": 0.101785,
       "stop": 0.100978005,
       "ts": 1780161076099,
-      "status": "active"
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 143.55999755859375,
-      "target": 145.01996404,
-      "stop": 142.42465939331055,
-      "ts": 1780160518193,
       "status": "active"
     }
   ]
