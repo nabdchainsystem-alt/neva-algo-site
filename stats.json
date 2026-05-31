@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 150,
-  "avgConviction": 67,
+  "signalsDelivered": 151,
+  "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PG",
+      "mkt": "US",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 62
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "PG",
+      "mkt": "US",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 143.55999755859375,
+      "target": 145.01996404,
+      "stop": 142.42465939331055,
+      "ts": 1780246830046,
+      "status": "active"
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -1007,18 +1019,6 @@
       "entry": 143.55999755859375,
       "target": 145.01996404,
       "stop": 142.42465939331055,
-      "ts": 1780160518193,
-      "status": "active"
-    },
-    {
-      "sym": "ABT",
-      "mkt": "US",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 85.5999984741211,
-      "target": 86.70625114,
-      "stop": 84.83159908676147,
       "ts": 1780160518193,
       "status": "active"
     }
