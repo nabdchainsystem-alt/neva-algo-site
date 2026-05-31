@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-05-31",
-  "signalsDelivered": 176,
-  "avgConviction": 58,
+  "signalsDelivered": 178,
+  "avgConviction": 61,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 76
+    },
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 67
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 59
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
-    },
-    {
-      "sym": "ABT",
-      "mkt": "US",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 0.2701,
+      "target": 0.28002,
+      "stop": 0.26419485,
+      "ts": 1780267488845,
+      "status": "active"
+    },
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 67,
+      "entry": 0.27118,
+      "target": 0.279976,
+      "stop": 0.26440323,
+      "ts": 1780267398483,
+      "status": "active"
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -995,30 +1019,6 @@
       "entry": 143.55999755859375,
       "target": 145.01996404,
       "stop": 142.42465939331055,
-      "ts": 1780167055607,
-      "status": "active"
-    },
-    {
-      "sym": "ABT",
-      "mkt": "US",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 85.5999984741211,
-      "target": 86.70625114,
-      "stop": 84.83159908676147,
-      "ts": 1780167055607,
-      "status": "active"
-    },
-    {
-      "sym": "9432.T",
-      "mkt": "Tokyo",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 149.5,
-      "target": 151.1000061,
-      "stop": 148.3757561035156,
       "ts": 1780167055607,
       "status": "active"
     }
