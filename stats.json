@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 225,
-  "avgConviction": 68,
+  "signalsDelivered": 229,
+  "avgConviction": 70,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 79
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 65
+    },
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 73
+    }
+  ],
+  "track": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 79,
+      "entry": 2.302,
+      "target": 2.357,
+      "stop": 2.257547,
+      "ts": 1780296259070,
+      "status": "active"
     },
     {
-      "sym": "PORTALUSDT",
+      "sym": "XRPUSDT",
       "mkt": "Crypto",
-      "dir": "LONG",
       "setup": "Order Block Tap",
-      "conv": 65
-    },
-    {
-      "sym": "NEXUSDT",
-      "mkt": "Crypto",
       "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 69
+      "conv": 65,
+      "entry": 1.3104,
+      "target": 1.3275,
+      "stop": 1.3083844000000002,
+      "ts": 1780296257795,
+      "status": "active"
     },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
+      "setup": "Order Block Tap",
       "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 71
-    }
-  ],
-  "track": [
+      "conv": 72,
+      "entry": 2.302,
+      "target": 2.35633333,
+      "stop": 2.257547,
+      "ts": 1780296167636,
+      "status": "active"
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -984,42 +1020,6 @@
       "target": 0.000579,
       "stop": 0.0005541540000000001,
       "ts": 1780229912490,
-      "status": "active"
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 0.3485,
-      "target": 0.3497,
-      "stop": 0.34767725,
-      "ts": 1780229103856,
-      "status": "active"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 63,
-      "entry": 551.12,
-      "target": 559.11,
-      "stop": 547.80332,
-      "ts": 1780221542048,
-      "status": "active"
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 143.55999755859375,
-      "target": 145.01996404,
-      "stop": 142.42465939331055,
-      "ts": 1780221433770,
       "status": "active"
     }
   ]
