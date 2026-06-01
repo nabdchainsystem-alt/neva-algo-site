@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 234,
-  "avgConviction": 70,
+  "signalsDelivered": 236,
+  "avgConviction": 71,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 70
+    },
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
     {
       "sym": "GENIUSUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 66
-    },
-    {
-      "sym": "OKBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 65
-    },
-    {
-      "sym": "SEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 67
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 73211.91,
+      "target": 73616,
+      "stop": 73077.432135,
+      "ts": 1780296618837,
+      "status": "active"
+    },
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 73199.9,
+      "target": 73620.3,
+      "stop": 73075.20015,
+      "ts": 1780296618294,
+      "status": "active"
+    },
     {
       "sym": "GENIUSUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 145.01996404,
       "stop": 142.42465939331055,
       "ts": 1780246830046,
-      "status": "active"
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 68,
-      "entry": 2.296,
-      "target": 2.34466667,
-      "stop": 2.273556,
-      "ts": 1780244045426,
-      "status": "active"
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 69,
-      "entry": 0.10023,
-      "target": 0.1012,
-      "stop": 0.100059655,
-      "ts": 1780240983852,
       "status": "active"
     }
   ]
