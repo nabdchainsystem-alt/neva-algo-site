@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 222,
-  "avgConviction": 73,
+  "signalsDelivered": 223,
+  "avgConviction": 72,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 67
+    },
     {
       "sym": "TRXUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 77
-    },
-    {
-      "sym": "AAVEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 67,
+      "entry": 0.0673,
+      "target": 0.0686925,
+      "stop": 0.06684905,
+      "ts": 1780293828568,
+      "status": "active"
+    },
     {
       "sym": "TRXUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 557.4175,
       "stop": 542.94641,
       "ts": 1780219751786,
-      "status": "active"
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 0.3472,
-      "target": null,
-      "stop": null,
-      "ts": 1780219667760,
       "status": "active"
     }
   ]
