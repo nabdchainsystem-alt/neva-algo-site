@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 262,
-  "avgConviction": 76,
+  "signalsDelivered": 263,
+  "avgConviction": 74,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
     {
       "sym": "MONUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 92
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 85
     }
   ],
   "track": [
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 72.706,
+      "target": 73.91742857,
+      "stop": 72.382941,
+      "ts": 1780320526092,
+      "status": "active"
+    },
     {
       "sym": "MONUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 1.3401,
       "stop": 1.3350942,
       "ts": 1780266650269,
-      "status": "invalidated"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 1.3371,
-      "target": 1.3402,
-      "stop": 1.3349943499999999,
-      "ts": 1780266650223,
       "status": "invalidated"
     }
   ]
