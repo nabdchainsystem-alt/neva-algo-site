@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 212,
+  "signalsDelivered": 213,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 69
-    },
-    {
-      "sym": "PIEVERSEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.3493,
+      "target": null,
+      "stop": null,
+      "ts": 1780286908317,
+      "status": "active"
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.3501,
       "stop": 0.3378852,
       "ts": 1780206323239,
-      "status": "active"
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 0.01453,
-      "target": 0.01874,
-      "stop": 0.011338205,
-      "ts": 1780205692604,
       "status": "active"
     }
   ]
