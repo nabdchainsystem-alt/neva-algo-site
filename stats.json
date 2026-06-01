@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-05-31",
-  "signalsDelivered": 186,
-  "avgConviction": 72,
+  "updatedAt": "2026-06-01",
+  "signalsDelivered": 187,
+  "avgConviction": 73,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 65
-    },
-    {
-      "sym": "AXSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 63
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 73818.3,
+      "target": 74200,
+      "stop": 73694.37255,
+      "ts": 1780272947781,
+      "status": "active"
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -1007,18 +1019,6 @@
       "entry": 85.5999984741211,
       "target": 86.70625114,
       "stop": 84.83159908676147,
-      "ts": 1780169062292,
-      "status": "active"
-    },
-    {
-      "sym": "9432.T",
-      "mkt": "Tokyo",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 149.5,
-      "target": 151.1000061,
-      "stop": 148.3757561035156,
       "ts": 1780169062292,
       "status": "active"
     }
