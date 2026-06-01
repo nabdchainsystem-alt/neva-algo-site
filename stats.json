@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 274,
-  "avgConviction": 80,
+  "signalsDelivered": 276,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PENDLEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 77
+    },
+    {
+      "sym": "ICPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 74
+    },
     {
       "sym": "TONUSDT",
       "mkt": "Crypto",
@@ -34,6 +48,30 @@
     }
   ],
   "track": [
+    {
+      "sym": "PENDLEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 77,
+      "entry": 1.361,
+      "target": null,
+      "stop": null,
+      "ts": 1780332147775,
+      "status": "active"
+    },
+    {
+      "sym": "ICPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 2.759,
+      "target": null,
+      "stop": null,
+      "ts": 1780332147775,
+      "status": "active"
+    },
     {
       "sym": "TONUSDT",
       "mkt": "Crypto",
