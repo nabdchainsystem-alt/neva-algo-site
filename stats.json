@@ -1,9 +1,37 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 282,
-  "avgConviction": 83,
+  "signalsDelivered": 286,
+  "avgConviction": 84,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "APEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 89
+    },
+    {
+      "sym": "CHZUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 85
+    },
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 84
+    },
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "APEUSDT",
       "mkt": "Crypto",
@@ -31,37 +59,57 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 86
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
-    },
-    {
-      "sym": "TONUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 90
-    },
-    {
-      "sym": "PENDLEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 77
-    },
-    {
-      "sym": "ICPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "APEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 89,
+      "entry": 0.1408,
+      "target": null,
+      "stop": null,
+      "ts": 1780336931189,
+      "status": "active"
+    },
+    {
+      "sym": "CHZUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 85,
+      "entry": 0.0336,
+      "target": null,
+      "stop": null,
+      "ts": 1780336931189,
+      "status": "active"
+    },
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 0.0857,
+      "target": null,
+      "stop": null,
+      "ts": 1780336931189,
+      "status": "active"
+    },
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 2.393,
+      "target": null,
+      "stop": null,
+      "ts": 1780336931189,
+      "status": "active"
+    },
     {
       "sym": "APEUSDT",
       "mkt": "Crypto",
