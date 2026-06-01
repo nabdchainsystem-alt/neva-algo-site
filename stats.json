@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 207,
-  "avgConviction": 78,
+  "signalsDelivered": 210,
+  "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 75
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 70
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 89
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 0.1777,
+      "target": null,
+      "stop": null,
+      "ts": 1780282148519,
+      "status": "active"
+    },
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.7254,
+      "target": null,
+      "stop": null,
+      "ts": 1780282148519,
+      "status": "active"
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 545.67833333,
       "stop": 543.058865,
       "ts": 1780203082043,
-      "status": "active"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.3424,
-      "target": 0.3501,
-      "stop": 0.3359864,
-      "ts": 1780202002210,
-      "status": "active"
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 143.55999755859375,
-      "target": 145.01996404,
-      "stop": 142.42465939331055,
-      "ts": 1780200093801,
       "status": "active"
     }
   ]
