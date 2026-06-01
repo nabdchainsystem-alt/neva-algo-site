@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 271,
+  "signalsDelivered": 272,
   "avgConviction": 73,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "TRXUSDT",
       "mkt": "Crypto",
@@ -13,6 +20,18 @@
     }
   ],
   "track": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 1972.59,
+      "target": 1994.04,
+      "stop": 1964.931115,
+      "ts": 1780328865482,
+      "status": "active"
+    },
     {
       "sym": "TRXUSDT",
       "mkt": "Crypto",
