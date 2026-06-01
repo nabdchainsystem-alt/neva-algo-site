@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 259,
-  "avgConviction": 75,
+  "signalsDelivered": 261,
+  "avgConviction": 72,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "FETUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 69
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 66
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 88
     }
   ],
   "track": [
+    {
+      "sym": "FETUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 69,
+      "entry": 0.2688,
+      "target": 0.27274444,
+      "stop": 0.2681195272727273,
+      "ts": 1780318096680,
+      "status": "target"
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 93.49802438735962,
       "ts": 1780266540294,
       "status": "active"
-    },
-    {
-      "sym": "FETUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 59,
-      "entry": 0.2741,
-      "target": 0.28091111,
-      "stop": 0.27138884999999996,
-      "ts": 1780266479084,
-      "status": "target"
     }
   ]
 }
