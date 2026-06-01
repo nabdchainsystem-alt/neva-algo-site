@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 264,
+  "signalsDelivered": 265,
   "avgConviction": 71,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 68
+    },
     {
       "sym": "CMG",
       "mkt": "US",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 65
-    },
-    {
-      "sym": "ALLOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 69
     }
   ],
   "track": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 68,
+      "entry": 0.09607,
+      "target": null,
+      "stop": null,
+      "ts": 1780323393215,
+      "status": "active"
+    },
     {
       "sym": "CMG",
       "mkt": "US",
@@ -1008,18 +1020,6 @@
       "target": 1.3402,
       "stop": 1.33499405,
       "ts": 1780266739850,
-      "status": "invalidated"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 1.3373,
-      "target": 1.3401,
-      "stop": 1.33509405,
-      "ts": 1780266737576,
       "status": "invalidated"
     }
   ]
