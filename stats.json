@@ -72,7 +72,7 @@
       "target": 2.405,
       "stop": 2.3324659999999997,
       "ts": 1780324487194,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "META",
@@ -108,7 +108,7 @@
       "target": null,
       "stop": null,
       "ts": 1780323393215,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "CMG",
@@ -168,7 +168,7 @@
       "target": 2.359,
       "stop": 2.2575455,
       "ts": 1780316026177,
-      "status": "in-progress"
+      "status": "target"
     },
     {
       "sym": "ALLOUSDT",
@@ -216,7 +216,7 @@
       "target": null,
       "stop": null,
       "ts": 1780313472264,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "BNBUSDT",
@@ -228,7 +228,7 @@
       "target": 714.7825,
       "stop": 702.1713699999999,
       "ts": 1780308447491,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "SUIUSDT",
@@ -240,7 +240,7 @@
       "target": 0.8852,
       "stop": 0.87847955,
       "ts": 1780308447491,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "ASTERUSDT",
@@ -312,7 +312,7 @@
       "target": 0.3526,
       "stop": 0.35007365,
       "ts": 1780299032018,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "XLMUSDT",
@@ -348,7 +348,7 @@
       "target": 0.10052,
       "stop": 0.099699895,
       "ts": 1780298130542,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "DOGEUSDT",
@@ -360,7 +360,7 @@
       "target": 0.100505,
       "stop": 0.099709895,
       "ts": 1780298130123,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "AIUSDT",
@@ -384,7 +384,7 @@
       "target": 710.1,
       "stop": 692.2597499999999,
       "ts": 1780297950390,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "AIUSDT",
@@ -456,7 +456,7 @@
       "target": 2.357,
       "stop": 2.257547,
       "ts": 1780296259070,
-      "status": "in-progress"
+      "status": "target"
     },
     {
       "sym": "XRPUSDT",
@@ -480,7 +480,7 @@
       "target": 2.35633333,
       "stop": 2.257547,
       "ts": 1780296167636,
-      "status": "in-progress"
+      "status": "target"
     },
     {
       "sym": "SUIUSDT",
@@ -492,7 +492,7 @@
       "target": 0.8852,
       "stop": 0.87777955,
       "ts": 1780295449214,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "OKBUSDT",
@@ -744,7 +744,7 @@
       "target": 2.35533333,
       "stop": 2.2216025,
       "ts": 1780279247150,
-      "status": "in-progress"
+      "status": "target"
     },
     {
       "sym": "ZECUSDT",
@@ -936,7 +936,7 @@
       "target": 0.905,
       "stop": 0.877765,
       "ts": 1780270967161,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BNBUSDT",
