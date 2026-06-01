@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 286,
-  "avgConviction": 84,
+  "signalsDelivered": 287,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "AV.L",
+      "mkt": "London",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
     {
       "sym": "APEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 89
-    },
-    {
-      "sym": "TRUMPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 86
     }
   ],
   "track": [
+    {
+      "sym": "AV.L",
+      "mkt": "London",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 612.4000244140625,
+      "target": 644.68954745,
+      "stop": 610.2814121704101,
+      "ts": 1780338566635,
+      "status": "active"
+    },
     {
       "sym": "APEUSDT",
       "mkt": "Crypto",
