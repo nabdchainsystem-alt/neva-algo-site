@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 265,
+  "signalsDelivered": 266,
   "avgConviction": 71,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
     {
       "sym": "JSTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 66
-    },
-    {
-      "sym": "HYPEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 65
     }
   ],
   "track": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 0.34795,
+      "target": 0.34966,
+      "stop": 0.346548075,
+      "ts": 1780323496115,
+      "status": "target"
+    },
     {
       "sym": "JSTUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.279976,
       "stop": 0.26440323,
       "ts": 1780267398483,
-      "status": "invalidated"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 1.3373,
-      "target": 1.3402,
-      "stop": 1.33499405,
-      "ts": 1780266739850,
       "status": "invalidated"
     }
   ]
