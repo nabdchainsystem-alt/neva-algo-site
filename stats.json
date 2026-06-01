@@ -1,32 +1,187 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 298,
-  "avgConviction": 72,
+  "signalsDelivered": 308,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
     {
-      "sym": "ZAMAUSDT",
+      "sym": "TONUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 86
+    },
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 85
+    },
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 82
+    },
+    {
+      "sym": "INJUSDT",
       "mkt": "Crypto",
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 72
     },
     {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 73
-    },
-    {
-      "sym": "MEGAUSDT",
+      "sym": "PENDLEUSDT",
       "mkt": "Crypto",
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
+    },
+    {
+      "sym": "TONUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 86
+    },
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 85
+    },
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 82
     }
   ],
   "track": [
+    {
+      "sym": "TONUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 86,
+      "entry": 2.187,
+      "target": null,
+      "stop": null,
+      "ts": 1780344622396,
+      "status": "in-progress"
+    },
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 85,
+      "entry": 0.4302,
+      "target": null,
+      "stop": null,
+      "ts": 1780344622396,
+      "status": "active"
+    },
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 2.054,
+      "target": null,
+      "stop": null,
+      "ts": 1780344622396,
+      "status": "in-progress"
+    },
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 7.153,
+      "target": null,
+      "stop": null,
+      "ts": 1780344622396,
+      "status": "active"
+    },
+    {
+      "sym": "PENDLEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 1.439,
+      "target": null,
+      "stop": null,
+      "ts": 1780344622396,
+      "status": "active"
+    },
+    {
+      "sym": "TONUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 86,
+      "entry": 2.187,
+      "target": null,
+      "stop": null,
+      "ts": 1780344614354,
+      "status": "in-progress"
+    },
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 85,
+      "entry": 0.4302,
+      "target": null,
+      "stop": null,
+      "ts": 1780344614354,
+      "status": "active"
+    },
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 2.054,
+      "target": null,
+      "stop": null,
+      "ts": 1780344614354,
+      "status": "in-progress"
+    },
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 7.153,
+      "target": null,
+      "stop": null,
+      "ts": 1780344614354,
+      "status": "active"
+    },
+    {
+      "sym": "PENDLEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 1.439,
+      "target": null,
+      "stop": null,
+      "ts": 1780344614354,
+      "status": "active"
+    },
     {
       "sym": "ZAMAUSDT",
       "mkt": "Crypto",
