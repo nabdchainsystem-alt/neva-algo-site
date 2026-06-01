@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 243,
+  "signalsDelivered": 245,
   "avgConviction": 72,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 68
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 71
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 68,
+      "entry": 0.3509,
+      "target": 0.3526,
+      "stop": 0.35007365,
+      "ts": 1780299032018,
+      "status": "active"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -1007,18 +1019,6 @@
       "entry": 149.5,
       "target": 151.1000061,
       "stop": 148.3757561035156,
-      "ts": 1780264715387,
-      "status": "active"
-    },
-    {
-      "sym": "MCHP",
-      "mkt": "US",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 94.6500015258789,
-      "target": 97.16000366,
-      "stop": 93.49802438735962,
       "ts": 1780264715387,
       "status": "active"
     }
