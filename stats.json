@@ -96,7 +96,7 @@
       "target": 593.2666626,
       "stop": 571.2301255493164,
       "ts": 1780303593929,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TRXUSDT",
@@ -924,7 +924,7 @@
       "target": 145.01996404,
       "stop": 142.42465939331055,
       "ts": 1780265248355,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ABT",
@@ -936,7 +936,7 @@
       "target": 86.70625114,
       "stop": 84.83159908676147,
       "ts": 1780265248355,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "9432.T",
@@ -948,7 +948,7 @@
       "target": 151.1000061,
       "stop": 148.3757561035156,
       "ts": 1780265248355,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "WLDUSDT",
