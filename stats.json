@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 273,
-  "avgConviction": 77,
+  "signalsDelivered": 274,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TONUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 90
+    },
     {
       "sym": "INJUSDT",
       "mkt": "Crypto",
@@ -27,6 +34,18 @@
     }
   ],
   "track": [
+    {
+      "sym": "TONUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 90,
+      "entry": 1.946,
+      "target": null,
+      "stop": null,
+      "ts": 1780332070955,
+      "status": "active"
+    },
     {
       "sym": "INJUSDT",
       "mkt": "Crypto",
