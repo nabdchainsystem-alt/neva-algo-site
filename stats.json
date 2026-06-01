@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 247,
-  "avgConviction": 72,
+  "signalsDelivered": 248,
+  "avgConviction": 71,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NEXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 74
+    },
     {
       "sym": "XMRUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 74
-    },
-    {
-      "sym": "AIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 79
     }
   ],
   "track": [
+    {
+      "sym": "NEXUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.00000338,
+      "target": 0.0000036,
+      "stop": 0.00000336143,
+      "ts": 1780305556330,
+      "status": "active"
+    },
     {
       "sym": "XMRUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.28091111,
       "stop": 0.27138795,
       "ts": 1780264817571,
-      "status": "active"
-    },
-    {
-      "sym": "GENIUSUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 64,
-      "entry": 0.4568,
-      "target": 0.4711,
-      "stop": 0.4560148,
-      "ts": 1780264727322,
       "status": "active"
     }
   ]
