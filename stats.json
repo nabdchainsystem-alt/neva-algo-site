@@ -1,8 +1,29 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 0,
-  "avgConviction": 70,
+  "signalsDelivered": 296,
+  "avgConviction": 71,
   "marketsScanned": 730,
-  "recent": [],
-  "track": []
+  "recent": [
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 71
+    }
+  ],
+  "track": [
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.06006,
+      "target": null,
+      "stop": null,
+      "ts": 1780342220822,
+      "status": "active"
+    }
+  ]
 }
