@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 290,
-  "avgConviction": 76,
+  "signalsDelivered": 291,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 87
+    },
     {
       "sym": "AAVEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 84
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "PUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 87,
+      "entry": 0.001835,
+      "target": null,
+      "stop": null,
+      "ts": 1780339683344,
+      "status": "in-progress"
+    },
     {
       "sym": "AAVEUSDT",
       "mkt": "Crypto",
