@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 245,
-  "avgConviction": 72,
+  "signalsDelivered": 246,
+  "avgConviction": 71,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "GLEN.L",
+      "mkt": "London",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 65
+    },
     {
       "sym": "TRXUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 65
-    },
-    {
-      "sym": "AIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "GLEN.L",
+      "mkt": "London",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 65,
+      "entry": 579.9000244140625,
+      "target": 593.2666626,
+      "stop": 571.2301255493164,
+      "ts": 1780303593929,
+      "status": "active"
+    },
     {
       "sym": "TRXUSDT",
       "mkt": "Crypto",
@@ -1007,18 +1019,6 @@
       "entry": 85.5999984741211,
       "target": 86.70625114,
       "stop": 84.83159908676147,
-      "ts": 1780264715387,
-      "status": "active"
-    },
-    {
-      "sym": "9432.T",
-      "mkt": "Tokyo",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 149.5,
-      "target": 151.1000061,
-      "stop": 148.3757561035156,
       "ts": 1780264715387,
       "status": "active"
     }
