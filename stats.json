@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 308,
-  "avgConviction": 81,
+  "signalsDelivered": 309,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "MONUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 76
+    },
     {
       "sym": "TONUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 85
-    },
-    {
-      "sym": "TRUMPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 82
     }
   ],
   "track": [
+    {
+      "sym": "MONUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 0.0226,
+      "target": 0.022745,
+      "stop": 0.02251985,
+      "ts": 1780348847602,
+      "status": "active"
+    },
     {
       "sym": "TONUSDT",
       "mkt": "Crypto",
