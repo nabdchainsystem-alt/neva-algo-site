@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 248,
-  "avgConviction": 71,
+  "signalsDelivered": 249,
+  "avgConviction": 73,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 86
+    },
     {
       "sym": "NEXUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 78
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 86,
+      "entry": 702.36,
+      "target": null,
+      "stop": null,
+      "ts": 1780307201933,
+      "status": "active"
+    },
     {
       "sym": "NEXUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 73597.57781999999,
       "ts": 1780265001685,
       "status": "invalidated"
-    },
-    {
-      "sym": "FETUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 0.2747,
-      "target": 0.28091111,
-      "stop": 0.27138795,
-      "ts": 1780264817571,
-      "status": "in-progress"
     }
   ]
 }
