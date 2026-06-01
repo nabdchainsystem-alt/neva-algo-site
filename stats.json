@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 296,
-  "avgConviction": 71,
+  "signalsDelivered": 298,
+  "avgConviction": 72,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZAMAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "MEGAUSDT",
       "mkt": "Crypto",
@@ -13,6 +27,30 @@
     }
   ],
   "track": [
+    {
+      "sym": "ZAMAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.03618,
+      "target": null,
+      "stop": null,
+      "ts": 1780344110617,
+      "status": "active"
+    },
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.7564,
+      "target": null,
+      "stop": null,
+      "ts": 1780344053482,
+      "status": "active"
+    },
     {
       "sym": "MEGAUSDT",
       "mkt": "Crypto",
