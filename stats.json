@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 195,
-  "avgConviction": 72,
+  "signalsDelivered": 196,
+  "avgConviction": 73,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "6954.T",
+      "mkt": "Tokyo",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 73
+    },
     {
       "sym": "SEIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 72
-    },
-    {
-      "sym": "6273.T",
-      "mkt": "Tokyo",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 65
     }
   ],
   "track": [
+    {
+      "sym": "6954.T",
+      "mkt": "Tokyo",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 8114,
+      "target": 8278,
+      "stop": 8076.829,
+      "ts": 1780275899811,
+      "status": "active"
+    },
     {
       "sym": "SEIUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 545.428,
       "stop": 524.3050607142857,
       "ts": 1780181670798,
-      "status": "active"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 1.3452,
-      "target": 1.354,
-      "stop": 1.3385822,
-      "ts": 1780178607905,
       "status": "active"
     }
   ]
