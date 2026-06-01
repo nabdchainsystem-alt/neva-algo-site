@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 203,
+  "signalsDelivered": 204,
   "avgConviction": 75,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PIEVERSEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 74
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 69
-    },
-    {
-      "sym": "6954.T",
-      "mkt": "Tokyo",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "PIEVERSEUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.7051,
+      "target": 0.7139,
+      "stop": 0.70139235,
+      "ts": 1780280147996,
+      "status": "active"
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 543.12571429,
       "stop": 532.18639,
       "ts": 1780195541645,
-      "status": "active"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 65,
-      "entry": 535.68,
-      "target": 543.12571429,
-      "stop": 532.18648,
-      "ts": 1780195358940,
       "status": "active"
     }
   ]
