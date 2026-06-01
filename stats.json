@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 267,
+  "signalsDelivered": 268,
   "avgConviction": 71,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 67
+    },
     {
       "sym": "META",
       "mkt": "US",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 69
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 66
     }
   ],
   "track": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 67,
+      "entry": 2.356,
+      "target": 2.405,
+      "stop": 2.3324659999999997,
+      "ts": 1780324487194,
+      "status": "active"
+    },
     {
       "sym": "META",
       "mkt": "US",
@@ -72,7 +84,7 @@
       "target": 624.35498047,
       "stop": 599.6350702819824,
       "ts": 1780324286684,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TRXUSDT",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780268606360,
       "status": "active"
-    },
-    {
-      "sym": "ALLOUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 76,
-      "entry": 0.2701,
-      "target": 0.28002,
-      "stop": 0.26419485,
-      "ts": 1780267488845,
-      "status": "invalidated"
     }
   ]
 }
