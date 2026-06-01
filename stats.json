@@ -1,9 +1,37 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 255,
-  "avgConviction": 78,
+  "signalsDelivered": 259,
+  "avgConviction": 75,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 66
+    },
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 65
+    },
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 69
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -31,37 +59,57 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 88
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 86
-    },
-    {
-      "sym": "NEXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 74
-    },
-    {
-      "sym": "XMRUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 70
-    },
-    {
-      "sym": "GLEN.L",
-      "mkt": "London",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 65
     }
   ],
   "track": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 2.303,
+      "target": 2.359,
+      "stop": 2.2575455,
+      "ts": 1780316026177,
+      "status": "in-progress"
+    },
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 0.18837,
+      "target": 0.19293333,
+      "stop": 0.186707445,
+      "ts": 1780315937651,
+      "status": "invalidated"
+    },
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 65,
+      "entry": 72.568,
+      "target": 73.125,
+      "stop": 72.240148,
+      "ts": 1780315937651,
+      "status": "active"
+    },
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 69,
+      "entry": 0.1887,
+      "target": 0.19286667,
+      "stop": 0.18621695,
+      "ts": 1780315937104,
+      "status": "invalidated"
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -972,54 +1020,6 @@
       "target": 0.28091111,
       "stop": 0.27138884999999996,
       "ts": 1780266479084,
-      "status": "target"
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 143.55999755859375,
-      "target": 145.01996404,
-      "stop": 142.42465939331055,
-      "ts": 1780265248355,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ABT",
-      "mkt": "US",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 85.5999984741211,
-      "target": 86.70625114,
-      "stop": 84.83159908676147,
-      "ts": 1780265248355,
-      "status": "in-progress"
-    },
-    {
-      "sym": "9432.T",
-      "mkt": "Tokyo",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 149.5,
-      "target": 151.1000061,
-      "stop": 148.3757561035156,
-      "ts": 1780265248355,
-      "status": "invalidated"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 0.345,
-      "target": 0.35523333,
-      "stop": 0.3371825,
-      "ts": 1780265188104,
       "status": "target"
     }
   ]
