@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 287,
-  "avgConviction": 81,
+  "signalsDelivered": 289,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "OPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 93
+    },
+    {
+      "sym": "AV.L",
+      "mkt": "London",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
     {
       "sym": "AV.L",
       "mkt": "London",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 89
-    },
-    {
-      "sym": "TRUMPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 81
-    },
-    {
-      "sym": "TONUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 89
     }
   ],
   "track": [
+    {
+      "sym": "OPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 93,
+      "entry": 0.1238,
+      "target": null,
+      "stop": null,
+      "ts": 1780339431837,
+      "status": "in-progress"
+    },
+    {
+      "sym": "AV.L",
+      "mkt": "London",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 612.4000244140625,
+      "target": 644.68954745,
+      "stop": 610.2814121704101,
+      "ts": 1780339418045,
+      "status": "active"
+    },
     {
       "sym": "AV.L",
       "mkt": "London",
@@ -84,7 +108,7 @@
       "target": null,
       "stop": null,
       "ts": 1780336931189,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "CHZUSDT",
@@ -96,7 +120,7 @@
       "target": null,
       "stop": null,
       "ts": 1780336931189,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ENAUSDT",
@@ -108,7 +132,7 @@
       "target": null,
       "stop": null,
       "ts": 1780336931189,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "NEARUSDT",
@@ -120,7 +144,7 @@
       "target": null,
       "stop": null,
       "ts": 1780336931189,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "APEUSDT",
@@ -132,7 +156,7 @@
       "target": null,
       "stop": null,
       "ts": 1780336042893,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TRUMPUSDT",
@@ -144,7 +168,7 @@
       "target": null,
       "stop": null,
       "ts": 1780334117818,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TONUSDT",
@@ -156,7 +180,7 @@
       "target": null,
       "stop": null,
       "ts": 1780333322375,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TRUMPUSDT",
@@ -168,7 +192,7 @@
       "target": null,
       "stop": null,
       "ts": 1780333322375,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "WLDUSDT",
@@ -180,7 +204,7 @@
       "target": null,
       "stop": null,
       "ts": 1780333322375,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TONUSDT",
@@ -192,7 +216,7 @@
       "target": null,
       "stop": null,
       "ts": 1780332311147,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "PENDLEUSDT",
@@ -204,7 +228,7 @@
       "target": null,
       "stop": null,
       "ts": 1780332147775,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ICPUSDT",
@@ -216,7 +240,7 @@
       "target": null,
       "stop": null,
       "ts": 1780332147775,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TONUSDT",
@@ -228,7 +252,7 @@
       "target": null,
       "stop": null,
       "ts": 1780332070955,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "INJUSDT",
@@ -240,7 +264,7 @@
       "target": null,
       "stop": null,
       "ts": 1780331645194,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ETHUSDT",
@@ -252,7 +276,7 @@
       "target": 1994.04,
       "stop": 1964.931115,
       "ts": 1780328865482,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TRXUSDT",
