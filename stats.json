@@ -1,8 +1,29 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 0,
-  "avgConviction": 71,
+  "signalsDelivered": 271,
+  "avgConviction": 73,
   "marketsScanned": 730,
-  "recent": [],
-  "track": []
+  "recent": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 73
+    }
+  ],
+  "track": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.3463,
+      "target": 0.3497,
+      "stop": 0.34478055,
+      "ts": 1780327881523,
+      "status": "in-progress"
+    }
+  ]
 }
