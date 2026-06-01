@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 224,
-  "avgConviction": 70,
+  "signalsDelivered": 225,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
     {
       "sym": "OKBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 71
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 84
     }
   ],
   "track": [
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 0.8803,
+      "target": 0.8852,
+      "stop": 0.87777955,
+      "ts": 1780295449214,
+      "status": "active"
+    },
     {
       "sym": "OKBUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 145.01996404,
       "stop": 142.42465939331055,
       "ts": 1780221433770,
-      "status": "active"
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 0.0921,
-      "target": null,
-      "stop": null,
-      "ts": 1780219812640,
       "status": "active"
     }
   ]
