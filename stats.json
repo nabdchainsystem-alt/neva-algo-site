@@ -1,9 +1,37 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 239,
+  "signalsDelivered": 243,
   "avgConviction": 72,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 74
+    },
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 67
+    },
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 78
+    },
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 74
+    },
     {
       "sym": "AIUSDT",
       "mkt": "Crypto",
@@ -31,37 +59,57 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 70
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 66
-    },
-    {
-      "sym": "GENIUSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 78
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 69
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 79
     }
   ],
   "track": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.2629,
+      "target": 0.26957143,
+      "stop": 0.25770565,
+      "ts": 1780298223051,
+      "status": "active"
+    },
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 67,
+      "entry": 0.2629,
+      "target": 0.26951429,
+      "stop": 0.25750565000000003,
+      "ts": 1780298218665,
+      "status": "active"
+    },
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 78,
+      "entry": 0.10007,
+      "target": 0.10052,
+      "stop": 0.099699895,
+      "ts": 1780298130542,
+      "status": "active"
+    },
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.10007,
+      "target": 0.100505,
+      "stop": 0.099709895,
+      "ts": 1780298130123,
+      "status": "active"
+    },
     {
       "sym": "AIUSDT",
       "mkt": "Crypto",
@@ -972,54 +1020,6 @@
       "target": 97.16000366,
       "stop": 93.49802438735962,
       "ts": 1780264715387,
-      "status": "active"
-    },
-    {
-      "sym": "TMUS",
-      "mkt": "US",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 52,
-      "entry": 187.52999877929688,
-      "target": 195.37999725,
-      "stop": 186.04470597839358,
-      "ts": 1780264715387,
-      "status": "active"
-    },
-    {
-      "sym": "PSON.L",
-      "mkt": "London",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 51,
-      "entry": 1112,
-      "target": 1146.58333333,
-      "stop": 1088.332,
-      "ts": 1780264715387,
-      "status": "active"
-    },
-    {
-      "sym": "USDCUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 83,
-      "entry": 1.00103,
-      "target": 1.0219,
-      "stop": 0.9992684549999999,
-      "ts": 1780259670485,
-      "status": "active"
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 69,
-      "entry": 707.47,
-      "target": 714.05,
-      "stop": 706.1837949999999,
-      "ts": 1780256071836,
       "status": "active"
     }
   ]
