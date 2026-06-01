@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 215,
-  "avgConviction": 78,
+  "signalsDelivered": 217,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 84
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 75
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 86
     }
   ],
   "track": [
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 0.1003,
+      "target": 0.10115,
+      "stop": 0.10000955,
+      "ts": 1780289417655,
+      "status": "active"
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 555.47,
       "stop": 546.188495,
       "ts": 1780212624835,
-      "status": "active"
-    },
-    {
-      "sym": "ALLOUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 64,
-      "entry": 0.2343,
-      "target": 0.2442,
-      "stop": 0.23384855,
-      "ts": 1780210824393,
       "status": "active"
     }
   ]
