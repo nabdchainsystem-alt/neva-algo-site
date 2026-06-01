@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 272,
-  "avgConviction": 73,
+  "signalsDelivered": 273,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 86
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
@@ -20,6 +27,18 @@
     }
   ],
   "track": [
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 86,
+      "entry": 6.745,
+      "target": null,
+      "stop": null,
+      "ts": 1780331645194,
+      "status": "active"
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
