@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 210,
-  "avgConviction": 76,
+  "signalsDelivered": 211,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "DOTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 84
+    },
     {
       "sym": "IOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "DOTUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 1.1994,
+      "target": 1.2052,
+      "stop": 1.1966009,
+      "ts": 1780282938711,
+      "status": "active"
+    },
     {
       "sym": "IOUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.2442,
       "stop": 0.24148300384615384,
       "ts": 1780204072970,
-      "status": "active"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 61,
-      "entry": 544.09,
-      "target": 545.67833333,
-      "stop": 543.058865,
-      "ts": 1780203082043,
       "status": "active"
     }
   ]
