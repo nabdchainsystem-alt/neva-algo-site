@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 249,
-  "avgConviction": 73,
+  "signalsDelivered": 250,
+  "avgConviction": 74,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 88
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 67
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 78
     }
   ],
   "track": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 88,
+      "entry": 0.7135,
+      "target": 0.7193,
+      "stop": 0.7097297499999999,
+      "ts": 1780308085305,
+      "status": "active"
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": null,
       "stop": null,
       "ts": 1780307201933,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "NEXUSDT",
@@ -264,7 +276,7 @@
       "target": 2.357,
       "stop": 2.257547,
       "ts": 1780296259070,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "XRPUSDT",
@@ -288,7 +300,7 @@
       "target": 2.35633333,
       "stop": 2.257547,
       "ts": 1780296167636,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "SUIUSDT",
@@ -300,7 +312,7 @@
       "target": 0.8852,
       "stop": 0.87777955,
       "ts": 1780295449214,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "OKBUSDT",
@@ -444,7 +456,7 @@
       "target": 709.922,
       "stop": 702.1394635,
       "ts": 1780285368090,
-      "status": "active"
+      "status": "target"
     },
     {
       "sym": "DOTUSDT",
@@ -1008,18 +1020,6 @@
       "target": 74023.99,
       "stop": 73597.61128499999,
       "ts": 1780265188104,
-      "status": "invalidated"
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Premium/Discount Fade",
-      "dir": "LONG",
-      "conv": 58,
-      "entry": 73788.12,
-      "target": 74023.99,
-      "stop": 73597.57781999999,
-      "ts": 1780265001685,
       "status": "invalidated"
     }
   ]
