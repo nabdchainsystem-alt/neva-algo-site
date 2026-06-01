@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 246,
-  "avgConviction": 71,
+  "signalsDelivered": 247,
+  "avgConviction": 72,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XMRUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 70
+    },
     {
       "sym": "GLEN.L",
       "mkt": "London",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 79
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 65
     }
   ],
   "track": [
+    {
+      "sym": "XMRUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 360.5,
+      "target": 362.33,
+      "stop": 359.09925,
+      "ts": 1780304152816,
+      "status": "active"
+    },
     {
       "sym": "GLEN.L",
       "mkt": "London",
@@ -1008,18 +1020,6 @@
       "target": 0.4711,
       "stop": 0.4560148,
       "ts": 1780264727322,
-      "status": "active"
-    },
-    {
-      "sym": "ABT",
-      "mkt": "US",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 85.5999984741211,
-      "target": 86.70625114,
-      "stop": 84.83159908676147,
-      "ts": 1780264715387,
       "status": "active"
     }
   ]
