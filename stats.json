@@ -96,7 +96,7 @@
       "target": 0.7193,
       "stop": 0.7097297499999999,
       "ts": 1780308085305,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BNBUSDT",
@@ -960,7 +960,7 @@
       "target": 0.28091111,
       "stop": 0.27138884999999996,
       "ts": 1780266479084,
-      "status": "in-progress"
+      "status": "target"
     },
     {
       "sym": "PG",
