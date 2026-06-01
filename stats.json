@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 198,
-  "avgConviction": 74,
+  "signalsDelivered": 201,
+  "avgConviction": 75,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 89
+    },
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 77
+    },
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 65
+    },
     {
       "sym": "MEGAUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 70
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 67
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 85
-    },
-    {
-      "sym": "RENDERUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 89,
+      "entry": 563.74,
+      "target": 574.625,
+      "stop": 556.4943900000001,
+      "ts": 1780278978144,
+      "status": "active"
+    },
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 77,
+      "entry": 563.4,
+      "target": 574.85,
+      "stop": 556.3749,
+      "ts": 1780278977254,
+      "status": "active"
+    },
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 65,
+      "entry": 0.3626,
+      "target": 0.36696667,
+      "stop": 0.36015610000000003,
+      "ts": 1780278977152,
+      "status": "active"
+    },
     {
       "sym": "MEGAUSDT",
       "mkt": "Crypto",
@@ -984,42 +1020,6 @@
       "target": 1.354,
       "stop": 1.3357885,
       "ts": 1780194549539,
-      "status": "active"
-    },
-    {
-      "sym": "PG",
-      "mkt": "US",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 143.55999755859375,
-      "target": 145.01996404,
-      "stop": 142.42465939331055,
-      "ts": 1780194080389,
-      "status": "active"
-    },
-    {
-      "sym": "ABT",
-      "mkt": "US",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 85.5999984741211,
-      "target": 86.70625114,
-      "stop": 84.83159908676147,
-      "ts": 1780194080389,
-      "status": "active"
-    },
-    {
-      "sym": "9432.T",
-      "mkt": "Tokyo",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 149.5,
-      "target": 151.1000061,
-      "stop": 148.3757561035156,
-      "ts": 1780194080389,
       "status": "active"
     }
   ]
