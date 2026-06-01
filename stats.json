@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-01",
-  "signalsDelivered": 196,
-  "avgConviction": 73,
+  "signalsDelivered": 197,
+  "avgConviction": 72,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 69
+    },
     {
       "sym": "6954.T",
       "mkt": "Tokyo",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 65
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 69,
+      "entry": 706.96,
+      "target": 714.05,
+      "stop": 705.6495600000001,
+      "ts": 1780277000017,
+      "status": "active"
+    },
     {
       "sym": "6954.T",
       "mkt": "Tokyo",
@@ -1008,18 +1020,6 @@
       "target": 0.3497,
       "stop": 0.34752784999999997,
       "ts": 1780184637645,
-      "status": "active"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 526.15,
-      "target": 545.428,
-      "stop": 524.3050607142857,
-      "ts": 1780181670798,
       "status": "active"
     }
   ]
