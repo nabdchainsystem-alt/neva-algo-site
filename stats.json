@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 391,
+  "signalsDelivered": 392,
   "avgConviction": 72,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 73
+    },
     {
       "sym": "ONDOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 72
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.8236,
+      "target": 0.8313,
+      "stop": 0.8222312666666666,
+      "ts": 1780437727199,
+      "status": "active"
+    },
     {
       "sym": "ONDOUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780350457697,
       "status": "in-progress"
-    },
-    {
-      "sym": "MONUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 76,
-      "entry": 0.0226,
-      "target": 0.022745,
-      "stop": 0.02251985,
-      "ts": 1780348847602,
-      "status": "active"
     }
   ]
 }
