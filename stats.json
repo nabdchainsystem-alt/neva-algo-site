@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 376,
-  "avgConviction": 76,
+  "signalsDelivered": 379,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 91
+    },
+    {
+      "sym": "APEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
-    },
-    {
-      "sym": "PONDUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 78
     }
   ],
   "track": [
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 91,
+      "entry": 0.3932,
+      "target": null,
+      "stop": null,
+      "ts": 1780421617059,
+      "status": "active"
+    },
+    {
+      "sym": "APEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.1576,
+      "target": null,
+      "stop": null,
+      "ts": 1780421617059,
+      "status": "active"
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -996,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780344053482,
-      "status": "active"
-    },
-    {
-      "sym": "MEGAUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 0.06006,
-      "target": null,
-      "stop": null,
-      "ts": 1780342220822,
       "status": "active"
     }
   ]
