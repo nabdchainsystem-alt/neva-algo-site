@@ -132,7 +132,7 @@
       "target": null,
       "stop": null,
       "ts": 1780374816661,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "JTOUSDT",
@@ -240,7 +240,7 @@
       "target": 2.97825,
       "stop": 2.934556516666667,
       "ts": 1780367568040,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "BTCUSDT",
@@ -252,7 +252,7 @@
       "target": 71808.4,
       "stop": 70581.75065,
       "ts": 1780367477916,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "IGO.AX",
@@ -276,7 +276,7 @@
       "target": null,
       "stop": null,
       "ts": 1780360375564,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "XLMUSDT",
@@ -312,7 +312,7 @@
       "target": null,
       "stop": null,
       "ts": 1780359509175,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ORDIUSDT",
@@ -348,7 +348,7 @@
       "target": 1.1654,
       "stop": 1.15736,
       "ts": 1780357488414,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "UNIUSDT",
@@ -360,7 +360,7 @@
       "target": 2.9807,
       "stop": 2.9427289,
       "ts": 1780351367945,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "OPGUSDT",
@@ -372,7 +372,7 @@
       "target": null,
       "stop": null,
       "ts": 1780350457697,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "MONUSDT",
@@ -408,7 +408,7 @@
       "target": null,
       "stop": null,
       "ts": 1780344622396,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TRUMPUSDT",
@@ -468,7 +468,7 @@
       "target": null,
       "stop": null,
       "ts": 1780344614354,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TRUMPUSDT",
