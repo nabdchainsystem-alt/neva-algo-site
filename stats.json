@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 381,
-  "avgConviction": 77,
+  "signalsDelivered": 382,
+  "avgConviction": 75,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ADAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "AAVEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 89
     }
   ],
   "track": [
+    {
+      "sym": "ADAUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.2169,
+      "target": 0.2192,
+      "stop": 0.21637465,
+      "ts": 1780424764304,
+      "status": "target"
+    },
     {
       "sym": "AAVEUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780344614354,
       "status": "in-progress"
-    },
-    {
-      "sym": "PENDLEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 1.439,
-      "target": null,
-      "stop": null,
-      "ts": 1780344614354,
-      "status": "active"
     }
   ]
 }
