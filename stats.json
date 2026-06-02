@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 325,
-  "avgConviction": 74,
+  "signalsDelivered": 326,
+  "avgConviction": 75,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "RENDERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 75
+    },
     {
       "sym": "IOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 70
-    },
-    {
-      "sym": "PARTIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "RENDERUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 2.182,
+      "target": null,
+      "stop": null,
+      "ts": 1780372151336,
+      "status": "active"
+    },
     {
       "sym": "IOUSDT",
       "mkt": "Crypto",
