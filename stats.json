@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 365,
-  "avgConviction": 77,
+  "signalsDelivered": 366,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "MNTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "ICPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 70
-    },
-    {
-      "sym": "WPP.L",
-      "mkt": "London",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "MNTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.622,
+      "target": 0.6245,
+      "stop": 0.6204170000000001,
+      "ts": 1780417383657,
+      "status": "active"
+    },
     {
       "sym": "ICPUSDT",
       "mkt": "Crypto",
