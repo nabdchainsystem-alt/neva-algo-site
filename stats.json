@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 354,
-  "avgConviction": 80,
+  "signalsDelivered": 355,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "EDGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 70
+    },
     {
       "sym": "SAHARAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 88
-    },
-    {
-      "sym": "SAHARAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 88
     }
   ],
   "track": [
+    {
+      "sym": "EDGEUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.6599,
+      "target": 0.6687,
+      "stop": 0.65541015,
+      "ts": 1780405322845,
+      "status": "active"
+    },
     {
       "sym": "SAHARAUSDT",
       "mkt": "Crypto",
