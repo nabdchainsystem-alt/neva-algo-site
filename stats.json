@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 366,
-  "avgConviction": 78,
+  "signalsDelivered": 367,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PONDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 78
+    },
     {
       "sym": "MNTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 73
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "PONDUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 78,
+      "entry": 0.00167,
+      "target": null,
+      "stop": null,
+      "ts": 1780417878063,
+      "status": "active"
+    },
     {
       "sym": "MNTUSDT",
       "mkt": "Crypto",
