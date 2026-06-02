@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 339,
-  "avgConviction": 80,
+  "signalsDelivered": 340,
+  "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JTOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 88
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 70
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "JTOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 88,
+      "entry": 0.6411,
+      "target": null,
+      "stop": null,
+      "ts": 1780387236669,
+      "status": "active"
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
