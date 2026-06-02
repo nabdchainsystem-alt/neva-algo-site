@@ -132,7 +132,7 @@
       "target": null,
       "stop": null,
       "ts": 1780398256410,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "SAHARAUSDT",
@@ -144,7 +144,7 @@
       "target": null,
       "stop": null,
       "ts": 1780398170794,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "XLMUSDT",
@@ -180,7 +180,7 @@
       "target": null,
       "stop": null,
       "ts": 1780395533861,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "EDGEUSDT",
@@ -384,7 +384,7 @@
       "target": null,
       "stop": null,
       "ts": 1780372866079,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "RENDERUSDT",
@@ -396,7 +396,7 @@
       "target": null,
       "stop": null,
       "ts": 1780372151336,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "IOUSDT",
@@ -408,7 +408,7 @@
       "target": null,
       "stop": null,
       "ts": 1780372067901,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "PENDLEUSDT",
