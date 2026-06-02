@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 326,
-  "avgConviction": 75,
+  "signalsDelivered": 329,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JTOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 84
+    },
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
     {
       "sym": "RENDERUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 85
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
-    },
-    {
-      "sym": "IGO.AX",
-      "mkt": "Sydney",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "JTOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 0.6112,
+      "target": null,
+      "stop": null,
+      "ts": 1780372945500,
+      "status": "active"
+    },
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.3649,
+      "target": null,
+      "stop": null,
+      "ts": 1780372945500,
+      "status": "active"
+    },
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 0.1729,
+      "target": null,
+      "stop": null,
+      "ts": 1780372866079,
+      "status": "active"
+    },
     {
       "sym": "RENDERUSDT",
       "mkt": "Crypto",
