@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 341,
-  "avgConviction": 84,
+  "signalsDelivered": 343,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "EDGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 70
+    },
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
     {
       "sym": "JTOUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "OPGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 89
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 88
     }
   ],
   "track": [
+    {
+      "sym": "EDGEUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.6548,
+      "target": 0.6687,
+      "stop": 0.6457677999999999,
+      "ts": 1780393843882,
+      "status": "active"
+    },
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 7.243,
+      "target": null,
+      "stop": null,
+      "ts": 1780393760487,
+      "status": "in-progress"
+    },
     {
       "sym": "JTOUSDT",
       "mkt": "Crypto",
