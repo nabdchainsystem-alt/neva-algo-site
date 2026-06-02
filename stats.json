@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 367,
-  "avgConviction": 79,
+  "signalsDelivered": 369,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "PONDUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 72
-    },
-    {
-      "sym": "BIOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 83
-    },
-    {
-      "sym": "POLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 667.16,
+      "target": 671.5,
+      "stop": 665.66926,
+      "ts": 1780418287658,
+      "status": "target"
+    },
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 667.2,
+      "target": 671.5,
+      "stop": 665.5992,
+      "ts": 1780418282648,
+      "status": "target"
+    },
     {
       "sym": "PONDUSDT",
       "mkt": "Crypto",
