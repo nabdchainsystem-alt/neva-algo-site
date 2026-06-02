@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 384,
-  "avgConviction": 75,
+  "signalsDelivered": 385,
+  "avgConviction": 74,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "DOTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 70
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "DOTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 1.1039,
+      "target": 1.1095,
+      "stop": 1.10134415,
+      "ts": 1780430523392,
+      "status": "target"
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 86,
       "entry": 2.187,
-      "target": null,
-      "stop": null,
-      "ts": 1780344614354,
-      "status": "in-progress"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 85,
-      "entry": 0.4302,
       "target": null,
       "stop": null,
       "ts": 1780344614354,
