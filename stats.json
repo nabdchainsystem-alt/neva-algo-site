@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 382,
-  "avgConviction": 75,
+  "signalsDelivered": 383,
+  "avgConviction": 74,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "ADAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 72
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 240.7,
+      "target": 245.45333333,
+      "stop": 239.92561666666666,
+      "ts": 1780424853115,
+      "status": "target"
+    },
     {
       "sym": "ADAUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 82,
       "entry": 2.054,
-      "target": null,
-      "stop": null,
-      "ts": 1780344614354,
-      "status": "in-progress"
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 7.153,
       "target": null,
       "stop": null,
       "ts": 1780344614354,
