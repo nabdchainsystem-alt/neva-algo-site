@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 357,
+  "signalsDelivered": 358,
   "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "WPP.L",
+      "mkt": "London",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 71
+    },
     {
       "sym": "INTU",
       "mkt": "US",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 73
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "WPP.L",
+      "mkt": "London",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 278.2340087890625,
+      "target": 289.5,
+      "stop": 276.2826611938477,
+      "ts": 1780408271852,
+      "status": "active"
+    },
     {
       "sym": "INTU",
       "mkt": "US",
