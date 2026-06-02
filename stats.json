@@ -1,9 +1,23 @@
 {
-  "updatedAt": "2026-06-01",
-  "signalsDelivered": 312,
-  "avgConviction": 81,
+  "updatedAt": "2026-06-02",
+  "signalsDelivered": 314,
+  "avgConviction": 84,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ORDIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 88
+    },
+    {
+      "sym": "ORDIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 89
+    },
     {
       "sym": "DOTUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 85
-    },
-    {
-      "sym": "TRUMPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 82
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "ORDIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 88,
+      "entry": 4.014,
+      "target": null,
+      "stop": null,
+      "ts": 1780358562726,
+      "status": "active"
+    },
+    {
+      "sym": "ORDIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 89,
+      "entry": 4.014,
+      "target": null,
+      "stop": null,
+      "ts": 1780358468112,
+      "status": "active"
+    },
     {
       "sym": "DOTUSDT",
       "mkt": "Crypto",
