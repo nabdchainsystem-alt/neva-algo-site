@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1780393483142,
+  "updatedAt": 1780393663173,
   "crypto": [
     {
       "sym": "BTC",
@@ -260,8 +260,8 @@
     {
       "sym": "HSBA",
       "mkt": "UK",
-      "px": 1396,
-      "ch": 0.97
+      "px": 1396.4,
+      "ch": 1
     },
     {
       "sym": "SHEL",
