@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 344,
+  "signalsDelivered": 345,
   "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "CHIPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 74
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 78
     }
   ],
   "track": [
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.8449,
+      "target": 0.8481,
+      "stop": 0.84333265,
+      "ts": 1780397176389,
+      "status": "invalidated"
+    },
     {
       "sym": "CHIPUSDT",
       "mkt": "Crypto",
