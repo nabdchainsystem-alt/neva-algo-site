@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 338,
-  "avgConviction": 77,
+  "signalsDelivered": 339,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HOMEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 93
+    },
     {
       "sym": "HLN.L",
       "mkt": "London",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 70
-    },
-    {
-      "sym": "PLS.AX",
-      "mkt": "Sydney",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "HOMEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 93,
+      "entry": 0.0504,
+      "target": null,
+      "stop": null,
+      "ts": 1780385432427,
+      "status": "active"
+    },
     {
       "sym": "HLN.L",
       "mkt": "London",
