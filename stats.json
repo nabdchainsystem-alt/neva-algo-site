@@ -504,7 +504,7 @@
       "target": null,
       "stop": null,
       "ts": 1780344622396,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "PENDLEUSDT",
@@ -564,7 +564,7 @@
       "target": null,
       "stop": null,
       "ts": 1780344614354,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "PENDLEUSDT",
