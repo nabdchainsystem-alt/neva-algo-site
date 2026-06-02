@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 337,
+  "signalsDelivered": 338,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HLN.L",
+      "mkt": "London",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 74
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 73
-    },
-    {
-      "sym": "OPGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "HLN.L",
+      "mkt": "London",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 326.5,
+      "target": 338.5,
+      "stop": 325.5602530517578,
+      "ts": 1780384767812,
+      "status": "active"
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
