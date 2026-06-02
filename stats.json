@@ -72,7 +72,7 @@
       "target": 338.5,
       "stop": 325.5602530517578,
       "ts": 1780384767812,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "ASTERUSDT",
