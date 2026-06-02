@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 394,
-  "avgConviction": 73,
+  "signalsDelivered": 396,
+  "avgConviction": 75,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 80
+    },
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 75
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 72
+    }
+  ],
+  "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 588.72,
+      "target": 599.44,
+      "stop": 582.67692,
+      "ts": 1780440513205,
+      "status": "invalidated"
     },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
-      "dir": "LONG",
       "setup": "CHoCH Reversal",
-      "conv": 70
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
       "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 72
-    }
-  ],
-  "track": [
+      "conv": 75,
+      "entry": 589.09,
+      "target": 599.455,
+      "stop": 583.116365,
+      "ts": 1780440512726,
+      "status": "invalidated"
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": null,
       "ts": 1780358562726,
       "status": "active"
-    },
-    {
-      "sym": "ORDIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 89,
-      "entry": 4.014,
-      "target": null,
-      "stop": null,
-      "ts": 1780358468112,
-      "status": "active"
-    },
-    {
-      "sym": "DOTUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 1.16,
-      "target": 1.1654,
-      "stop": 1.15736,
-      "ts": 1780357488414,
-      "status": "invalidated"
     }
   ]
 }
