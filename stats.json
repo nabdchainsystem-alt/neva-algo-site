@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 359,
-  "avgConviction": 75,
+  "signalsDelivered": 361,
+  "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BIOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 83
+    },
+    {
+      "sym": "POLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 85
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
-    },
-    {
-      "sym": "BIOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 78
     }
   ],
   "track": [
+    {
+      "sym": "BIOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 83,
+      "entry": 0.035,
+      "target": null,
+      "stop": null,
+      "ts": 1780412598664,
+      "status": "active"
+    },
+    {
+      "sym": "POLUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.09194,
+      "target": null,
+      "stop": null,
+      "ts": 1780412598664,
+      "status": "active"
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
