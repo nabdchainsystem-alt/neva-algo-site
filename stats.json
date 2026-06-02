@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 356,
-  "avgConviction": 77,
+  "signalsDelivered": 357,
+  "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "INTU",
+      "mkt": "US",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 70
+    },
     {
       "sym": "BIOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "HYPEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "INTU",
+      "mkt": "US",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 328.3999938964844,
+      "target": 362.86248779,
+      "stop": 327.41740367126465,
+      "ts": 1780407193589,
+      "status": "in-progress"
+    },
     {
       "sym": "BIOUSDT",
       "mkt": "Crypto",
