@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 362,
-  "avgConviction": 75,
+  "signalsDelivered": 363,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 93
+    },
     {
       "sym": "HYPEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 87
-    },
-    {
-      "sym": "EDGEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 93,
+      "entry": 603.95,
+      "target": null,
+      "stop": null,
+      "ts": 1780417075850,
+      "status": "active"
+    },
     {
       "sym": "HYPEUSDT",
       "mkt": "Crypto",
