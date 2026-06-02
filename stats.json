@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 333,
-  "avgConviction": 75,
+  "signalsDelivered": 334,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 88
+    },
     {
       "sym": "8058.T",
       "mkt": "Tokyo",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 80
-    },
-    {
-      "sym": "RENDERUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 88,
+      "entry": 683.9,
+      "target": 685.5,
+      "stop": 682.8491499999999,
+      "ts": 1780380347946,
+      "status": "active"
+    },
     {
       "sym": "8058.T",
       "mkt": "Tokyo",
