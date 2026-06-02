@@ -72,7 +72,7 @@
       "target": null,
       "stop": null,
       "ts": 1780388291131,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "JTOUSDT",
@@ -84,7 +84,7 @@
       "target": null,
       "stop": null,
       "ts": 1780387236669,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "HOMEUSDT",
@@ -216,7 +216,7 @@
       "target": null,
       "stop": null,
       "ts": 1780372945500,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ONDOUSDT",
