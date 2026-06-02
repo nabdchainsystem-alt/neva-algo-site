@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 369,
+  "signalsDelivered": 371,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 89
+    },
+    {
+      "sym": "GENIUSUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 71
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 93
-    },
-    {
-      "sym": "HYPEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 89,
+      "entry": 0.0911,
+      "target": null,
+      "stop": null,
+      "ts": 1780418918722,
+      "status": "active"
+    },
+    {
+      "sym": "GENIUSUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.4685,
+      "target": null,
+      "stop": null,
+      "ts": 1780418918722,
+      "status": "active"
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
