@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 371,
+  "signalsDelivered": 372,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SOLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 83
-    },
-    {
-      "sym": "ORDIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "SOLUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 76.77,
+      "target": 77.805,
+      "stop": 76.619845,
+      "ts": 1780419541694,
+      "status": "target"
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
