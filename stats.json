@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 318,
-  "avgConviction": 81,
+  "signalsDelivered": 319,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "IGO.AX",
+      "mkt": "Sydney",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 70
+    },
     {
       "sym": "PARTIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 70
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 100
     }
   ],
   "track": [
+    {
+      "sym": "IGO.AX",
+      "mkt": "Sydney",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 9.460000038146973,
+      "target": 9.71000004,
+      "stop": 9.305809694766998,
+      "ts": 1780364309107,
+      "status": "active"
+    },
     {
       "sym": "PARTIUSDT",
       "mkt": "Crypto",
