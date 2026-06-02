@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 329,
-  "avgConviction": 77,
+  "signalsDelivered": 331,
+  "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PLS.AX",
+      "mkt": "Sydney",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 73
+    },
+    {
+      "sym": "OPGUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 74
+    },
     {
       "sym": "JTOUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 78
-    },
-    {
-      "sym": "OKBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 70
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 85
     }
   ],
   "track": [
+    {
+      "sym": "PLS.AX",
+      "mkt": "Sydney",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 6.474999904632568,
+      "target": 6.58500004,
+      "stop": 6.415287690877914,
+      "ts": 1780374931023,
+      "status": "active"
+    },
+    {
+      "sym": "OPGUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.1908,
+      "target": null,
+      "stop": null,
+      "ts": 1780374816661,
+      "status": "active"
+    },
     {
       "sym": "JTOUSDT",
       "mkt": "Crypto",
