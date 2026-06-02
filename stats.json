@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-02",
-  "signalsDelivered": 392,
-  "avgConviction": 72,
+  "signalsDelivered": 393,
+  "avgConviction": 73,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 74
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 70
-    },
-    {
-      "sym": "DOTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.8218,
+      "target": 0.8311,
+      "stop": 0.8203673,
+      "ts": 1780437901683,
+      "status": "target"
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 0.8313,
       "stop": 0.8222312666666666,
       "ts": 1780437727199,
-      "status": "active"
+      "status": "target"
     },
     {
       "sym": "ONDOUSDT",
@@ -1009,18 +1021,6 @@
       "stop": 2.9427289,
       "ts": 1780351367945,
       "status": "invalidated"
-    },
-    {
-      "sym": "OPGUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 78,
-      "entry": 0.1785,
-      "target": null,
-      "stop": null,
-      "ts": 1780350457697,
-      "status": "in-progress"
     }
   ]
 }
