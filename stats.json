@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 421,
-  "avgConviction": 80,
+  "signalsDelivered": 424,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 78
+    },
+    {
+      "sym": "AVAXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 77
+    },
+    {
+      "sym": "EIGENUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "CHZUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 80
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 82
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 72
-    },
-    {
-      "sym": "OPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 84
     }
   ],
   "track": [
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 78,
+      "entry": 0.4085,
+      "target": null,
+      "stop": null,
+      "ts": 1780466731879,
+      "status": "active"
+    },
+    {
+      "sym": "AVAXUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 77,
+      "entry": 8.285,
+      "target": null,
+      "stop": null,
+      "ts": 1780466731879,
+      "status": "active"
+    },
+    {
+      "sym": "EIGENUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.2089,
+      "target": null,
+      "stop": null,
+      "ts": 1780466640563,
+      "status": "in-progress"
+    },
     {
       "sym": "CHZUSDT",
       "mkt": "Crypto",
@@ -984,42 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780387236669,
-      "status": "in-progress"
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 93,
-      "entry": 0.0504,
-      "target": null,
-      "stop": null,
-      "ts": 1780385432427,
-      "status": "active"
-    },
-    {
-      "sym": "HLN.L",
-      "mkt": "London",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 326.5,
-      "target": 338.5,
-      "stop": 325.5602530517578,
-      "ts": 1780384767812,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 78,
-      "entry": 0.6823,
-      "target": 0.6935,
-      "stop": 0.6811765499999999,
-      "ts": 1780383705378,
       "status": "in-progress"
     }
   ]
