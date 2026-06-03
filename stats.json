@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 405,
-  "avgConviction": 75,
+  "signalsDelivered": 408,
+  "avgConviction": 73,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "DOTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 70
-    },
-    {
-      "sym": "MEMEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
-    },
-    {
-      "sym": "BILLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 90
     }
   ],
   "track": [
+    {
+      "sym": "DOTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 1.0816,
+      "target": 1.08735,
+      "stop": 1.0793776,
+      "ts": 1780461303482,
+      "status": "target"
+    },
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.8092,
+      "target": 0.8131,
+      "stop": 0.8075861999999999,
+      "ts": 1780461213433,
+      "status": "target"
+    },
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.8091,
+      "target": 0.813,
+      "stop": 0.80788635,
+      "ts": 1780461212717,
+      "status": "target"
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -985,42 +1021,6 @@
       "stop": null,
       "ts": 1780372067901,
       "status": "in-progress"
-    },
-    {
-      "sym": "PENDLEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 78,
-      "entry": 1.439,
-      "target": null,
-      "stop": null,
-      "ts": 1780370177073,
-      "status": "active"
-    },
-    {
-      "sym": "OKBUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 88.88,
-      "target": 89.8,
-      "stop": 88.29668000000001,
-      "ts": 1780368377809,
-      "status": "active"
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 85,
-      "entry": 0.02213,
-      "target": null,
-      "stop": null,
-      "ts": 1780368334098,
-      "status": "active"
     }
   ]
 }
