@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 461,
+  "signalsDelivered": 464,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZROUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 82
+    },
+    {
+      "sym": "ZROUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 79
+    },
+    {
+      "sym": "FILUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 81
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 79
-    },
-    {
-      "sym": "IRYSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 70
-    },
-    {
-      "sym": "FILUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 90
-    },
-    {
-      "sym": "FILUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 83
     }
   ],
   "track": [
+    {
+      "sym": "ZROUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 1.211,
+      "target": null,
+      "stop": null,
+      "ts": 1780498964178,
+      "status": "active"
+    },
+    {
+      "sym": "ZROUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 79,
+      "entry": 1.211,
+      "target": null,
+      "stop": null,
+      "ts": 1780498964178,
+      "status": "active"
+    },
+    {
+      "sym": "FILUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 81,
+      "entry": 0.991,
+      "target": null,
+      "stop": null,
+      "ts": 1780498890747,
+      "status": "active"
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -985,42 +1021,6 @@
       "stop": 0.21637465,
       "ts": 1780424764304,
       "status": "target"
-    },
-    {
-      "sym": "AAVEUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 76.99,
-      "target": 79.88,
-      "stop": 75.814515,
-      "ts": 1780423683086,
-      "status": "in-progress"
-    },
-    {
-      "sym": "GENIUSUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.4887,
-      "target": null,
-      "stop": null,
-      "ts": 1780423373952,
-      "status": "active"
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 91,
-      "entry": 0.3932,
-      "target": null,
-      "stop": null,
-      "ts": 1780421617059,
-      "status": "active"
     }
   ]
 }
