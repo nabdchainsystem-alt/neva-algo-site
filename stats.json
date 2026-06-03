@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 479,
+  "signalsDelivered": 480,
   "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "JSTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 84
-    },
-    {
-      "sym": "BIOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 1.2133,
+      "target": 1.228375,
+      "stop": 1.20918005,
+      "ts": 1780525833837,
+      "status": "in-progress"
+    },
     {
       "sym": "JSTUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.08306517,
       "ts": 1780442223435,
       "status": "active"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 80,
-      "entry": 588.72,
-      "target": 599.44,
-      "stop": 582.67692,
-      "ts": 1780440513205,
-      "status": "invalidated"
     }
   ]
 }
