@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 457,
+  "signalsDelivered": 458,
   "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 75
+    },
     {
       "sym": "PONDUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 83
-    },
-    {
-      "sym": "CFGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "ARUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 2.46,
+      "target": null,
+      "stop": null,
+      "ts": 1780493626780,
+      "status": "active"
+    },
     {
       "sym": "PONDUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.096515,
       "stop": 0.09520661500000001,
       "ts": 1780419722512,
-      "status": "target"
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 76.77,
-      "target": 77.805,
-      "stop": 76.619845,
-      "ts": 1780419541694,
       "status": "target"
     }
   ]
