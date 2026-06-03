@@ -1,9 +1,37 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 414,
-  "avgConviction": 76,
+  "signalsDelivered": 418,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
+    {
+      "sym": "CHZUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 82
+    },
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "OPUSDT",
       "mkt": "Crypto",
@@ -31,37 +59,57 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 72
+    }
+  ],
+  "track": [
+    {
+      "sym": "PUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 0.001739,
+      "target": null,
+      "stop": null,
+      "ts": 1780463930370,
+      "status": "in-progress"
+    },
+    {
+      "sym": "CHZUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 0.03457,
+      "target": null,
+      "stop": null,
+      "ts": 1780463930370,
+      "status": "in-progress"
+    },
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 0.8345,
+      "target": null,
+      "stop": null,
+      "ts": 1780463877628,
+      "status": "in-progress"
     },
     {
       "sym": "TRXUSDT",
       "mkt": "Crypto",
+      "setup": "Pump build-up",
       "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 74
+      "conv": 72,
+      "entry": 0.3331,
+      "target": null,
+      "stop": null,
+      "ts": 1780463877628,
+      "status": "in-progress"
     },
-    {
-      "sym": "DOTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
-    }
-  ],
-  "track": [
     {
       "sym": "OPUSDT",
       "mkt": "Crypto",
@@ -973,54 +1021,6 @@
       "stop": 682.8491499999999,
       "ts": 1780380347946,
       "status": "target"
-    },
-    {
-      "sym": "8058.T",
-      "mkt": "Tokyo",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 4877,
-      "target": 4928,
-      "stop": 4854.6845,
-      "ts": 1780377449228,
-      "status": "target"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 568.08,
-      "target": 576.86666667,
-      "stop": 563.5778799999999,
-      "ts": 1780376118383,
-      "status": "invalidated"
-    },
-    {
-      "sym": "PLS.AX",
-      "mkt": "Sydney",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 6.474999904632568,
-      "target": 6.58500004,
-      "stop": 6.415287690877914,
-      "ts": 1780374931023,
-      "status": "target"
-    },
-    {
-      "sym": "OPGUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.1908,
-      "target": null,
-      "stop": null,
-      "ts": 1780374816661,
-      "status": "in-progress"
     }
   ]
 }
