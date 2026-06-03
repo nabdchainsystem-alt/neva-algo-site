@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 477,
-  "avgConviction": 82,
+  "signalsDelivered": 478,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 71
+    },
     {
       "sym": "OPGUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 82
-    },
-    {
-      "sym": "POLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.1013,
+      "target": null,
+      "stop": null,
+      "ts": 1780508822843,
+      "status": "active"
+    },
     {
       "sym": "OPGUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 583.116365,
       "ts": 1780440512726,
       "status": "invalidated"
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.09351,
-      "target": 0.09452,
-      "stop": 0.09332640166666666,
-      "ts": 1780438622724,
-      "status": "target"
     }
   ]
 }
