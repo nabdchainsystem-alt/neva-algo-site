@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 464,
-  "avgConviction": 77,
+  "signalsDelivered": 465,
+  "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "ZROUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 75
-    },
-    {
-      "sym": "PONDUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 79
     }
   ],
   "track": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.697,
+      "target": null,
+      "stop": null,
+      "ts": 1780499578019,
+      "status": "active"
+    },
     {
       "sym": "ZROUSDT",
       "mkt": "Crypto",
@@ -144,7 +156,7 @@
       "target": null,
       "stop": null,
       "ts": 1780493626780,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "PONDUSDT",
@@ -180,7 +192,7 @@
       "target": null,
       "stop": null,
       "ts": 1780488198036,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "FILUSDT",
@@ -192,7 +204,7 @@
       "target": null,
       "stop": null,
       "ts": 1780488198036,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "CFGUSDT",
@@ -216,7 +228,7 @@
       "target": null,
       "stop": null,
       "ts": 1780488189037,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "FILUSDT",
@@ -228,7 +240,7 @@
       "target": null,
       "stop": null,
       "ts": 1780488189037,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "CFGUSDT",
@@ -252,7 +264,7 @@
       "target": null,
       "stop": null,
       "ts": 1780488021950,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "UNIUSDT",
@@ -264,7 +276,7 @@
       "target": null,
       "stop": null,
       "ts": 1780486486709,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ARUSDT",
@@ -276,7 +288,7 @@
       "target": null,
       "stop": null,
       "ts": 1780485479599,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "TIAUSDT",
@@ -312,7 +324,7 @@
       "target": null,
       "stop": null,
       "ts": 1780485479599,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "FILUSDT",
@@ -324,7 +336,7 @@
       "target": null,
       "stop": null,
       "ts": 1780485447674,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "FILUSDT",
@@ -336,7 +348,7 @@
       "target": null,
       "stop": null,
       "ts": 1780484648076,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "WLFIUSDT",
@@ -348,7 +360,7 @@
       "target": null,
       "stop": null,
       "ts": 1780482838140,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "GIGGLEUSDT",
@@ -384,7 +396,7 @@
       "target": null,
       "stop": null,
       "ts": 1780478119584,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "MEMEUSDT",
@@ -396,7 +408,7 @@
       "target": null,
       "stop": null,
       "ts": 1780477299946,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "MEMEUSDT",
@@ -408,7 +420,7 @@
       "target": null,
       "stop": null,
       "ts": 1780476517414,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "VICUSDT",
@@ -420,7 +432,7 @@
       "target": null,
       "stop": null,
       "ts": 1780474660635,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "NIGHTUSDT",
@@ -492,7 +504,7 @@
       "target": null,
       "stop": null,
       "ts": 1780469317060,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "JTOUSDT",
@@ -516,7 +528,7 @@
       "target": null,
       "stop": null,
       "ts": 1780468437045,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "BIOUSDT",
@@ -540,7 +552,7 @@
       "target": null,
       "stop": null,
       "ts": 1780466731879,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "AVAXUSDT",
@@ -600,7 +612,7 @@
       "target": null,
       "stop": null,
       "ts": 1780464678627,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "PUMPUSDT",
@@ -792,7 +804,7 @@
       "target": null,
       "stop": null,
       "ts": 1780452997476,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "HOMEUSDT",
@@ -816,7 +828,7 @@
       "target": null,
       "stop": null,
       "ts": 1780448497204,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "MEMEUSDT",
@@ -912,7 +924,7 @@
       "target": null,
       "stop": null,
       "ts": 1780434167272,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ZECUSDT",
@@ -924,7 +936,7 @@
       "target": null,
       "stop": null,
       "ts": 1780434035847,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "OKBUSDT",
@@ -1008,18 +1020,6 @@
       "target": 245.45333333,
       "stop": 239.92561666666666,
       "ts": 1780424853115,
-      "status": "target"
-    },
-    {
-      "sym": "ADAUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.2169,
-      "target": 0.2192,
-      "stop": 0.21637465,
-      "ts": 1780424764304,
       "status": "target"
     }
   ]
