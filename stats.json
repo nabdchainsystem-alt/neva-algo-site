@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 419,
-  "avgConviction": 80,
+  "signalsDelivered": 420,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 84
+    },
     {
       "sym": "ALLOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 82
-    },
-    {
-      "sym": "PENGUUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 67076.2,
+      "target": 67249.85,
+      "stop": 66973.7857,
+      "ts": 1780465713385,
+      "status": "target"
+    },
     {
       "sym": "ALLOUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780382914676,
       "status": "in-progress"
-    },
-    {
-      "sym": "OPGUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 89,
-      "entry": 0.203,
-      "target": null,
-      "stop": null,
-      "ts": 1780381995168,
-      "status": "active"
     }
   ]
 }
