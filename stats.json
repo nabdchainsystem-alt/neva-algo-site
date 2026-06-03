@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 456,
-  "avgConviction": 83,
+  "signalsDelivered": 457,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PONDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 79
+    },
     {
       "sym": "IRYSUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 75
-    },
-    {
-      "sym": "ARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 98
     }
   ],
   "track": [
+    {
+      "sym": "PONDUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 79,
+      "entry": 0.00175,
+      "target": null,
+      "stop": null,
+      "ts": 1780492567760,
+      "status": "active"
+    },
     {
       "sym": "IRYSUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 76.619845,
       "ts": 1780419541694,
       "status": "target"
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 89,
-      "entry": 0.0911,
-      "target": null,
-      "stop": null,
-      "ts": 1780418918722,
-      "status": "active"
     }
   ]
 }
