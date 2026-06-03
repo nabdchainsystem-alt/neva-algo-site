@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 478,
-  "avgConviction": 81,
+  "signalsDelivered": 479,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 82
     }
   ],
   "track": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.07743,
+      "target": 0.07922,
+      "stop": 0.076883855,
+      "ts": 1780516104926,
+      "status": "in-progress"
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 599.44,
       "stop": 582.67692,
       "ts": 1780440513205,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 589.09,
-      "target": 599.455,
-      "stop": 583.116365,
-      "ts": 1780440512726,
       "status": "invalidated"
     }
   ]
