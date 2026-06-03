@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 430,
+  "signalsDelivered": 432,
   "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "OKBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 76
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 78
-    },
-    {
-      "sym": "AVAXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "OKBUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 84.41,
+      "target": 84.63666667,
+      "stop": 84.273385,
+      "ts": 1780471111925,
+      "status": "active"
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780398170794,
       "status": "in-progress"
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.2336,
-      "target": 0.2363,
-      "stop": 0.2327496,
-      "ts": 1780397543513,
-      "status": "invalidated"
     }
   ]
 }
