@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 441,
-  "avgConviction": 78,
+  "signalsDelivered": 442,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "FILUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 82
+    },
     {
       "sym": "WLFIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 90
-    },
-    {
-      "sym": "NIGHTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "FILUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 0.955,
+      "target": null,
+      "stop": null,
+      "ts": 1780484648076,
+      "status": "active"
+    },
     {
       "sym": "WLFIUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 327.41740367126465,
       "ts": 1780407193589,
       "status": "invalidated"
-    },
-    {
-      "sym": "BIOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 87,
-      "entry": 0.0334,
-      "target": null,
-      "stop": null,
-      "ts": 1780405525937,
-      "status": "active"
     }
   ]
 }
