@@ -72,7 +72,7 @@
       "target": 1874.11,
       "stop": 1836.178995,
       "ts": 1780501748077,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "ETHUSDT",
@@ -84,7 +84,7 @@
       "target": 1874.59,
       "stop": 1836.058845,
       "ts": 1780501738630,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "LINKUSDT",
