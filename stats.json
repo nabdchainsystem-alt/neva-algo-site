@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 465,
-  "avgConviction": 76,
+  "signalsDelivered": 468,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 87
+    },
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
+    {
+      "sym": "POLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 71
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 70
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 77
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 70
-    },
-    {
-      "sym": "ARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 87,
+      "entry": 0.0973,
+      "target": null,
+      "stop": null,
+      "ts": 1780499762414,
+      "status": "active"
+    },
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.699,
+      "target": null,
+      "stop": null,
+      "ts": 1780499762414,
+      "status": "active"
+    },
+    {
+      "sym": "POLUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.09505,
+      "target": null,
+      "stop": null,
+      "ts": 1780499762414,
+      "status": "active"
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -985,42 +1021,6 @@
       "stop": null,
       "ts": 1780431379588,
       "status": "active"
-    },
-    {
-      "sym": "DOTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 1.1039,
-      "target": 1.1095,
-      "stop": 1.10134415,
-      "ts": 1780430523392,
-      "status": "target"
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 2.8074,
-      "target": 2.85895,
-      "stop": 2.7985889,
-      "ts": 1780429444177,
-      "status": "target"
-    },
-    {
-      "sym": "TAOUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 240.7,
-      "target": 245.45333333,
-      "stop": 239.92561666666666,
-      "ts": 1780424853115,
-      "status": "target"
     }
   ]
 }
