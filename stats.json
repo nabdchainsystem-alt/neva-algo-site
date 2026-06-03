@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-02",
-  "signalsDelivered": 398,
+  "updatedAt": "2026-06-03",
+  "signalsDelivered": 399,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "MEMEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 74
+    },
     {
       "sym": "BILLUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 72
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "MEMEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.000495,
+      "target": null,
+      "stop": null,
+      "ts": 1780444953909,
+      "status": "active"
+    },
     {
       "sym": "BILLUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 5784.2925,
       "ts": 1780359629062,
       "status": "target"
-    },
-    {
-      "sym": "STGUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 81,
-      "entry": 0.3404,
-      "target": null,
-      "stop": null,
-      "ts": 1780359509175,
-      "status": "in-progress"
     }
   ]
 }
