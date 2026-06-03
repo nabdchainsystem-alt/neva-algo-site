@@ -120,7 +120,7 @@
       "target": null,
       "stop": null,
       "ts": 1780500851036,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "POLUSDT",
@@ -144,7 +144,7 @@
       "target": null,
       "stop": null,
       "ts": 1780499762414,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ASTERUSDT",
@@ -168,7 +168,7 @@
       "target": null,
       "stop": null,
       "ts": 1780499762414,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ASTERUSDT",
@@ -228,7 +228,7 @@
       "target": null,
       "stop": null,
       "ts": 1780496241925,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "SOLUSDT",
@@ -564,7 +564,7 @@
       "target": null,
       "stop": null,
       "ts": 1780472815608,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "OKBUSDT",
