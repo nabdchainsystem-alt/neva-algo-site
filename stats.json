@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 401,
+  "signalsDelivered": 402,
   "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PONDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 74
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "PONDUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.00165,
+      "target": null,
+      "stop": null,
+      "ts": 1780452997476,
+      "status": "active"
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 9.71000004,
       "stop": 9.305809694766998,
       "ts": 1780364309107,
-      "status": "in-progress"
-    },
-    {
-      "sym": "PARTIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.0529,
-      "target": null,
-      "stop": null,
-      "ts": 1780360375564,
       "status": "in-progress"
     }
   ]
