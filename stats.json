@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 420,
-  "avgConviction": 81,
+  "signalsDelivered": 421,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "CHZUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 84
-    },
-    {
-      "sym": "BCHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 82
     }
   ],
   "track": [
+    {
+      "sym": "CHZUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.03454,
+      "target": null,
+      "stop": null,
+      "ts": 1780466482581,
+      "status": "in-progress"
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.6935,
       "stop": 0.6811765499999999,
       "ts": 1780383705378,
-      "status": "in-progress"
-    },
-    {
-      "sym": "STGUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.3689,
-      "target": null,
-      "stop": null,
-      "ts": 1780382914676,
       "status": "in-progress"
     }
   ]
