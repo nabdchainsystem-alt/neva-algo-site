@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 468,
-  "avgConviction": 77,
+  "signalsDelivered": 470,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 82
+    },
+    {
+      "sym": "POLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 77
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 79
-    },
-    {
-      "sym": "FILUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 81
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 0.0976,
+      "target": null,
+      "stop": null,
+      "ts": 1780500851036,
+      "status": "active"
+    },
+    {
+      "sym": "POLUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 77,
+      "entry": 0.09521,
+      "target": null,
+      "stop": null,
+      "ts": 1780500851036,
+      "status": "active"
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": 583.7855099999999,
       "ts": 1780431424005,
       "status": "invalidated"
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 2.5988,
-      "target": 2.70098571,
-      "stop": 2.5764418,
-      "ts": 1780431423628,
-      "status": "target"
-    },
-    {
-      "sym": "GENIUSUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 0.5129,
-      "target": null,
-      "stop": null,
-      "ts": 1780431379588,
-      "status": "active"
     }
   ]
 }
