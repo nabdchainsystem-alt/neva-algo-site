@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 458,
-  "avgConviction": 81,
+  "signalsDelivered": 459,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SOLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 70
+    },
     {
       "sym": "ARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 90
-    },
-    {
-      "sym": "FILUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 83
     }
   ],
   "track": [
+    {
+      "sym": "SOLUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 74.4,
+      "target": 75.13,
+      "stop": 74.2784,
+      "ts": 1780495323449,
+      "status": "target"
+    },
     {
       "sym": "ARUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.09654,
       "stop": 0.095246615,
       "ts": 1780419727526,
-      "status": "target"
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.09559,
-      "target": 0.096515,
-      "stop": 0.09520661500000001,
-      "ts": 1780419722512,
       "status": "target"
     }
   ]
