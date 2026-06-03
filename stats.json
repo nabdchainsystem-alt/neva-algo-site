@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-03",
-  "signalsDelivered": 476,
-  "avgConviction": 84,
+  "signalsDelivered": 477,
+  "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "OPGUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 71
+    },
     {
       "sym": "HEIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 77
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 87
     }
   ],
   "track": [
+    {
+      "sym": "OPGUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.1794,
+      "target": null,
+      "stop": null,
+      "ts": 1780506080687,
+      "status": "active"
+    },
     {
       "sym": "HEIUSDT",
       "mkt": "Crypto",
@@ -120,7 +132,7 @@
       "target": null,
       "stop": null,
       "ts": 1780501601492,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "XPLUSDT",
@@ -192,7 +204,7 @@
       "target": null,
       "stop": null,
       "ts": 1780499578019,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ZROUSDT",
@@ -204,7 +216,7 @@
       "target": null,
       "stop": null,
       "ts": 1780498964178,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ZROUSDT",
@@ -216,7 +228,7 @@
       "target": null,
       "stop": null,
       "ts": 1780498964178,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "FILUSDT",
@@ -660,7 +672,7 @@
       "target": null,
       "stop": null,
       "ts": 1780467441227,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ONDOUSDT",
@@ -1008,18 +1020,6 @@
       "target": 0.09452,
       "stop": 0.09332640166666666,
       "ts": 1780438622724,
-      "status": "target"
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.8218,
-      "target": 0.8311,
-      "stop": 0.8203673,
-      "ts": 1780437901683,
       "status": "target"
     }
   ]
