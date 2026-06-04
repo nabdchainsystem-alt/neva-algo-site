@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-04",
-  "signalsDelivered": 489,
+  "signalsDelivered": 490,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 70
-    },
-    {
-      "sym": "XAUTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 63679.27,
+      "target": 63966.48,
+      "stop": 63552.491095000005,
+      "ts": 1780578200262,
+      "status": "target"
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 1.08735,
       "stop": 1.0793776,
       "ts": 1780461303482,
-      "status": "target"
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 0.8092,
-      "target": 0.8131,
-      "stop": 0.8075861999999999,
-      "ts": 1780461213433,
       "status": "target"
     }
   ]
