@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-04",
-  "signalsDelivered": 496,
-  "avgConviction": 78,
+  "signalsDelivered": 497,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "DASHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 70
+    },
     {
       "sym": "VIRTUALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 76
     }
   ],
   "track": [
+    {
+      "sym": "DASHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 35.03,
+      "target": 35.59,
+      "stop": 34.877455,
+      "ts": 1780593507542,
+      "status": "target"
+    },
     {
       "sym": "VIRTUALUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 82,
       "entry": 0.8345,
-      "target": null,
-      "stop": null,
-      "ts": 1780463877628,
-      "status": "in-progress"
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.3331,
       "target": null,
       "stop": null,
       "ts": 1780463877628,
