@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-04",
-  "signalsDelivered": 487,
-  "avgConviction": 78,
+  "signalsDelivered": 488,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 72
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.07746,
+      "target": 0.079,
+      "stop": 0.07650380999999999,
+      "ts": 1780562722624,
+      "status": "in-progress"
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.813,
       "stop": 0.80788635,
       "ts": 1780461212717,
-      "status": "target"
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 66334.4,
-      "target": 66618.9,
-      "stop": 66218.2984,
-      "ts": 1780461123505,
       "status": "target"
     }
   ]
