@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-03",
-  "signalsDelivered": 480,
-  "avgConviction": 80,
+  "updatedAt": "2026-06-04",
+  "signalsDelivered": 481,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 92
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 84
     }
   ],
   "track": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.07355,
+      "target": 0.074125,
+      "stop": 0.073169675,
+      "ts": 1780536527753,
+      "status": "target"
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780444953909,
       "status": "in-progress"
-    },
-    {
-      "sym": "BILLUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 90,
-      "entry": 0.08322,
-      "target": 0.083635,
-      "stop": 0.08306517,
-      "ts": 1780442223435,
-      "status": "active"
     }
   ]
 }
