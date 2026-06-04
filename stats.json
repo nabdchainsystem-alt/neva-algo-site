@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-04",
-  "signalsDelivered": 484,
-  "avgConviction": 75,
+  "signalsDelivered": 485,
+  "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "CITYUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 83
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
-    },
-    {
-      "sym": "OPGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "CITYUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 83,
+      "entry": 0.441,
+      "target": null,
+      "stop": null,
+      "ts": 1780559133879,
+      "status": "active"
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.2463274,
       "ts": 1780453742092,
       "status": "target"
-    },
-    {
-      "sym": "PONDUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 0.00165,
-      "target": null,
-      "stop": null,
-      "ts": 1780452997476,
-      "status": "in-progress"
     }
   ]
 }
