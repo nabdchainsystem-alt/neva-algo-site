@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-04",
-  "signalsDelivered": 490,
-  "avgConviction": 77,
+  "signalsDelivered": 491,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "MBOXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 78
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 85
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "MBOXUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 78,
+      "entry": 0.012,
+      "target": null,
+      "stop": null,
+      "ts": 1780579924024,
+      "status": "in-progress"
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.3389,
       "stop": 0.3292005,
       "ts": 1780463374930,
-      "status": "target"
-    },
-    {
-      "sym": "DOTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 1.0816,
-      "target": 1.08735,
-      "stop": 1.0793776,
-      "ts": 1780461303482,
       "status": "target"
     }
   ]
