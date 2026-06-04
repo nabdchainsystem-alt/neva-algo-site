@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-04",
-  "signalsDelivered": 486,
-  "avgConviction": 77,
+  "signalsDelivered": 487,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 83
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 83,
+      "entry": 0.00688,
+      "target": 0.00709,
+      "stop": 0.006859679999999999,
+      "ts": 1780561190007,
+      "status": "target"
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 66218.2984,
       "ts": 1780461123505,
       "status": "target"
-    },
-    {
-      "sym": "ZENUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 5.508,
-      "target": null,
-      "stop": null,
-      "ts": 1780456677399,
-      "status": "in-progress"
     }
   ]
 }
