@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-04",
-  "signalsDelivered": 482,
-  "avgConviction": 77,
+  "signalsDelivered": 484,
+  "avgConviction": 75,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 85
+    },
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 70
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
-    },
-    {
-      "sym": "HEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 79
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 96
     }
   ],
   "track": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 85,
+      "entry": 0.00695,
+      "target": 0.00706667,
+      "stop": 0.006926241666666668,
+      "ts": 1780545896735,
+      "status": "target"
+    },
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.7063,
+      "target": 0.715575,
+      "stop": 0.7043191214285713,
+      "ts": 1780545896735,
+      "status": "target"
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780452997476,
-      "status": "in-progress"
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.0503,
-      "target": null,
-      "stop": null,
-      "ts": 1780451288245,
-      "status": "active"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 623.91,
-      "target": null,
-      "stop": null,
-      "ts": 1780448497204,
       "status": "in-progress"
     }
   ]
