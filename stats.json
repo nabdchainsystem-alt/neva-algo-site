@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-04",
-  "signalsDelivered": 500,
+  "signalsDelivered": 501,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 79
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "SEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 79,
+      "entry": 0.1692,
+      "target": null,
+      "stop": null,
+      "ts": 1780607847877,
+      "status": "in-progress"
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 66973.7857,
       "ts": 1780465713385,
       "status": "target"
-    },
-    {
-      "sym": "ALLOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 83,
-      "entry": 0.1791,
-      "target": null,
-      "stop": null,
-      "ts": 1780464678627,
-      "status": "in-progress"
     }
   ]
 }
