@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-04",
-  "signalsDelivered": 491,
-  "avgConviction": 78,
+  "signalsDelivered": 492,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "DEXEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 87
+    },
     {
       "sym": "MBOXUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 83
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 85
     }
   ],
   "track": [
+    {
+      "sym": "DEXEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 87,
+      "entry": 19.521,
+      "target": null,
+      "stop": null,
+      "ts": 1780580842134,
+      "status": "active"
+    },
     {
       "sym": "MBOXUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780463772649,
       "status": "in-progress"
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.333,
-      "target": 0.3389,
-      "stop": 0.3292005,
-      "ts": 1780463374930,
-      "status": "target"
     }
   ]
 }
