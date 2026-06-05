@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-05",
-  "signalsDelivered": 508,
-  "avgConviction": 82,
+  "signalsDelivered": 509,
+  "avgConviction": 83,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 84
+    },
     {
       "sym": "DASHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 81
-    },
-    {
-      "sym": "IOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 79
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 325.15,
+      "target": 335.47,
+      "stop": 323.707275,
+      "ts": 1780657300192,
+      "status": "target"
+    },
     {
       "sym": "DASHUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780469317060,
-      "status": "in-progress"
-    },
-    {
-      "sym": "JTOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 0.5865,
-      "target": null,
-      "stop": null,
-      "ts": 1780469157530,
       "status": "in-progress"
     }
   ]
