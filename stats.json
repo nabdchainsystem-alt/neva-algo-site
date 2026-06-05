@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-05",
-  "signalsDelivered": 514,
-  "avgConviction": 84,
+  "signalsDelivered": 515,
+  "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ADAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 71
+    },
     {
       "sym": "DASHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 78
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 86
     }
   ],
   "track": [
+    {
+      "sym": "ADAUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.1599,
+      "target": 0.165825,
+      "stop": 0.15616015,
+      "ts": 1780698278733,
+      "status": "target"
+    },
     {
       "sym": "DASHUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780474660635,
       "status": "in-progress"
-    },
-    {
-      "sym": "NIGHTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.03776,
-      "target": 0.0379735,
-      "stop": 0.037639360000000004,
-      "ts": 1780474623266,
-      "status": "target"
     }
   ]
 }
