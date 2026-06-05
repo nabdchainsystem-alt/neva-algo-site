@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-05",
-  "signalsDelivered": 510,
-  "avgConviction": 81,
+  "signalsDelivered": 511,
+  "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 92
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "SEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 82
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 92,
+      "entry": 323.204,
+      "target": 336.38,
+      "stop": 320.638194,
+      "ts": 1780658205245,
+      "status": "target"
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 646.78,
       "stop": 641.505545,
       "ts": 1780470303773,
-      "status": "target"
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 642.7,
-      "target": 646.8,
-      "stop": 641.4359499999999,
-      "ts": 1780470303076,
       "status": "target"
     }
   ]
