@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-05",
-  "signalsDelivered": 511,
-  "avgConviction": 82,
+  "signalsDelivered": 512,
+  "avgConviction": 84,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HEIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 88
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 92
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "HEIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 88,
+      "entry": 0.0984,
+      "target": null,
+      "stop": null,
+      "ts": 1780663686476,
+      "status": "active"
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 84.273385,
       "ts": 1780471111925,
       "status": "active"
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 642.97,
-      "target": 646.78,
-      "stop": 641.505545,
-      "ts": 1780470303773,
-      "status": "target"
     }
   ]
 }
