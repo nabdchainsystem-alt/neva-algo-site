@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-06",
-  "signalsDelivered": 525,
-  "avgConviction": 81,
+  "signalsDelivered": 526,
+  "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "APEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 81
+    },
     {
       "sym": "EDENUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 84
-    },
-    {
-      "sym": "CUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "APEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 81,
+      "entry": 0.121,
+      "target": null,
+      "stop": null,
+      "ts": 1780770614567,
+      "status": "in-progress"
+    },
     {
       "sym": "EDENUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 88,
       "entry": 0.3864,
-      "target": null,
-      "stop": null,
-      "ts": 1780485479599,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ETHFIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 80,
-      "entry": 0.374,
       "target": null,
       "stop": null,
       "ts": 1780485479599,
