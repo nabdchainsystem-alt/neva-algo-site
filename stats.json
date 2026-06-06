@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-06",
-  "signalsDelivered": 521,
-  "avgConviction": 81,
+  "signalsDelivered": 522,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 77
+    },
     {
       "sym": "CITYUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 71
-    },
-    {
-      "sym": "DASHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 100
     }
   ],
   "track": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 77,
+      "entry": 0.08258,
+      "target": 0.0836,
+      "stop": 0.08221613,
+      "ts": 1780734636273,
+      "status": "invalidated"
+    },
     {
       "sym": "CITYUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780484648076,
-      "status": "in-progress"
-    },
-    {
-      "sym": "WLFIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.0606,
-      "target": null,
-      "stop": null,
-      "ts": 1780482838140,
       "status": "in-progress"
     }
   ]
