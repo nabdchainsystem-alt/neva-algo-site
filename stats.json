@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-06",
-  "signalsDelivered": 524,
-  "avgConviction": 80,
+  "signalsDelivered": 525,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "EDENUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 91
+    },
     {
       "sym": "VICUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 77
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 78
     }
   ],
   "track": [
+    {
+      "sym": "EDENUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 91,
+      "entry": 0.0431,
+      "target": null,
+      "stop": null,
+      "ts": 1780768129931,
+      "status": "in-progress"
+    },
     {
       "sym": "VICUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 80,
       "entry": 0.374,
-      "target": null,
-      "stop": null,
-      "ts": 1780485479599,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ZROUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 1.18,
       "target": null,
       "stop": null,
       "ts": 1780485479599,
