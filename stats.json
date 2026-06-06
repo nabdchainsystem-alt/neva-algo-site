@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-06",
-  "signalsDelivered": 518,
-  "avgConviction": 82,
+  "signalsDelivered": 519,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HOLOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 84
+    },
     {
       "sym": "CUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 88
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 92
     }
   ],
   "track": [
+    {
+      "sym": "HOLOUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 0.0549,
+      "target": 0.05539,
+      "stop": 0.05477265,
+      "ts": 1780720486632,
+      "status": "target"
+    },
     {
       "sym": "CUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 4432.3397,
       "ts": 1780482632926,
       "status": "target"
-    },
-    {
-      "sym": "GIGGLEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 30.76,
-      "target": null,
-      "stop": null,
-      "ts": 1780478119584,
-      "status": "in-progress"
     }
   ]
 }
