@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-06",
-  "signalsDelivered": 519,
-  "avgConviction": 81,
+  "signalsDelivered": 520,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 75
+    },
     {
       "sym": "HOLOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "HEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 88
     }
   ],
   "track": [
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.04597,
+      "target": 0.04624,
+      "stop": 0.045851045,
+      "ts": 1780724363541,
+      "status": "target"
+    },
     {
       "sym": "HOLOUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780482821450,
       "status": "active"
-    },
-    {
-      "sym": "XAUTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 4440.2,
-      "target": 4457.9,
-      "stop": 4432.3397,
-      "ts": 1780482632926,
-      "status": "target"
     }
   ]
 }
