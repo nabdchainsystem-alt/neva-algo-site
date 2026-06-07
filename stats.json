@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 554,
-  "avgConviction": 83,
+  "signalsDelivered": 555,
+  "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "OPENUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 81
-    },
-    {
-      "sym": "HBARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 80
     }
   ],
   "track": [
+    {
+      "sym": "OPENUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.1841,
+      "target": null,
+      "stop": null,
+      "ts": 1780805732324,
+      "status": "in-progress"
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780505191475,
       "status": "in-progress"
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 96,
-      "entry": 1840.67,
-      "target": 1874.11,
-      "stop": 1836.178995,
-      "ts": 1780501748077,
-      "status": "invalidated"
     }
   ]
 }
