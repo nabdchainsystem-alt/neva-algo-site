@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-06",
-  "signalsDelivered": 529,
-  "avgConviction": 82,
+  "updatedAt": "2026-06-07",
+  "signalsDelivered": 530,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PAXGUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "MEMEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 83
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "PAXGUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 4299.44,
+      "target": null,
+      "stop": null,
+      "ts": 1780790652273,
+      "status": "in-progress"
+    },
     {
       "sym": "MEMEUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780488189037,
       "status": "active"
-    },
-    {
-      "sym": "ARUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 98,
-      "entry": 2.37,
-      "target": null,
-      "stop": null,
-      "ts": 1780488021950,
-      "status": "in-progress"
     }
   ]
 }
