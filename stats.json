@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 556,
+  "signalsDelivered": 557,
   "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "EDENUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 81
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 85
-    },
-    {
-      "sym": "ETCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 83
     }
   ],
   "track": [
+    {
+      "sym": "EDENUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 81,
+      "entry": 0.0499,
+      "target": null,
+      "stop": null,
+      "ts": 1780811172196,
+      "status": "in-progress"
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780508822843,
       "status": "active"
-    },
-    {
-      "sym": "OPGUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 0.1794,
-      "target": null,
-      "stop": null,
-      "ts": 1780506080687,
-      "status": "in-progress"
     }
   ]
 }
