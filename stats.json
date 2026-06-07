@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 553,
+  "signalsDelivered": 554,
   "avgConviction": 83,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BCHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 94
+    },
     {
       "sym": "JTOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 80
-    },
-    {
-      "sym": "LUNCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 94
     }
   ],
   "track": [
+    {
+      "sym": "BCHUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 94,
+      "entry": 217.4,
+      "target": 221.01666667,
+      "stop": 215.3739,
+      "ts": 1780798887055,
+      "status": "target"
+    },
     {
       "sym": "JTOUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 1874.11,
       "stop": 1836.178995,
       "ts": 1780501748077,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 92,
-      "entry": 1840.77,
-      "target": 1874.59,
-      "stop": 1836.058845,
-      "ts": 1780501738630,
       "status": "invalidated"
     }
   ]
