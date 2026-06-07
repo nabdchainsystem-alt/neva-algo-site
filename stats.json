@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 570,
+  "signalsDelivered": 571,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 74
+    },
     {
       "sym": "WLDUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 89
-    },
-    {
-      "sym": "BONKUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.07746,
+      "target": 0.07804,
+      "stop": 0.07720381,
+      "ts": 1780856487475,
+      "status": "in-progress"
+    },
     {
       "sym": "WLDUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780580842134,
       "status": "active"
-    },
-    {
-      "sym": "MBOXUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 78,
-      "entry": 0.012,
-      "target": null,
-      "stop": null,
-      "ts": 1780579924024,
-      "status": "in-progress"
     }
   ]
 }
