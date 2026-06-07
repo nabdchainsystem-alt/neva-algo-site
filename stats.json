@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 571,
+  "signalsDelivered": 572,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XAUTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 92
+    },
     {
       "sym": "JSTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 70
-    },
-    {
-      "sym": "FLOKIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 89
     }
   ],
   "track": [
+    {
+      "sym": "XAUTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 92,
+      "entry": 4301.35,
+      "target": 4314.26,
+      "stop": 4294.457975,
+      "ts": 1780863592874,
+      "status": "target"
+    },
     {
       "sym": "JSTUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.053279915000000004,
       "ts": 1780584507570,
       "status": "target"
-    },
-    {
-      "sym": "DEXEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 87,
-      "entry": 19.521,
-      "target": null,
-      "stop": null,
-      "ts": 1780580842134,
-      "status": "active"
     }
   ]
 }
