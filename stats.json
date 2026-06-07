@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 567,
+  "signalsDelivered": 568,
   "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "ARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 75
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "PUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.001516,
+      "target": null,
+      "stop": null,
+      "ts": 1780842651149,
+      "status": "in-progress"
+    },
     {
       "sym": "ARUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780569046105,
-      "status": "in-progress"
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.07746,
-      "target": 0.079,
-      "stop": 0.07650380999999999,
-      "ts": 1780562722624,
       "status": "in-progress"
     }
   ]
