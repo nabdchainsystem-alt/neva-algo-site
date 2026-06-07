@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 564,
-  "avgConviction": 79,
+  "signalsDelivered": 565,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ATOMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "FLOKIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 84
-    },
-    {
-      "sym": "EDENUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 81
     }
   ],
   "track": [
+    {
+      "sym": "ATOMUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 1.728,
+      "target": null,
+      "stop": null,
+      "ts": 1780823853408,
+      "status": "in-progress"
+    },
     {
       "sym": "FLOKIUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 4433.109505,
       "ts": 1780560031613,
       "status": "invalidated"
-    },
-    {
-      "sym": "CITYUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 83,
-      "entry": 0.441,
-      "target": null,
-      "stop": null,
-      "ts": 1780559133879,
-      "status": "active"
     }
   ]
 }
