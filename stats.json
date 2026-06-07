@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 560,
+  "signalsDelivered": 561,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 75
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 94
-    },
-    {
-      "sym": "JTOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 80
     }
   ],
   "track": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.3288,
+      "target": 0.3319398,
+      "stop": 0.32670679999999996,
+      "ts": 1780822646280,
+      "status": "target"
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 4433.108425,
       "ts": 1780538430378,
       "status": "invalidated"
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 0.07355,
-      "target": 0.074125,
-      "stop": 0.073169675,
-      "ts": 1780536527753,
-      "status": "target"
     }
   ]
 }
