@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 566,
+  "signalsDelivered": 567,
   "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "OPENUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 70
-    },
-    {
-      "sym": "ZENUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "ARUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 2.032,
+      "target": null,
+      "stop": null,
+      "ts": 1780832772325,
+      "status": "in-progress"
+    },
     {
       "sym": "OPENUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.07650380999999999,
       "ts": 1780562722624,
       "status": "in-progress"
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "setup": "Premium/Discount Fade",
-      "dir": "LONG",
-      "conv": 83,
-      "entry": 0.00688,
-      "target": 0.00709,
-      "stop": 0.006859679999999999,
-      "ts": 1780561190007,
-      "status": "target"
     }
   ]
 }
