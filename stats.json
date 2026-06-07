@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 568,
-  "avgConviction": 76,
+  "signalsDelivered": 569,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 79
+    },
     {
       "sym": "PUMPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 85
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 79,
+      "entry": 0.1392,
+      "target": null,
+      "stop": null,
+      "ts": 1780843573366,
+      "status": "in-progress"
+    },
     {
       "sym": "PUMPUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 63552.491095000005,
       "ts": 1780578200262,
       "status": "target"
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 76,
-      "entry": 0.0379,
-      "target": null,
-      "stop": null,
-      "ts": 1780569046105,
-      "status": "in-progress"
     }
   ]
 }
