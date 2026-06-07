@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-07",
-  "signalsDelivered": 559,
-  "avgConviction": 79,
+  "signalsDelivered": 560,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "ZENUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 80
-    },
-    {
-      "sym": "PUMPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 78
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 62125.67,
+      "target": null,
+      "stop": null,
+      "ts": 1780814889680,
+      "status": "in-progress"
+    },
     {
       "sym": "ZENUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.073169675,
       "ts": 1780536527753,
       "status": "target"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 1.2133,
-      "target": 1.228375,
-      "stop": 1.20918005,
-      "ts": 1780525833837,
-      "status": "in-progress"
     }
   ]
 }
