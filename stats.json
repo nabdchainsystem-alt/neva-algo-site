@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-08",
-  "signalsDelivered": 584,
+  "signalsDelivered": 585,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 74
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 80
-    },
-    {
-      "sym": "LUNCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.01658,
+      "target": 0.01813,
+      "stop": 0.015605130000000002,
+      "ts": 1780914809686,
+      "status": "target"
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.0503,
       "stop": 0.049075675,
       "ts": 1780648762294,
-      "status": "target"
-    },
-    {
-      "sym": "ADAUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 92,
-      "entry": 0.1591,
-      "target": 0.1639,
-      "stop": 0.15871135,
-      "ts": 1780648752209,
       "status": "target"
     }
   ]
