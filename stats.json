@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-08",
-  "signalsDelivered": 588,
-  "avgConviction": 78,
+  "signalsDelivered": 589,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "CFGUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 83
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 81
-    },
-    {
-      "sym": "HEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 90
     }
   ],
   "track": [
+    {
+      "sym": "CFGUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 83,
+      "entry": 0.2082,
+      "target": null,
+      "stop": null,
+      "ts": 1780923656458,
+      "status": "in-progress"
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 1690.09,
       "stop": 1657.3752550000002,
       "ts": 1780657484497,
-      "status": "target"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 84,
-      "entry": 325.15,
-      "target": 335.47,
-      "stop": 323.707275,
-      "ts": 1780657300192,
       "status": "target"
     }
   ]
