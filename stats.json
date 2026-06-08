@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-07",
-  "signalsDelivered": 575,
-  "avgConviction": 83,
+  "updatedAt": "2026-06-08",
+  "signalsDelivered": 576,
+  "avgConviction": 84,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ARKMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 81
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 79
-    },
-    {
-      "sym": "PUMPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "ARKMUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 81,
+      "entry": 0.1202,
+      "target": null,
+      "stop": null,
+      "ts": 1780879773732,
+      "status": "in-progress"
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 35.59,
       "stop": 34.877455,
       "ts": 1780593507542,
-      "status": "target"
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 0.6659,
-      "target": 0.6788,
-      "stop": 0.65770115,
-      "ts": 1780589811969,
       "status": "target"
     }
   ]
