@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-08",
-  "signalsDelivered": 586,
-  "avgConviction": 77,
+  "signalsDelivered": 587,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BIOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 83
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 73
-    },
-    {
-      "sym": "FDUSDUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "BIOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 83,
+      "entry": 0.02953,
+      "target": null,
+      "stop": null,
+      "ts": 1780918373839,
+      "status": "active"
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 32.64,
       "stop": 31.512134999999997,
       "ts": 1780657131444,
-      "status": "target"
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 86,
-      "entry": 0.0069,
-      "target": 0.00694833,
-      "stop": 0.006882983333333334,
-      "ts": 1780653276841,
       "status": "target"
     }
   ]
