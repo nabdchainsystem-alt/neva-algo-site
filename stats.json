@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-08",
-  "signalsDelivered": 581,
-  "avgConviction": 80,
+  "signalsDelivered": 582,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 81
+    },
     {
       "sym": "HEIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 85
-    },
-    {
-      "sym": "WIFUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 87
     }
   ],
   "track": [
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 81,
+      "entry": 0.1387,
+      "target": null,
+      "stop": null,
+      "ts": 1780910337300,
+      "status": "in-progress"
+    },
     {
       "sym": "HEIUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.05276,
       "stop": 0.05176185,
       "ts": 1780621311270,
-      "status": "target"
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 81,
-      "entry": 0.01786,
-      "target": 0.01874667,
-      "stop": 0.01729321,
-      "ts": 1780615190136,
       "status": "target"
     }
   ]
