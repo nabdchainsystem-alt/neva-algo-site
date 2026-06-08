@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-08",
-  "signalsDelivered": 583,
+  "signalsDelivered": 584,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
     {
       "sym": "FDUSDUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 72
-    },
-    {
-      "sym": "ARKMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 81
     }
   ],
   "track": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 0.01726,
+      "target": null,
+      "stop": null,
+      "ts": 1780912936473,
+      "status": "in-progress"
+    },
     {
       "sym": "FDUSDUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.1639,
       "stop": 0.15871135,
       "ts": 1780648752209,
-      "status": "target"
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 0.00691,
-      "target": 0.00693333,
-      "stop": 0.006894635,
-      "ts": 1780633909935,
       "status": "target"
     }
   ]
