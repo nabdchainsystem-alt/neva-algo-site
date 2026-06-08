@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-08",
-  "signalsDelivered": 580,
+  "signalsDelivered": 581,
   "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HEIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 90
+    },
     {
       "sym": "PENDLEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 87
-    },
-    {
-      "sym": "MBOXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 91
     }
   ],
   "track": [
+    {
+      "sym": "HEIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 90,
+      "entry": 0.0995,
+      "target": null,
+      "stop": null,
+      "ts": 1780905741047,
+      "status": "active"
+    },
     {
       "sym": "PENDLEUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.01729321,
       "ts": 1780615190136,
       "status": "target"
-    },
-    {
-      "sym": "IOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 79,
-      "entry": 0.1692,
-      "target": null,
-      "stop": null,
-      "ts": 1780607847877,
-      "status": "in-progress"
     }
   ]
 }
