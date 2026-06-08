@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-08",
-  "signalsDelivered": 593,
-  "avgConviction": 75,
+  "signalsDelivered": 594,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 89
+    },
     {
       "sym": "ORDIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 83
-    },
-    {
-      "sym": "XAUTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Premium/Discount Fade",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "IOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 89,
+      "entry": 0.1493,
+      "target": null,
+      "stop": null,
+      "ts": 1780946335624,
+      "status": "in-progress"
+    },
     {
       "sym": "ORDIUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.165825,
       "stop": 0.15616015,
       "ts": 1780698278733,
-      "status": "target"
-    },
-    {
-      "sym": "DASHUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 100,
-      "entry": 30.84,
-      "target": 31.902,
-      "stop": 30.75574,
-      "ts": 1780683412862,
       "status": "target"
     }
   ]
