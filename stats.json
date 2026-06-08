@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-08",
-  "signalsDelivered": 589,
-  "avgConviction": 77,
+  "signalsDelivered": 590,
+  "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ETHFIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "CFGUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 75
-    },
-    {
-      "sym": "IOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 81
     }
   ],
   "track": [
+    {
+      "sym": "ETHFIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.31,
+      "target": null,
+      "stop": null,
+      "ts": 1780927418319,
+      "status": "in-progress"
+    },
     {
       "sym": "CFGUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 336.38,
       "stop": 320.638194,
       "ts": 1780658205245,
-      "status": "target"
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 1669.83,
-      "target": 1690.09,
-      "stop": 1657.3752550000002,
-      "ts": 1780657484497,
       "status": "target"
     }
   ]
