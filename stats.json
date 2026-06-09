@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-08",
-  "signalsDelivered": 596,
+  "updatedAt": "2026-06-09",
+  "signalsDelivered": 597,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "EDENUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 84
+    },
     {
       "sym": "SOLUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 70
-    },
-    {
-      "sym": "CFGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 83
     }
   ],
   "track": [
+    {
+      "sym": "EDENUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 0.043,
+      "target": null,
+      "stop": null,
+      "ts": 1780978578187,
+      "status": "in-progress"
+    },
     {
       "sym": "SOLUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780713008439,
       "status": "active"
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 78,
-      "entry": 0.08057,
-      "target": 0.08110333,
-      "stop": 0.080319145,
-      "ts": 1780706196473,
-      "status": "invalidated"
     }
   ]
 }
