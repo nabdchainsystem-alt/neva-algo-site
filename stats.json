@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-09",
-  "signalsDelivered": 609,
-  "avgConviction": 79,
+  "signalsDelivered": 610,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 71
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 73
-    },
-    {
-      "sym": "CFGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "SUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.03074,
+      "target": null,
+      "stop": null,
+      "ts": 1781032740379,
+      "status": "in-progress"
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780795808865,
-      "status": "in-progress"
-    },
-    {
-      "sym": "PAXGUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 4299.44,
-      "target": null,
-      "stop": null,
-      "ts": 1780790652273,
       "status": "in-progress"
     }
   ]
