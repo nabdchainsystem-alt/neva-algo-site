@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-09",
-  "signalsDelivered": 610,
-  "avgConviction": 78,
+  "signalsDelivered": 612,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 85
+    },
+    {
+      "sym": "SUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 76
+    },
     {
       "sym": "SUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 79
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 85,
+      "entry": 0.00683,
+      "target": null,
+      "stop": null,
+      "ts": 1781033587022,
+      "status": "in-progress"
+    },
+    {
+      "sym": "SUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 0.03094,
+      "target": null,
+      "stop": null,
+      "ts": 1781033587022,
+      "status": "in-progress"
+    },
     {
       "sym": "SUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780795849578,
-      "status": "in-progress"
-    },
-    {
-      "sym": "TONUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 90,
-      "entry": 1.711,
-      "target": null,
-      "stop": null,
-      "ts": 1780795808865,
-      "status": "in-progress"
-    },
-    {
-      "sym": "BCHUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 220.5,
-      "target": null,
-      "stop": null,
-      "ts": 1780795808865,
       "status": "in-progress"
     }
   ]
