@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-09",
-  "signalsDelivered": 602,
+  "signalsDelivered": 603,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 73
+    },
     {
       "sym": "CFGUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 80
-    },
-    {
-      "sym": "HEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.323,
+      "target": 0.3262,
+      "stop": 0.3213155,
+      "ts": 1781009130032,
+      "status": "target"
+    },
     {
       "sym": "CFGUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780755337097,
-      "status": "in-progress"
-    },
-    {
-      "sym": "TONUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 83,
-      "entry": 1.567,
-      "target": null,
-      "stop": null,
-      "ts": 1780734806497,
       "status": "in-progress"
     }
   ]
