@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-09",
-  "signalsDelivered": 597,
+  "signalsDelivered": 598,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 70
+    },
     {
       "sym": "EDENUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 70
-    },
-    {
-      "sym": "ETHFIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.04881,
+      "target": 0.04921,
+      "stop": 0.048616784999999996,
+      "ts": 1780981767990,
+      "status": "target"
+    },
     {
       "sym": "EDENUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.05477265,
       "ts": 1780720486632,
       "status": "target"
-    },
-    {
-      "sym": "CUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 77,
-      "entry": 0.0922,
-      "target": null,
-      "stop": null,
-      "ts": 1780713008439,
-      "status": "active"
     }
   ]
 }
