@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-09",
-  "signalsDelivered": 599,
-  "avgConviction": 77,
+  "signalsDelivered": 600,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "STRAXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 87
+    },
     {
       "sym": "SEIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 75
-    },
-    {
-      "sym": "HBARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "STRAXUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 87,
+      "entry": 0.00895,
+      "target": null,
+      "stop": null,
+      "ts": 1780994940681,
+      "status": "in-progress"
+    },
     {
       "sym": "SEIUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780727618942,
       "status": "active"
-    },
-    {
-      "sym": "SEIUSDT",
-      "mkt": "Crypto",
-      "setup": "Premium/Discount Fade",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 0.04597,
-      "target": 0.04624,
-      "stop": 0.045851045,
-      "ts": 1780724363541,
-      "status": "target"
     }
   ]
 }
