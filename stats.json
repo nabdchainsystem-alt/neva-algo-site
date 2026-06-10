@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-10",
-  "signalsDelivered": 631,
-  "avgConviction": 81,
+  "signalsDelivered": 632,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "CUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "ORDIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 72
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 100
     }
   ],
   "track": [
+    {
+      "sym": "CUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.0977,
+      "target": null,
+      "stop": null,
+      "ts": 1781110987379,
+      "status": "active"
+    },
     {
       "sym": "ORDIUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 80,
       "entry": 0.518,
-      "target": null,
-      "stop": null,
-      "ts": 1780796129606,
-      "status": "in-progress"
-    },
-    {
-      "sym": "PUMPUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 78,
-      "entry": 0.001472,
       "target": null,
       "stop": null,
       "ts": 1780796129606,
