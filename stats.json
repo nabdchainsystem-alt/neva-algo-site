@@ -1,9 +1,23 @@
 {
-  "updatedAt": "2026-06-09",
-  "signalsDelivered": 613,
-  "avgConviction": 81,
+  "updatedAt": "2026-06-10",
+  "signalsDelivered": 615,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "MEMEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 88
+    },
+    {
+      "sym": "BIOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 84
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 76
-    },
-    {
-      "sym": "EPICUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 94
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 84
     }
   ],
   "track": [
+    {
+      "sym": "MEMEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 88,
+      "entry": 0.000592,
+      "target": null,
+      "stop": null,
+      "ts": 1781051502785,
+      "status": "active"
+    },
+    {
+      "sym": "BIOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 0.03141,
+      "target": null,
+      "stop": null,
+      "ts": 1781051502785,
+      "status": "in-progress"
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780795970579,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 78,
-      "entry": 1590.6,
-      "target": null,
-      "stop": null,
-      "ts": 1780795930986,
-      "status": "in-progress"
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 61498,
-      "target": null,
-      "stop": null,
-      "ts": 1780795930986,
       "status": "in-progress"
     }
   ]
