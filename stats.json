@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-10",
-  "signalsDelivered": 630,
-  "avgConviction": 80,
+  "signalsDelivered": 631,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ORDIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
     {
       "sym": "OPNUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 100
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Premium/Discount Fade",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "ORDIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 3.381,
+      "target": null,
+      "stop": null,
+      "ts": 1781107262044,
+      "status": "in-progress"
+    },
     {
       "sym": "OPNUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780796129606,
-      "status": "in-progress"
-    },
-    {
-      "sym": "FLOKIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 86,
-      "entry": 0.00002403,
-      "target": null,
-      "stop": null,
-      "ts": 1780796089093,
       "status": "in-progress"
     }
   ]
