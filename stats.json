@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-10",
-  "signalsDelivered": 615,
+  "signalsDelivered": 616,
   "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "MEMEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 76
     }
   ],
   "track": [
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.5686,
+      "target": 0.5815,
+      "stop": 0.5676171,
+      "ts": 1781058541540,
+      "status": "target"
+    },
     {
       "sym": "MEMEUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 83,
       "entry": 7.557,
-      "target": null,
-      "stop": null,
-      "ts": 1780795970579,
-      "status": "in-progress"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 81,
-      "entry": 1.1145,
       "target": null,
       "stop": null,
       "ts": 1780795970579,
