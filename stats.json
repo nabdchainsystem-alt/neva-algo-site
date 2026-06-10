@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-10",
-  "signalsDelivered": 625,
-  "avgConviction": 84,
+  "signalsDelivered": 626,
+  "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 71
+    },
     {
       "sym": "ICPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 100
-    },
-    {
-      "sym": "WLFIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 82
     }
   ],
   "track": [
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.04782,
+      "target": 0.04831,
+      "stop": 0.04769827,
+      "ts": 1781101119602,
+      "status": "target"
+    },
     {
       "sym": "ICPUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780796089093,
-      "status": "in-progress"
-    },
-    {
-      "sym": "LUNCUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 94,
-      "entry": 0.00006691,
-      "target": null,
-      "stop": null,
-      "ts": 1780796053933,
       "status": "in-progress"
     }
   ]
