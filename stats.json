@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-10",
-  "signalsDelivered": 620,
-  "avgConviction": 82,
+  "signalsDelivered": 621,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ICPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 84
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 83
     }
   ],
   "track": [
+    {
+      "sym": "ICPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 2.261,
+      "target": 2.275,
+      "stop": 2.2576084999999995,
+      "ts": 1781096973778,
+      "status": "target"
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780796053933,
-      "status": "in-progress"
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 88,
-      "entry": 0.0695,
-      "target": null,
-      "stop": null,
-      "ts": 1780796008893,
       "status": "in-progress"
     }
   ]
