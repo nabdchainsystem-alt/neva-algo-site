@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-10",
-  "signalsDelivered": 634,
+  "signalsDelivered": 635,
   "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.07749,
+      "target": 0.07974,
+      "stop": 0.077333765,
+      "ts": 1781132612156,
+      "status": "target"
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780806853661,
       "status": "active"
-    },
-    {
-      "sym": "OPENUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 0.1841,
-      "target": null,
-      "stop": null,
-      "ts": 1780805732324,
-      "status": "in-progress"
     }
   ]
 }
