@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-10",
-  "signalsDelivered": 619,
-  "avgConviction": 84,
+  "signalsDelivered": 620,
+  "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 70
+    },
     {
       "sym": "FETUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 83
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 85
     }
   ],
   "track": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.01557,
+      "target": 0.0159,
+      "stop": 0.015476645,
+      "ts": 1781081132290,
+      "status": "target"
+    },
     {
       "sym": "FETUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 88,
       "entry": 0.0695,
-      "target": null,
-      "stop": null,
-      "ts": 1780796008893,
-      "status": "in-progress"
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 83,
-      "entry": 63.65,
       "target": null,
       "stop": null,
       "ts": 1780796008893,
