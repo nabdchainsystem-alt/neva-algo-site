@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-10",
-  "signalsDelivered": 624,
+  "signalsDelivered": 625,
   "avgConviction": 84,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ICPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 82
-    },
-    {
-      "sym": "SEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "ICPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 2.308,
+      "target": null,
+      "stop": null,
+      "ts": 1781099339431,
+      "status": "in-progress"
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 94,
       "entry": 0.00006691,
-      "target": null,
-      "stop": null,
-      "ts": 1780796053933,
-      "status": "in-progress"
-    },
-    {
-      "sym": "GIGGLEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 91,
-      "entry": 29.14,
       "target": null,
       "stop": null,
       "ts": 1780796053933,
