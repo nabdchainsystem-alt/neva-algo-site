@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-10",
-  "signalsDelivered": 628,
-  "avgConviction": 79,
+  "signalsDelivered": 630,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "OPNUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 91
+    },
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 87
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Premium/Discount Fade",
       "conv": 70
-    },
-    {
-      "sym": "FETUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 100
-    },
-    {
-      "sym": "ICPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "OPNUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 91,
+      "entry": 0.103,
+      "target": null,
+      "stop": null,
+      "ts": 1781104742666,
+      "status": "in-progress"
+    },
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 87,
+      "entry": 0.07973,
+      "target": 0.08039,
+      "stop": 0.079450405,
+      "ts": 1781104717979,
+      "status": "invalidated"
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -993,30 +1017,6 @@
       "dir": "LONG",
       "conv": 86,
       "entry": 0.00002403,
-      "target": null,
-      "stop": null,
-      "ts": 1780796089093,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ZENUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 85,
-      "entry": 4.315,
-      "target": null,
-      "stop": null,
-      "ts": 1780796089093,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ETCUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 83,
-      "entry": 6.92,
       "target": null,
       "stop": null,
       "ts": 1780796089093,
