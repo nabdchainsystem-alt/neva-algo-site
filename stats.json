@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-10",
-  "signalsDelivered": 622,
-  "avgConviction": 83,
+  "signalsDelivered": 624,
+  "avgConviction": 84,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 100
+    },
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 70
+    },
     {
       "sym": "FETUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
-    },
-    {
-      "sym": "MEMEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 88
     }
   ],
   "track": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 100,
+      "entry": 1635.82,
+      "target": 1644.52,
+      "stop": 1631.38627,
+      "ts": 1781097966367,
+      "status": "target"
+    },
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 426.24,
+      "target": 430.16,
+      "stop": 424.88063999999997,
+      "ts": 1781097966367,
+      "status": "target"
+    },
     {
       "sym": "FETUSDT",
       "mkt": "Crypto",
@@ -993,30 +1017,6 @@
       "dir": "LONG",
       "conv": 91,
       "entry": 29.14,
-      "target": null,
-      "stop": null,
-      "ts": 1780796053933,
-      "status": "in-progress"
-    },
-    {
-      "sym": "PENGUUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 89,
-      "entry": 0.006521,
-      "target": null,
-      "stop": null,
-      "ts": 1780796053933,
-      "status": "in-progress"
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 88,
-      "entry": 0.5663,
       "target": null,
       "stop": null,
       "ts": 1780796053933,
