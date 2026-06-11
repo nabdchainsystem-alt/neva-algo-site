@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-11",
-  "signalsDelivered": 679,
+  "signalsDelivered": 680,
   "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 78
-    },
-    {
-      "sym": "SUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.0696,
+      "target": null,
+      "stop": null,
+      "ts": 1781210025694,
+      "status": "in-progress"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781003823262,
-      "status": "in-progress"
-    },
-    {
-      "sym": "STRAXUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 87,
-      "entry": 0.00895,
-      "target": null,
-      "stop": null,
-      "ts": 1780994940681,
       "status": "in-progress"
     }
   ]
