@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-11",
-  "signalsDelivered": 662,
-  "avgConviction": 77,
+  "signalsDelivered": 663,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 88
+    },
     {
       "sym": "VICUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 86
-    },
-    {
-      "sym": "TIAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 88,
+      "entry": 0.1874,
+      "target": 0.1914,
+      "stop": 0.18676890000000002,
+      "ts": 1781181213311,
+      "status": "target"
+    },
     {
       "sym": "VICUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1780912936473,
-      "status": "in-progress"
-    },
-    {
-      "sym": "FDUSDUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 0.9984,
-      "target": null,
-      "stop": null,
-      "ts": 1780911135423,
       "status": "in-progress"
     }
   ]
