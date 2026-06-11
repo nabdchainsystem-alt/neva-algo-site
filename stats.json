@@ -1,67 +1,223 @@
 {
-  "updatedAt": "2026-06-10",
-  "signalsDelivered": 635,
-  "avgConviction": 80,
+  "updatedAt": "2026-06-11",
+  "signalsDelivered": 648,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
     {
-      "sym": "HBARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 75
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 87
-    },
-    {
-      "sym": "CUSDT",
+      "sym": "ADAUSDT",
       "mkt": "Crypto",
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 72
     },
     {
-      "sym": "ORDIUSDT",
+      "sym": "UNIUSDT",
       "mkt": "Crypto",
       "dir": "LONG",
       "setup": "Pump build-up",
-      "conv": 80
+      "conv": 73
     },
     {
-      "sym": "OPNUSDT",
+      "sym": "ARBUSDT",
       "mkt": "Crypto",
       "dir": "LONG",
       "setup": "Pump build-up",
-      "conv": 91
+      "conv": 73
     },
     {
-      "sym": "JSTUSDT",
+      "sym": "ZENUSDT",
       "mkt": "Crypto",
       "dir": "LONG",
-      "setup": "CHoCH Reversal",
+      "setup": "Pump build-up",
+      "conv": 71
+    },
+    {
+      "sym": "BONKUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
+    {
+      "sym": "PENGUUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 93
+    },
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
       "conv": 87
     },
     {
-      "sym": "HBARUSDT",
+      "sym": "NEARUSDT",
       "mkt": "Crypto",
       "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
+      "setup": "Pump build-up",
+      "conv": 76
     }
   ],
   "track": [
+    {
+      "sym": "ADAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.1664,
+      "target": null,
+      "stop": null,
+      "ts": 1781150542677,
+      "status": "active"
+    },
+    {
+      "sym": "UNIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 2.487,
+      "target": null,
+      "stop": null,
+      "ts": 1781150501105,
+      "status": "in-progress"
+    },
+    {
+      "sym": "ARBUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.0806,
+      "target": null,
+      "stop": null,
+      "ts": 1781150501105,
+      "status": "in-progress"
+    },
+    {
+      "sym": "ZENUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 4.309,
+      "target": null,
+      "stop": null,
+      "ts": 1781150501105,
+      "status": "in-progress"
+    },
+    {
+      "sym": "BONKUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.00000434,
+      "target": null,
+      "stop": null,
+      "ts": 1781150501105,
+      "status": "in-progress"
+    },
+    {
+      "sym": "PENGUUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 93,
+      "entry": 0.006781,
+      "target": null,
+      "stop": null,
+      "ts": 1781150463194,
+      "status": "in-progress"
+    },
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 87,
+      "entry": 0.0765,
+      "target": null,
+      "stop": null,
+      "ts": 1781150463194,
+      "status": "in-progress"
+    },
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 2.031,
+      "target": null,
+      "stop": null,
+      "ts": 1781150463194,
+      "status": "in-progress"
+    },
+    {
+      "sym": "WIFUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.1527,
+      "target": null,
+      "stop": null,
+      "ts": 1781150463194,
+      "status": "in-progress"
+    },
+    {
+      "sym": "TIAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.3237,
+      "target": null,
+      "stop": null,
+      "ts": 1781150463194,
+      "status": "in-progress"
+    },
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 0.04805,
+      "target": null,
+      "stop": null,
+      "ts": 1781150428677,
+      "status": "in-progress"
+    },
+    {
+      "sym": "FILUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.76,
+      "target": null,
+      "stop": null,
+      "ts": 1781150428677,
+      "status": "in-progress"
+    },
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 1.7,
+      "target": null,
+      "stop": null,
+      "ts": 1781150428677,
+      "status": "in-progress"
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -865,162 +1021,6 @@
       "stop": null,
       "ts": 1780843573366,
       "status": "in-progress"
-    },
-    {
-      "sym": "PUMPUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.001516,
-      "target": null,
-      "stop": null,
-      "ts": 1780842651149,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ARUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 2.032,
-      "target": null,
-      "stop": null,
-      "ts": 1780832772325,
-      "status": "in-progress"
-    },
-    {
-      "sym": "OPENUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.1972,
-      "target": null,
-      "stop": null,
-      "ts": 1780826571929,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ATOMUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 1.728,
-      "target": null,
-      "stop": null,
-      "ts": 1780823853408,
-      "status": "in-progress"
-    },
-    {
-      "sym": "FLOKIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 89,
-      "entry": 0.00002516,
-      "target": null,
-      "stop": null,
-      "ts": 1780823018965,
-      "status": "in-progress"
-    },
-    {
-      "sym": "BONKUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.00000444,
-      "target": null,
-      "stop": null,
-      "ts": 1780823018965,
-      "status": "in-progress"
-    },
-    {
-      "sym": "TRUMPUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 85,
-      "entry": 1.669,
-      "target": null,
-      "stop": null,
-      "ts": 1780822930556,
-      "status": "in-progress"
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 0.3288,
-      "target": 0.3319398,
-      "stop": 0.32670679999999996,
-      "ts": 1780822646280,
-      "status": "target"
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 62125.67,
-      "target": null,
-      "stop": null,
-      "ts": 1780814889680,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ZENUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 4.421,
-      "target": null,
-      "stop": null,
-      "ts": 1780813059852,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 84,
-      "entry": 409.58,
-      "target": null,
-      "stop": null,
-      "ts": 1780811289757,
-      "status": "in-progress"
-    },
-    {
-      "sym": "EDENUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 81,
-      "entry": 0.0499,
-      "target": null,
-      "stop": null,
-      "ts": 1780811172196,
-      "status": "in-progress"
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.05317,
-      "target": null,
-      "stop": null,
-      "ts": 1780806853661,
-      "status": "active"
     }
   ]
 }
