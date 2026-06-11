@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-11",
-  "signalsDelivered": 682,
+  "signalsDelivered": 683,
   "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 73
+    },
     {
       "sym": "BIOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 84
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.04942,
+      "target": 0.04993667,
+      "stop": 0.04907587,
+      "ts": 1781218029618,
+      "status": "target"
+    },
     {
       "sym": "BIOUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 1693.24,
       "stop": 1652.1272800000002,
       "ts": 1781011379553,
-      "status": "target"
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.323,
-      "target": 0.3262,
-      "stop": 0.3213155,
-      "ts": 1781009130032,
       "status": "target"
     }
   ]
