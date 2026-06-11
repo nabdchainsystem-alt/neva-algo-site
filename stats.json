@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-11",
-  "signalsDelivered": 660,
-  "avgConviction": 82,
+  "signalsDelivered": 661,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "SAHARAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 100
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 90
     }
   ],
   "track": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.07887,
+      "target": 0.07984,
+      "stop": 0.07873669500000001,
+      "ts": 1781172487274,
+      "status": "target"
+    },
     {
       "sym": "SAHARAUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1780910337300,
       "status": "in-progress"
-    },
-    {
-      "sym": "HEIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 90,
-      "entry": 0.0995,
-      "target": null,
-      "stop": null,
-      "ts": 1780905741047,
-      "status": "active"
     }
   ]
 }
