@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-12",
-  "signalsDelivered": 693,
-  "avgConviction": 80,
+  "signalsDelivered": 694,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ORDIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 74
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 70
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 89
     }
   ],
   "track": [
+    {
+      "sym": "ORDIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 3.365,
+      "target": null,
+      "stop": null,
+      "ts": 1781238709020,
+      "status": "in-progress"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1781051502785,
       "status": "active"
-    },
-    {
-      "sym": "BIOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 84,
-      "entry": 0.03141,
-      "target": null,
-      "stop": null,
-      "ts": 1781051502785,
-      "status": "in-progress"
     }
   ]
 }
