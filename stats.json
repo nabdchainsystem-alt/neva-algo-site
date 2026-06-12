@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-12",
-  "signalsDelivered": 689,
-  "avgConviction": 81,
+  "signalsDelivered": 690,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 74
+    },
     {
       "sym": "JSTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 73
-    },
-    {
-      "sym": "BIOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 85
     }
   ],
   "track": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.00724,
+      "target": 0.0073,
+      "stop": 0.007219140000000001,
+      "ts": 1781228465798,
+      "status": "target"
+    },
     {
       "sym": "JSTUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781033587022,
-      "status": "in-progress"
-    },
-    {
-      "sym": "SUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 0.03074,
-      "target": null,
-      "stop": null,
-      "ts": 1781032740379,
       "status": "in-progress"
     }
   ]
