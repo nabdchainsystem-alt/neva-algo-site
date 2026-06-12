@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-12",
-  "signalsDelivered": 701,
-  "avgConviction": 76,
+  "signalsDelivered": 703,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
+    {
+      "sym": "TIAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 81
+    },
     {
       "sym": "ARKMUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 73
-    },
-    {
-      "sym": "MBOXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 77
-    },
-    {
-      "sym": "ORDIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.07369,
+      "target": 0.0745,
+      "stop": 0.073514465,
+      "ts": 1781269506672,
+      "status": "target"
+    },
+    {
+      "sym": "TIAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 81,
+      "entry": 0.3348,
+      "target": null,
+      "stop": null,
+      "ts": 1781269436729,
+      "status": "in-progress"
+    },
     {
       "sym": "ARKMUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 1644.52,
       "stop": 1631.38627,
       "ts": 1781097966367,
-      "status": "target"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Premium/Discount Fade",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 426.24,
-      "target": 430.16,
-      "stop": 424.88063999999997,
-      "ts": 1781097966367,
-      "status": "target"
-    },
-    {
-      "sym": "FETUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 100,
-      "entry": 0.1966,
-      "target": 0.1977,
-      "stop": 0.19603843333333335,
-      "ts": 1781097783520,
       "status": "target"
     }
   ]
