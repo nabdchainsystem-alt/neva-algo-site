@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-12",
-  "signalsDelivered": 698,
-  "avgConviction": 77,
+  "signalsDelivered": 699,
+  "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "APTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "EDENUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 81
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 76
     }
   ],
   "track": [
+    {
+      "sym": "APTUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.66,
+      "target": null,
+      "stop": null,
+      "ts": 1781258507986,
+      "status": "in-progress"
+    },
     {
       "sym": "EDENUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.0159,
       "stop": 0.015476645,
       "ts": 1781081132290,
-      "status": "target"
-    },
-    {
-      "sym": "FETUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 100,
-      "entry": 0.2002,
-      "target": 0.20135,
-      "stop": 0.1998497,
-      "ts": 1781077723611,
       "status": "target"
     }
   ]
