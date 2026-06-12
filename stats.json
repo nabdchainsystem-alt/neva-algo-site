@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-12",
-  "signalsDelivered": 690,
+  "signalsDelivered": 691,
   "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 76
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 88
-    },
-    {
-      "sym": "SEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 0.5926,
+      "target": 0.60488335,
+      "stop": 0.5844111000000001,
+      "ts": 1781229814858,
+      "status": "target"
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 85,
       "entry": 0.00683,
-      "target": null,
-      "stop": null,
-      "ts": 1781033587022,
-      "status": "in-progress"
-    },
-    {
-      "sym": "SUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 76,
-      "entry": 0.03094,
       "target": null,
       "stop": null,
       "ts": 1781033587022,
