@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-12",
-  "signalsDelivered": 711,
+  "signalsDelivered": 712,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "WUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 78
+    },
     {
       "sym": "WALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "HEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 76
     }
   ],
   "track": [
+    {
+      "sym": "WUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 78,
+      "entry": 0.00984,
+      "target": null,
+      "stop": null,
+      "ts": 1781293556880,
+      "status": "in-progress"
+    },
     {
       "sym": "WALUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 62.854960000000005,
       "ts": 1781124519215,
       "status": "target"
-    },
-    {
-      "sym": "CUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.0977,
-      "target": null,
-      "stop": null,
-      "ts": 1781110987379,
-      "status": "active"
     }
   ]
 }
