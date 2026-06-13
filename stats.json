@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 733,
-  "avgConviction": 78,
+  "signalsDelivered": 734,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
     {
       "sym": "TIAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 2.13,
+      "target": null,
+      "stop": null,
+      "ts": 1781364789516,
+      "status": "in-progress"
+    },
     {
       "sym": "TIAUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": null,
       "stop": null,
       "ts": 1781364752087,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "HOLOUSDT",
@@ -84,7 +96,7 @@
       "target": null,
       "stop": null,
       "ts": 1781364752087,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "XPLUSDT",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1781154144530,
       "status": "in-progress"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 100,
-      "entry": 419.32,
-      "target": 421.69,
-      "stop": 418.45601999999997,
-      "ts": 1781152504713,
-      "status": "target"
     }
   ]
 }
