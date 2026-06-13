@@ -72,7 +72,7 @@
       "target": 0.00730286,
       "stop": 0.007049275000000001,
       "ts": 1781312526846,
-      "status": "active"
+      "status": "target"
     },
     {
       "sym": "ICPUSDT",
