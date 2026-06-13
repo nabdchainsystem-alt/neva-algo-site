@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 714,
-  "avgConviction": 79,
+  "signalsDelivered": 715,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 85
+    },
     {
       "sym": "ICPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 83
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 76
     }
   ],
   "track": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 85,
+      "entry": 0.00715,
+      "target": 0.00730286,
+      "stop": 0.007049275000000001,
+      "ts": 1781312526846,
+      "status": "active"
+    },
     {
       "sym": "ICPUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1781150428677,
       "status": "in-progress"
-    },
-    {
-      "sym": "HBARUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 0.07749,
-      "target": 0.07974,
-      "stop": 0.077333765,
-      "ts": 1781132612156,
-      "status": "target"
     }
   ]
 }
