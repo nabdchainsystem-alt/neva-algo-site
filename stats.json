@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 736,
+  "signalsDelivered": 737,
   "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "FETUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.318,
+      "target": null,
+      "stop": null,
+      "ts": 1781379070075,
+      "status": "in-progress"
+    },
     {
       "sym": "FETUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781166751762,
-      "status": "in-progress"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 86,
-      "entry": 0.503,
-      "target": null,
-      "stop": null,
-      "ts": 1781164026424,
       "status": "in-progress"
     }
   ]
