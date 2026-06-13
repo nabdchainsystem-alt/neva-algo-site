@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 734,
-  "avgConviction": 79,
+  "signalsDelivered": 735,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 89
-    },
-    {
-      "sym": "PENDLEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.01312,
+      "target": 0.01323667,
+      "stop": 0.01309032,
+      "ts": 1781366349796,
+      "status": "target"
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.014857545000000002,
       "ts": 1781155748257,
       "status": "target"
-    },
-    {
-      "sym": "TIAUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 0.3287,
-      "target": null,
-      "stop": null,
-      "ts": 1781154144530,
-      "status": "in-progress"
     }
   ]
 }
