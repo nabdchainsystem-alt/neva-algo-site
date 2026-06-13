@@ -72,7 +72,7 @@
       "target": null,
       "stop": null,
       "ts": 1781393555795,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ALGOUSDT",
@@ -84,7 +84,7 @@
       "target": null,
       "stop": null,
       "ts": 1781393555795,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ONDOUSDT",
