@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-12",
-  "signalsDelivered": 713,
+  "updatedAt": "2026-06-13",
+  "signalsDelivered": 714,
   "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ICPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 76
+    },
     {
       "sym": "INJUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 76
-    },
-    {
-      "sym": "ICPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "ICPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 2.333,
+      "target": 2.39674925,
+      "stop": 2.2905005,
+      "ts": 1781312085720,
+      "status": "target"
+    },
     {
       "sym": "INJUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.077333765,
       "ts": 1781132612156,
       "status": "target"
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 0.00716,
-      "target": null,
-      "stop": null,
-      "ts": 1781131582512,
-      "status": "in-progress"
     }
   ]
 }
