@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 723,
-  "avgConviction": 79,
+  "signalsDelivered": 724,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ORDIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 79
-    },
-    {
-      "sym": "ICPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 80
     }
   ],
   "track": [
+    {
+      "sym": "ORDIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 3.42,
+      "target": null,
+      "stop": null,
+      "ts": 1781336910598,
+      "status": "in-progress"
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 71,
       "entry": 4.309,
-      "target": null,
-      "stop": null,
-      "ts": 1781150501105,
-      "status": "in-progress"
-    },
-    {
-      "sym": "BONKUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 0.00000434,
       "target": null,
       "stop": null,
       "ts": 1781150501105,
