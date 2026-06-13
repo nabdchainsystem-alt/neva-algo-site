@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 721,
-  "avgConviction": 79,
+  "signalsDelivered": 722,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 82
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 85
-    },
-    {
-      "sym": "ICPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 76
     }
   ],
   "track": [
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 223.7,
+      "target": null,
+      "stop": null,
+      "ts": 1781335118803,
+      "status": "in-progress"
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 93,
       "entry": 0.006781,
-      "target": null,
-      "stop": null,
-      "ts": 1781150463194,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 87,
-      "entry": 0.0765,
       "target": null,
       "stop": null,
       "ts": 1781150463194,
