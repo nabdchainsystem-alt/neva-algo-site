@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 724,
+  "signalsDelivered": 725,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 81
+    },
     {
       "sym": "ORDIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 86
-    },
-    {
-      "sym": "SEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 79
     }
   ],
   "track": [
+    {
+      "sym": "GPSUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 81,
+      "entry": 0.00722,
+      "target": 0.00751,
+      "stop": 0.0070891700000000005,
+      "ts": 1781337908340,
+      "status": "in-progress"
+    },
     {
       "sym": "ORDIUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 73,
       "entry": 0.0806,
-      "target": null,
-      "stop": null,
-      "ts": 1781150501105,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ZENUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 4.309,
       "target": null,
       "stop": null,
       "ts": 1781150501105,
