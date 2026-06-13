@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 728,
+  "signalsDelivered": 729,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 73
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 82
-    },
-    {
-      "sym": "HBARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "TRXUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.3171,
+      "target": 0.31886347,
+      "stop": 0.31592435,
+      "ts": 1781358165177,
+      "status": "target"
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 75,
       "entry": 34.95,
-      "target": null,
-      "stop": null,
-      "ts": 1781150663964,
-      "status": "in-progress"
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.567,
       "target": null,
       "stop": null,
       "ts": 1781150663964,
