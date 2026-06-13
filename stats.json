@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 719,
+  "signalsDelivered": 720,
   "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BIOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 75
+    },
     {
       "sym": "VIRTUALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 86
-    },
-    {
-      "sym": "WUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 78
     }
   ],
   "track": [
+    {
+      "sym": "BIOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.03243,
+      "target": null,
+      "stop": null,
+      "ts": 1781333149322,
+      "status": "in-progress"
+    },
     {
       "sym": "VIRTUALUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 76,
       "entry": 2.031,
-      "target": null,
-      "stop": null,
-      "ts": 1781150463194,
-      "status": "in-progress"
-    },
-    {
-      "sym": "WIFUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 0.1527,
       "target": null,
       "stop": null,
       "ts": 1781150463194,
