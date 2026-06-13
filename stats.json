@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 717,
+  "signalsDelivered": 718,
   "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 86
+    },
     {
       "sym": "SEIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
-    },
-    {
-      "sym": "LUNCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 88
     }
   ],
   "track": [
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 86,
+      "entry": 5.112,
+      "target": 5.1745,
+      "stop": 5.0863320000000005,
+      "ts": 1781326748323,
+      "status": "target"
+    },
     {
       "sym": "SEIUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781150463194,
-      "status": "in-progress"
-    },
-    {
-      "sym": "SEIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 76,
-      "entry": 0.04805,
-      "target": null,
-      "stop": null,
-      "ts": 1781150428677,
       "status": "in-progress"
     }
   ]
