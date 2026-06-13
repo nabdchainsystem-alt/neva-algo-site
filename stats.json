@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-13",
-  "signalsDelivered": 742,
-  "avgConviction": 77,
+  "signalsDelivered": 743,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 87
+    },
     {
       "sym": "EIGENUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 87
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "VIRTUALUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 87,
+      "entry": 0.6421,
+      "target": 0.64765,
+      "stop": 0.6386368499999999,
+      "ts": 1781394699121,
+      "status": "target"
+    },
     {
       "sym": "EIGENUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.0794,
       "stop": 0.078561905,
       "ts": 1781185895747,
-      "status": "target"
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 88,
-      "entry": 0.1874,
-      "target": 0.1914,
-      "stop": 0.18676890000000002,
-      "ts": 1781181213311,
       "status": "target"
     }
   ]
