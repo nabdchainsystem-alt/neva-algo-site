@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 747,
+  "signalsDelivered": 748,
   "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 78
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 75
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 81
     }
   ],
   "track": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 78,
+      "entry": 0.0133,
+      "target": null,
+      "stop": null,
+      "ts": 1781407872663,
+      "status": "in-progress"
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 84,
       "entry": 0.0893,
-      "target": null,
-      "stop": null,
-      "ts": 1781200070897,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ARUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 1.922,
       "target": null,
       "stop": null,
       "ts": 1781200070897,
