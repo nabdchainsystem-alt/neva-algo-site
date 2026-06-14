@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 801,
+  "signalsDelivered": 802,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "LTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 71
+    },
     {
       "sym": "TRXUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
-    },
-    {
-      "sym": "EURUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "LTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 45.25,
+      "target": 46.0718125,
+      "stop": 44.702125,
+      "ts": 1781478582463,
+      "status": "target"
+    },
     {
       "sym": "TRXUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 0.3296,
       "stop": 0.31782000000000005,
       "ts": 1781478497598,
-      "status": "active"
+      "status": "target"
     },
     {
       "sym": "PORTALUSDT",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781335950326,
-      "status": "in-progress"
-    },
-    {
-      "sym": "TAOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 223.7,
-      "target": null,
-      "stop": null,
-      "ts": 1781335118803,
       "status": "in-progress"
     }
   ]
