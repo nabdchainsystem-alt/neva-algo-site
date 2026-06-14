@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 762,
+  "signalsDelivered": 764,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 73
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 78
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 82
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.1846,
+      "target": 0.1855,
+      "stop": 0.1842981,
+      "ts": 1781472031197,
+      "status": "active"
+    },
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 2.008,
+      "target": 2.017,
+      "stop": 2.0029879999999998,
+      "ts": 1781471928726,
+      "status": "invalidated"
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 209.8,
       "stop": 204.39114999999998,
       "ts": 1781221539794,
-      "status": "target"
-    },
-    {
-      "sym": "IOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 88,
-      "entry": 0.182,
-      "target": null,
-      "stop": null,
-      "ts": 1781221505912,
-      "status": "active"
-    },
-    {
-      "sym": "SEIUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.04942,
-      "target": 0.04993667,
-      "stop": 0.04907587,
-      "ts": 1781218029618,
       "status": "target"
     }
   ]
