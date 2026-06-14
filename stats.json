@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 749,
+  "signalsDelivered": 750,
   "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 75
+    },
     {
       "sym": "DASHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 87
-    },
-    {
-      "sym": "EIGENUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 82
     }
   ],
   "track": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.01317,
+      "target": 0.01345,
+      "stop": 0.013090245,
+      "ts": 1781410991612,
+      "status": "target"
+    },
     {
       "sym": "DASHUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 85,
       "entry": 0.2692,
-      "target": null,
-      "stop": null,
-      "ts": 1781200070897,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ETHFIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 84,
-      "entry": 0.311,
       "target": null,
       "stop": null,
       "ts": 1781200070897,
