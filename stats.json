@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 760,
-  "avgConviction": 76,
+  "signalsDelivered": 761,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HOLOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 88
+    },
     {
       "sym": "ARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "HOLOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 88,
+      "entry": 0.0674,
+      "target": null,
+      "stop": null,
+      "ts": 1781466474798,
+      "status": "active"
+    },
     {
       "sym": "ARUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1781211746202,
       "status": "in-progress"
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 0.07291,
-      "target": 0.07365,
-      "stop": 0.072440635,
-      "ts": 1781211651556,
-      "status": "target"
     }
   ]
 }
