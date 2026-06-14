@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 750,
-  "avgConviction": 81,
+  "signalsDelivered": 751,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "CAKEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 78
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 78
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 87
     }
   ],
   "track": [
+    {
+      "sym": "CAKEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 78,
+      "entry": 1.377,
+      "target": null,
+      "stop": null,
+      "ts": 1781417082364,
+      "status": "active"
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781200103605,
-      "status": "in-progress"
-    },
-    {
-      "sym": "LDOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 85,
-      "entry": 0.2692,
-      "target": null,
-      "stop": null,
-      "ts": 1781200070897,
       "status": "in-progress"
     }
   ]
