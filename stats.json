@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 797,
-  "avgConviction": 79,
+  "signalsDelivered": 798,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 70
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 77
-    },
-    {
-      "sym": "ALGOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 76
     }
   ],
   "track": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.07751,
+      "target": 0.07828,
+      "stop": 0.077023735,
+      "ts": 1781473904098,
+      "status": "active"
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.622825,
       "stop": 0.6124753999999999,
       "ts": 1781326929567,
-      "status": "target"
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 86,
-      "entry": 5.112,
-      "target": 5.1745,
-      "stop": 5.0863320000000005,
-      "ts": 1781326748323,
       "status": "target"
     }
   ]
