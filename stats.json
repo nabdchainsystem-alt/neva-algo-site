@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 751,
+  "signalsDelivered": 752,
   "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ICPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 75
+    },
     {
       "sym": "CAKEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 78
     }
   ],
   "track": [
+    {
+      "sym": "ICPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 2.465,
+      "target": null,
+      "stop": null,
+      "ts": 1781424114479,
+      "status": "in-progress"
+    },
     {
       "sym": "CAKEUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 78,
       "entry": 0.00000485,
-      "target": null,
-      "stop": null,
-      "ts": 1781200103605,
-      "status": "in-progress"
-    },
-    {
-      "sym": "SUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.03077,
       "target": null,
       "stop": null,
       "ts": 1781200103605,
