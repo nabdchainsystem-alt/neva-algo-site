@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 755,
+  "signalsDelivered": 756,
   "avgConviction": 75,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 82
+    },
     {
       "sym": "INJUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 78
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 421.55,
+      "target": 430.16,
+      "stop": 416.117675,
+      "ts": 1781447807310,
+      "status": "target"
+    },
     {
       "sym": "INJUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 85,
       "entry": 1.593,
-      "target": null,
-      "stop": null,
-      "ts": 1781200144194,
-      "status": "in-progress"
-    },
-    {
-      "sym": "PAXGUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 84,
-      "entry": 4157.54,
       "target": null,
       "stop": null,
       "ts": 1781200144194,
