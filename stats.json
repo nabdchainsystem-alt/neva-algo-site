@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 803,
-  "avgConviction": 79,
+  "signalsDelivered": 804,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "GENIUSUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 83
-    },
-    {
-      "sym": "FILUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 79
     }
   ],
   "track": [
+    {
+      "sym": "SUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.03225,
+      "target": null,
+      "stop": null,
+      "ts": 1781480915957,
+      "status": "in-progress"
+    },
     {
       "sym": "GENIUSUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.00751,
       "stop": 0.0070891700000000005,
       "ts": 1781337908340,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ORDIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 3.42,
-      "target": null,
-      "stop": null,
-      "ts": 1781336910598,
       "status": "in-progress"
     }
   ]
