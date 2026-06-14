@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 746,
-  "avgConviction": 81,
+  "signalsDelivered": 747,
+  "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 82
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 81
-    },
-    {
-      "sym": "OPENUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 0.0785,
+      "target": 0.079025,
+      "stop": 0.07830225,
+      "ts": 1781404605660,
+      "status": "target"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 82,
       "entry": 1.922,
-      "target": null,
-      "stop": null,
-      "ts": 1781200070897,
-      "status": "in-progress"
-    },
-    {
-      "sym": "DOTUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 81,
-      "entry": 0.967,
       "target": null,
       "stop": null,
       "ts": 1781200070897,
