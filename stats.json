@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 757,
-  "avgConviction": 76,
+  "signalsDelivered": 758,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "MEMEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 82
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 78
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Premium/Discount Fade",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "MEMEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 0.000649,
+      "target": null,
+      "stop": null,
+      "ts": 1781451997599,
+      "status": "active"
+    },
     {
       "sym": "GPSUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.1908123,
       "ts": 1781201571700,
       "status": "target"
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 90,
-      "entry": 0.5869,
-      "target": null,
-      "stop": null,
-      "ts": 1781200144194,
-      "status": "in-progress"
     }
   ]
 }
