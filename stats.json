@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-14",
-  "signalsDelivered": 773,
-  "avgConviction": 81,
+  "signalsDelivered": 775,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SUSHIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
+    {
+      "sym": "PUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "IOUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 80
-    },
-    {
-      "sym": "FILUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 83
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 79
     }
   ],
   "track": [
+    {
+      "sym": "SUSHIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.1774,
+      "target": null,
+      "stop": null,
+      "ts": 1781472794172,
+      "status": "in-progress"
+    },
+    {
+      "sym": "PUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.001575,
+      "target": null,
+      "stop": null,
+      "ts": 1781472794172,
+      "status": "in-progress"
+    },
     {
       "sym": "IOUSDT",
       "mkt": "Crypto",
@@ -72,7 +96,7 @@
       "target": null,
       "stop": null,
       "ts": 1781472757933,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "BONKUSDT",
@@ -84,7 +108,7 @@
       "target": null,
       "stop": null,
       "ts": 1781472757933,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "LDOUSDT",
@@ -96,7 +120,7 @@
       "target": null,
       "stop": null,
       "ts": 1781472757933,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "POLUSDT",
@@ -108,7 +132,7 @@
       "target": null,
       "stop": null,
       "ts": 1781472757933,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "AAVEUSDT",
@@ -120,7 +144,7 @@
       "target": null,
       "stop": null,
       "ts": 1781472757933,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "SUIUSDT",
@@ -996,30 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781242434551,
-      "status": "in-progress"
-    },
-    {
-      "sym": "MBOXUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 77,
-      "entry": 0.0052,
-      "target": null,
-      "stop": null,
-      "ts": 1781239513613,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ORDIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 3.365,
-      "target": null,
-      "stop": null,
-      "ts": 1781238709020,
       "status": "in-progress"
     }
   ]
