@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-15",
-  "signalsDelivered": 821,
-  "avgConviction": 75,
+  "signalsDelivered": 824,
+  "avgConviction": 72,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 74
+    },
+    {
+      "sym": "SPCXXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 70
+    },
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 74
+    },
     {
       "sym": "SOLUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 71
-    },
-    {
-      "sym": "HBARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 73
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 76
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 86
     }
   ],
   "track": [
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 5.628,
+      "target": null,
+      "stop": null,
+      "ts": 1781533955784,
+      "status": "active"
+    },
+    {
+      "sym": "SPCXXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 170.73,
+      "target": 175.43,
+      "stop": 168.443905,
+      "ts": 1781533924610,
+      "status": "active"
+    },
+    {
+      "sym": "INJUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 5.628,
+      "target": null,
+      "stop": null,
+      "ts": 1781533916955,
+      "status": "in-progress"
+    },
     {
       "sym": "SOLUSDT",
       "mkt": "Crypto",
@@ -984,42 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781398152746,
-      "status": "in-progress"
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 78,
-      "entry": 5.243,
-      "target": 5.298,
-      "stop": 5.2111355,
-      "ts": 1781395511500,
-      "status": "target"
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 87,
-      "entry": 0.6421,
-      "target": 0.64765,
-      "stop": 0.6386368499999999,
-      "ts": 1781394699121,
-      "status": "target"
-    },
-    {
-      "sym": "EIGENUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 0.1916,
-      "target": null,
-      "stop": null,
-      "ts": 1781393555795,
       "status": "in-progress"
     }
   ]
