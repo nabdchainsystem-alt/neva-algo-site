@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-15",
-  "signalsDelivered": 805,
-  "avgConviction": 78,
+  "signalsDelivered": 806,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "OPGUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 76
+    },
     {
       "sym": "WALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 86
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "OPGUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 0.3037,
+      "target": 0.31906667,
+      "stop": 0.29874445,
+      "ts": 1781488201251,
+      "status": "invalidated"
+    },
     {
       "sym": "WALUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1781346831958,
       "status": "in-progress"
-    },
-    {
-      "sym": "VIRTUALUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.636,
-      "target": 0.6481,
-      "stop": 0.629646,
-      "ts": 1781340968576,
-      "status": "target"
     }
   ]
 }
