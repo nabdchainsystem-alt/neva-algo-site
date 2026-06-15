@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-15",
-  "signalsDelivered": 807,
-  "avgConviction": 80,
+  "signalsDelivered": 808,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 78
+    },
     {
       "sym": "ZROUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 75
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 86
     }
   ],
   "track": [
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 78,
+      "entry": 2.054,
+      "target": 2.074,
+      "stop": 2.040919,
+      "ts": 1781494259022,
+      "status": "invalidated"
+    },
     {
       "sym": "ZROUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.31592435,
       "ts": 1781358165177,
       "status": "target"
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 89,
-      "entry": 0.03439,
-      "target": null,
-      "stop": null,
-      "ts": 1781346831958,
-      "status": "in-progress"
     }
   ]
 }
