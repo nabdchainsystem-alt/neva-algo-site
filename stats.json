@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-15",
-  "signalsDelivered": 812,
-  "avgConviction": 81,
+  "signalsDelivered": 814,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 86
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 71
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 93
-    },
-    {
-      "sym": "OPGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 76
-    },
-    {
-      "sym": "WALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 84
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 86,
+      "entry": 521.07,
+      "target": null,
+      "stop": null,
+      "ts": 1781522275596,
+      "status": "active"
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 1.207,
+      "target": null,
+      "stop": null,
+      "ts": 1781522115362,
+      "status": "in-progress"
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": 0.01309032,
       "ts": 1781366349796,
       "status": "target"
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 80,
-      "entry": 2.13,
-      "target": null,
-      "stop": null,
-      "ts": 1781364789516,
-      "status": "in-progress"
-    },
-    {
-      "sym": "TIAUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 0.3559,
-      "target": null,
-      "stop": null,
-      "ts": 1781364752087,
-      "status": "in-progress"
     }
   ]
 }
