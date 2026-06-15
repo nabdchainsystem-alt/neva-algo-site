@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-14",
-  "signalsDelivered": 804,
+  "updatedAt": "2026-06-15",
+  "signalsDelivered": 805,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "WALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 84
+    },
     {
       "sym": "SUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 70
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 83
     }
   ],
   "track": [
+    {
+      "sym": "WALUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 0.0364,
+      "target": null,
+      "stop": null,
+      "ts": 1781487918480,
+      "status": "in-progress"
+    },
     {
       "sym": "SUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.629646,
       "ts": 1781340968576,
       "status": "target"
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 81,
-      "entry": 0.00722,
-      "target": 0.00751,
-      "stop": 0.0070891700000000005,
-      "ts": 1781337908340,
-      "status": "in-progress"
     }
   ]
 }
