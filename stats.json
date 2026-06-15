@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-15",
-  "signalsDelivered": 806,
-  "avgConviction": 79,
+  "signalsDelivered": 807,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZROUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 93
+    },
     {
       "sym": "OPGUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 86
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 86
     }
   ],
   "track": [
+    {
+      "sym": "ZROUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 93,
+      "entry": 1.028,
+      "target": null,
+      "stop": null,
+      "ts": 1781493435666,
+      "status": "active"
+    },
     {
       "sym": "OPGUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 89,
       "entry": 0.03439,
-      "target": null,
-      "stop": null,
-      "ts": 1781346831958,
-      "status": "in-progress"
-    },
-    {
-      "sym": "PENDLEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 1.337,
       "target": null,
       "stop": null,
       "ts": 1781346831958,
