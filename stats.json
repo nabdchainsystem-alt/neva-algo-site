@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-16",
-  "signalsDelivered": 849,
-  "avgConviction": 75,
+  "signalsDelivered": 851,
+  "avgConviction": 74,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ARBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 75
+    },
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 74
+    },
     {
       "sym": "SUSHIUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 72
-    },
-    {
-      "sym": "ORDIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 81
-    },
-    {
-      "sym": "SUSHIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 80
     }
   ],
   "track": [
+    {
+      "sym": "ARBUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.0861,
+      "target": null,
+      "stop": null,
+      "ts": 1781633962836,
+      "status": "in-progress"
+    },
+    {
+      "sym": "SEIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.05397,
+      "target": null,
+      "stop": null,
+      "ts": 1781633962836,
+      "status": "in-progress"
+    },
     {
       "sym": "SUSHIUSDT",
       "mkt": "Crypto",
@@ -993,30 +1017,6 @@
       "dir": "LONG",
       "conv": 82,
       "entry": 0.00000447,
-      "target": null,
-      "stop": null,
-      "ts": 1781472757933,
-      "status": "in-progress"
-    },
-    {
-      "sym": "LDOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 80,
-      "entry": 0.2641,
-      "target": null,
-      "stop": null,
-      "ts": 1781472757933,
-      "status": "in-progress"
-    },
-    {
-      "sym": "POLUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 78,
-      "entry": 0.07592,
       "target": null,
       "stop": null,
       "ts": 1781472757933,
