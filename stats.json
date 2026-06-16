@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-16",
-  "signalsDelivered": 844,
+  "signalsDelivered": 845,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 75
-    },
-    {
-      "sym": "BFUSDUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 1826.85,
+      "target": null,
+      "stop": null,
+      "ts": 1781613078356,
+      "status": "active"
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781472674877,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 81,
-      "entry": 0.3585,
-      "target": null,
-      "stop": null,
-      "ts": 1781472636859,
       "status": "in-progress"
     }
   ]
