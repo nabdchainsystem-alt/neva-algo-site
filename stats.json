@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-16",
-  "signalsDelivered": 834,
-  "avgConviction": 80,
+  "signalsDelivered": 836,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "VICUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 79
+    },
     {
       "sym": "VICUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 84
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 83
-    },
-    {
-      "sym": "PROMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 79
     }
   ],
   "track": [
+    {
+      "sym": "VICUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.0354,
+      "target": null,
+      "stop": null,
+      "ts": 1781591558470,
+      "status": "in-progress"
+    },
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 79,
+      "entry": 0.01244,
+      "target": null,
+      "stop": null,
+      "ts": 1781591440453,
+      "status": "in-progress"
+    },
     {
       "sym": "VICUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": 0.007428795,
       "ts": 1781450953188,
       "status": "active"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 421.55,
-      "target": 430.16,
-      "stop": 416.117675,
-      "ts": 1781447807310,
-      "status": "target"
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 5.086,
-      "target": 5.17511111,
-      "stop": 5.074171,
-      "ts": 1781445913847,
-      "status": "target"
     }
   ]
 }
