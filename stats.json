@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-16",
-  "signalsDelivered": 845,
+  "signalsDelivered": 846,
   "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 71
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 78
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.0811,
+      "target": 0.08267748,
+      "stop": 0.08004835,
+      "ts": 1781614660874,
+      "status": "invalidated"
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 83,
       "entry": 0.78,
-      "target": null,
-      "stop": null,
-      "ts": 1781472674877,
-      "status": "in-progress"
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 79,
-      "entry": 8.015,
       "target": null,
       "stop": null,
       "ts": 1781472674877,
