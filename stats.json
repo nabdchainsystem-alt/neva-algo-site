@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-16",
-  "signalsDelivered": 847,
+  "signalsDelivered": 848,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 91
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 1.892,
+      "target": 1.9165,
+      "stop": 1.887662,
+      "ts": 1781628541845,
+      "status": "target"
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781472757933,
-      "status": "in-progress"
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 80,
-      "entry": 0.7664,
-      "target": null,
-      "stop": null,
-      "ts": 1781472714175,
       "status": "in-progress"
     }
   ]
