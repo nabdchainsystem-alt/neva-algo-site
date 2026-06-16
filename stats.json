@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-16",
-  "signalsDelivered": 836,
-  "avgConviction": 79,
+  "signalsDelivered": 837,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BFUSDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 75
+    },
     {
       "sym": "VICUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 73
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 84
     }
   ],
   "track": [
+    {
+      "sym": "BFUSDUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.9998,
+      "target": null,
+      "stop": null,
+      "ts": 1781592562240,
+      "status": "active"
+    },
     {
       "sym": "VICUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781451997599,
-      "status": "active"
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 78,
-      "entry": 0.00747,
-      "target": 0.00753333,
-      "stop": 0.007428795,
-      "ts": 1781450953188,
       "status": "active"
     }
   ]
