@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-16",
-  "signalsDelivered": 837,
-  "avgConviction": 77,
+  "signalsDelivered": 838,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 75
+    },
     {
       "sym": "BFUSDUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 70
-    },
-    {
-      "sym": "MEMEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "PORTALUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.01207,
+      "target": 0.01247444,
+      "stop": 0.012041895,
+      "ts": 1781594415758,
+      "status": "target"
+    },
     {
       "sym": "BFUSDUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.18322444999999998,
       "ts": 1781455459466,
       "status": "target"
-    },
-    {
-      "sym": "MEMEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 0.000649,
-      "target": null,
-      "stop": null,
-      "ts": 1781451997599,
-      "status": "active"
     }
   ]
 }
