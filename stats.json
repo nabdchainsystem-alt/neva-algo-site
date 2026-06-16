@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-16",
-  "signalsDelivered": 833,
+  "signalsDelivered": 834,
   "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "VICUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "EPICUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 79
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "VICUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.0346,
+      "target": null,
+      "stop": null,
+      "ts": 1781590731384,
+      "status": "in-progress"
+    },
     {
       "sym": "EPICUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 5.17511111,
       "stop": 5.074171,
       "ts": 1781445913847,
-      "status": "target"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 1.143,
-      "target": 1.15725,
-      "stop": 1.1410855,
-      "ts": 1781435930419,
       "status": "target"
     }
   ]
