@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-17",
-  "signalsDelivered": 856,
-  "avgConviction": 78,
+  "signalsDelivered": 857,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "OPNUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 92
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "SUSHIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 76
     }
   ],
   "track": [
+    {
+      "sym": "OPNUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 92,
+      "entry": 0.0826,
+      "target": null,
+      "stop": null,
+      "ts": 1781673486482,
+      "status": "in-progress"
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781473554695,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 95,
-      "entry": 453.98,
-      "target": null,
-      "stop": null,
-      "ts": 1781473516780,
       "status": "in-progress"
     }
   ]
