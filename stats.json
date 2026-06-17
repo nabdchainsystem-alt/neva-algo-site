@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-17",
-  "signalsDelivered": 863,
-  "avgConviction": 81,
+  "signalsDelivered": 864,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 80
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 92
-    },
-    {
-      "sym": "HBARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 89
     }
   ],
   "track": [
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 0.3745,
+      "target": 0.37608,
+      "stop": 0.37373825,
+      "ts": 1781701613626,
+      "status": "target"
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 85,
       "entry": 0.1316,
-      "target": null,
-      "stop": null,
-      "ts": 1781473595616,
-      "status": "in-progress"
-    },
-    {
-      "sym": "CHZUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 84,
-      "entry": 0.02583,
       "target": null,
       "stop": null,
       "ts": 1781473595616,
