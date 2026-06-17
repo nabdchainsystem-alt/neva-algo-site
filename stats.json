@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-17",
-  "signalsDelivered": 864,
-  "avgConviction": 80,
+  "signalsDelivered": 865,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BCHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "ONDOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "OPNUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 92
     }
   ],
   "track": [
+    {
+      "sym": "BCHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 213,
+      "target": 213.8,
+      "stop": 212.4805,
+      "ts": 1781702960341,
+      "status": "target"
+    },
     {
       "sym": "ONDOUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 86,
       "entry": 4.531,
-      "target": null,
-      "stop": null,
-      "ts": 1781473595616,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ARKMUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 85,
-      "entry": 0.1316,
       "target": null,
       "stop": null,
       "ts": 1781473595616,
