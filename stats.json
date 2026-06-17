@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-17",
-  "signalsDelivered": 854,
-  "avgConviction": 76,
+  "signalsDelivered": 855,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "FFUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 77
+    },
     {
       "sym": "ARBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "FFUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 77,
+      "entry": 0.07675,
+      "target": null,
+      "stop": null,
+      "ts": 1781666204390,
+      "status": "in-progress"
+    },
     {
       "sym": "ARBUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781473516780,
-      "status": "in-progress"
-    },
-    {
-      "sym": "SUSHIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.1774,
-      "target": null,
-      "stop": null,
-      "ts": 1781472794172,
       "status": "in-progress"
     }
   ]
