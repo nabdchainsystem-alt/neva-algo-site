@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-17",
-  "signalsDelivered": 861,
+  "signalsDelivered": 862,
   "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "HOLOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 77
-    },
-    {
-      "sym": "ARBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.08057,
+      "target": 0.081755,
+      "stop": 0.08031581166666667,
+      "ts": 1781692973843,
+      "status": "target"
+    },
     {
       "sym": "HOLOUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781473595616,
-      "status": "in-progress"
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 92,
-      "entry": 2.2,
-      "target": null,
-      "stop": null,
-      "ts": 1781473554695,
       "status": "in-progress"
     }
   ]
