@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-17",
-  "signalsDelivered": 865,
+  "signalsDelivered": 866,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 74
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 75
-    },
-    {
-      "sym": "EDENUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "JSTUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.08273,
+      "target": 0.08462614,
+      "stop": 0.08146590499999999,
+      "ts": 1781704228789,
+      "status": "invalidated"
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 89,
       "entry": 0.03142,
-      "target": null,
-      "stop": null,
-      "ts": 1781473595616,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ZENUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 86,
-      "entry": 4.531,
       "target": null,
       "stop": null,
       "ts": 1781473595616,
