@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-17",
-  "signalsDelivered": 872,
+  "signalsDelivered": 874,
   "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 74
+    },
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 79
+    },
     {
       "sym": "ETHFIUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 74
-    },
-    {
-      "sym": "BCHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 491.37,
+      "target": 501.15,
+      "stop": 486.752945,
+      "ts": 1781724021833,
+      "status": "target"
+    },
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 79,
+      "entry": 0.08085,
+      "target": 0.08227889,
+      "stop": 0.080158725,
+      "ts": 1781723935240,
+      "status": "target"
+    },
     {
       "sym": "ETHFIUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781473714223,
-      "status": "in-progress"
-    },
-    {
-      "sym": "EURUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 1.1601,
-      "target": null,
-      "stop": null,
-      "ts": 1781473714223,
-      "status": "in-progress"
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 86,
-      "entry": 0.7788,
-      "target": null,
-      "stop": null,
-      "ts": 1781473675374,
       "status": "in-progress"
     }
   ]
