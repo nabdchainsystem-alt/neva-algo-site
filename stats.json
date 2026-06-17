@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-17",
-  "signalsDelivered": 853,
-  "avgConviction": 75,
+  "signalsDelivered": 854,
+  "avgConviction": 76,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ARBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 77
+    },
     {
       "sym": "PENDLEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 73
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "ARBUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 77,
+      "entry": 0.0884,
+      "target": null,
+      "stop": null,
+      "ts": 1781661606486,
+      "status": "in-progress"
+    },
     {
       "sym": "PENDLEUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 73,
       "entry": 0.1774,
-      "target": null,
-      "stop": null,
-      "ts": 1781472794172,
-      "status": "in-progress"
-    },
-    {
-      "sym": "PUMPUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.001575,
       "target": null,
       "stop": null,
       "ts": 1781472794172,
