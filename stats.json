@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-17",
-  "signalsDelivered": 871,
+  "signalsDelivered": 872,
   "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ETHFIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 82
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 80
     }
   ],
   "track": [
+    {
+      "sym": "ETHFIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 0.387,
+      "target": null,
+      "stop": null,
+      "ts": 1781722844833,
+      "status": "active"
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 86,
       "entry": 0.7788,
-      "target": null,
-      "stop": null,
-      "ts": 1781473675374,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ADAUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 86,
-      "entry": 0.1741,
       "target": null,
       "stop": null,
       "ts": 1781473675374,
