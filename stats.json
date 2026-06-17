@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-17",
-  "signalsDelivered": 855,
-  "avgConviction": 77,
+  "signalsDelivered": 856,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 89
+    },
     {
       "sym": "FFUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 76
-    },
-    {
-      "sym": "TRUMPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 89,
+      "entry": 0.081,
+      "target": 0.081755,
+      "stop": 0.08086850000000001,
+      "ts": 1781666511519,
+      "status": "target"
+    },
     {
       "sym": "FFUSDT",
       "mkt": "Crypto",
@@ -1005,18 +1017,6 @@
       "dir": "LONG",
       "conv": 95,
       "entry": 453.98,
-      "target": null,
-      "stop": null,
-      "ts": 1781473516780,
-      "status": "in-progress"
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 65327.5,
       "target": null,
       "stop": null,
       "ts": 1781473516780,
