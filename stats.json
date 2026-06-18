@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-18",
-  "signalsDelivered": 895,
+  "signalsDelivered": 896,
   "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "EDENUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 92
+    },
     {
       "sym": "ONDOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 79
-    },
-    {
-      "sym": "EDENUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 87
     }
   ],
   "track": [
+    {
+      "sym": "EDENUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 92,
+      "entry": 0.0524,
+      "target": null,
+      "stop": null,
+      "ts": 1781809409971,
+      "status": "in-progress"
+    },
     {
       "sym": "ONDOUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 1801.223885,
       "stop": 1757.61741,
       "ts": 1781527454966,
-      "status": "target"
-    },
-    {
-      "sym": "HBARUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.08281,
-      "target": 0.08466132,
-      "stop": 0.081575785,
-      "ts": 1781527372054,
       "status": "target"
     }
   ]
