@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-17",
-  "signalsDelivered": 876,
-  "avgConviction": 80,
+  "updatedAt": "2026-06-18",
+  "signalsDelivered": 877,
+  "avgConviction": 82,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PROMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 84
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 83
-    },
-    {
-      "sym": "FFUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "PROMUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 1.211,
+      "target": null,
+      "stop": null,
+      "ts": 1781743775159,
+      "status": "active"
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.077023735,
       "ts": 1781473904098,
       "status": "active"
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 83,
-      "entry": 8.082,
-      "target": null,
-      "stop": null,
-      "ts": 1781473714223,
-      "status": "in-progress"
     }
   ]
 }
