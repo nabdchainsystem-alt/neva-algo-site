@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-18",
-  "signalsDelivered": 878,
-  "avgConviction": 83,
+  "signalsDelivered": 879,
+  "avgConviction": 85,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 94
+    },
     {
       "sym": "SAHARAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 82
-    },
-    {
-      "sym": "HBARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 83
     }
   ],
   "track": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 94,
+      "entry": 0.2448,
+      "target": null,
+      "stop": null,
+      "ts": 1781746367415,
+      "status": "active"
+    },
     {
       "sym": "SAHARAUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.01241134,
       "ts": 1781478408308,
       "status": "target"
-    },
-    {
-      "sym": "GPSUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 86,
-      "entry": 0.00798,
-      "target": null,
-      "stop": null,
-      "ts": 1781477281663,
-      "status": "active"
     }
   ]
 }
