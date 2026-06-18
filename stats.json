@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-18",
-  "signalsDelivered": 901,
-  "avgConviction": 78,
+  "signalsDelivered": 902,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "UNIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 81
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 70
-    },
-    {
-      "sym": "FLOKIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 71
     }
   ],
   "track": [
+    {
+      "sym": "UNIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 81,
+      "entry": 3.188,
+      "target": null,
+      "stop": null,
+      "ts": 1781826419368,
+      "status": "active"
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 168.443905,
       "ts": 1781533924610,
       "status": "active"
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 5.628,
-      "target": null,
-      "stop": null,
-      "ts": 1781533916955,
-      "status": "in-progress"
     }
   ]
 }
