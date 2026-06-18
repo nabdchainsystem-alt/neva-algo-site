@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-18",
-  "signalsDelivered": 877,
-  "avgConviction": 82,
+  "signalsDelivered": 878,
+  "avgConviction": 83,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SAHARAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 95
+    },
     {
       "sym": "PROMUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 83
-    },
-    {
-      "sym": "GENIUSUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 83
     }
   ],
   "track": [
+    {
+      "sym": "SAHARAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 95,
+      "entry": 0.01498,
+      "target": null,
+      "stop": null,
+      "ts": 1781744544154,
+      "status": "in-progress"
+    },
     {
       "sym": "PROMUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781477281663,
-      "status": "active"
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 0.07751,
-      "target": 0.07828,
-      "stop": 0.077023735,
-      "ts": 1781473904098,
       "status": "active"
     }
   ]
