@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-18",
-  "signalsDelivered": 889,
+  "signalsDelivered": 890,
   "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "WUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 91
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 76
     }
   ],
   "track": [
+    {
+      "sym": "HBARUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 0.08046,
+      "target": 0.08067,
+      "stop": 0.08032131,
+      "ts": 1781778109959,
+      "status": "target"
+    },
     {
       "sym": "WUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 69.823395,
       "ts": 1781510624338,
       "status": "target"
-    },
-    {
-      "sym": "CHIPUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 0.04231,
-      "target": null,
-      "stop": null,
-      "ts": 1781503277803,
-      "status": "active"
     }
   ]
 }
