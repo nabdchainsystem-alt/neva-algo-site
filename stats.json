@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-18",
-  "signalsDelivered": 890,
-  "avgConviction": 79,
+  "signalsDelivered": 891,
+  "avgConviction": 77,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "VICUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 77
-    },
-    {
-      "sym": "APEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 91
     }
   ],
   "track": [
+    {
+      "sym": "VICUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 0.0397,
+      "target": null,
+      "stop": null,
+      "ts": 1781783288509,
+      "status": "in-progress"
+    },
     {
       "sym": "HBARUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 221.84095,
       "stop": 215.7727,
       "ts": 1781520615395,
-      "status": "target"
-    },
-    {
-      "sym": "AAVEUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 77,
-      "entry": 71.07,
-      "target": 72.9399075,
-      "stop": 69.823395,
-      "ts": 1781510624338,
       "status": "target"
     }
   ]
