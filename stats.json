@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-18",
-  "signalsDelivered": 896,
-  "avgConviction": 77,
+  "signalsDelivered": 898,
+  "avgConviction": 79,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "EIGENUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 94
+    },
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 70
+    },
     {
       "sym": "EDENUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 80
-    },
-    {
-      "sym": "HBARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
-    },
-    {
-      "sym": "WUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 79
     }
   ],
   "track": [
+    {
+      "sym": "EIGENUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 94,
+      "entry": 0.223,
+      "target": null,
+      "stop": null,
+      "ts": 1781814774106,
+      "status": "active"
+    },
+    {
+      "sym": "ALLOUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.3907,
+      "target": null,
+      "stop": null,
+      "ts": 1781814774106,
+      "status": "active"
+    },
     {
       "sym": "EDENUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": null,
       "ts": 1781530279903,
       "status": "in-progress"
-    },
-    {
-      "sym": "PUMPUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.001636,
-      "target": null,
-      "stop": null,
-      "ts": 1781530279903,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 1775.06,
-      "target": 1801.223885,
-      "stop": 1757.61741,
-      "ts": 1781527454966,
-      "status": "target"
     }
   ]
 }
