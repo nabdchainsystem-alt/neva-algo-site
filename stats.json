@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-18",
-  "signalsDelivered": 882,
-  "avgConviction": 85,
+  "signalsDelivered": 883,
+  "avgConviction": 86,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "APEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 91
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 88
-    },
-    {
-      "sym": "HEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 80
     }
   ],
   "track": [
+    {
+      "sym": "APEUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 91,
+      "entry": 0.1335,
+      "target": null,
+      "stop": null,
+      "ts": 1781762608738,
+      "status": "in-progress"
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": null,
       "stop": null,
       "ts": 1781480915957,
-      "status": "in-progress"
-    },
-    {
-      "sym": "GENIUSUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 83,
-      "entry": 0.4966,
-      "target": null,
-      "stop": null,
-      "ts": 1781480077137,
       "status": "in-progress"
     }
   ]
