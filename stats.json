@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-18",
-  "signalsDelivered": 879,
-  "avgConviction": 85,
+  "signalsDelivered": 880,
+  "avgConviction": 83,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "WALUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 71
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 79
-    },
-    {
-      "sym": "ETHFIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 82
     }
   ],
   "track": [
+    {
+      "sym": "WALUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.0346,
+      "target": null,
+      "stop": null,
+      "ts": 1781750934506,
+      "status": "in-progress"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.3296,
       "stop": 0.31782000000000005,
       "ts": 1781478497598,
-      "status": "target"
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 86,
-      "entry": 0.01244,
-      "target": 0.01263,
-      "stop": 0.01241134,
-      "ts": 1781478408308,
       "status": "target"
     }
   ]
