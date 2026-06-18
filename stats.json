@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-18",
-  "signalsDelivered": 886,
-  "avgConviction": 81,
+  "signalsDelivered": 887,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "EPICUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "RENDERUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 71
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 94
     }
   ],
   "track": [
+    {
+      "sym": "EPICUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.711,
+      "target": null,
+      "stop": null,
+      "ts": 1781775090158,
+      "status": "active"
+    },
     {
       "sym": "RENDERUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 2.040919,
       "ts": 1781494259022,
       "status": "invalidated"
-    },
-    {
-      "sym": "ZROUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 93,
-      "entry": 1.028,
-      "target": null,
-      "stop": null,
-      "ts": 1781493435666,
-      "status": "in-progress"
     }
   ]
 }
