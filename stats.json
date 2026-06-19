@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 977,
-  "avgConviction": 72,
+  "signalsDelivered": 978,
+  "avgConviction": 71,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 55
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 88
-    },
-    {
-      "sym": "BSBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 0.0874,
+      "target": 0.08805,
+      "stop": 0.08716890000000002,
+      "ts": 1781911170666,
+      "status": "in-progress"
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
