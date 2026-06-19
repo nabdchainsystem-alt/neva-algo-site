@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 915,
-  "avgConviction": 71,
+  "signalsDelivered": 917,
+  "avgConviction": 74,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 100
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 64
-    },
-    {
-      "sym": "HYPEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 100,
+      "entry": 0.22025,
+      "target": 0.22144,
+      "stop": 0.219789625,
+      "ts": 1781878653814,
+      "status": "active"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 0.22263333,
       "stop": 0.2198197,
       "ts": 1781878480578,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "XLMUSDT",
@@ -84,7 +96,7 @@
       "target": 0.22256667,
       "stop": 0.21986955,
       "ts": 1781878474581,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "SUIUSDT",
