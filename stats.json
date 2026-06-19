@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 917,
-  "avgConviction": 74,
+  "signalsDelivered": 919,
+  "avgConviction": 78,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "AVAXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 83
+    },
+    {
+      "sym": "AVAXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 76
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 57
-    },
-    {
-      "sym": "SEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 63
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 64
     }
   ],
   "track": [
+    {
+      "sym": "AVAXUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 83,
+      "entry": 6.121,
+      "target": 6.1935,
+      "stop": 6.0808184999999995,
+      "ts": 1781878933341,
+      "status": "invalidated"
+    },
+    {
+      "sym": "AVAXUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 6.121,
+      "target": 6.1925,
+      "stop": 6.0808184999999995,
+      "ts": 1781878921948,
+      "status": "invalidated"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
