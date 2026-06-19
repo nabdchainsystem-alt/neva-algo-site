@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 903,
-  "avgConviction": 81,
+  "signalsDelivered": 904,
+  "avgConviction": 80,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ARKMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 70
-    },
-    {
-      "sym": "EDENUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 92
     }
   ],
   "track": [
+    {
+      "sym": "ARKMUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 0.1363,
+      "target": null,
+      "stop": null,
+      "ts": 1781830180413,
+      "status": "in-progress"
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.6577113499999999,
       "ts": 1781536371400,
       "status": "target"
-    },
-    {
-      "sym": "INJUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 5.628,
-      "target": null,
-      "stop": null,
-      "ts": 1781533955784,
-      "status": "in-progress"
     }
   ]
 }
