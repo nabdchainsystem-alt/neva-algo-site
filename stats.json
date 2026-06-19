@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 926,
-  "avgConviction": 73,
+  "signalsDelivered": 931,
+  "avgConviction": 74,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "LINKUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 88
+    },
     {
       "sym": "BSBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 78
-    },
-    {
-      "sym": "AVAXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 83
     }
   ],
   "track": [
+    {
+      "sym": "LINKUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 88,
+      "entry": 7.894,
+      "target": 7.92,
+      "stop": 7.878158999999999,
+      "ts": 1781883611977,
+      "status": "invalidated"
+    },
     {
       "sym": "BSBUSDT",
       "mkt": "Crypto",
