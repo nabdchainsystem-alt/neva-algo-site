@@ -144,7 +144,7 @@
       "target": null,
       "stop": null,
       "ts": 1781814774106,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ALLOUSDT",
@@ -420,7 +420,7 @@
       "target": null,
       "stop": null,
       "ts": 1781725742333,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ZECUSDT",
