@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 944,
-  "avgConviction": 65,
+  "signalsDelivered": 946,
+  "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SPCXBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 70
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 59
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 57
     }
   ],
   "track": [
+    {
+      "sym": "SPCXBUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 178,
+      "target": 179.93,
+      "stop": 176.923,
+      "ts": 1781888743260,
+      "status": "active"
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 63344.65,
       "stop": 62850.0959,
       "ts": 1781888553142,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "UNIUSDT",
