@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 952,
-  "avgConviction": 71,
+  "signalsDelivered": 953,
+  "avgConviction": 70,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "AAVEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 58
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 80
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 66
     }
   ],
   "track": [
+    {
+      "sym": "AAVEUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 72.903,
+      "target": 73.684,
+      "stop": 72.38564550000001,
+      "ts": 1781892515064,
+      "status": "active"
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 1.1439,
       "stop": 1.1315993,
       "ts": 1781892332611,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "PHAUSDT",
