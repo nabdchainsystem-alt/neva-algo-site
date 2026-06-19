@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 923,
-  "avgConviction": 83,
+  "signalsDelivered": 924,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 75
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 100
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 87
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 75,
+      "entry": 1.135,
+      "target": 1.144,
+      "stop": 1.1323475,
+      "ts": 1781881638675,
+      "status": "invalidated"
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
