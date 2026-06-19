@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 909,
-  "avgConviction": 66,
+  "signalsDelivered": 911,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 57
+    },
     {
       "sym": "SEIUSDT",
       "mkt": "Crypto",
@@ -41,6 +48,18 @@
     }
   ],
   "track": [
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 57,
+      "entry": 227.8,
+      "target": 231.03333333,
+      "stop": 225.85829999999999,
+      "ts": 1781878302134,
+      "status": "active"
+    },
     {
       "sym": "SEIUSDT",
       "mkt": "Crypto",
