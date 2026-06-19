@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 950,
-  "avgConviction": 67,
+  "signalsDelivered": 951,
+  "avgConviction": 70,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PHAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 94
+    },
     {
       "sym": "ONDOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 60
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 64
     }
   ],
   "track": [
+    {
+      "sym": "PHAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 94,
+      "entry": 0.0379,
+      "target": null,
+      "stop": null,
+      "ts": 1781891379639,
+      "status": "in-progress"
+    },
     {
       "sym": "ONDOUSDT",
       "mkt": "Crypto",
