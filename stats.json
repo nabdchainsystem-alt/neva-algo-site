@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 943,
-  "avgConviction": 64,
+  "signalsDelivered": 944,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 80
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 57
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 62969.4,
+      "target": 63344.65,
+      "stop": 62850.0959,
+      "ts": 1781888553142,
+      "status": "active"
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
