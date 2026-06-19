@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 946,
-  "avgConviction": 66,
+  "signalsDelivered": 948,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PIEVERSEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
+    {
+      "sym": "SPCXXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
     {
       "sym": "SPCXBUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 72
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 60
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "PIEVERSEUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.6622,
+      "target": 0.6868,
+      "stop": 0.6596567,
+      "ts": 1781888825630,
+      "status": "active"
+    },
+    {
+      "sym": "SPCXXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 178.43,
+      "target": 180.385,
+      "stop": 178.112355,
+      "ts": 1781888821611,
+      "status": "active"
+    },
     {
       "sym": "SPCXBUSDT",
       "mkt": "Crypto",
@@ -72,7 +96,7 @@
       "target": 179.93,
       "stop": 176.923,
       "ts": 1781888743260,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "BTCUSDT",
