@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-18",
-  "signalsDelivered": 902,
-  "avgConviction": 80,
+  "updatedAt": "2026-06-19",
+  "signalsDelivered": 903,
+  "avgConviction": 81,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 82
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 92
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 0.0952,
+      "target": null,
+      "stop": null,
+      "ts": 1781827328805,
+      "status": "in-progress"
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1781533955784,
       "status": "in-progress"
-    },
-    {
-      "sym": "SPCXXUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 170.73,
-      "target": 175.43,
-      "stop": 168.443905,
-      "ts": 1781533924610,
-      "status": "active"
     }
   ]
 }
