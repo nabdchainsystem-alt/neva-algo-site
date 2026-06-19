@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 939,
-  "avgConviction": 67,
+  "signalsDelivered": 943,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "UNIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
+    {
+      "sym": "DOTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 60
+    },
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 64
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 73
-    },
-    {
-      "sym": "FILUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 82
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 75
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "UNIUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 3.0438,
+      "target": 3.078,
+      "stop": 3.0225343,
+      "ts": 1781888108583,
+      "status": "active"
+    },
+    {
+      "sym": "DOTUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 0.9578,
+      "target": 0.9643,
+      "stop": 0.9539633000000001,
+      "ts": 1781888108583,
+      "status": "in-progress"
+    },
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 64,
+      "entry": 63054.7,
+      "target": 63273.5,
+      "stop": 62943.91795,
+      "ts": 1781888103758,
+      "status": "invalidated"
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
