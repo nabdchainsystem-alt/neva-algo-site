@@ -72,7 +72,7 @@
       "target": 0.02621,
       "stop": 0.025479144999999998,
       "ts": 1781884067557,
-      "status": "active"
+      "status": "target"
     },
     {
       "sym": "ENAUSDT",
