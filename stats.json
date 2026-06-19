@@ -1,9 +1,37 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 911,
-  "avgConviction": 64,
+  "signalsDelivered": 915,
+  "avgConviction": 71,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 87
+    },
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 82
+    },
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 70
+    },
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "TAOUSDT",
       "mkt": "Crypto",
@@ -31,23 +59,57 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 70
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 58
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 87,
+      "entry": 0.2202,
+      "target": 0.22263333,
+      "stop": 0.2198197,
+      "ts": 1781878480578,
+      "status": "active"
+    },
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 0.2203,
+      "target": 0.22256667,
+      "stop": 0.21986955,
+      "ts": 1781878474581,
+      "status": "active"
+    },
+    {
+      "sym": "SUIUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 0.7131,
+      "target": 0.7198,
+      "stop": 0.70863035,
+      "ts": 1781878399605,
+      "status": "active"
+    },
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 228.08,
+      "target": 231.00666667,
+      "stop": 227.51288000000002,
+      "ts": 1781878386749,
+      "status": "in-progress"
+    },
     {
       "sym": "TAOUSDT",
       "mkt": "Crypto",
@@ -58,7 +120,7 @@
       "target": 231.03333333,
       "stop": 225.85829999999999,
       "ts": 1781878302134,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "SEIUSDT",
