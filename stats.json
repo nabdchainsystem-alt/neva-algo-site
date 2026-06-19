@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 922,
+  "signalsDelivered": 923,
   "avgConviction": 83,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 82
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 87
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 82
     }
   ],
   "track": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 82,
+      "entry": 0.6247,
+      "target": 0.6276,
+      "stop": 0.6235629500000001,
+      "ts": 1781881446086,
+      "status": "active"
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 2.181,
       "stop": 2.1457705,
       "ts": 1781881361855,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "AAVEUSDT",
