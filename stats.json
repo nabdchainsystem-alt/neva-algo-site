@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 905,
-  "avgConviction": 73,
+  "signalsDelivered": 908,
+  "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 64
+    },
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 70
+    },
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 58
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
@@ -13,6 +34,42 @@
     }
   ],
   "track": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 64,
+      "entry": 0.629,
+      "target": 0.633,
+      "stop": 0.6273898333333333,
+      "ts": 1781877763431,
+      "status": "active"
+    },
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 68.726,
+      "target": 69.34,
+      "stop": 68.517911,
+      "ts": 1781877756995,
+      "status": "active"
+    },
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 0.0984,
+      "target": 0.1137,
+      "stop": 0.0918524,
+      "ts": 1781877675059,
+      "status": "active"
+    },
     {
       "sym": "PORTALUSDT",
       "mkt": "Crypto",
