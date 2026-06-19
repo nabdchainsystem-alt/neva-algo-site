@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-19",
-  "signalsDelivered": 937,
-  "avgConviction": 69,
+  "signalsDelivered": 939,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 72
+    },
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 60
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 60
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 88
-    },
-    {
-      "sym": "BSBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 56
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 451.1,
+      "target": 461.04,
+      "stop": 444.51335,
+      "ts": 1781887759007,
+      "status": "active"
+    },
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 451.11,
+      "target": 461.01,
+      "stop": 444.53333499999997,
+      "ts": 1781887742599,
+      "status": "active"
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
