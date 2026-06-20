@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1057,
-  "avgConviction": 63,
+  "signalsDelivered": 1058,
+  "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 84
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 55
-    },
-    {
-      "sym": "USDCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 84,
+      "entry": 1.1352,
+      "target": 1.144,
+      "stop": 1.1332972000000001,
+      "ts": 1781964616861,
+      "status": "invalidated"
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 44.09,
       "stop": 43.694255,
       "ts": 1781964524943,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BSBUSDT",
@@ -1008,18 +1020,6 @@
       "target": 461.04,
       "stop": 444.515495,
       "ts": 1781897294322,
-      "status": "active"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 449.76,
-      "target": 461.01,
-      "stop": 444.53535999999997,
-      "ts": 1781897282834,
       "status": "active"
     }
   ]
