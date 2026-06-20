@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1015,
-  "avgConviction": 65,
+  "signalsDelivered": 1017,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "OPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 74
+    },
+    {
+      "sym": "NIGHTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 61
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 62
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 82
-    },
-    {
-      "sym": "USDCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 58
     }
   ],
   "track": [
+    {
+      "sym": "OPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.1049,
+      "target": null,
+      "stop": null,
+      "ts": 1781936220379,
+      "status": "active"
+    },
+    {
+      "sym": "NIGHTUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 61,
+      "entry": 0.03173,
+      "target": 0.03203333,
+      "stop": 0.031672405,
+      "ts": 1781936174740,
+      "status": "invalidated"
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -72,7 +96,7 @@
       "target": 3.0977,
       "stop": 3.0502115,
       "ts": 1781936075975,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "XRPUSDT",
@@ -996,30 +1020,6 @@
       "target": 0.22144,
       "stop": 0.219789625,
       "ts": 1781878653814,
-      "status": "in-progress"
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 87,
-      "entry": 0.2202,
-      "target": 0.22263333,
-      "stop": 0.2198197,
-      "ts": 1781878480578,
-      "status": "in-progress"
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 0.2203,
-      "target": 0.22256667,
-      "stop": 0.21986955,
-      "ts": 1781878474581,
       "status": "in-progress"
     }
   ]
