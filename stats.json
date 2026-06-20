@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1034,
+  "signalsDelivered": 1035,
   "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 60
+    },
     {
       "sym": "HEIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Premium/Discount Fade",
       "conv": 72
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 63
     }
   ],
   "track": [
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 0.05393,
+      "target": 0.0552275,
+      "stop": 0.05375243833333334,
+      "ts": 1781947694771,
+      "status": "target"
+    },
     {
       "sym": "HEIUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 455.4446245,
       "ts": 1781885945889,
       "status": "invalidated"
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.32128,
-      "target": 0.32352,
-      "stop": 0.32052808,
-      "ts": 1781884863710,
-      "status": "active"
     }
   ]
 }
