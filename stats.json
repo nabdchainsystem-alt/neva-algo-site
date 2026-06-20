@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1011,
+  "signalsDelivered": 1013,
   "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 67
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 57
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Premium/Discount Fade",
-      "conv": 68
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 67,
+      "entry": 1.1468,
+      "target": 1.1547,
+      "stop": 1.1415798,
+      "ts": 1781934723145,
+      "status": "invalidated"
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.70863035,
       "ts": 1781878399605,
       "status": "active"
-    },
-    {
-      "sym": "TAOUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 228.08,
-      "target": 231.00666667,
-      "stop": 227.51288000000002,
-      "ts": 1781878386749,
-      "status": "in-progress"
     }
   ]
 }
