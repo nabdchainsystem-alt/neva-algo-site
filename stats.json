@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1075,
-  "avgConviction": 68,
+  "signalsDelivered": 1077,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 55
+    },
     {
       "sym": "AVAXUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 61
-    },
-    {
-      "sym": "OPNUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 80
     }
   ],
   "track": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 2.152,
+      "target": 2.1864,
+      "stop": 2.146772,
+      "ts": 1781978564695,
+      "status": "invalidated"
+    },
     {
       "sym": "AVAXUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.057033419999999994,
       "ts": 1781915478312,
       "status": "in-progress"
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 69.89,
-      "target": 71.0372525,
-      "stop": 69.12516500000001,
-      "ts": 1781915106529,
-      "status": "invalidated"
     }
   ]
 }
