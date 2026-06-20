@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 985,
+  "signalsDelivered": 986,
   "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 55
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 73
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 0.0873,
+      "target": 0.08844,
+      "stop": 0.08714405000000001,
+      "ts": 1781916824884,
+      "status": "active"
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 7.92,
       "stop": 7.878163499999999,
       "ts": 1781916644594,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BSBUSDT",
