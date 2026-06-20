@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1079,
-  "avgConviction": 66,
+  "signalsDelivered": 1080,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "UNIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 69
+    },
     {
       "sym": "XMRUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 58
-    },
-    {
-      "sym": "TAOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "UNIUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 69,
+      "entry": 2.997,
+      "target": 3.03266667,
+      "stop": 2.9912545,
+      "ts": 1781982163821,
+      "status": "in-progress"
+    },
     {
       "sym": "XMRUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.41407675,
       "ts": 1781916002732,
       "status": "active"
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 0.2182,
-      "target": 0.2193,
-      "stop": 0.21777269999999999,
-      "ts": 1781915564603,
-      "status": "target"
     }
   ]
 }
