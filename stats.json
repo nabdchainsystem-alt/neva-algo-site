@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 986,
-  "avgConviction": 63,
+  "signalsDelivered": 987,
+  "avgConviction": 61,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "AAVEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 56
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "OPGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "AAVEUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 56,
+      "entry": 73.976,
+      "target": 75.092,
+      "stop": 73.230036,
+      "ts": 1781917086222,
+      "status": "invalidated"
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
