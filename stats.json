@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1048,
-  "avgConviction": 67,
+  "signalsDelivered": 1050,
+  "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "USDCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 80
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "USDCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 1.0007,
+      "target": 1.00310157,
+      "stop": 0.9990989499999999,
+      "ts": 1781963707787,
+      "status": "in-progress"
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 72.38564550000001,
       "ts": 1781892515064,
       "status": "active"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 1.1338,
-      "target": 1.1439,
-      "stop": 1.1315993,
-      "ts": 1781892332611,
-      "status": "invalidated"
     }
   ]
 }
