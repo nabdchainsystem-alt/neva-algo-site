@@ -72,7 +72,7 @@
       "target": 207.7,
       "stop": 197.7,
       "ts": 1781932307730,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BNBUSDT",
@@ -84,7 +84,7 @@
       "target": 590.73445,
       "stop": 579.8437,
       "ts": 1781932307730,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "TAOUSDT",
@@ -96,7 +96,7 @@
       "target": 239.369205,
       "stop": 228.72053,
       "ts": 1781932295794,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "UNIUSDT",
