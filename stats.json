@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1022,
-  "avgConviction": 68,
+  "signalsDelivered": 1024,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 67
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 67
     }
   ],
   "track": [
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 231.15,
+      "target": 235.03,
+      "stop": 228.723275,
+      "ts": 1781939134499,
+      "status": "active"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 2.181,
       "stop": 2.1457705,
       "ts": 1781881361855,
-      "status": "invalidated"
-    },
-    {
-      "sym": "AAVEUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 99,
-      "entry": 73.74,
-      "target": 74.01,
-      "stop": 73.59939,
-      "ts": 1781879926484,
       "status": "invalidated"
     }
   ]
