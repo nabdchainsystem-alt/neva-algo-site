@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 991,
-  "avgConviction": 65,
+  "signalsDelivered": 992,
+  "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 64
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 65
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 64,
+      "entry": 0.09874,
+      "target": 0.1002,
+      "stop": 0.09789189,
+      "ts": 1781917984030,
+      "status": "invalidated"
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
