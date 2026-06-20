@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1029,
+  "signalsDelivered": 1030,
   "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 61
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 58
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 61,
+      "entry": 0.647,
+      "target": 0.677,
+      "stop": 0.6350295,
+      "ts": 1781941402046,
+      "status": "invalidated"
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 7.878158999999999,
       "ts": 1781883611977,
       "status": "invalidated"
-    },
-    {
-      "sym": "BSBUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 56,
-      "entry": 0.3982,
-      "target": 0.42678333,
-      "stop": 0.3966027,
-      "ts": 1781882523657,
-      "status": "active"
     }
   ]
 }
