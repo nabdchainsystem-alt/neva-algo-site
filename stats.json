@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1067,
+  "signalsDelivered": 1068,
   "avgConviction": 62,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 61
+    },
     {
       "sym": "OPNUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 65
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 61,
+      "entry": 231.4,
+      "target": 234.56666667,
+      "stop": 229.75289999999998,
+      "ts": 1781974334583,
+      "status": "invalidated"
+    },
     {
       "sym": "OPNUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 3.0264011166666664,
       "ts": 1781906464697,
       "status": "invalidated"
-    },
-    {
-      "sym": "ADAUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 63,
-      "entry": 0.1611,
-      "target": 0.1627,
-      "stop": 0.16015834999999998,
-      "ts": 1781904852034,
-      "status": "active"
     }
   ]
 }
