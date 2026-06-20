@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1045,
+  "signalsDelivered": 1046,
   "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 58
+    },
     {
       "sym": "ADAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 55
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 1.13994,
+      "target": 1.1438,
+      "stop": 1.13745009,
+      "ts": 1781961997343,
+      "status": "invalidated"
+    },
     {
       "sym": "ADAUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 0.1625,
       "stop": 0.16135729999999998,
       "ts": 1781961826620,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "SUIUSDT",
@@ -1009,18 +1021,6 @@
       "stop": 0.35066975,
       "ts": 1781890004387,
       "status": "in-progress"
-    },
-    {
-      "sym": "PIEVERSEUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.6622,
-      "target": 0.6868,
-      "stop": 0.6596567,
-      "ts": 1781888825630,
-      "status": "active"
     }
   ]
 }
