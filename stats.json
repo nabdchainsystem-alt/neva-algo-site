@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1083,
+  "signalsDelivered": 1084,
   "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 74
+    },
     {
       "sym": "WLDUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 66
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.05479,
+      "target": 0.05514714,
+      "stop": 0.054697815,
+      "ts": 1781984960525,
+      "status": "target"
+    },
     {
       "sym": "WLDUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 2.1805,
       "stop": 2.1511651,
       "ts": 1781917265053,
-      "status": "invalidated"
-    },
-    {
-      "sym": "AAVEUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 56,
-      "entry": 73.976,
-      "target": 75.092,
-      "stop": 73.230036,
-      "ts": 1781917086222,
       "status": "invalidated"
     }
   ]
