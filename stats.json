@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1084,
+  "signalsDelivered": 1085,
   "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 62
+    },
     {
       "sym": "MEGAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 55
-    },
-    {
-      "sym": "AVAXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 66
     }
   ],
   "track": [
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 0.09389,
+      "target": 0.09605,
+      "stop": 0.09246916499999999,
+      "ts": 1781985665125,
+      "status": "active"
+    },
     {
       "sym": "MEGAUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.35049820000000004,
       "ts": 1781917277440,
       "status": "target"
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 63,
-      "entry": 2.1566,
-      "target": 2.1805,
-      "stop": 2.1511651,
-      "ts": 1781917265053,
-      "status": "invalidated"
     }
   ]
 }
