@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1091,
-  "avgConviction": 63,
+  "signalsDelivered": 1092,
+  "avgConviction": 62,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "LINKUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 61
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 62
-    },
-    {
-      "sym": "MEGAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "LINKUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 61,
+      "entry": 7.954,
+      "target": 8.03025,
+      "stop": 7.925069000000001,
+      "ts": 1781993866044,
+      "status": "invalidated"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 73.6975,
       "stop": 73.130125,
       "ts": 1781921959079,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 64,
-      "entry": 1706.89,
-      "target": 1718.755,
-      "stop": 1698.959665,
-      "ts": 1781921683381,
       "status": "invalidated"
     }
   ]
