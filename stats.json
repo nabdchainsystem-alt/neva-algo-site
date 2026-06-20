@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1081,
-  "avgConviction": 68,
+  "signalsDelivered": 1083,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 55
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 72
-    },
-    {
-      "sym": "AAVEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 69
-    },
-    {
-      "sym": "AAVEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 63
     }
   ],
   "track": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 0.601,
+      "target": 0.6149,
+      "stop": 0.5997985,
+      "ts": 1781983695683,
+      "status": "target"
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 1.14024,
+      "target": 1.154945,
+      "stop": 1.13097964,
+      "ts": 1781983686845,
+      "status": "invalidated"
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 75.092,
       "stop": 73.230036,
       "ts": 1781917086222,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 0.0873,
-      "target": 0.08844,
-      "stop": 0.08714405000000001,
-      "ts": 1781916824884,
-      "status": "in-progress"
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 71,
-      "entry": 7.891,
-      "target": 7.92,
-      "stop": 7.878163499999999,
-      "ts": 1781916644594,
       "status": "invalidated"
     }
   ]
