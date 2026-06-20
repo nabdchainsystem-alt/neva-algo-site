@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-19",
-  "signalsDelivered": 978,
-  "avgConviction": 71,
+  "updatedAt": "2026-06-20",
+  "signalsDelivered": 979,
+  "avgConviction": 69,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "OPGUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 55
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 88
     }
   ],
   "track": [
+    {
+      "sym": "OPGUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.1665,
+      "target": null,
+      "stop": null,
+      "ts": 1781913700015,
+      "status": "active"
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
