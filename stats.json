@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1055,
-  "avgConviction": 63,
+  "signalsDelivered": 1056,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BSBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 72
-    },
-    {
-      "sym": "OKBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 64
     }
   ],
   "track": [
+    {
+      "sym": "BSBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.3679,
+      "target": 0.4071,
+      "stop": 0.35904814999999995,
+      "ts": 1781964244392,
+      "status": "active"
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 200.55,
       "stop": 196.15525,
       "ts": 1781964171308,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "DOGEUSDT",
@@ -84,7 +96,7 @@
       "target": 0.08396,
       "stop": 0.08264532,
       "ts": 1781964171308,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "XPLUSDT",
@@ -1008,18 +1020,6 @@
       "target": 226.4,
       "stop": 224.51220000000004,
       "ts": 1781896843472,
-      "status": "target"
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 69,
-      "entry": 0.351,
-      "target": 0.3535,
-      "stop": 0.35039850000000006,
-      "ts": 1781896398449,
       "status": "target"
     }
   ]
