@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1003,
+  "signalsDelivered": 1004,
   "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "USDCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 58
+    },
     {
       "sym": "ADAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 75
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 64
     }
   ],
   "track": [
+    {
+      "sym": "USDCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 1.0008,
+      "target": 1.0032018,
+      "stop": 0.9991987999999999,
+      "ts": 1781923654606,
+      "status": "active"
+    },
     {
       "sym": "ADAUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.1137,
       "stop": 0.0918524,
       "ts": 1781877675059,
-      "status": "active"
-    },
-    {
-      "sym": "PORTALUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.01496,
-      "target": null,
-      "stop": null,
-      "ts": 1781849015437,
       "status": "active"
     }
   ]
