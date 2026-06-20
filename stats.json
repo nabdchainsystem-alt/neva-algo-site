@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1047,
-  "avgConviction": 65,
+  "signalsDelivered": 1048,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "OKBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 73
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.6336,
+      "target": 0.6635,
+      "stop": 0.6322996000000001,
+      "ts": 1781962268084,
+      "status": "invalidated"
+    },
     {
       "sym": "OKBUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 1.1315993,
       "ts": 1781892332611,
       "status": "invalidated"
-    },
-    {
-      "sym": "PHAUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 94,
-      "entry": 0.0379,
-      "target": null,
-      "stop": null,
-      "ts": 1781891379639,
-      "status": "in-progress"
     }
   ]
 }
