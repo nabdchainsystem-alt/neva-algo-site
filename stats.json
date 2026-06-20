@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1086,
-  "avgConviction": 68,
+  "signalsDelivered": 1087,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 57
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 69
-    },
-    {
-      "sym": "XMRUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 64
     }
   ],
   "track": [
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 57,
+      "entry": 0.08337,
+      "target": 0.08417333,
+      "stop": 0.082894945,
+      "ts": 1781989457374,
+      "status": "invalidated"
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.09789189,
       "ts": 1781917984030,
       "status": "invalidated"
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 87,
-      "entry": 0.7121,
-      "target": 0.71976,
-      "stop": 0.7107318499999999,
-      "ts": 1781917815285,
-      "status": "active"
     }
   ]
 }
