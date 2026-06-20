@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1033,
-  "avgConviction": 64,
+  "signalsDelivered": 1034,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HEIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 91
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 63
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "HEIUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 91,
+      "entry": 0.1096,
+      "target": null,
+      "stop": null,
+      "ts": 1781945298320,
+      "status": "active"
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.32352,
       "stop": 0.32052808,
       "ts": 1781884863710,
-      "status": "active"
-    },
-    {
-      "sym": "FILUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 0.805,
-      "target": null,
-      "stop": null,
-      "ts": 1781884816780,
       "status": "active"
     }
   ]
