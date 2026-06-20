@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1024,
-  "avgConviction": 67,
+  "signalsDelivered": 1026,
+  "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 63
+    },
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "TAOUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "NIGHTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 61
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 67
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 63,
+      "entry": 63616.31,
+      "target": 63907.07,
+      "stop": 63446.575535,
+      "ts": 1781939239043,
+      "status": "invalidated"
+    },
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 63615.9,
+      "target": 63942.2,
+      "stop": 63448.07615,
+      "ts": 1781939223347,
+      "status": "invalidated"
+    },
     {
       "sym": "TAOUSDT",
       "mkt": "Crypto",
@@ -72,7 +96,7 @@
       "target": 235.03,
       "stop": 228.723275,
       "ts": 1781939134499,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "XLMUSDT",
@@ -996,30 +1020,6 @@
       "target": 1.144,
       "stop": 1.1323475,
       "ts": 1781881638675,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 82,
-      "entry": 0.6247,
-      "target": 0.6276,
-      "stop": 0.6235629500000001,
-      "ts": 1781881446086,
-      "status": "active"
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 2.153,
-      "target": 2.181,
-      "stop": 2.1457705,
-      "ts": 1781881361855,
       "status": "invalidated"
     }
   ]
