@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1030,
+  "signalsDelivered": 1031,
   "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PIEVERSEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 58
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 75
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 58
     }
   ],
   "track": [
+    {
+      "sym": "PIEVERSEUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 0.6869,
+      "target": 0.70554552,
+      "stop": 0.67446965,
+      "ts": 1781942015293,
+      "status": "active"
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.0878668,
       "ts": 1781884067557,
       "status": "active"
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 88,
-      "entry": 7.894,
-      "target": 7.92,
-      "stop": 7.878158999999999,
-      "ts": 1781883611977,
-      "status": "invalidated"
     }
   ]
 }
