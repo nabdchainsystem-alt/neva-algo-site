@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-20",
-  "signalsDelivered": 1041,
-  "avgConviction": 68,
+  "signalsDelivered": 1042,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 80
+    },
     {
       "sym": "WLDUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 60
-    },
-    {
-      "sym": "HEIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 91
     }
   ],
   "track": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 0.6087,
+      "target": 0.6138,
+      "stop": 0.6070091722222223,
+      "ts": 1781959835076,
+      "status": "target"
+    },
     {
       "sym": "WLDUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 62850.0959,
       "ts": 1781888553142,
       "status": "invalidated"
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 66,
-      "entry": 3.0438,
-      "target": 3.078,
-      "stop": 3.0225343,
-      "ts": 1781888108583,
-      "status": "active"
     }
   ]
 }
