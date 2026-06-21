@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1159,
+  "signalsDelivered": 1161,
   "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 59
+    },
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 74
-    },
-    {
-      "sym": "MEGAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 55
-    },
-    {
-      "sym": "NILUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 0.3374,
+      "target": 0.3404,
+      "stop": 0.3363339,
+      "ts": 1782041567271,
+      "status": "active"
+    },
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 2.2409,
+      "target": 2.2509,
+      "stop": 2.23443865,
+      "ts": 1782041559121,
+      "status": "active"
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 1.0651,
       "stop": 1.01245875,
       "ts": 1781974882908,
-      "status": "invalidated"
-    },
-    {
-      "sym": "TAOUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 77,
-      "entry": 230.6,
-      "target": 232.41,
-      "stop": 229.8241,
-      "ts": 1781974866066,
-      "status": "invalidated"
-    },
-    {
-      "sym": "TAOUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 61,
-      "entry": 231.4,
-      "target": 234.56666667,
-      "stop": 229.75289999999998,
-      "ts": 1781974334583,
       "status": "invalidated"
     }
   ]
