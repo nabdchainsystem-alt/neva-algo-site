@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1120,
-  "avgConviction": 63,
+  "signalsDelivered": 1123,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 60
-    },
-    {
-      "sym": "XMRUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 66
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 1.14519,
+      "target": 1.15559,
+      "stop": 1.143412215,
+      "ts": 1782018968532,
+      "status": "invalidated"
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 2.9900045,
       "ts": 1781943644487,
       "status": "in-progress"
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.02307,
-      "target": 0.02374,
-      "stop": 0.022695395,
-      "ts": 1781942121330,
-      "status": "target"
     }
   ]
 }
