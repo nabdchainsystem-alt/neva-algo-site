@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1149,
-  "avgConviction": 61,
+  "signalsDelivered": 1150,
+  "avgConviction": 60,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BCHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 55
+    },
     {
       "sym": "SPCXBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 66
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 66
     }
   ],
   "track": [
+    {
+      "sym": "BCHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 197.9,
+      "target": 199,
+      "stop": 197.50315,
+      "ts": 1782032483814,
+      "status": "invalidated"
+    },
     {
       "sym": "SPCXBUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 181.72,
       "stop": 180.41859,
       "ts": 1782032387717,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "ETHUSDT",
@@ -1008,18 +1020,6 @@
       "target": 1.144,
       "stop": 1.1332972000000001,
       "ts": 1781964616861,
-      "status": "invalidated"
-    },
-    {
-      "sym": "LTCUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 67,
-      "entry": 43.83,
-      "target": 44.09,
-      "stop": 43.694255,
-      "ts": 1781964524943,
       "status": "invalidated"
     }
   ]
