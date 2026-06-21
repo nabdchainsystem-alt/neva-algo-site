@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1166,
-  "avgConviction": 65,
+  "signalsDelivered": 1167,
+  "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XMRUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 57
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 59
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 69
     }
   ],
   "track": [
+    {
+      "sym": "XMRUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 57,
+      "entry": 319.96,
+      "target": 322.1,
+      "stop": 319.04006,
+      "ts": 1782043719339,
+      "status": "active"
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 8.017,
       "stop": 7.925093,
       "ts": 1782043548094,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BICOUSDT",
@@ -84,7 +96,7 @@
       "target": 0.052635,
       "stop": 0.04734761,
       "ts": 1782043537502,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "ADAUSDT",
@@ -1008,18 +1020,6 @@
       "target": 317.52666667,
       "stop": 312.248595,
       "ts": 1781981077645,
-      "status": "invalidated"
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 2.152,
-      "target": 2.1864,
-      "stop": 2.146772,
-      "ts": 1781978564695,
       "status": "invalidated"
     }
   ]
