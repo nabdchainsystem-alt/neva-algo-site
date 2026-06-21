@@ -72,7 +72,7 @@
       "target": 199.7,
       "stop": 196.57116666666667,
       "ts": 1782075587807,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "ETHUSDT",
@@ -84,7 +84,7 @@
       "target": 1733.63,
       "stop": 1718.867765,
       "ts": 1782075577081,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "XMRUSDT",
