@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1174,
-  "avgConviction": 62,
+  "signalsDelivered": 1175,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 96
+    },
     {
       "sym": "NIGHTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 57
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 96,
+      "entry": 1.996,
+      "target": null,
+      "stop": null,
+      "ts": 1782045223035,
+      "status": "active"
+    },
     {
       "sym": "NIGHTUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 464.2991019285714,
       "ts": 1781987646865,
       "status": "invalidated"
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 0.09389,
-      "target": 0.09605,
-      "stop": 0.09246916499999999,
-      "ts": 1781985665125,
-      "status": "active"
     }
   ]
 }
