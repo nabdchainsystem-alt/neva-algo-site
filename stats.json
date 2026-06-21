@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1131,
-  "avgConviction": 64,
+  "signalsDelivered": 1133,
+  "avgConviction": 62,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 63
+    },
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 57
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 66
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 63,
+      "entry": 1735.45,
+      "target": 1746.17,
+      "stop": 1728.5368250000001,
+      "ts": 1782026176694,
+      "status": "invalidated"
+    },
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 1735.44,
+      "target": 1746.33,
+      "stop": 1728.6068400000001,
+      "ts": 1782026165822,
+      "status": "invalidated"
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 0.6138,
       "stop": 0.6070091722222223,
       "ts": 1781959835076,
-      "status": "target"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.6166,
-      "target": null,
-      "stop": null,
-      "ts": 1781958659452,
-      "status": "in-progress"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 0.6067,
-      "target": 0.6149,
-      "stop": 0.60318995,
-      "ts": 1781957324479,
       "status": "target"
     }
   ]
