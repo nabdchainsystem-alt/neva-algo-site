@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1127,
+  "signalsDelivered": 1128,
   "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SIRENUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 56
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 81
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 56
     }
   ],
   "track": [
+    {
+      "sym": "SIRENUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 56,
+      "entry": 0.14144,
+      "target": 0.1455,
+      "stop": 0.13881784,
+      "ts": 1782024368614,
+      "status": "active"
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 45.4808225,
       "stop": 44.362785,
       "ts": 1782024286910,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "XAUTUSDT",
@@ -1009,18 +1021,6 @@
       "stop": 2.1204791666666662,
       "ts": 1781954085304,
       "status": "invalidated"
-    },
-    {
-      "sym": "JSTUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 80,
-      "entry": 0.08339,
-      "target": null,
-      "stop": null,
-      "ts": 1781951501361,
-      "status": "active"
     }
   ]
 }
