@@ -72,7 +72,7 @@
       "target": 0.0929,
       "stop": 0.08886469999999999,
       "ts": 1782064608877,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "UNIUSDT",
