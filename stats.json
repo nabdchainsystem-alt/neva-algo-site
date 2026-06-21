@@ -1,9 +1,23 @@
 {
-  "updatedAt": "2026-06-20",
-  "signalsDelivered": 1099,
+  "updatedAt": "2026-06-21",
+  "signalsDelivered": 1104,
   "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 60
+    },
     {
       "sym": "AVAXUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 77
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Premium/Discount Fade",
-      "conv": 62
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 61
     }
   ],
   "track": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 1737.25,
+      "target": 1746.33,
+      "stop": 1731.354125,
+      "ts": 1782001234846,
+      "status": "invalidated"
+    },
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 1737.17,
+      "target": 1746.49,
+      "stop": 1731.2642449999998,
+      "ts": 1782001146951,
+      "status": "invalidated"
+    },
     {
       "sym": "AVAXUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 1.1547,
       "stop": 1.1415798,
       "ts": 1781934723145,
-      "status": "invalidated"
-    },
-    {
-      "sym": "BCHUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 200,
-      "target": 207.7,
-      "stop": 197.7,
-      "ts": 1781932307730,
-      "status": "invalidated"
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 61,
-      "entry": 584.2,
-      "target": 590.73445,
-      "stop": 579.8437,
-      "ts": 1781932307730,
       "status": "invalidated"
     }
   ]
