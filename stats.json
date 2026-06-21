@@ -72,7 +72,7 @@
       "target": 0.1623,
       "stop": 0.1608579,
       "ts": 1782029506791,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "CHIPUSDT",
