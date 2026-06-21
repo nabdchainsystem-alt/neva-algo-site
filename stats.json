@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1222,
-  "avgConviction": 63,
+  "signalsDelivered": 1225,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 56
+    },
+    {
+      "sym": "SOLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 70
+    },
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 66
+    },
     {
       "sym": "AAVEUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 57
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
-    },
-    {
-      "sym": "XMRUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 56
     }
   ],
   "track": [
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 56,
+      "entry": 0.08279,
+      "target": 0.084072,
+      "stop": 0.082615815,
+      "ts": 1782077027650,
+      "status": "active"
+    },
+    {
+      "sym": "SOLUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 73.1,
+      "target": 73.85,
+      "stop": 72.75035,
+      "ts": 1782077018988,
+      "status": "active"
+    },
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 0.638,
+      "target": 0.655,
+      "stop": 0.630043,
+      "ts": 1782076938858,
+      "status": "invalidated"
+    },
     {
       "sym": "AAVEUSDT",
       "mkt": "Crypto",
@@ -984,42 +1020,6 @@
       "target": 1746.17,
       "stop": 1728.5368250000001,
       "ts": 1782026176694,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 59,
-      "entry": 1735.44,
-      "target": 1746.33,
-      "stop": 1728.6068400000001,
-      "ts": 1782026165822,
-      "status": "invalidated"
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 2.9991,
-      "target": 3.0661,
-      "stop": 2.99140135,
-      "ts": 1782025447263,
-      "status": "in-progress"
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 59,
-      "entry": 7.935,
-      "target": 8.0272,
-      "stop": 7.8760975,
-      "ts": 1782025367460,
       "status": "invalidated"
     }
   ]
