@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1115,
+  "signalsDelivered": 1116,
   "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 60
+    },
     {
       "sym": "ADAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 64
-    },
-    {
-      "sym": "MEGAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 0.2159,
+      "target": 0.21855,
+      "stop": 0.21422615000000003,
+      "ts": 1782017363065,
+      "status": "target"
+    },
     {
       "sym": "ADAUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.38593455000000004,
       "ts": 1781940124219,
       "status": "active"
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 63,
-      "entry": 63616.31,
-      "target": 63907.07,
-      "stop": 63446.575535,
-      "ts": 1781939239043,
-      "status": "invalidated"
     }
   ]
 }
