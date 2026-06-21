@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1154,
-  "avgConviction": 60,
+  "signalsDelivered": 1155,
+  "avgConviction": 61,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SPCXXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 60
+    },
     {
       "sym": "TRUMPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 66
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "SPCXXUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 180.91,
+      "target": 182.01,
+      "stop": 180.508635,
+      "ts": 1782038945114,
+      "status": "active"
+    },
     {
       "sym": "TRUMPUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 2.1213050000000004,
       "ts": 1781966774738,
       "status": "invalidated"
-    },
-    {
-      "sym": "MEGAUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 61,
-      "entry": 0.05493,
-      "target": 0.05517286,
-      "stop": 0.054792605,
-      "ts": 1781966686263,
-      "status": "target"
     }
   ]
 }
