@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1181,
-  "avgConviction": 68,
+  "signalsDelivered": 1183,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "LTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 63
+    },
     {
       "sym": "HYPEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 66
-    },
-    {
-      "sym": "TRUMPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "LTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 63,
+      "entry": 45.51,
+      "target": 46.08,
+      "stop": 45.421735000000005,
+      "ts": 1782058850952,
+      "status": "active"
+    },
     {
       "sym": "HYPEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.3482,
       "stop": 0.34018505,
       "ts": 1781993601484,
-      "status": "target"
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.7072,
-      "target": 0.7092,
-      "stop": 0.7060725333333333,
-      "ts": 1781990628824,
       "status": "target"
     }
   ]
