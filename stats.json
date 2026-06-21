@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1214,
+  "signalsDelivered": 1215,
   "avgConviction": 69,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XMRUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 67
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 66
     }
   ],
   "track": [
+    {
+      "sym": "XMRUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 314.58,
+      "target": 320.29,
+      "stop": 313.66312999999997,
+      "ts": 1782075127833,
+      "status": "invalidated"
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 452.68,
       "stop": 446.529185,
       "ts": 1782075046850,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "ENAUSDT",
@@ -1008,18 +1020,6 @@
       "target": 1.15559,
       "stop": 1.143412215,
       "ts": 1782018968532,
-      "status": "invalidated"
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 56,
-      "entry": 7.936,
-      "target": 8.0272,
-      "stop": 7.8760959999999995,
-      "ts": 1782018257585,
       "status": "invalidated"
     }
   ]
