@@ -72,7 +72,7 @@
       "target": 0.03404,
       "stop": 0.033090005000000006,
       "ts": 1782080447352,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "SPCXBUSDT",
