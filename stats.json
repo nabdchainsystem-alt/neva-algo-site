@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1207,
+  "signalsDelivered": 1209,
   "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 60
+    },
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 67
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 98
-    },
-    {
-      "sym": "REUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Premium/Discount Fade",
-      "conv": 58
-    },
-    {
-      "sym": "ADAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 72
     }
   ],
   "track": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 1729.98,
+      "target": 1739.27,
+      "stop": 1726.9950299999998,
+      "ts": 1782073239523,
+      "status": "active"
+    },
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 67,
+      "entry": 2.161,
+      "target": 2.18,
+      "stop": 2.1527585,
+      "ts": 1782073164331,
+      "status": "invalidated"
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -72,7 +96,7 @@
       "target": 2.1784,
       "stop": 2.1654968,
       "ts": 1782073058567,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BTCUSDT",
@@ -996,30 +1020,6 @@
       "target": 0.1629,
       "stop": 0.161557,
       "ts": 1782015107076,
-      "status": "invalidated"
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 73.52,
-      "target": 74.29,
-      "stop": 73.00972,
-      "ts": 1782011855211,
-      "status": "invalidated"
-    },
-    {
-      "sym": "XMRUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 66,
-      "entry": 315.56,
-      "target": 319.39,
-      "stop": 313.03666,
-      "ts": 1782006638061,
       "status": "invalidated"
     }
   ]
