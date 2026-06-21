@@ -72,7 +72,7 @@
       "target": 0.3404,
       "stop": 0.3363339,
       "ts": 1782041567271,
-      "status": "active"
+      "status": "target"
     },
     {
       "sym": "NEARUSDT",
@@ -84,7 +84,7 @@
       "target": 2.2509,
       "stop": 2.23443865,
       "ts": 1782041559121,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "DOGEUSDT",
