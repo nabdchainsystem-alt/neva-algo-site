@@ -72,7 +72,7 @@
       "target": 0.084072,
       "stop": 0.082615815,
       "ts": 1782077027650,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "SOLUSDT",
@@ -84,7 +84,7 @@
       "target": 73.85,
       "stop": 72.75035,
       "ts": 1782077018988,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "ASTERUSDT",
