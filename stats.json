@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1217,
-  "avgConviction": 68,
+  "signalsDelivered": 1218,
+  "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SOLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 84
-    },
-    {
-      "sym": "HYPEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 100
     }
   ],
   "track": [
+    {
+      "sym": "SOLUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 73.23,
+      "target": 73.86,
+      "stop": 72.820155,
+      "ts": 1782076116321,
+      "status": "active"
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 45.4808225,
       "stop": 44.362785,
       "ts": 1782024286910,
-      "status": "invalidated"
-    },
-    {
-      "sym": "XAUTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 57,
-      "entry": 4152.56,
-      "target": 4171.14,
-      "stop": 4140.53116,
-      "ts": 1782021947381,
       "status": "invalidated"
     }
   ]
