@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1191,
+  "signalsDelivered": 1194,
   "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 62
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 63
-    },
-    {
-      "sym": "HYPEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 66
     }
   ],
   "track": [
+    {
+      "sym": "ENAUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 0.0902,
+      "target": 0.0929,
+      "stop": 0.08886469999999999,
+      "ts": 1782064608877,
+      "status": "active"
+    },
     {
       "sym": "UNIUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.1449,
       "stop": 0.13884141,
       "ts": 1781996827999,
-      "status": "active"
-    },
-    {
-      "sym": "AAVEUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 75,
-      "entry": 76.8,
-      "target": null,
-      "stop": null,
-      "ts": 1781995623137,
       "status": "active"
     }
   ]
