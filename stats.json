@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1177,
-  "avgConviction": 67,
+  "signalsDelivered": 1180,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZROUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 66
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "ZROUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.935,
+      "target": null,
+      "stop": null,
+      "ts": 1782055022807,
+      "status": "in-progress"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.09245930000000001,
       "ts": 1781990628824,
       "status": "active"
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 57,
-      "entry": 0.08337,
-      "target": 0.08417333,
-      "stop": 0.082894945,
-      "ts": 1781989457374,
-      "status": "invalidated"
     }
   ]
 }
