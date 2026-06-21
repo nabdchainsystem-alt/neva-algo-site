@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1226,
-  "avgConviction": 66,
+  "signalsDelivered": 1227,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SPCXBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 68
+    },
     {
       "sym": "SPCXXUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 74
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 66
     }
   ],
   "track": [
+    {
+      "sym": "SPCXBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 68,
+      "entry": 180.24,
+      "target": 181.28,
+      "stop": 179.61963999999998,
+      "ts": 1782078739564,
+      "status": "invalidated"
+    },
     {
       "sym": "SPCXXUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 1.15559,
       "stop": 1.14465695,
       "ts": 1782028327810,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 0.0894,
-      "target": 0.0905375,
-      "stop": 0.0889659,
-      "ts": 1782026897103,
       "status": "invalidated"
     }
   ]
