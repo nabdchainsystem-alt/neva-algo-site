@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1137,
+  "signalsDelivered": 1138,
   "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "CHIPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 72
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 59
-    },
-    {
-      "sym": "ALLOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 77
     }
   ],
   "track": [
+    {
+      "sym": "CHIPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 0.0383,
+      "target": null,
+      "stop": null,
+      "ts": 1782029062373,
+      "status": "active"
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 1.1438,
       "stop": 1.13745009,
       "ts": 1781961997343,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ADAUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 61,
-      "entry": 0.1618,
-      "target": 0.1625,
-      "stop": 0.16135729999999998,
-      "ts": 1781961826620,
       "status": "invalidated"
     }
   ]
