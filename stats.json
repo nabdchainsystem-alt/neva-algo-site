@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1151,
+  "signalsDelivered": 1152,
   "avgConviction": 58,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NILUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 62
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 58
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "NILUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 0.03982,
+      "target": 0.03998,
+      "stop": 0.03973027,
+      "ts": 1782035349031,
+      "status": "target"
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 72.43333333,
       "stop": 69.37422000000001,
       "ts": 1781964798174,
-      "status": "invalidated"
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 70.5,
-      "target": 72.43333333,
-      "stop": 69.37425,
-      "ts": 1781964784777,
       "status": "invalidated"
     }
   ]
