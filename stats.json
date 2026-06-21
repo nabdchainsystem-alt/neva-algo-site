@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1140,
-  "avgConviction": 66,
+  "signalsDelivered": 1141,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "UNIUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 63
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "UNIUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 2.986,
+      "target": 2.997,
+      "stop": 2.9805210000000004,
+      "ts": 1782030048136,
+      "status": "active"
+    },
     {
       "sym": "NEARUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 2.2255,
       "stop": 2.205682,
       "ts": 1782029867908,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "ADAUSDT",
@@ -1009,18 +1021,6 @@
       "stop": 0.9990989499999999,
       "ts": 1781963707787,
       "status": "in-progress"
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.6336,
-      "target": 0.6635,
-      "stop": 0.6322996000000001,
-      "ts": 1781962268084,
-      "status": "invalidated"
     }
   ]
 }
