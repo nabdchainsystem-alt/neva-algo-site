@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1205,
+  "signalsDelivered": 1206,
   "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 58
+    },
     {
       "sym": "TAOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 83
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 58
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 64146.01,
+      "target": 64588,
+      "stop": 63897.780985,
+      "ts": 1782072802960,
+      "status": "invalidated"
+    },
     {
       "sym": "TAOUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 238.06666667,
       "stop": 236.64435,
       "ts": 1782072708525,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BTCUSDT",
@@ -84,7 +96,7 @@
       "target": 64594,
       "stop": 63894.24005,
       "ts": 1782072696496,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "XLMUSDT",
@@ -1009,18 +1021,6 @@
       "stop": 586.115105,
       "ts": 1782006376147,
       "status": "invalidated"
-    },
-    {
-      "sym": "SPCXXUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 56,
-      "entry": 181.1,
-      "target": 182.08,
-      "stop": 180.53835,
-      "ts": 1782006003708,
-      "status": "active"
     }
   ]
 }
