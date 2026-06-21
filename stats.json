@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1194,
-  "avgConviction": 66,
+  "signalsDelivered": 1196,
+  "avgConviction": 69,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 81
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 69
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 82
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 66
-    },
-    {
-      "sym": "LTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 63
     }
   ],
   "track": [
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 81,
+      "entry": 0.3367,
+      "target": 0.3404,
+      "stop": 0.3360782833333333,
+      "ts": 1782065331237,
+      "status": "active"
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 69,
+      "entry": 1.1411,
+      "target": 1.15553333,
+      "stop": 1.1372383499999998,
+      "ts": 1782065331237,
+      "status": "active"
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": 6.1666085,
       "ts": 1781998904038,
       "status": "invalidated"
-    },
-    {
-      "sym": "AVAXUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 59,
-      "entry": 6.262,
-      "target": 6.4035895,
-      "stop": 6.167606999999999,
-      "ts": 1781998894702,
-      "status": "invalidated"
-    },
-    {
-      "sym": "SIRENUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 0.13906,
-      "target": 0.1449,
-      "stop": 0.13884141,
-      "ts": 1781996827999,
-      "status": "active"
     }
   ]
 }
