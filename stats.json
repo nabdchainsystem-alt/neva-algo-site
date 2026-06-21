@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1185,
-  "avgConviction": 70,
+  "signalsDelivered": 1186,
+  "avgConviction": 72,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HOMEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 74
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 96
-    },
-    {
-      "sym": "NIGHTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "HOMEUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.02053,
+      "target": 0.02066,
+      "stop": 0.020449205,
+      "ts": 1782060108904,
+      "status": "active"
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.665,
       "stop": 0.648525,
       "ts": 1781994226114,
-      "status": "invalidated"
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 61,
-      "entry": 7.954,
-      "target": 8.03025,
-      "stop": 7.925069000000001,
-      "ts": 1781993866044,
       "status": "invalidated"
     }
   ]
