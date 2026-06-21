@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1143,
+  "signalsDelivered": 1144,
   "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 60
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 73
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 0.6433,
+      "target": 0.6545,
+      "stop": 0.64123505,
+      "ts": 1782030670319,
+      "status": "invalidated"
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.08265526000000001,
       "ts": 1781964154282,
       "status": "invalidated"
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 0.0866,
-      "target": 0.08828889,
-      "stop": 0.08629867142857144,
-      "ts": 1781964080252,
-      "status": "in-progress"
     }
   ]
 }
