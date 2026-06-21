@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1170,
+  "signalsDelivered": 1171,
   "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 69
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "TRUMPUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 1.877,
+      "target": null,
+      "stop": null,
+      "ts": 1782044107496,
+      "status": "active"
+    },
     {
       "sym": "BNBUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 589.43,
       "stop": 584.76112,
       "ts": 1782044087938,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "ETHUSDT",
@@ -84,7 +96,7 @@
       "target": 1733.85,
       "stop": 1717.16185,
       "ts": 1782044075554,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "XMRUSDT",
@@ -1009,18 +1021,6 @@
       "stop": 1.13097964,
       "ts": 1781983686845,
       "status": "invalidated"
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 88,
-      "entry": 0.02243,
-      "target": 0.023345,
-      "stop": 0.022016355,
-      "ts": 1781982977389,
-      "status": "target"
     }
   ]
 }
