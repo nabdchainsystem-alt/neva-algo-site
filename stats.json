@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1225,
-  "avgConviction": 65,
+  "signalsDelivered": 1226,
+  "avgConviction": 66,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SPCXXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 66
-    },
-    {
-      "sym": "BCHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 57
     }
   ],
   "track": [
+    {
+      "sym": "SPCXXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 180.75,
+      "target": 181.88,
+      "stop": 180.20887499999998,
+      "ts": 1782078366790,
+      "status": "active"
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.0905375,
       "stop": 0.0889659,
       "ts": 1782026897103,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 63,
-      "entry": 1735.45,
-      "target": 1746.17,
-      "stop": 1728.5368250000001,
-      "ts": 1782026176694,
       "status": "invalidated"
     }
   ]
