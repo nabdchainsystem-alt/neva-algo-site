@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1119,
-  "avgConviction": 64,
+  "signalsDelivered": 1120,
+  "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "LINKUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 56
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 66
-    },
-    {
-      "sym": "BNBUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "LINKUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 56,
+      "entry": 7.936,
+      "target": 8.0272,
+      "stop": 7.8760959999999995,
+      "ts": 1782018257585,
+      "status": "invalidated"
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.022695395,
       "ts": 1781942121330,
       "status": "target"
-    },
-    {
-      "sym": "PIEVERSEUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 58,
-      "entry": 0.6869,
-      "target": 0.70554552,
-      "stop": 0.67446965,
-      "ts": 1781942015293,
-      "status": "active"
     }
   ]
 }
