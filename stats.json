@@ -72,7 +72,7 @@
       "target": 0.71595,
       "stop": 0.70598845,
       "ts": 1782017632564,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "XPLUSDT",
@@ -84,7 +84,7 @@
       "target": 0.09435,
       "stop": 0.0936093,
       "ts": 1782017632564,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "XLMUSDT",
