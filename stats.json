@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1118,
+  "signalsDelivered": 1119,
   "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 55
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 60
-    },
-    {
-      "sym": "SPCXXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 56
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 1.1452,
+      "target": 1.15564,
+      "stop": 1.1394822,
+      "ts": 1782018083091,
+      "status": "invalidated"
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.67446965,
       "ts": 1781942015293,
       "status": "active"
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "setup": "Premium/Discount Fade",
-      "dir": "LONG",
-      "conv": 61,
-      "entry": 0.647,
-      "target": 0.677,
-      "stop": 0.6350295,
-      "ts": 1781941402046,
-      "status": "invalidated"
     }
   ]
 }
