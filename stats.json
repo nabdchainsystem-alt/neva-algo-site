@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1157,
-  "avgConviction": 60,
+  "signalsDelivered": 1159,
+  "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 69
+    },
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 62
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
-    },
-    {
-      "sym": "BCHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 69,
+      "entry": 0.08295,
+      "target": 0.08406,
+      "stop": 0.082675575,
+      "ts": 1782040762792,
+      "status": "invalidated"
+    },
+    {
+      "sym": "DOGEUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 0.08294,
+      "target": 0.08408,
+      "stop": 0.08269559,
+      "ts": 1782040748104,
+      "status": "invalidated"
+    },
     {
       "sym": "ASTERUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": 229.75289999999998,
       "ts": 1781974334583,
       "status": "invalidated"
-    },
-    {
-      "sym": "OPNUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 80,
-      "entry": 0.0803,
-      "target": null,
-      "stop": null,
-      "ts": 1781973940289,
-      "status": "active"
-    },
-    {
-      "sym": "OKBUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 56,
-      "entry": 75.91,
-      "target": 76.72846154,
-      "stop": 75.396135,
-      "ts": 1781970814998,
-      "status": "active"
     }
   ]
 }
