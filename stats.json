@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1111,
+  "signalsDelivered": 1112,
   "avgConviction": 61,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 60
+    },
     {
       "sym": "SPCXXUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 59
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 589.93,
+      "target": 595.6523425,
+      "stop": 586.115105,
+      "ts": 1782006376147,
+      "status": "invalidated"
+    },
     {
       "sym": "SPCXXUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.21607525,
       "ts": 1781938694465,
       "status": "target"
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 58,
-      "entry": 2.1571,
-      "target": 2.17826667,
-      "stop": 2.1511643499999997,
-      "ts": 1781938684878,
-      "status": "invalidated"
     }
   ]
 }
