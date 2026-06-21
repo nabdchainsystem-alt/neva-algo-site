@@ -72,7 +72,7 @@
       "target": 64588,
       "stop": 63865.44978,
       "ts": 1782034908660,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BCHUSDT",
