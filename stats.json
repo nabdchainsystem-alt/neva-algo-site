@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1134,
-  "avgConviction": 63,
+  "signalsDelivered": 1136,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 73
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 56
-    },
-    {
-      "sym": "LTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 63
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 1.1487,
+      "target": 1.15559,
+      "stop": 1.14465695,
+      "ts": 1782028327810,
+      "status": "invalidated"
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.7087308,
       "ts": 1781961734549,
       "status": "active"
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 69,
-      "entry": 0.2147,
-      "target": 0.2218,
-      "stop": 0.21422795000000003,
-      "ts": 1781960654792,
-      "status": "in-progress"
     }
   ]
 }
