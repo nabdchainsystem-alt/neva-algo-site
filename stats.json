@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1173,
-  "avgConviction": 64,
+  "signalsDelivered": 1174,
+  "avgConviction": 62,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NIGHTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 60
-    },
-    {
-      "sym": "BICOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "NIGHTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 0.03298,
+      "target": 0.03319,
+      "stop": 0.032870529999999995,
+      "ts": 1782045083725,
+      "status": "invalidated"
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.09246916499999999,
       "ts": 1781985665125,
       "status": "active"
-    },
-    {
-      "sym": "MEGAUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 0.05479,
-      "target": 0.05514714,
-      "stop": 0.054697815,
-      "ts": 1781984960525,
-      "status": "target"
     }
   ]
 }
