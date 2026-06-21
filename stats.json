@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1125,
+  "signalsDelivered": 1127,
   "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "LTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 63
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 56
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "LTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 63,
+      "entry": 44.81,
+      "target": 45.4808225,
+      "stop": 44.362785,
+      "ts": 1782024286910,
+      "status": "active"
+    },
     {
       "sym": "XAUTUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": null,
       "ts": 1781951501361,
       "status": "active"
-    },
-    {
-      "sym": "MEGAUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 0.05393,
-      "target": 0.0552275,
-      "stop": 0.05375243833333334,
-      "ts": 1781947694771,
-      "status": "target"
     }
   ]
 }
