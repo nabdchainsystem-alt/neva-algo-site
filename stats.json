@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-21",
-  "signalsDelivered": 1183,
+  "signalsDelivered": 1184,
   "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 66
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 56
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 66
     }
   ],
   "track": [
+    {
+      "sym": "ASTERUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 0.64,
+      "target": 0.655,
+      "stop": 0.63004,
+      "ts": 1782059483120,
+      "status": "invalidated"
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.2189,
       "stop": 0.21422750000000002,
       "ts": 1781993685093,
-      "status": "target"
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 0.3433,
-      "target": 0.3482,
-      "stop": 0.34018505,
-      "ts": 1781993601484,
       "status": "target"
     }
   ]
