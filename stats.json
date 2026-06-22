@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1265,
-  "avgConviction": 67,
+  "signalsDelivered": 1269,
+  "avgConviction": 70,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 68
+    },
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 76
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 72
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 65
-    },
-    {
-      "sym": "LABUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 72
-    },
-    {
-      "sym": "LTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 64061.44,
+      "target": 64588,
+      "stop": 63754.70784,
+      "ts": 1782097368837,
+      "status": "active"
+    },
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 68,
+      "entry": 64062,
+      "target": 64590.5,
+      "stop": 63756.807,
+      "ts": 1782097358060,
+      "status": "active"
+    },
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 76,
+      "entry": 0.05662,
+      "target": 0.05722333,
+      "stop": 0.05626507,
+      "ts": 1782097282147,
+      "status": "target"
+    },
     {
       "sym": "SUIUSDT",
       "mkt": "Crypto",
@@ -985,42 +1021,6 @@
       "stop": 0.21422780000000002,
       "ts": 1782050125363,
       "status": "target"
-    },
-    {
-      "sym": "TRUMPUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 96,
-      "entry": 1.996,
-      "target": null,
-      "stop": null,
-      "ts": 1782045223035,
-      "status": "active"
-    },
-    {
-      "sym": "NIGHTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 59,
-      "entry": 0.03298,
-      "target": 0.03319,
-      "stop": 0.032870529999999995,
-      "ts": 1782045083725,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 56,
-      "entry": 451.37,
-      "target": 454.82,
-      "stop": 450.317945,
-      "ts": 1782044806140,
-      "status": "invalidated"
     }
   ]
 }
