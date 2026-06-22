@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1273,
-  "avgConviction": 67,
+  "signalsDelivered": 1274,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 59
+    },
     {
       "sym": "PHAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 56
-    },
-    {
-      "sym": "REUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 68
     }
   ],
   "track": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 0.2108,
+      "target": 0.2131,
+      "stop": 0.21028380000000002,
+      "ts": 1782100428228,
+      "status": "active"
+    },
     {
       "sym": "PHAUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 45.421735000000005,
       "ts": 1782058850952,
       "status": "invalidated"
-    },
-    {
-      "sym": "HYPEUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 66,
-      "entry": 68.48,
-      "target": 68.725,
-      "stop": 68.36728,
-      "ts": 1782058655753,
-      "status": "active"
     }
   ]
 }
