@@ -636,7 +636,7 @@
       "target": 0.73041415,
       "stop": 0.7087239,
       "ts": 1782126445077,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "ADAUSDT",
@@ -672,7 +672,7 @@
       "target": 179.165,
       "stop": 176.48378,
       "ts": 1782121774110,
-      "status": "in-progress"
+      "status": "invalidated"
     },
     {
       "sym": "AAVEUSDT",
@@ -840,7 +840,7 @@
       "target": 452.36,
       "stop": 444.676975,
       "ts": 1782108069045,
-      "status": "in-progress"
+      "status": "target"
     },
     {
       "sym": "PEPEUSDT",
@@ -852,7 +852,7 @@
       "target": 0.00000287,
       "stop": 0.000002775785,
       "ts": 1782100969221,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "DOGEUSDT",
@@ -864,7 +864,7 @@
       "target": 0.084172,
       "stop": 0.08202571,
       "ts": 1782100868905,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "SOLUSDT",
@@ -984,7 +984,7 @@
       "target": 0.715,
       "stop": 0.70174025,
       "ts": 1782096653379,
-      "status": "in-progress"
+      "status": "target"
     },
     {
       "sym": "LINKUSDT",
@@ -996,7 +996,7 @@
       "target": 8.0152,
       "stop": 7.8581245,
       "ts": 1782096653379,
-      "status": "active"
+      "status": "in-progress"
     },
     {
       "sym": "REUSDT",
