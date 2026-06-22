@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1297,
-  "avgConviction": 67,
+  "signalsDelivered": 1299,
+  "avgConviction": 69,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 74
+    },
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 62
+    },
     {
       "sym": "REUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 86
-    },
-    {
-      "sym": "BCHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 56
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 58
     }
   ],
   "track": [
+    {
+      "sym": "NEARUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 2.1502,
+      "target": 2.1655,
+      "stop": 2.1417747,
+      "ts": 1782119320591,
+      "status": "invalidated"
+    },
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 1749.41,
+      "target": 1759.84,
+      "stop": 1742.525885,
+      "ts": 1782119246880,
+      "status": "invalidated"
+    },
     {
       "sym": "REUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 64588,
       "stop": 63897.780985,
       "ts": 1782072802960,
-      "status": "invalidated"
-    },
-    {
-      "sym": "TAOUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 56,
-      "entry": 237.1,
-      "target": 238.06666667,
-      "stop": 236.64435,
-      "ts": 1782072708525,
-      "status": "invalidated"
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 64173.3,
-      "target": 64594,
-      "stop": 63894.24005,
-      "ts": 1782072696496,
       "status": "invalidated"
     }
   ]
