@@ -72,7 +72,7 @@
       "target": 0.08603118,
       "stop": 0.08426254500000001,
       "ts": 1782136254390,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "XRPUSDT",
@@ -84,7 +84,7 @@
       "target": 1.17851405,
       "stop": 1.1506573,
       "ts": 1782136254390,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BTCUSDT",
