@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1296,
-  "avgConviction": 68,
+  "signalsDelivered": 1297,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "REUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 58
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 58
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 69
     }
   ],
   "track": [
+    {
+      "sym": "REUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 0.82532,
+      "target": 0.83859,
+      "stop": 0.82151202,
+      "ts": 1782119140805,
+      "status": "invalidated"
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 63894.24005,
       "ts": 1782072696496,
       "status": "invalidated"
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 66,
-      "entry": 0.2153,
-      "target": 0.2183,
-      "stop": 0.21422705000000003,
-      "ts": 1782069288298,
-      "status": "target"
     }
   ]
 }
