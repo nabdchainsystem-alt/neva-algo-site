@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1341,
-  "avgConviction": 65,
+  "signalsDelivered": 1343,
+  "avgConviction": 70,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 70
+    },
+    {
+      "sym": "POLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 80
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 62
-    },
-    {
-      "sym": "LTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "FVG Continuation",
-      "conv": 55
-    },
-    {
-      "sym": "TAOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 1.1396,
+      "target": 1.1523,
+      "stop": 1.1366905999999999,
+      "ts": 1782143440927,
+      "status": "invalidated"
+    },
+    {
+      "sym": "POLUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 80,
+      "entry": 0.0816,
+      "target": null,
+      "stop": null,
+      "ts": 1782143307698,
+      "status": "active"
+    },
     {
       "sym": "BCHUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": null,
       "ts": 1782091103778,
       "status": "active"
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "setup": "Premium/Discount Fade",
-      "dir": "LONG",
-      "conv": 57,
-      "entry": 0.023,
-      "target": 0.02446,
-      "stop": 0.0225855,
-      "ts": 1782091075791,
-      "status": "target"
-    },
-    {
-      "sym": "AVAXUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 6.219,
-      "target": 6.259,
-      "stop": 6.2086715,
-      "ts": 1782091075791,
-      "status": "invalidated"
     }
   ]
 }
