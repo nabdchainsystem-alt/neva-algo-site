@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1251,
+  "signalsDelivered": 1252,
   "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 59
+    },
     {
       "sym": "TAOUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 73
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Premium/Discount Fade",
-      "conv": 57
     }
   ],
   "track": [
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 68.53,
+      "target": 68.8375,
+      "stop": 68.367205,
+      "ts": 1782092947859,
+      "status": "active"
+    },
     {
       "sym": "TAOUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 233.6125,
       "stop": 231.85154999999997,
       "ts": 1782092870128,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "TAOUSDT",
@@ -84,7 +96,7 @@
       "target": 233.92,
       "stop": 231.82162499999998,
       "ts": 1782092860480,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "ASTERUSDT",
@@ -1008,18 +1020,6 @@
       "target": 0.02206,
       "stop": 0.019379340000000002,
       "ts": 1782042563413,
-      "status": "target"
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 59,
-      "entry": 0.3374,
-      "target": 0.3404,
-      "stop": 0.3363339,
-      "ts": 1782041567271,
       "status": "target"
     }
   ]
