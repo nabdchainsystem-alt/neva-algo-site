@@ -72,7 +72,7 @@
       "target": 45.59,
       "stop": 44.76238,
       "ts": 1782093768396,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "AAVEUSDT",
@@ -84,7 +84,7 @@
       "target": 76.888,
       "stop": 75.16027,
       "ts": 1782093760046,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "SPCXXUSDT",
