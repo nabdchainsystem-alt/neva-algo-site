@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1272,
-  "avgConviction": 68,
+  "signalsDelivered": 1273,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PHAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 68
-    },
-    {
-      "sym": "RIFUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 88
     }
   ],
   "track": [
+    {
+      "sym": "PHAUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.0398,
+      "target": null,
+      "stop": null,
+      "ts": 1782100075527,
+      "status": "active"
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 68.36728,
       "ts": 1782058655753,
       "status": "active"
-    },
-    {
-      "sym": "ZROUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.935,
-      "target": null,
-      "stop": null,
-      "ts": 1782055022807,
-      "status": "in-progress"
     }
   ]
 }
