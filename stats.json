@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1285,
-  "avgConviction": 65,
+  "signalsDelivered": 1286,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HOMEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 61
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 59
-    },
-    {
-      "sym": "PHAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 73
     }
   ],
   "track": [
+    {
+      "sym": "HOMEUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 61,
+      "entry": 0.02185,
+      "target": 0.0235,
+      "stop": 0.021802225,
+      "ts": 1782110329948,
+      "status": "active"
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.08886469999999999,
       "ts": 1782064608877,
       "status": "invalidated"
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 59,
-      "entry": 3.037,
-      "target": 3.06775,
-      "stop": 3.0164445,
-      "ts": 1782063445358,
-      "status": "active"
     }
   ]
 }
