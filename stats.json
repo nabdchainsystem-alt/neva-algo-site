@@ -72,7 +72,7 @@
       "target": 64588,
       "stop": 63754.70784,
       "ts": 1782097368837,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "BTCUSDT",
@@ -84,7 +84,7 @@
       "target": 64590.5,
       "stop": 63756.807,
       "ts": 1782097358060,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "MEGAUSDT",
