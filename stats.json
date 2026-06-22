@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1287,
-  "avgConviction": 65,
+  "signalsDelivered": 1288,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 58
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 66
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 64
     }
   ],
   "track": [
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 1.132,
+      "target": 1.1439,
+      "stop": 1.129802,
+      "ts": 1782110948674,
+      "status": "invalidated"
+    },
     {
       "sym": "XPLUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.3360782833333333,
       "ts": 1782065331237,
       "status": "target"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 69,
-      "entry": 1.1411,
-      "target": 1.15553333,
-      "stop": 1.1372383499999998,
-      "ts": 1782065331237,
-      "status": "invalidated"
     }
   ]
 }
