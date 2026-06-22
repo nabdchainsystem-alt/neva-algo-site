@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-06-21",
-  "signalsDelivered": 1231,
-  "avgConviction": 69,
+  "updatedAt": "2026-06-22",
+  "signalsDelivered": 1232,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 56
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 56
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 56,
+      "entry": 0.6225,
+      "target": 0.6459,
+      "stop": 0.6147662500000001,
+      "ts": 1782088004429,
+      "status": "active"
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 2.9805210000000004,
       "ts": 1782030048136,
       "status": "target"
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 56,
-      "entry": 2.212,
-      "target": 2.2255,
-      "stop": 2.205682,
-      "ts": 1782029867908,
-      "status": "invalidated"
     }
   ]
 }
