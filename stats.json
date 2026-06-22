@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1236,
-  "avgConviction": 70,
+  "signalsDelivered": 1238,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XAUTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 70
+    },
+    {
+      "sym": "PAXGUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 65
+    },
     {
       "sym": "ONDOUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 70
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 92
-    },
-    {
-      "sym": "REUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "XAUTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 4160.67,
+      "target": 4185.2415075,
+      "stop": 4144.288995,
+      "ts": 1782088825077,
+      "status": "invalidated"
+    },
+    {
+      "sym": "PAXGUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 65,
+      "entry": 4168.68,
+      "target": 4193.79453,
+      "stop": 4151.9369799999995,
+      "ts": 1782088825077,
+      "status": "invalidated"
+    },
     {
       "sym": "ONDOUSDT",
       "mkt": "Crypto",
@@ -72,7 +96,7 @@
       "target": 0.3431,
       "stop": 0.33542873333333334,
       "ts": 1782088728262,
-      "status": "active"
+      "status": "target"
     },
     {
       "sym": "ADAUSDT",
@@ -997,30 +1021,6 @@
       "stop": 1723.68977,
       "ts": 1782031747857,
       "status": "invalidated"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 0.5978,
-      "target": 0.607975,
-      "stop": 0.5968942090909092,
-      "ts": 1782031127742,
-      "status": "target"
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 0.212,
-      "target": 0.21835714,
-      "stop": 0.211382,
-      "ts": 1782031042566,
-      "status": "target"
     }
   ]
 }
