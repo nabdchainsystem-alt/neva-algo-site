@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1288,
-  "avgConviction": 64,
+  "signalsDelivered": 1291,
+  "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BCHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 56
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 67
-    },
-    {
-      "sym": "BCHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 66
     }
   ],
   "track": [
+    {
+      "sym": "BCHUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 56,
+      "entry": 199.3,
+      "target": 200.525,
+      "stop": 198.70105,
+      "ts": 1782114472110,
+      "status": "active"
+    },
     {
       "sym": "XRPUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 7.887132,
       "ts": 1782065419295,
       "status": "invalidated"
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 81,
-      "entry": 0.3367,
-      "target": 0.3404,
-      "stop": 0.3360782833333333,
-      "ts": 1782065331237,
-      "status": "target"
     }
   ]
 }
