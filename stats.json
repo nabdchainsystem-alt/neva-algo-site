@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1340,
-  "avgConviction": 67,
+  "signalsDelivered": 1341,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BCHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
     {
       "sym": "PAXGUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 62
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "BCHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 201.7,
+      "target": 205.3,
+      "stop": 200.59745,
+      "ts": 1782142730243,
+      "status": "invalidated"
+    },
     {
       "sym": "PAXGUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 6.259,
       "stop": 6.2086715,
       "ts": 1782091075791,
-      "status": "invalidated"
-    },
-    {
-      "sym": "EURUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 1.1485,
-      "target": 1.15228413,
-      "stop": 1.1459772499999998,
-      "ts": 1782090350483,
       "status": "invalidated"
     }
   ]
