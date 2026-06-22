@@ -1,9 +1,30 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1332,
-  "avgConviction": 68,
+  "signalsDelivered": 1335,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "LTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "FVG Continuation",
+      "conv": 55
+    },
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 74
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -38,30 +59,45 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 59
-    },
-    {
-      "sym": "PIEVERSEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 65
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 68
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 64
     }
   ],
   "track": [
+    {
+      "sym": "LTCUSDT",
+      "mkt": "Crypto",
+      "setup": "FVG Continuation",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 45.11,
+      "target": 45.59,
+      "stop": 45.002335,
+      "ts": 1782139129247,
+      "status": "invalidated"
+    },
+    {
+      "sym": "TAOUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 231.53,
+      "target": 233.92,
+      "stop": 231.13270500000002,
+      "ts": 1782139030804,
+      "status": "invalidated"
+    },
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.09031,
+      "target": 0.09074,
+      "stop": 0.090074535,
+      "ts": 1782139029648,
+      "status": "target"
+    },
     {
       "sym": "XLMUSDT",
       "mkt": "Crypto",
@@ -985,42 +1021,6 @@
       "stop": 4151.9369799999995,
       "ts": 1782088825077,
       "status": "invalidated"
-    },
-    {
-      "sym": "ONDOUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 0.3364,
-      "target": 0.3431,
-      "stop": 0.33542873333333334,
-      "ts": 1782088728262,
-      "status": "target"
-    },
-    {
-      "sym": "ADAUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 69,
-      "entry": 0.159,
-      "target": 0.1606,
-      "stop": 0.1582615,
-      "ts": 1782088645091,
-      "status": "target"
-    },
-    {
-      "sym": "EIGENUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 93,
-      "entry": 0.2831,
-      "target": null,
-      "stop": null,
-      "ts": 1782088462062,
-      "status": "active"
     }
   ]
 }
