@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1347,
+  "signalsDelivered": 1348,
   "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "LINKUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "HYPEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 62
-    },
-    {
-      "sym": "PAXGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "LINKUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 7.981,
+      "target": 8.02,
+      "stop": 7.9670285000000005,
+      "ts": 1782145792055,
+      "status": "invalidated"
+    },
     {
       "sym": "HYPEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 233.92,
       "stop": 231.82162499999998,
       "ts": 1782092860480,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 69,
-      "entry": 0.646,
-      "target": 0.64925,
-      "stop": 0.644031,
-      "ts": 1782092243765,
       "status": "invalidated"
     }
   ]
