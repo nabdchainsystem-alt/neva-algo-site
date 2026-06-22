@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1384,
-  "avgConviction": 64,
+  "signalsDelivered": 1385,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 85
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 69
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 85,
+      "entry": 0.05722,
+      "target": 0.058455,
+      "stop": 0.05666417,
+      "ts": 1782156999771,
+      "status": "target"
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.092,
       "stop": 0.0903641,
       "ts": 1782110779852,
-      "status": "target"
-    },
-    {
-      "sym": "HOMEUSDT",
-      "mkt": "Crypto",
-      "setup": "Premium/Discount Fade",
-      "dir": "LONG",
-      "conv": 61,
-      "entry": 0.02185,
-      "target": 0.0235,
-      "stop": 0.021802225,
-      "ts": 1782110329948,
       "status": "target"
     }
   ]
