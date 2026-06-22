@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1320,
-  "avgConviction": 63,
+  "signalsDelivered": 1322,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 71
+    },
+    {
+      "sym": "AVAXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 61
+    },
     {
       "sym": "ADAUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 63
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 459.09,
+      "target": 461.83,
+      "stop": 458.11136500000003,
+      "ts": 1782137784775,
+      "status": "invalidated"
+    },
+    {
+      "sym": "AVAXUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 61,
+      "entry": 6.397,
+      "target": 6.472,
+      "stop": 6.353404500000001,
+      "ts": 1782137784775,
+      "status": "invalidated"
+    },
     {
       "sym": "ADAUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 0.084072,
       "stop": 0.082615815,
       "ts": 1782077027650,
-      "status": "invalidated"
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 73.1,
-      "target": 73.85,
-      "stop": 72.75035,
-      "ts": 1782077018988,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ASTERUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 66,
-      "entry": 0.638,
-      "target": 0.655,
-      "stop": 0.630043,
-      "ts": 1782076938858,
       "status": "invalidated"
     }
   ]
