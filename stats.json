@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1319,
-  "avgConviction": 66,
+  "signalsDelivered": 1320,
+  "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ADAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 55
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 59
-    },
-    {
-      "sym": "REUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Premium/Discount Fade",
-      "conv": 75
     }
   ],
   "track": [
+    {
+      "sym": "ADAUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 0.1617,
+      "target": 0.16278571,
+      "stop": 0.16125745,
+      "ts": 1782137691350,
+      "status": "invalidated"
+    },
     {
       "sym": "ZECUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.655,
       "stop": 0.630043,
       "ts": 1782076938858,
-      "status": "invalidated"
-    },
-    {
-      "sym": "AAVEUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 74.04,
-      "target": 74.6,
-      "stop": 73.73144,
-      "ts": 1782076669930,
       "status": "invalidated"
     }
   ]
