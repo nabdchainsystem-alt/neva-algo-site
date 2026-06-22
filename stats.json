@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1345,
-  "avgConviction": 68,
+  "signalsDelivered": 1347,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 70
+    },
+    {
+      "sym": "PEPEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Premium/Discount Fade",
+      "conv": 59
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 55
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 67
-    },
-    {
-      "sym": "ALLOUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 86
     }
   ],
   "track": [
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 66.91,
+      "target": 68.8375,
+      "stop": 66.51963500000001,
+      "ts": 1782144339313,
+      "status": "active"
+    },
+    {
+      "sym": "PEPEUSDT",
+      "mkt": "Crypto",
+      "setup": "Premium/Discount Fade",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 0.00000284,
+      "target": 0.00000287,
+      "stop": 0.0000028269900000000004,
+      "ts": 1782144261945,
+      "status": "invalidated"
+    },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": 0.644031,
       "ts": 1782092243765,
       "status": "invalidated"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 66,
-      "entry": 446.8,
-      "target": 453.08,
-      "stop": 445.5131333333333,
-      "ts": 1782092149294,
-      "status": "invalidated"
-    },
-    {
-      "sym": "XPLUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 69,
-      "entry": 0.0911,
-      "target": 0.09195,
-      "stop": 0.09056335,
-      "ts": 1782092060664,
-      "status": "target"
     }
   ]
 }
