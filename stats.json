@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1344,
-  "avgConviction": 70,
+  "signalsDelivered": 1345,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 58
+    },
     {
       "sym": "HYPEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 86
-    },
-    {
-      "sym": "MEGAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 74
     }
   ],
   "track": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 1744.41,
+      "target": 1759.85,
+      "stop": 1741.163385,
+      "ts": 1782143802793,
+      "status": "invalidated"
+    },
     {
       "sym": "HYPEUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 0.09056335,
       "ts": 1782092060664,
       "status": "target"
-    },
-    {
-      "sym": "PUMPUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 73,
-      "entry": 0.001532,
-      "target": null,
-      "stop": null,
-      "ts": 1782091903577,
-      "status": "active"
     }
   ]
 }
