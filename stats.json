@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1293,
+  "signalsDelivered": 1294,
   "avgConviction": 70,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 58
+    },
     {
       "sym": "DEXEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 72
-    },
-    {
-      "sym": "PEPEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 60
     }
   ],
   "track": [
+    {
+      "sym": "WLDUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 0.6346,
+      "target": 0.64807143,
+      "stop": 0.6290481,
+      "ts": 1782116989962,
+      "status": "active"
+    },
     {
       "sym": "DEXEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.91423,
       "stop": 0.893942115,
       "ts": 1782068019068,
-      "status": "invalidated"
-    },
-    {
-      "sym": "ADAUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 0.1617,
-      "target": 0.1626,
-      "stop": 0.16135744999999999,
-      "ts": 1782067577768,
       "status": "invalidated"
     }
   ]
