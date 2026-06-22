@@ -1,9 +1,37 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1367,
-  "avgConviction": 61,
+  "signalsDelivered": 1371,
+  "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 70
+    },
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 60
+    },
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -31,37 +59,57 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 59
-    },
-    {
-      "sym": "NIGHTUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 58
-    },
-    {
-      "sym": "OFCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 66
-    },
-    {
-      "sym": "SLXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 70,
+      "entry": 64311.01,
+      "target": 64823.52,
+      "stop": 63968.713485,
+      "ts": 1782154577919,
+      "status": "in-progress"
+    },
+    {
+      "sym": "BNBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 60,
+      "entry": 593.18,
+      "target": 596.31,
+      "stop": 591.91023,
+      "ts": 1782154577919,
+      "status": "in-progress"
+    },
+    {
+      "sym": "BTCUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 64317.6,
+      "target": 64832,
+      "stop": 63977.6236,
+      "ts": 1782154566700,
+      "status": "in-progress"
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 1.1328,
+      "target": 1.1523,
+      "stop": 1.1277008,
+      "ts": 1782154565975,
+      "status": "in-progress"
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -973,54 +1021,6 @@
       "stop": null,
       "ts": 1782100075527,
       "status": "active"
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 59,
-      "entry": 0.0925,
-      "target": 0.093675,
-      "stop": 0.09196125,
-      "ts": 1782099805857,
-      "status": "invalidated"
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 64061.44,
-      "target": 64588,
-      "stop": 63754.70784,
-      "ts": 1782097368837,
-      "status": "invalidated"
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 68,
-      "entry": 64062,
-      "target": 64590.5,
-      "stop": 63756.807,
-      "ts": 1782097358060,
-      "status": "invalidated"
-    },
-    {
-      "sym": "MEGAUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 76,
-      "entry": 0.05662,
-      "target": 0.05722333,
-      "stop": 0.05626507,
-      "ts": 1782097282147,
-      "status": "target"
     }
   ]
 }
