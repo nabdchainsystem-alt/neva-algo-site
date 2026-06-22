@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1358,
+  "signalsDelivered": 1361,
   "avgConviction": 62,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NIGHTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 58
+    },
     {
       "sym": "OFCUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 55
+    }
+  ],
+  "track": [
+    {
+      "sym": "NIGHTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 0.0327,
+      "target": 0.03291,
+      "stop": 0.03259761666666666,
+      "ts": 1782152990650,
+      "status": "invalidated"
     },
     {
       "sym": "ETHUSDT",
       "mkt": "Crypto",
-      "dir": "LONG",
       "setup": "Order Block Tap",
-      "conv": 59
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 1741.63,
+      "target": 1759.92,
+      "stop": 1730.737555,
+      "ts": 1782152981031,
+      "status": "invalidated"
     },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
-    }
-  ],
-  "track": [
     {
       "sym": "OFCUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": null,
       "ts": 1782094676884,
       "status": "active"
-    },
-    {
-      "sym": "SPCXBUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 176.96,
-      "target": 179.165,
-      "stop": 176.62455999999997,
-      "ts": 1782094486497,
-      "status": "in-progress"
-    },
-    {
-      "sym": "ETHUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 65,
-      "entry": 1739.71,
-      "target": 1759.85,
-      "stop": 1736.050435,
-      "ts": 1782094299977,
-      "status": "invalidated"
     }
   ]
 }
