@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1373,
-  "avgConviction": 64,
+  "signalsDelivered": 1379,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 56
+    },
+    {
+      "sym": "SLXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 73
+    },
     {
       "sym": "SOLUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 66
-    },
-    {
-      "sym": "LINKUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 66
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "FVG Continuation",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "HYPEUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 56,
+      "entry": 67.871,
+      "target": 68.843,
+      "stop": 67.2601935,
+      "ts": 1782155195466,
+      "status": "active"
+    },
+    {
+      "sym": "SLXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 0.20846,
+      "target": 0.2141,
+      "stop": 0.20624731,
+      "ts": 1782155195046,
+      "status": "active"
+    },
     {
       "sym": "SOLUSDT",
       "mkt": "Crypto",
@@ -996,30 +1020,6 @@
       "target": 73.86,
       "stop": 73.15993,
       "ts": 1782100610858,
-      "status": "invalidated"
-    },
-    {
-      "sym": "BCHUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 66,
-      "entry": 198.4,
-      "target": 200.625,
-      "stop": 197.50240000000002,
-      "ts": 1782100610858,
-      "status": "invalidated"
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 64,
-      "entry": 73.4,
-      "target": 73.86,
-      "stop": 73.1599,
-      "ts": 1782100597000,
       "status": "invalidated"
     }
   ]
