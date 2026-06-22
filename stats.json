@@ -1,9 +1,23 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1361,
+  "signalsDelivered": 1365,
   "avgConviction": 62,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "REUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 65
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "NIGHTUSDT",
       "mkt": "Crypto",
@@ -45,23 +59,33 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 59
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 65
-    },
-    {
-      "sym": "TRXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "REUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 65,
+      "entry": 0.9107,
+      "target": 0.956,
+      "stop": 0.88193395,
+      "ts": 1782153670153,
+      "status": "in-progress"
+    },
+    {
+      "sym": "XRPUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 1.1396,
+      "target": 1.15237143,
+      "stop": 1.1310906,
+      "ts": 1782153577835,
+      "status": "in-progress"
+    },
     {
       "sym": "NIGHTUSDT",
       "mkt": "Crypto",
@@ -997,30 +1021,6 @@
       "stop": 7.8581245,
       "ts": 1782096653379,
       "status": "in-progress"
-    },
-    {
-      "sym": "REUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 68,
-      "entry": 0.89421,
-      "target": 0.91423,
-      "stop": 0.8833786849999999,
-      "ts": 1782096189661,
-      "status": "invalidated"
-    },
-    {
-      "sym": "RIFUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 88,
-      "entry": 0.0938,
-      "target": null,
-      "stop": null,
-      "ts": 1782094676884,
-      "status": "active"
     }
   ]
 }
