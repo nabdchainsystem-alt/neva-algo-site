@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1348,
+  "signalsDelivered": 1350,
   "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 80
-    },
-    {
-      "sym": "BCHUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 62
     }
   ],
   "track": [
+    {
+      "sym": "ETHUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 1741.62,
+      "target": 1759.92,
+      "stop": 1730.73757,
+      "ts": 1782145869818,
+      "status": "invalidated"
+    },
     {
       "sym": "LINKUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 233.6125,
       "stop": 231.85154999999997,
       "ts": 1782092870128,
-      "status": "invalidated"
-    },
-    {
-      "sym": "TAOUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 232.25,
-      "target": 233.92,
-      "stop": 231.82162499999998,
-      "ts": 1782092860480,
       "status": "invalidated"
     }
   ]
