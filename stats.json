@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1336,
-  "avgConviction": 68,
+  "signalsDelivered": 1337,
+  "avgConviction": 70,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 74
+    },
     {
       "sym": "NIGHTUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "CHoCH Reversal",
       "conv": 63
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 58
     }
   ],
   "track": [
+    {
+      "sym": "MEGAUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 0.05532,
+      "target": 0.05568,
+      "stop": 0.05515501999999999,
+      "ts": 1782141110602,
+      "status": "target"
+    },
     {
       "sym": "NIGHTUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 3.06295,
       "stop": 3.02973655,
       "ts": 1782088989580,
-      "status": "invalidated"
-    },
-    {
-      "sym": "XAUTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 4160.67,
-      "target": 4185.2415075,
-      "stop": 4144.288995,
-      "ts": 1782088825077,
       "status": "invalidated"
     }
   ]
