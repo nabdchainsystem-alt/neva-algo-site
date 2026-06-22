@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1325,
-  "avgConviction": 66,
+  "signalsDelivered": 1326,
+  "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PIEVERSEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 65
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 59
-    },
-    {
-      "sym": "REUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 92
     }
   ],
   "track": [
+    {
+      "sym": "PIEVERSEUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 65,
+      "entry": 0.7089,
+      "target": 0.717275,
+      "stop": 0.70423665,
+      "ts": 1782138312396,
+      "status": "active"
+    },
     {
       "sym": "BTCUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.93324556,
       "stop": 0.882487285,
       "ts": 1782082866605,
-      "status": "invalidated"
-    },
-    {
-      "sym": "NIGHTUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 63,
-      "entry": 0.03333,
-      "target": 0.03404,
-      "stop": 0.033090005000000006,
-      "ts": 1782080447352,
       "status": "invalidated"
     }
   ]
