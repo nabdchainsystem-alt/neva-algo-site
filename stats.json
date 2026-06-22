@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1383,
+  "signalsDelivered": 1384,
   "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 74
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 62
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 74,
+      "entry": 447.05,
+      "target": 450.11,
+      "stop": 446.35942500000004,
+      "ts": 1782156640739,
+      "status": "target"
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.0235,
       "stop": 0.021802225,
       "ts": 1782110329948,
-      "status": "target"
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 445.35,
-      "target": 452.36,
-      "stop": 444.676975,
-      "ts": 1782108069045,
       "status": "target"
     }
   ]
