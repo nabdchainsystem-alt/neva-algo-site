@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1339,
-  "avgConviction": 72,
+  "signalsDelivered": 1340,
+  "avgConviction": 67,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PAXGUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 55
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 74
-    },
-    {
-      "sym": "XLMUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 95
     }
   ],
   "track": [
+    {
+      "sym": "PAXGUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 55,
+      "entry": 4186.86,
+      "target": 4216.86,
+      "stop": 4177.17971,
+      "ts": 1782141652574,
+      "status": "invalidated"
+    },
     {
       "sym": "ENAUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 1.15228413,
       "stop": 1.1459772499999998,
       "ts": 1782090350483,
-      "status": "invalidated"
-    },
-    {
-      "sym": "XRPUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 64,
-      "entry": 1.1396,
-      "target": 1.1431,
-      "stop": 1.1374906,
-      "ts": 1782090247885,
       "status": "invalidated"
     }
   ]
