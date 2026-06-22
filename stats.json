@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1356,
+  "signalsDelivered": 1357,
   "avgConviction": 62,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SLXUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Liquidity Sweep Reversal",
       "conv": 70
-    },
-    {
-      "sym": "PEPEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Premium/Discount Fade",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "SLXUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 0.20677,
+      "target": 0.2141,
+      "stop": 0.206249845,
+      "ts": 1782150999983,
+      "status": "active"
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 14.65267781,
       "ts": 1782094120558,
       "status": "active"
-    },
-    {
-      "sym": "LTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 55,
-      "entry": 45.08,
-      "target": 45.59,
-      "stop": 44.76238,
-      "ts": 1782093768396,
-      "status": "invalidated"
     }
   ]
 }
