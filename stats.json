@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1326,
+  "signalsDelivered": 1327,
   "avgConviction": 63,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "AAVEUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 59
+    },
     {
       "sym": "PIEVERSEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 55
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "AAVEUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 59,
+      "entry": 75.296,
+      "target": 76.273,
+      "stop": 75.135056,
+      "ts": 1782138582095,
+      "status": "invalidated"
+    },
     {
       "sym": "PIEVERSEUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 2.982015,
       "ts": 1782082970078,
       "status": "in-progress"
-    },
-    {
-      "sym": "REUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 0.90181,
-      "target": 0.93324556,
-      "stop": 0.882487285,
-      "ts": 1782082866605,
-      "status": "invalidated"
     }
   ]
 }
