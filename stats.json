@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1357,
+  "signalsDelivered": 1358,
   "avgConviction": 62,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "OFCUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 66
+    },
     {
       "sym": "SLXUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 59
-    },
-    {
-      "sym": "HYPEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Liquidity Sweep Reversal",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "OFCUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 0.02271,
+      "target": 0.023155,
+      "stop": 0.022633435,
+      "ts": 1782152352107,
+      "status": "active"
+    },
     {
       "sym": "SLXUSDT",
       "mkt": "Crypto",
@@ -1009,18 +1021,6 @@
       "stop": 1736.050435,
       "ts": 1782094299977,
       "status": "invalidated"
-    },
-    {
-      "sym": "LABUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 72,
-      "entry": 14.80146,
-      "target": 16.082435,
-      "stop": 14.65267781,
-      "ts": 1782094120558,
-      "status": "active"
     }
   ]
 }
