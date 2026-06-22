@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1335,
-  "avgConviction": 67,
+  "signalsDelivered": 1336,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "NIGHTUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 62
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 58
-    },
-    {
-      "sym": "AAVEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "NIGHTUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 62,
+      "entry": 0.03263,
+      "target": 0.03310333,
+      "stop": 0.032545054999999996,
+      "ts": 1782140845596,
+      "status": "invalidated"
+    },
     {
       "sym": "LTCUSDT",
       "mkt": "Crypto",
@@ -1007,18 +1019,6 @@
       "entry": 4160.67,
       "target": 4185.2415075,
       "stop": 4144.288995,
-      "ts": 1782088825077,
-      "status": "invalidated"
-    },
-    {
-      "sym": "PAXGUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 65,
-      "entry": 4168.68,
-      "target": 4193.79453,
-      "stop": 4151.9369799999995,
       "ts": 1782088825077,
       "status": "invalidated"
     }
