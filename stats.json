@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1300,
-  "avgConviction": 66,
+  "signalsDelivered": 1303,
+  "avgConviction": 62,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "SPCXBUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 68
+    },
     {
       "sym": "AAVEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 58
-    },
-    {
-      "sym": "DEXEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Pump build-up",
-      "conv": 96
     }
   ],
   "track": [
+    {
+      "sym": "SPCXBUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 68,
+      "entry": 177.48,
+      "target": 179.165,
+      "stop": 176.48378,
+      "ts": 1782121774110,
+      "status": "in-progress"
+    },
     {
       "sym": "AAVEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 2.18,
       "stop": 2.1527585,
       "ts": 1782073164331,
-      "status": "invalidated"
-    },
-    {
-      "sym": "NEARUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 66,
-      "entry": 2.1688,
-      "target": 2.1784,
-      "stop": 2.1654968,
-      "ts": 1782073058567,
       "status": "invalidated"
     }
   ]
