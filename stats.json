@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1244,
-  "avgConviction": 63,
+  "signalsDelivered": 1245,
+  "avgConviction": 64,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "PAXGUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Pump build-up",
+      "conv": 73
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 70
-    },
-    {
-      "sym": "PAXGUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 65
     }
   ],
   "track": [
+    {
+      "sym": "PAXGUSDT",
+      "mkt": "Crypto",
+      "setup": "Pump build-up",
+      "dir": "LONG",
+      "conv": 73,
+      "entry": 4208.3,
+      "target": null,
+      "stop": null,
+      "ts": 1782091103778,
+      "status": "active"
+    },
     {
       "sym": "HOMEUSDT",
       "mkt": "Crypto",
@@ -72,7 +84,7 @@
       "target": 0.02446,
       "stop": 0.0225855,
       "ts": 1782091075791,
-      "status": "active"
+      "status": "target"
     },
     {
       "sym": "AVAXUSDT",
@@ -84,7 +96,7 @@
       "target": 6.259,
       "stop": 6.2086715,
       "ts": 1782091075791,
-      "status": "active"
+      "status": "invalidated"
     },
     {
       "sym": "EURUSDT",
@@ -1009,18 +1021,6 @@
       "stop": 180.508635,
       "ts": 1782038945114,
       "status": "active"
-    },
-    {
-      "sym": "TRUMPUSDT",
-      "mkt": "Crypto",
-      "setup": "Pump build-up",
-      "dir": "LONG",
-      "conv": 74,
-      "entry": 1.836,
-      "target": null,
-      "stop": null,
-      "ts": 1782037904058,
-      "status": "in-progress"
     }
   ]
 }
