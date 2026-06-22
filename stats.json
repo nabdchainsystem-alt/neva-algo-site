@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1281,
-  "avgConviction": 64,
+  "signalsDelivered": 1285,
+  "avgConviction": 65,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 72
+    },
     {
       "sym": "PEPEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Pump build-up",
       "conv": 73
-    },
-    {
-      "sym": "ENAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 59
     }
   ],
   "track": [
+    {
+      "sym": "ZECUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 72,
+      "entry": 445.35,
+      "target": 452.36,
+      "stop": 444.676975,
+      "ts": 1782108069045,
+      "status": "in-progress"
+    },
     {
       "sym": "PEPEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 3.06775,
       "stop": 3.0164445,
       "ts": 1782063445358,
-      "status": "active"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 61,
-      "entry": 0.6347,
-      "target": 0.6454,
-      "stop": 0.62984795,
-      "ts": 1782063082617,
       "status": "active"
     }
   ]
