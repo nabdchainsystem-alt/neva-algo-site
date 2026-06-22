@@ -1,9 +1,16 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1366,
-  "avgConviction": 62,
+  "signalsDelivered": 1367,
+  "avgConviction": 61,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "LINKUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 66
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -52,16 +59,21 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 59
-    },
-    {
-      "sym": "DOGEUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 70
     }
   ],
   "track": [
+    {
+      "sym": "LINKUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 66,
+      "entry": 7.9373,
+      "target": 8.019,
+      "stop": 7.88799405,
+      "ts": 1782153938201,
+      "status": "in-progress"
+    },
     {
       "sym": "DOGEUSDT",
       "mkt": "Crypto",
@@ -1008,18 +1020,6 @@
       "target": 0.05722333,
       "stop": 0.05626507,
       "ts": 1782097282147,
-      "status": "target"
-    },
-    {
-      "sym": "SUIUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 60,
-      "entry": 0.7065,
-      "target": 0.715,
-      "stop": 0.70174025,
-      "ts": 1782096653379,
       "status": "target"
     }
   ]
