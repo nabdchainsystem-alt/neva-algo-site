@@ -1,9 +1,37 @@
 {
   "updatedAt": "2026-06-22",
-  "signalsDelivered": 1327,
-  "avgConviction": 63,
+  "signalsDelivered": 1332,
+  "avgConviction": 68,
   "marketsScanned": 730,
   "recent": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Liquidity Sweep Reversal",
+      "conv": 95
+    },
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 71
+    },
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "CHoCH Reversal",
+      "conv": 63
+    },
+    {
+      "sym": "SOLUSDT",
+      "mkt": "Crypto",
+      "dir": "LONG",
+      "setup": "Order Block Tap",
+      "conv": 58
+    },
     {
       "sym": "AAVEUSDT",
       "mkt": "Crypto",
@@ -31,37 +59,57 @@
       "dir": "LONG",
       "setup": "Order Block Tap",
       "conv": 64
-    },
-    {
-      "sym": "BTCUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 58
-    },
-    {
-      "sym": "ZECUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 71
-    },
-    {
-      "sym": "AVAXUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "CHoCH Reversal",
-      "conv": 61
-    },
-    {
-      "sym": "ADAUSDT",
-      "mkt": "Crypto",
-      "dir": "LONG",
-      "setup": "Order Block Tap",
-      "conv": 55
     }
   ],
   "track": [
+    {
+      "sym": "XLMUSDT",
+      "mkt": "Crypto",
+      "setup": "Liquidity Sweep Reversal",
+      "dir": "LONG",
+      "conv": 95,
+      "entry": 0.2116,
+      "target": 0.2131,
+      "stop": 0.2110026,
+      "ts": 1782138770852,
+      "status": "target"
+    },
+    {
+      "sym": "ONDOUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 71,
+      "entry": 0.3362,
+      "target": 0.34468,
+      "stop": 0.3332957,
+      "ts": 1782138689570,
+      "status": "target"
+    },
+    {
+      "sym": "XPLUSDT",
+      "mkt": "Crypto",
+      "setup": "CHoCH Reversal",
+      "dir": "LONG",
+      "conv": 63,
+      "entry": 0.0901,
+      "target": 0.0908,
+      "stop": 0.08986485,
+      "ts": 1782138689570,
+      "status": "target"
+    },
+    {
+      "sym": "SOLUSDT",
+      "mkt": "Crypto",
+      "setup": "Order Block Tap",
+      "dir": "LONG",
+      "conv": 58,
+      "entry": 73.63,
+      "target": 73.86,
+      "stop": 73.509555,
+      "ts": 1782138668392,
+      "status": "invalidated"
+    },
     {
       "sym": "AAVEUSDT",
       "mkt": "Crypto",
@@ -973,54 +1021,6 @@
       "stop": null,
       "ts": 1782088462062,
       "status": "active"
-    },
-    {
-      "sym": "SOLUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 62,
-      "entry": 72.96,
-      "target": 73.36,
-      "stop": 72.82056,
-      "ts": 1782088270217,
-      "status": "invalidated"
-    },
-    {
-      "sym": "WLDUSDT",
-      "mkt": "Crypto",
-      "setup": "CHoCH Reversal",
-      "dir": "LONG",
-      "conv": 56,
-      "entry": 0.6225,
-      "target": 0.6459,
-      "stop": 0.6147662500000001,
-      "ts": 1782088004429,
-      "status": "in-progress"
-    },
-    {
-      "sym": "LTCUSDT",
-      "mkt": "Crypto",
-      "setup": "Order Block Tap",
-      "dir": "LONG",
-      "conv": 70,
-      "entry": 44.55,
-      "target": 46.08,
-      "stop": 43.703175,
-      "ts": 1782083778359,
-      "status": "invalidated"
-    },
-    {
-      "sym": "UNIUSDT",
-      "mkt": "Crypto",
-      "setup": "Liquidity Sweep Reversal",
-      "dir": "LONG",
-      "conv": 92,
-      "entry": 2.99,
-      "target": 3.03,
-      "stop": 2.982015,
-      "ts": 1782082970078,
-      "status": "in-progress"
     }
   ]
 }
