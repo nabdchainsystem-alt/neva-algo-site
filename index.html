@@ -4,18 +4,18 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>NEVA ALGO — Smart-Money Market Engine</title>
-<meta name="description" content="Smart-money signals for crypto & global stocks — liquidity sweeps, order blocks, FVG, BOS/CHoCH. Spot buys only. Analysis, not advice." />
+<meta name="description" content="Smart-money crypto signals — liquidity sweeps, order blocks, FVG, BOS/CHoCH, momentum & pre-pump order flow. Spot buys only. Analysis, not advice." />
 <!-- Social link preview (shows the logo/art when shared) -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://nevaalgo.com/" />
 <meta property="og:title" content="NEVA ALGO — Smart-Money Market Engine" />
-<meta property="og:description" content="See what market makers see — across crypto & global stocks. Spot buys only, delivered to Telegram." />
+<meta property="og:description" content="See what market makers see — in crypto. Spot buys only, delivered to Telegram." />
 <meta property="og:image" content="https://nevaalgo.com/hero.jpg" />
 <meta property="og:image:width" content="1900" />
 <meta property="og:image:height" content="950" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="NEVA ALGO — Smart-Money Market Engine" />
-<meta name="twitter:description" content="See what market makers see — across crypto & global stocks. Spot buys only." />
+<meta name="twitter:description" content="See what market makers see — in crypto. Spot buys only." />
 <meta name="twitter:image" content="https://nevaalgo.com/hero.jpg" />
 <link rel="icon" type="image/png" href="logo.png" />
 <style>
@@ -522,6 +522,21 @@
     .tk{padding:9px 14px;font-size:12px;gap:6px}
     .tk img{width:15px;height:15px}
   }
+  /* engine cards */
+  .card .ic{font-size:26px;line-height:1;margin-bottom:10px}
+  .card{transition:transform .18s,border-color .18s}
+  .card:hover{transform:translateY(-3px);border-color:var(--line)}
+  /* recent results (closed setups) */
+  .resgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:10px}
+  .rescard{border:1px solid var(--line2);border-radius:9px;padding:14px;background:var(--panel);transition:.15s}
+  .rescard.win{border-color:rgba(143,182,160,.28)} .rescard.loss{border-color:rgba(201,139,139,.28)}
+  .rescard:hover{border-color:var(--line)}
+  .res-top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:5px}
+  .res-coin{font-weight:800;color:var(--txt);letter-spacing:.02em}
+  .res-pnl{font-family:var(--mono);font-weight:700;font-size:14px}
+  .rescard.win .res-pnl{color:var(--green)} .rescard.loss .res-pnl{color:var(--red)}
+  .res-meta{color:var(--dim);font-size:11px;line-height:1.4;min-height:30px}
+  .res-tag{margin-top:8px;font-family:var(--mono);font-size:10px;color:var(--faint);text-transform:uppercase;letter-spacing:.06em}
 </style>
 </head>
 <body>
@@ -540,6 +555,7 @@
       <a href="#performance">Live</a>
       <a href="#pricing">Pricing</a>
       <a href="#how">How to join</a>
+      <a href="https://x.com/nevaalgo" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
       <a class="btn subscribe" onclick="openPay()">Subscribe</a>
     </nav>
   </div>
@@ -549,12 +565,12 @@
 <section class="hero" id="top">
   <div class="hero-content">
     <img class="hero-logo" src="logo.png" alt="NEVA ALGO" />
-    <div class="tag">See what <b>market makers</b> see — across <b>crypto</b> &amp; <b>global stocks</b>.</div>
+    <div class="tag">See what <b>market makers</b> see — across the <b>coins we track</b>.</div>
   <div class="vitals">liquidity sweeps · order blocks · FVG · BOS/CHoCH · premium/discount &nbsp;·&nbsp; <span>spot buys only — no futures, no gambling</span></div>
-  <div class="launch" id="launchBadge">🔥 LAUNCH OFFER · FIRST MONTH · <s style="color:var(--faint)">$59</s> <b style="color:var(--gold)">$39</b></div>
+  <div class="launch" id="launchBadge">🔥 LAUNCH OFFER · FIRST MONTH · <s style="color:var(--faint)">$59</s> <b style="color:var(--gold)"><span class="dynp">$39</span></b></div>
   <div class="countdown" id="countdown" aria-live="polite"></div>
   <div class="cta">
-    <a class="btn" id="subBtn" onclick="openPay()">Subscribe with BNB — $39 first month</a>
+    <a class="btn" id="subBtn" onclick="openPay()">Subscribe with BNB — <span class="dynp">$39</span> first month</a>
     <a class="btn ghost" href="#signal">See a live signal ↓</a>
   </div>
   <div class="disc-top">Algorithmic market analysis for education — <b>not financial advice</b>. Do your own research.</div>
@@ -569,11 +585,11 @@
 
 <!-- BOT SUPER SECTION -->
 <section id="bot" class="botzone">
-  <div class="wrap botgrid">
+  <div class="wrap botgrid" style="max-width:1340px">
     <div class="botcopy">
       <div class="bot-kick">◆ The NEVA ALGO Bot</div>
       <h2>Your edge lives in <span class="tg">Telegram</span>.</h2>
-      <p>The engine never sleeps. It scans every Binance pair and global stock <b>24/7</b>, ranks the cleanest smart-money setups by conviction, and drops them straight into your private channel — the second they trigger. No charts to babysit, no app to keep open. Just high-conviction, <b>spot-only</b> signals, on your phone.</p>
+      <p>The engine never sleeps. It scans the coins we track <b>24/7</b>, ranks the cleanest smart-money setups by conviction, and drops them straight into your private channel — the second they trigger. No charts to babysit, no app to keep open. Just high-conviction, <b>spot-only</b> signals, on your phone.</p>
       <ul class="botfeat">
         <li><svg viewBox="0 0 24 24"><path d="M13 2L4.5 13H11l-1 9 8.5-11H12l1-9z"/></svg><span><b>Instant alerts</b> — the moment a setup fires, it's in your pocket.</span></li>
         <li><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.4 7.7-8 9-4.6-1.3-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg><span><b>Pay in BNB</b> — verified on-chain automatically, then you're added in seconds.</span></li>
@@ -621,7 +637,7 @@
       <h2>Try NEVA ALGO <span class="hl">Free</span> — No Card, No Wallet.</h2>
       <p>Join the free channel and get a real smart-money signal <b>every day</b> (on a short delay). See exactly how the engine reads the market — before you ever pay a cent.</p>
       <div class="free-perks">
-        <span>📈 Crypto &amp; global stocks</span>
+        <span>📈 Curated crypto pairs</span>
         <span>🆓 <b>No payment, no sign-up</b></span>
         <span>⚡ Upgrade anytime for live</span>
       </div>
@@ -636,13 +652,14 @@
 <!-- FEATURES -->
 <section id="features" class="wrap">
   <div class="h">The Engine</div>
+  <div style="text-align:center;color:var(--dim);font-size:14.5px;max-width:640px;margin:0 auto 26px">Five reads on every candle — structure, trend, order flow and now the crowd itself — each ranked 0–100 by conviction. Only the cleanest longs get through.</div>
   <div class="grid">
-    <div class="card"><h3>Smart-money structure</h3><p>Liquidity sweeps, order blocks, fair-value gaps, BOS/CHoCH, displacement, premium/discount — the moves the herd's RSI/MACD miss.</p></div>
-    <div class="card"><h3>Conviction scoring</h3><p>Every setup ranked 0–100 by how many independent structures confluence. <span class="tagk">Watch → Strong → High → Elite.</span></p></div>
-    <div class="card"><h3>Crypto + Stocks</h3><p>Every Binance USDT pair, live — plus US, London, Tokyo &amp; Sydney equities, through the <em>same</em> engine.</p></div>
-    <div class="card"><h3>Pump radar</h3><p>Flags early pump build-ups (full-bodied green candles on rising, sub-climax volume) and keeps them on the board 24h.</p></div>
-    <div class="card"><h3>Long / buy-only</h3><p>Clean spot setups, no short noise. Built for accumulation, not leverage gambling.</p></div>
-    <div class="card"><h3>Always-on alerts</h3><p>The engine scans 24/7 on our servers and pushes ranked setups straight to your Telegram — no app to keep open.</p></div>
+    <div class="card"><div class="ic">🧊</div><h3>Smart-money structure</h3><p>Liquidity sweeps, order blocks, fair-value gaps, BOS/CHoCH, displacement — the moves the herd's RSI/MACD miss.</p></div>
+    <div class="card"><div class="ic">📈</div><h3>Momentum &amp; trend</h3><p>Rides confirmed strength — EMA stacks, breakouts, real relative volume. Ride the move; don't predict reversals.</p></div>
+    <div class="card"><div class="ic">🔥</div><h3>Pre-pump surge</h3><p>A pump starts as a spike in the <b>number of trades</b> before price moves — NEVA catches that surge early and gives it priority.</p></div>
+    <div class="card"><div class="ic">🧠</div><h3>AI analyst verdict</h3><p>A Claude analyst judges every setup — thesis, risk, invalidation — and can veto it before it ever reaches you.</p></div>
+    <div class="card"><div class="ic">🌊</div><h3>Confluence &amp; flow</h3><p>Funding, OI squeezes, CVD, liquidations &amp; multi-timeframe alignment — confirmation on structure, never hype.</p></div>
+    <div class="card"><div class="ic">🎓</div><h3>It learns</h3><p>Every closed trade feeds the engine's memory — what worked, what failed, in which regime — so it sharpens over time.</p></div>
   </div>
 </section>
 
@@ -652,10 +669,10 @@
   <div class="sigcards" id="sigcards">
     <!-- populated from stats.json; static fallback below -->
     <div class="sigcard"><div class="sc-top"><div><div class="sc-sym">SOL</div><div class="sc-mkt">Crypto · Order Block Tap</div></div><span class="sc-dir">LONG</span></div><div class="sc-conv"><span class="sc-bar"><i style="width:78%"></i></span><span class="sc-val">78<span style="color:var(--faint)">/100</span></span></div></div>
-    <div class="sigcard"><div class="sc-top"><div><div class="sc-sym">PG</div><div class="sc-mkt">US · Order Block Tap</div></div><span class="sc-dir">LONG</span></div><div class="sc-conv"><span class="sc-bar"><i style="width:62%"></i></span><span class="sc-val">62<span style="color:var(--faint)">/100</span></span></div></div>
-    <div class="sigcard"><div class="sc-top"><div><div class="sc-sym">9432.T</div><div class="sc-mkt">Tokyo · CHoCH Reversal</div></div><span class="sc-dir">LONG</span></div><div class="sc-conv"><span class="sc-bar"><i style="width:60%"></i></span><span class="sc-val">60<span style="color:var(--faint)">/100</span></span></div></div>
+    <div class="sigcard"><div class="sc-top"><div><div class="sc-sym">ARB</div><div class="sc-mkt">Crypto · 🔥 Trade surge</div></div><span class="sc-dir">LONG</span></div><div class="sc-conv"><span class="sc-bar"><i style="width:62%"></i></span><span class="sc-val">62<span style="color:var(--faint)">/100</span></span></div></div>
+    <div class="sigcard"><div class="sc-top"><div><div class="sc-sym">INJ</div><div class="sc-mkt">Order Block · Breakout</div></div><span class="sc-dir">LONG</span></div><div class="sc-conv"><span class="sc-bar"><i style="width:60%"></i></span><span class="sc-val">60<span style="color:var(--faint)">/100</span></span></div></div>
   </div>
-  <div class="tg-note">Each one delivered the moment it triggers — straight to the private <b>Telegram</b> channel. Analysis, not advice. DYOR.</div>
+  <div class="tg-note">Every signal is <b>AI-reviewed</b> and delivered the moment it triggers — straight to your private <b>Telegram</b> channel. Analysis, not advice. DYOR.</div>
 </section>
 
 <!-- LIVE PERFORMANCE -->
@@ -666,7 +683,7 @@
     <div class="stats">
       <div class="stat"><div class="num" data-count="730" data-suffix="+">0</div><div class="lab">Markets scanned</div></div>
       <div class="stat"><div class="num" data-count="6">0</div><div class="lab">Timeframes</div></div>
-      <div class="stat"><div class="num" data-count="4">0</div><div class="lab">Global exchanges</div></div>
+      <div class="stat"><div class="num">🧠</div><div class="lab">AI-reviewed signals</div></div>
       <div class="stat"><div class="num" id="st-signals" data-count="0">0</div><div class="lab">Signals delivered</div></div>
       <div class="stat"><div class="num" id="st-conv" data-count="0">0</div><div class="lab">Avg conviction</div></div>
       <div class="stat"><div class="num">24/7</div><div class="lab"><span class="pulse"></span> Engine live</div></div>
@@ -677,6 +694,17 @@
   <div style="text-align:center;color:var(--faint);font-size:11px;margin-top:14px">Coverage &amp; activity metrics — not performance/return claims. Analysis, not advice. DYOR.</div>
 </section>
 
+<!-- RECENT RESULTS -->
+<section id="results-sec" class="wrap">
+  <div class="h">Recent closed setups</div>
+  <div class="dash-head"><span class="dots"><i></i><i></i><i></i></span> <span style="color:var(--cyan)">neva-algo</span> // forward-test results <span class="live"><span class="pulse"></span> LIVE</span></div>
+  <div class="dash-body">
+    <div id="resultsTally" style="text-align:center;color:var(--faint);font-size:12px;margin-bottom:16px">// loading recent results…</div>
+    <div id="results" class="resgrid"></div>
+  </div>
+  <div style="text-align:center;color:var(--faint);font-size:11px;margin-top:14px">Forward-test outcomes on the internal demo — historical &amp; sanitized (no entries or levels shown). Past results do not predict future performance. Analysis, not advice. DYOR. Spot, long-only.</div>
+</section>
+
 <!-- PRICING -->
 <section id="pricing" class="wrap">
   <div class="h">Membership</div>
@@ -684,11 +712,11 @@
     <div class="plan best" data-tier="standard" data-status="live" data-price="39">
       <div class="badge" id="stdBadge">LAUNCH OFFER</div>
       <div class="name">Standard</div>
-      <div class="price" id="stdPrice"><s style="font-size:20px;color:var(--faint)">$59</s> $39<small>/mo</small></div>
-      <div class="save" id="stdSave">first month $39, then $59 · paid in BNB</div>
+      <div class="price" id="stdPrice"><s style="font-size:20px;color:var(--faint)">$59</s> <span class="dynp">$39</span><small>/mo</small></div>
+      <div class="save" id="stdSave">first month <span class="dynp">$39</span>, then $59 · paid in BNB</div>
       <ul>
         <li>Full smart-money signal feed</li>
-        <li>Crypto + Stocks Markets</li>
+        <li>Selected crypto markets</li>
         <li>Real-time Telegram alerts, 24/7</li>
         <li>Pump radar + conviction scoring</li>
       </ul>
@@ -732,7 +760,7 @@
   <div class="h">How to join — step by step</div>
   <div class="steps">
     <div class="step"><div class="step-ico"><svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="13" rx="2.5"/><path d="M16 12h2.5"/><path d="M2.5 9h13a2 2 0 0 1 2 2v0"/></svg></div><h4>Get BNB</h4><p>You need a little <b>BNB</b> on the <b>BNB Smart Chain</b> in any wallet (MetaMask, Trust Wallet, or straight from Binance).</p></div>
-    <div class="step"><div class="step-ico"><svg viewBox="0 0 24 24"><path d="M3 11l18-7-7 18-2.5-8L3 11z"/></svg></div><h4>Send $39</h4><p>Send <b>$39 worth of BNB</b> to the NEVA ALGO address below. Confirms in seconds for a few cents of gas.</p></div>
+    <div class="step"><div class="step-ico"><svg viewBox="0 0 24 24"><path d="M3 11l18-7-7 18-2.5-8L3 11z"/></svg></div><h4>Send <span class="dynp">$39</span></h4><p>Send <b><span class="dynp">$39</span> worth of BNB</b> to the NEVA ALGO address below. Confirms in seconds for a few cents of gas.</p></div>
     <div class="step"><div class="step-ico"><svg viewBox="0 0 24 24"><rect x="8" y="3" width="13" height="13" rx="2.5"/><path d="M5 8H4.5A1.5 1.5 0 0 0 3 9.5v10A1.5 1.5 0 0 0 4.5 21h10a1.5 1.5 0 0 0 1.5-1.5V19"/></svg></div><h4>Copy the tx hash</h4><p>Your wallet shows a <b>transaction hash</b> (<code>0x…</code>) right after sending. Copy it.</p></div>
     <div class="step"><div class="step-ico"><svg viewBox="0 0 24 24"><path d="M21.5 3.5L2.5 10.5l6 2.2 2.2 6 10.8-15.2z"/><path d="M8.5 12.7L21.5 3.5"/><path d="M8.5 12.7v5l3-2.4"/></svg></div><h4>Message the bot</h4><p>Open <a href="https://t.me/nevaalgo_bot" target="_blank"><b>@nevaalgo_bot</b></a>, send <code>/start</code>, then paste your hash. It verifies on-chain &amp; adds you instantly.</p></div>
   </div>
@@ -744,17 +772,17 @@
     <ol style="color:var(--dim);font-size:14px;line-height:1.9;padding-left:20px;margin-top:14px">
       <li><b style="color:var(--txt)">Get a wallet</b> — install <a href="https://metamask.io" target="_blank">MetaMask</a> (browser/phone) or use Trust Wallet. Save your recovery phrase offline; never share it.</li>
       <li><b style="color:var(--txt)">Switch to BNB Smart Chain</b> — in the wallet's network menu pick <b>BNB Smart Chain</b> (chain id 56). It's built in to most wallets.</li>
-      <li><b style="color:var(--txt)">Get BNB</b> — buy BNB on Binance/any exchange and <b>withdraw it to your wallet address on the BNB Smart Chain (BEP-20) network</b>, or buy directly inside the wallet. You only need ≈ $39 + a few cents of gas.</li>
-      <li><b style="color:var(--txt)">Send the payment</b> — send <b>$39 of BNB</b> to the address below (use the QR or copy it). <span style="color:var(--gold)">⚠ BNB Smart Chain (BEP-20) only — other networks are lost.</span></li>
+      <li><b style="color:var(--txt)">Get BNB</b> — buy BNB on Binance/any exchange and <b>withdraw it to your wallet address on the BNB Smart Chain (BEP-20) network</b>, or buy directly inside the wallet. You only need ≈ <span class="dynp">$39</span> + a few cents of gas.</li>
+      <li><b style="color:var(--txt)">Send the payment</b> — send <b><span class="dynp">$39</span> of BNB</b> to the address below (use the QR or copy it). <span style="color:var(--gold)">⚠ BNB Smart Chain (BEP-20) only — other networks are lost.</span></li>
       <li><b style="color:var(--txt)">Copy your transaction hash</b> — once it confirms, your wallet shows a tx hash starting with <code>0x…</code>. Copy it.</li>
       <li><b style="color:var(--txt)">Activate on Telegram</b> — open <a href="https://t.me/nevaalgo_bot" target="_blank"><b>@nevaalgo_bot</b></a>, send <code>/start</code>, paste the hash. The bot verifies the payment on-chain and sends you a private invite link to the signals channel. Done — signals start arriving 24/7.</li>
     </ol>
     </details>
 
-    <div style="margin-top:18px;color:var(--faint);font-size:12px">Pay $39 in BNB to this address:</div>
-    <div class="addr" style="max-width:560px"><code id="payAddr">loading…</code><span class="copy" onclick="copyPageAddr()">copy</span></div>
+    <div style="margin-top:18px;color:var(--faint);font-size:12px;text-align:center">Pay <span class="dynp">$39</span> in BNB to this address:</div>
+    <div class="addr" style="max-width:560px;margin:8px auto 0;word-break:break-all;justify-content:center"><code id="payAddr">loading…</code><span class="copy" onclick="copyPageAddr()">copy</span></div>
 
-    <div class="gd-btns" style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+    <div class="gd-btns" style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:center">
       <a class="btn" href="https://t.me/nevaalgo_bot" target="_blank">Open @nevaalgo_bot →</a>
       <a class="btn ghost" onclick="openPay()">Show payment details</a>
       <span style="color:var(--faint);font-size:12px">Renews monthly — no auto-charge.</span>
@@ -766,9 +794,9 @@
 <section class="wrap faq">
   <div class="h">FAQ</div>
   <details><summary>Is this financial advice?</summary><p>No. NEVA ALGO is algorithmic market analysis for educational purposes. Every signal is a structural read, not a recommendation. Always do your own research and trade at your own risk.</p></details>
-  <details><summary>How do payments work?</summary><p>You send $39 worth of BNB (BNB Smart Chain / BEP-20) to our address, then paste your transaction hash to our Telegram bot. The bot verifies the payment on-chain and activates your membership for one month (no auto-renew — you simply renew when it ends).</p></details>
+  <details><summary>How do payments work?</summary><p>You send <span class="dynp">$39</span> worth of BNB (BNB Smart Chain / BEP-20) to our address, then paste your transaction hash to our Telegram bot. The bot verifies the payment on-chain and activates your membership for one month (no auto-renew — you simply renew when it ends).</p></details>
   <details><summary>What do I need to receive signals?</summary><p>Just Telegram. The engine runs on our always-on servers and pushes setups to you — nothing to install or keep open.</p></details>
-  <details><summary>Which markets are covered?</summary><p>All Binance USDT crypto pairs, plus liquid US, London, Tokyo and Sydney stocks — analysed by the same smart-money engine.</p></details>
+  <details><summary>Which markets are covered?</summary><p>A curated selection of liquid crypto pairs — the coins we choose, not the whole market — each analysed by the same smart-money engine. Spot, long-only.</p></details>
   <details><summary>Can I cancel?</summary><p>There's nothing to cancel — memberships are prepaid for the period you choose and simply expire. Renew whenever you like.</p></details>
 </section>
 
@@ -783,6 +811,7 @@
       <a href="#how">How to join</a>
       <a href="#pricing">Membership</a>
       <a href="https://t.me/nevaalgo_bot" target="_blank" rel="noopener">@nevaalgo_bot</a>
+      <a href="https://x.com/nevaalgo" target="_blank" rel="noopener">𝕏 @nevaalgo</a>
     </div>
     <div class="foot-copy">© 2026 NEVA ALGO. All rights reserved. · Analysis, not advice. DYOR. · Spot / long-only.</div>
   </div>
@@ -793,7 +822,7 @@
   <div class="box">
     <span class="x" onclick="closePay()">✕</span>
     <h3>Subscribe with BNB</h3>
-    <div class="muted" id="payMuted">NEVA ALGO Standard · <b style="color:var(--gold)">$39</b> first month (then $59) · paid in BNB (BEP-20)</div>
+    <div class="muted" id="payMuted">NEVA ALGO Standard · <b style="color:var(--gold)"><span class="dynp">$39</span></b> first month (then $59) · paid in BNB (BEP-20)</div>
 
     <!-- Access code → redeemed by the bot (only the bot can verify a code & grant channel access) -->
     <div id="codeBox" style="border:1px dashed var(--line);border-radius:8px;padding:12px 14px;margin:14px 0">
@@ -819,7 +848,7 @@
     <div style="color:var(--faint);font-size:11px;text-align:center;margin:4px 0 12px">— or pay with BNB —</div>
 
     <div style="color:var(--dim);font-size:12px;margin-bottom:6px">1 · Send exactly</div>
-    <div class="amt"><b id="m-amount">… BNB</b> <span id="payHint" style="color:var(--faint);font-size:13px">(≈ $39)</span></div>
+    <div class="amt"><b id="m-amount">… BNB</b> <span id="payHint" style="color:var(--faint);font-size:13px">(≈ <span class="dynp">$39</span>)</span></div>
     <img class="qr" id="qrimg" alt="Scan to pay BNB" style="object-fit:contain" />
     <div style="color:var(--dim);font-size:12px;margin-bottom:6px">to this BNB Smart Chain address:</div>
     <div class="addr"><code id="m-addr">0xYOUR_METAMASK_ADDRESS</code><span class="copy" onclick="copyAddr()">copy</span></div>
@@ -838,8 +867,8 @@
   const TELEGRAM_BOT = "https://t.me/nevaalgo_bot"; // <- your @BotFather bot link
   // Launch discount deadline — when this passes, the Standard price AUTO-SWITCHES
   // from the launch price to the regular price (no edit/redeploy needed).
-  const OFFER_END = Date.parse("2026-06-29T23:59:59Z");
-  const STD_REGULAR = 59, STD_LAUNCH = 39;          // Standard: regular vs launch price
+  const OFFER_END = Date.parse("2026-08-03T23:59:59Z");
+  const STD_REGULAR = 59, STD_LAUNCH = 9.99;          // Standard: regular vs launch price
   const launchActive = Date.now() < OFFER_END;
   let PRICE_USD = launchActive ? STD_LAUNCH : STD_REGULAR;
   // ─────────────────────────────────────────────────────────────────────────
@@ -921,6 +950,8 @@
     }
   }
   applyPricing();
+  // Any inline "$39" in the body copy → the current price (auto-switches to $59 when the offer ends).
+  document.querySelectorAll('.dynp').forEach(el=>{ el.textContent = '$'+PRICE_USD; });
 
   // Wire config into the page.
   document.getElementById('m-addr').textContent = BNB_ADDRESS;
@@ -993,7 +1024,21 @@
     }
   }).catch(()=>{});
 
-  /* ===== Live markets ticker — crypto (CoinGecko) + global stocks (Yahoo via CORS proxy) ===== */
+  // Recent closed setups — real forward-test outcomes published by the engine (sanitized).
+  fetch('results.json?_='+Date.now()).then(r=>r.json()).then(d=>{
+    const grid=document.getElementById('results'), tally=document.getElementById('resultsTally');
+    const closed=(d&&d.closed)||[];
+    if(!grid){ return; }
+    if(!closed.length){ if(tally) tally.textContent='// results appear here as trades close'; return; }
+    if(tally) tally.textContent='// last '+closed.length+' closed setups · '+(d.wins||0)+' hit target · updated live';
+    grid.innerHTML=closed.map(function(c){
+      const win=c.win, pnl=(c.pnlPct>=0?'+':'')+c.pnlPct+'%';
+      return '<div class="rescard '+(win?'win':'loss')+'"><div class="res-top"><span class="res-coin">'+c.coin+'</span><span class="res-pnl">'+pnl+'</span></div>'+
+        '<div class="res-meta">'+c.setup+'</div><div class="res-tag">'+(win?'🎯 ':'🛑 ')+c.result+'</div></div>';
+    }).join('');
+  }).catch(function(){ const t=document.getElementById('resultsTally'); if(t) t.textContent='// results load once the engine publishes them'; });
+
+  /* ===== Live markets ticker — crypto (CoinGecko) ===== */
   function tkFmt(p){
     if(p==null) return '—';
     if(p>=1000) return p.toLocaleString('en-US',{maximumFractionDigits:0});
@@ -1070,7 +1115,7 @@
       const mapC=crypto.map(c=>({sym:String(c.sym||'').toUpperCase(), px:Number(c.px), ch:Number(c.ch)}))
                        .filter(c=>!tkIsStable(c.sym,c.px,c.ch));
       const mapS=stocks.map(s=>({sym:String(s.sym||'').replace(/\.(L|T|AX)$/,''), mkt:s.mkt, px:Number(s.px), ch:Number(s.ch)}));
-      const items=interleave(mapC.filter(i=>i.px), mapS.filter(i=>i.px));
+      const items=mapC.filter(i=>i.px);   // crypto only — stocks removed
       return items.length ? items : null;
     }catch(e){ return null; }
   }
@@ -1087,11 +1132,7 @@
     return items;
   }
   async function tkLive(){
-    const [crypto, stocks] = await Promise.all([
-      tkCrypto(),
-      Promise.all(TK_STOCKS.map(([s,m])=>tkStock(s,m))).then(a=>a.filter(Boolean))
-    ]);
-    return interleave(crypto, stocks);
+    return await tkCrypto();   // crypto only — we don't trade stocks
   }
   async function loadTicker(){
     const track=document.getElementById('tickerTrack');
